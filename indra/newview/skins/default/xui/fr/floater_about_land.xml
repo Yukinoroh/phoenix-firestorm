@@ -141,7 +141,7 @@
 			<button label="Acheter pour le groupe" label_selected="Acheter pour le groupe..." name="Buy For Group..."/>
 			<button label="Acheter un laissez-passer" label_selected="Acheter un laissez-passer..." left_delta="-127" name="Buy Pass..." tool_tip="Un laissez-passer vous donne un accès temporaire à ce terrain." width="125"/>
 			<button label="Abandonner le terrain" label_selected="Abandonner le terrain..." name="Abandon Land..."/>
-			<button label="Récupérer le terrain" label_selected="Redemander le terrain…" name="Reclaim Land..."/>
+			<button label="Récupérer le terrain" label_selected="Redemander le terrain..." name="Reclaim Land..."/>
 		</panel>
 		<panel label="Règlement" name="land_covenant_panel">
 			<panel.string name="can_resell">
