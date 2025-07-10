@@ -28,7 +28,7 @@
 		<columns name="lst_action" value="Aller vers la droite" />
 	</rows>
 	<rows name="jump">
-		<columns name="lst_action" value="Sauter / monter" />
+		<columns name="lst_action" value="Sauter / haut" />
 	</rows>
 	<rows name="push_down">
 		<columns name="lst_action" value="Descendre" />
