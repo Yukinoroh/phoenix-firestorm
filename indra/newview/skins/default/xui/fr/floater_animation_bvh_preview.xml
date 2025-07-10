@@ -28,7 +28,7 @@
 	<floater.string name="E_ST_NO_XLT_FILE">Impossible d'ouvrir le fichier de transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_HEADER">Impossible de lire l'en-tête de transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_NAME">Impossible de lire les noms de transformation.</floater.string>
-	<floater.string name="E_ST_NO_XLT_IGNORE">Impossible de lire la transformation valeur ignorée.</floater.string>
+	<floater.string name="E_ST_NO_XLT_IGNORE">Impossible de lire la valeur de transformation à ignorer.</floater.string>
 	<floater.string name="E_ST_NO_XLT_RELATIVE">Impossible de lire la valeur relative de transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_OUTNAME">Impossible de lire le nom de sortie dans la transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_MATRIX">Impossible de lire la matrice de transformation.</floater.string>
