@@ -307,44 +307,44 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			<text name="allow_label1">
 				Terraformer le terrain :
 			</text>
-			<check_box label="Tous" name="edit land check" tool_tip="Si cette option est cochée, tout le monde pourra terraformer votre terrain. Il est recommandé de laisser cette option décochée, car vous pouvez toujours modifier votre propre terrain."/>
+			<check_box label="Tous" name="edit land check" tool_tip="Si cette option est cochée, tout le monde pourra terraformer votre terrain. Il est recommandé de laisser cette option décochée, car vous pourrez toujours modifier votre propre terrain."/>
 			<text name="caution_text">
 				(À utiliser prudemment!)
          </text>
 			<text name="allow_label0">
 				Voler :
 			</text>
-			<check_box label="Tous" name="check fly" tool_tip="Si cette option est cochée, les résidents peuvent voler sur votre terrain. Si elle n'est pas cochée, ils ne pourront voler que lorsqu&apos;ils arrivent et passent au dessus de votre terrain."/>
+			<check_box label="Tous" name="check fly" tool_tip="Si cette option est cochée, les résidents pourront voler sur votre terrain. Si elle ne l'est pas, ils ne pourront voler que lorsqu&apos;ils arrivent et passent au dessus de votre terrain."/>
 			<text name="allow_label2">
 				Construire :
 			</text>
-			<check_box label="Tous" name="edit objects check" tool_tip="Si la case est cochée, les résidents peuvent créer et rezzer des objets sur votre terrain."/>
-			<check_box label="Groupe" name="edit group objects check" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent créer et rezzer des objets sur votre terrain."/>
+			<check_box label="Tous" name="edit objects check" tool_tip="Si la case est cochée, les résidents pourront créer et rezzer des objets sur votre terrain."/>
+			<check_box label="Groupe" name="edit group objects check" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront créer et rezzer des objets sur votre terrain."/>
 			<text name="allow_label3">
 				Laisser entrer des objets :
 			</text>
-			<check_box label="Tous" name="all object entry check" tool_tip="Si la case est cochée, les résidents peuvent déplacer les objets des autres terrains pour les amener sur celui-ci."/>
-			<check_box label="Groupe" name="group object entry check" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent déplacer les objets des autres terrains pour les amener sur celui-ci."/>
+			<check_box label="Tous" name="all object entry check" tool_tip="Si la case est cochée, les résidents pourront déplacer des objets des autres terrains pour les amener sur celui-ci."/>
+			<check_box label="Groupe" name="group object entry check" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront déplacer des objets des autres terrains pour les amener sur celui-ci."/>
 			<text name="allow_label4">
 				Exécuter des scripts :
 			</text>
-			<check_box label="Tous" name="check other scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent exécuter des scripts sur votre terrain, y compris des pièces jointes."/>
-			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent exécuter des scripts sur votre terrain, y compris des pièces jointes."/>
-			<check_box label="Sécurisé (pas de dégâts)" name="check safe" tool_tip="Si cette option est cochée, le terrain est sécurisé et il n&apos;y pas de risques de dommages causés par des combats. Si elle est décochée, des dommages causés par les combats peuvent avoir lieu."/>
-			<check_box label="Pas de bousculades" name="PushRestrictCheck" tool_tip="Empêche l&apos;utilisation de scripts causant des bousculades. Cette option est utile pour empêcher les comportements abusifs sur votre terrain."/>
-			<check_box label="Lieu dans la recherche (L$30/week)" name="ShowDirectoryCheck" tool_tip="Laisser les résidents voir ce terrain dans les résultats de la recherche."/>
+			<check_box label="Tous" name="check other scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront exécuter des scripts sur votre terrain, y compris des pièces jointes."/>
+			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront exécuter des scripts sur votre terrain, y compris des pièces jointes."/>
+			<check_box label="Sécurisé (pas de dégâts)" name="check safe" tool_tip="Si cette option est cochée, le terrain sera sécurisé et il n&apos;y aura pas de risque de dommages causés par des combats. Si elle est décochée, il pourra y avoir des dommages causés par les combats."/>
+			<check_box label="Pas de poussées" name="PushRestrictCheck" tool_tip="Empêche l&apos;utilisation de scripts causant des bousculades. Cette option est utile pour empêcher les comportements abusifs sur votre terrain."/>
+			<check_box label="Mettre dans la recherche (L$30/week)" name="ShowDirectoryCheck" tool_tip="Faire en sorte que les résidents voient ce terrain dans les résultats de la recherche."/>
 			<combo_box name="land category">
 				<combo_box.item label="Toutes catégories" name="item0"/>
 				<combo_box.item label="Appartenant aux Lindens" name="item1"/>
-				<combo_box.item label="Art et Culture" name="item3"/>
+				<combo_box.item label="Art et culture" name="item3"/>
 				<combo_box.item label="Affaires" name="item4"/>
 				<combo_box.item label="Éducation" name="item5"/>
 				<combo_box.item label="Jeux" name="item6"/>
 				<combo_box.item label="Favoris" name="item7"/>
 				<combo_box.item label="Accueil pour les nouveaux" name="item8"/>
-				<combo_box.item label="Parcs et Nature" name="item9"/>
+				<combo_box.item label="Parcs et nature" name="item9"/>
 				<combo_box.item label="Résidentiel" name="item10"/>
-				<combo_box.item label="Shopping" name="item11"/>
+				<combo_box.item label="Shopping/Magasinage" name="item11"/>
 				<combo_box.item label="Location" name="item13"/>
 				<combo_box.item label="Autre" name="item12"/>
 			</combo_box>
