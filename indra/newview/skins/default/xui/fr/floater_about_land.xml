@@ -410,8 +410,8 @@ texture :
 				URL de la 
 musique :
 			</text>
-			<button name="stream_add_btn" tool_tip="Ajouter l'URL du flux de musique à la liste des flux enregistrés"/>
-			<button name="stream_delete_btn" tool_tip="Supprimer l'URL du flux de musique de la liste des flux enregistrés"/>
+			<button name="stream_add_btn" tool_tip="Ajouter l'URL du flux de musique à la liste des flux sauvegardés"/>
+			<button name="stream_delete_btn" tool_tip="Supprimer l'URL du flux de musique de la liste des flux sauvegardés"/>
 			<button name="stream_copy_btn" tool_tip="Copier l'URL du flux de musique dans le presse-papiers"/>
 			<text name="Sound:">
 				Son :
