@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="autoreplace_floater" title="Paramètres de substitution automatique">
 	<check_box label="Activer la substitution automatique" name="autoreplace_enable" tool_tip="À mesure que vous saisissez du texte, chaque mot-clé saisi sera remplacé par la substitution correspondante, s'il y en a."/>
-	<button name="autoreplace_import_list" width="115" left_pad="5" label="Importer une liste..." tool_tip="Charger une liste précédemment exportée à partir d'un fichier."/>
+	<button name="autoreplace_import_list" width="115" left_pad="5" label="Importer une liste..." tool_tip="Charger à partir d'un fichier une liste précédemment exportée."/>
 	<button name="autoreplace_export_list" width="115" left_pad="5" label="Exporter une liste..." tool_tip="Enregistrer la liste sélectionnée dans un fichier afin que vous puissiez la partager."/>
 	<button name="autoreplace_new_list" width="115" left_pad="5" label="Nouvelle Liste..." tool_tip="Créer une nouvelle liste."/>
 	<button name="autoreplace_delete_list" width="115" left_pad="5" label="Supprimer la liste" tool_tip="Supprimer la liste sélectionnée."/>
