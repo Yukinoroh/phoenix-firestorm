@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="floater_auction" title="Vendes en subhasta">
+	<floater.string name="already for sale">No pots subhastar terrenys que ja estan a la venda.</floater.string>
+	<check_box label="Mostrar els límits del terreny a la foto" name="fence_check"/>
+	<button label="Foto" label_selected="Foto" name="snapshot_btn"/>
+	<button label="Vendre a qualsevol" label_selected="Vendre a qualsevol" name="sell_to_anyone_btn"/>
+	<button label="Esborrar els paràmetres" label_selected="Esborrar els paràmetres" name="reset_parcel_btn"/>
+	<button label="Començar la subhasta" label_selected="Començar la subhasta" name="start_auction_btn"/>
+</floater>
