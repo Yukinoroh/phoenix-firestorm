@@ -9,7 +9,7 @@
 	<tab_container name="ResidentChooserTabs">
 		<panel label="Recherche" name="SearchPanel">
 			<text name="InstructSearchResidentName">Saisissez une partie du nom d'une personne :</text>
-			<button label="Aller" label_selected="Aller" name="Find"/>
+			<button label="Trouver" label_selected="Trouver" name="Find"/>
 			<fs_scroll_list name="SearchResults">
 				<columns label="Nom" name="name"/>
 				<columns label="Nom d'utilisateur" name="username"/>
@@ -33,7 +33,7 @@
 		</panel>
 		<panel label="Recherche par l'UUID" name="SearchPanelUUID">
 			<text name="SearchByUUIDLabel">Saisissez l'UUID d'une personne :</text>
-			<button label="Aller" label_selected="Aller" name="FindUUID"/>
+			<button label="Trouver" label_selected="Trouver" name="FindUUID"/>
 			<fs_scroll_list name="SearchResultsUUID">
 				<columns label="Nom" name="nameUUID"/>
 				<columns label="Nom d'utilisateur" name="usernameUUID"/>
