@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="ban_duration" title="Durée de l&apos;interdiction">
+<floater name="ban_duration" title="Durée du bannissement">
 	<text name="duration_textbox">
-		Durée de l&apos;interdiction :
+		Durée du bannissement :
 	</text>
 	<radio_group name="ban_duration_radio">
 		<radio_item label="Toujours" name="always_radio">
