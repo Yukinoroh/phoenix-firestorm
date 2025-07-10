@@ -108,5 +108,5 @@
 	</text>
 	<button label="Tornar a carregar el fitxer" width="140" name="reload_btn"/>
 	<button label="Penjar (10 L$)" width="140" name="ok_btn"/>
-	<button label="Cancel·lar" width="100" left="170" name="cancel_btn"/>
+	<button label="Anul·lar" width="100" left="170" name="cancel_btn"/>
 </floater>
