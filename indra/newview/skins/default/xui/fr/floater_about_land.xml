@@ -305,14 +305,14 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			<text name="allow_label1">
 				Terraformer le terrain :
 			</text>
-			<check_box label="Tous" name="edit land check" tool_tip="Si cette option est cochée, tout le monde pourra terraformer votre terrain. Il est recommandé de laisser cette option décochée, car vous pourrez toujours modifier votre propre terrain."/>
+			<check_box label="Tous" name="edit land check" tool_tip="Si cette case est cochée, tout le monde pourra terraformer votre terrain. Il est recommandé de laisser cette option décochée, car vous pourrez toujours modifier votre propre terrain."/>
 			<text name="caution_text">
 				(À utiliser prudemment!)
          </text>
 			<text name="allow_label0">
 				Voler :
 			</text>
-			<check_box label="Tous" name="check fly" tool_tip="Si cette option est cochée, les résidents pourront voler sur votre terrain. Si elle ne l'est pas, ils ne pourront voler que lorsqu&apos;ils arrivent et passent au dessus de votre terrain."/>
+			<check_box label="Tous" name="check fly" tool_tip="Si cette case est cochée, les résidents pourront voler sur votre terrain. Si elle ne l'est pas, ils ne pourront voler que lorsqu&apos;ils arrivent et passent au dessus de votre terrain."/>
 			<text name="allow_label2">
 				Construire :
 			</text>
@@ -328,7 +328,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			</text>
 			<check_box label="Tous" name="check other scripts" tool_tip="Si la case est cochée, n'importe qui pourra exécuter des scripts sur le terrain, y compris à partir d'objets portés."/>
 			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront y exécuter des scripts sur le terrain, y compris à partir d'objets portés."/>
-			<check_box label="Pas de dommages" name="check safe" tool_tip="Si cette option est cochée, il n&apos;y aura pas dommages causés par des combats. Si elle est décochée, il pourrait y en avoir."/>
+			<check_box label="Pas de dommages" name="check safe" tool_tip="Si cette case est cochée, il n&apos;y aura pas dommages causés par des combats. Si elle est décochée, il pourrait y en avoir."/>
 			<check_box label="Pas de poussées" name="PushRestrictCheck" tool_tip="Empêche l&apos;utilisation de scripts causant des poussées. Cette option est utile pour empêcher les comportements abusifs."/>
 			<check_box label="Mettre dans la recherche (L$30/week)" name="ShowDirectoryCheck" tool_tip="Faire en sorte que les résidents voient le terrain dans les résultats de la recherche."/>
 			<combo_box name="land category">
