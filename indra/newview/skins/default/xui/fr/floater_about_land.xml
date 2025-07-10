@@ -392,7 +392,7 @@ texture :
 				Les objets avec cette texture afficheront le vidéo ou la page web quand on cliquera sur la flèche Jouer. Sélectionnez l&apos;image miniature pour choisir une texture différente.
 			</text>
 			<check_box label="Échelle automatique" name="media_auto_scale" tool_tip="Si vous sélectionnez cette option, le contenu du terrain sera automatiquement mis à l&apos;échelle. La qualité visuelle sera peut-être amoindrie mais vous n&apos;aurez à faire aucune autre mise à l&apos;échelle ou alignement."/>
-			<text name="media_size" tool_tip="Taille du média Web, laisser 0 pour la valeur par défaut.">
+			<text name="media_size" tool_tip="Taille du média web (laisser 0 pour la valeur par défaut).">
 				Taille :
 			</text>
 			<spinner name="media_size_width" tool_tip="Taille du média Web, laisser 0 pour la valeur par défaut."/>
