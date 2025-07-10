@@ -395,8 +395,8 @@ texture :
 			<text name="media_size" tool_tip="Taille du média web (laisser 0 pour la valeur par défaut).">
 				Taille :
 			</text>
-			<spinner name="media_size_width" tool_tip="Taille du média Web, laisser 0 pour la valeur par défaut."/>
-			<spinner name="media_size_height" tool_tip="Taille du média Web, laisser 0 pour la valeur par défaut."/>
+			<spinner name="media_size_width" tool_tip="Largeure du média web (laisser 0 pour la valeur par défaut)."/>
+			<spinner name="media_size_height" tool_tip="Hauteur du média web (laisser 0 pour la valeur par défaut)."/>
 			<text name="pixels">
 				pixels
 			</text>
