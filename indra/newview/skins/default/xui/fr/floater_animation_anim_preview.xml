@@ -2,6 +2,6 @@
 <floater name="Anim Preview" title="Aperçu de l'animation">
 	<text name="name_label">Nom :</text>
 	<text name="description_label">Description :</text>
-	<button label="Uploader ([AMOUNT] L$)" name="ok_btn"/>
+	<button label="Téléverser(Upload) ([AMOUNT] L$)" name="ok_btn"/>
 	<button label="Annuler" label_selected="Annuler" name="cancel_btn"/>
 </floater>
