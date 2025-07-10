@@ -338,7 +338,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 				<combo_box.item label="Affaires" name="item4"/>
 				<combo_box.item label="Éducation" name="item5"/>
 				<combo_box.item label="Jeux" name="item6"/>
-				<combo_box.item label="Favoris" name="item7"/>
+				<combo_box.item label="Social" name="item7"/>
 				<combo_box.item label="Accueil pour les nouveaux" name="item8"/>
 				<combo_box.item label="Parcs et nature" name="item9"/>
 				<combo_box.item label="Résidentiel" name="item10"/>
