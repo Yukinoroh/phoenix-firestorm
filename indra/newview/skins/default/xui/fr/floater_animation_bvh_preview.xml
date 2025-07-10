@@ -40,12 +40,12 @@
 	<floater.string name="E_ST_NO_XLT_EASEOUT">Impossible de récupérer la valeur de transition terminale.</floater.string>
 	<floater.string name="E_ST_NO_XLT_HAND">Impossible de récupérer la valeur de disposition de la main.</floater.string>
 	<floater.string name="E_ST_NO_XLT_EMOTE">Impossible de récupérer le nom de l'expression.</floater.string>
-	<floater.string name="E_ST_BAD_ROOT">Point racine incorrect, utilisation des hanches.</floater.string>
-	<floater.string name="FS_report_frames">[F] frm.  [S] s. [FPS] FPS</floater.string>
+	<floater.string name="E_ST_BAD_ROOT">Point racine (root) incorrect; utilisez les hanches (hip).</floater.string>
+	<floater.string name="FS_report_frames">[F] frm. [S] s. [FPS] FPS</floater.string>
 	<text name="name_label">Nom :</text>
 	<text name="description_label">Description :</text>
 	<spinner label="Priorité" name="priority" tool_tip="Contrôle quelles autres animations peuvent être outrepassées par cette animation"/>
-	<check_box label="Boucle" name="loop_check" tool_tip="Boucle l'animation"/>
+	<check_box label="Boucle" name="loop_check" tool_tip="Jouer l'animation en boucle"/>
 	<text name="frames_label">300 frm. 30 s. 10 FPS</text>
 	<spinner label="Début (%)" name="loop_in_point" tool_tip="Sélectionne le point à partir duquel boucler"/>
 	<spinner label="Fin (%)" name="loop_out_point" tool_tip="Sélectionne le point à partir duquel sortir de la boucle"/>
@@ -64,7 +64,7 @@
 		<combo_box.item label="Pointe avec la main droite" name="PointRight"/>
 		<combo_box.item label="Serre la poing droit" name="FistRight"/>
 		<combo_box.item label="Salut avec la main droite" name="SaluteRight"/>
-		<combo_box.item label="Écrit" name="Typing"/>
+		<combo_box.item label="Écrit au clavier" name="Typing"/>
 		<combo_box.item label="Signe de paix avec la main droite" name="PeaceRight"/>
 	</combo_box>
 	<text name="emote_label">Expression</text>
@@ -75,35 +75,35 @@
 		<item label="En colère" name="Angry"/>
 		<item label="Grand sourire" name="BigSmile"/>
 		<item label="Ennuyé(e)" name="Bored"/>
-		<item label="En larmes" name="Cry"/>
+		<item label="En pleurs" name="Cry"/>
 		<item label="Dédaigneux(se)" name="Disdain"/>
 		<item label="Embarrassé(e)" name="Embarrassed"/>
 		<item label="Renfrogné(e)" name="Frown"/>
 		<item label="Bisou" name="Kiss"/>
 		<item label="Rire" name="Laugh"/>
-		<item label="Plllppt" name="Plllppt"/>
+		<item label="Tire la langue" name="Plllppt"/>
 		<item label="Repoussé(e)" name="Repulsed"/>
 		<item label="Triste" name="Sad"/>
-		<item label="Haussement d'épaules" name="Shrug"/>
+		<item label="Indifférent(e)" name="Shrug"/>
 		<item label="Souriant(e)" name="Smile"/>
 		<item label="Surpris(e)" name="Surprise"/>
 		<item label="Clin d'oeil" name="Wink"/>
 		<item label="Inquiet(e)" name="Worry"/>
 	</combo_box>
-	<text name="preview_label">Voir lorsque je suis</text>
-	<combo_box name="preview_base_anim" tool_tip="Utilisez ceci pour tester le comportement de l'animation pendant que votre avatar fait autre chose.">
+	<text name="preview_label">Visualiser en étant</text>
+	<combo_box name="preview_base_anim" tool_tip="Utilisez ceci pour tester le comportement de l'animation pendant que l'avatar fait autre chose.">
 		<item label="Debout" name="Standing"/>
-		<item label="Marchant à pied" name="Walking"/>
+		<item label="En marche" name="Walking"/>
 		<item label="Assis" name="Sitting"/>
 		<item label="En vol" name="Flying"/>
 	</combo_box>
 	<spinner label="Transition initiale (sec)" name="ease_in_time" tool_tip="Durée en secondes de la transition initiale"/>
 	<spinner label="Transition terminale (sec)" name="ease_out_time" tool_tip="Durée en secondes de la transition terminale"/>
-	<button name="play_btn" tool_tip="Lire votre animation"/>
-	<button name="pause_btn" tool_tip="Mettre votre animation en pause"/>
+	<button name="play_btn" tool_tip="Jouer l'animation"/>
+	<button name="pause_btn" tool_tip="Mettre l'animation en pause"/>
 	<button name="stop_btn" tool_tip="Stopper l'animation"/>
 	<text name="bad_animation_text">
-         Impossible de lire l'animation.
+         Impossible de jouer l'animation.
  Nous recommandons les fichiers BVH exportés depuis Poser 4.
 	</text>
 	<button label="Recharger le fichier" width="140" name="reload_btn"/>
