@@ -19,7 +19,7 @@
 		<columns name="lst_action" value="Démarrer la voix" />
 	</rows>
 	<rows name="start_gesture">
-		<columns name="lst_action" value="Faire des gestuelles" />
+		<columns name="lst_action" value="Faire des gestes" />
 	</rows>
 	<rows name="script_trigger_lbutton">
 		<columns name="lst_action" value="Interagir (LMB)" />
