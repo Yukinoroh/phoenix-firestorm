@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="associate listing" title="Associar un anunci">
+	<text name="message">Referència de l'anunci :</text>
+	<line_editor name="listing_id">Introdueix aquí la referència de l'anunci</line_editor>
+	<button label="Anul·larr" name="Anul·lar"/>
+</floater>
