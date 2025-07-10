@@ -7,7 +7,7 @@
 		<columns name="lst_action" tool_tip="Se rendre à l'endroit où pointe le curseur de la souris" value="Marcher jusque là" />
 	</rows>
 	<rows name="teleport_to">
-		<columns name="lst_action" tool_tip="Se téléporter à l'endroit pointé par le curseur de la souris, mais tous les lieux ne permettent pas la téléportation directe. Il se peut donc que vous soyez téléporté plus près de votre destination." value="Se téléporter là" />
+		<columns name="lst_action" tool_tip="Se téléporter à l'endroit pointé par le curseur de la souris, mais tous les lieux ne permettent pas la téléportation directe. Il se peut donc que vous soyez plutôt téléporté près de votre destination." value="Se téléporter là" />
 	</rows>
 	<rows name="push_forward">
 		<columns name="lst_action" value="Avancer" />
