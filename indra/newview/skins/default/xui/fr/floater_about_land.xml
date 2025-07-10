@@ -290,10 +290,10 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 				(aucun)
 			</panel.string>
 			<panel.string name="push_restrict_text">
-				Pas de bousculades
+				Pas de poussées
 			</panel.string>
 			<panel.string name="push_restrict_region_text">
-				Pas de bousculades (les règles de la région priment)
+				Pas de poussées (les règles de la région priment)
 			</panel.string>
 			<panel.string name="DirectoryFree">
 				Lieu dans la recherche
