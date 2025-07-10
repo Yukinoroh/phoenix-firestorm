@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="beacons" title="GUIES">
+	<panel name="beacons_panel">
+		<text name="label_show">
+			Mostrar :
+		</text>
+		<check_box label="Caixes de délimitació dels llums" name="lights_bounding_boxes"/>
+		<check_box label="Guies" name="beacons"/>
+		<check_box label="Destacas" name="highlights"/>
+		<check_box label="Infos sobre les guies dins de la finestra" name="FSRenderBeaconText"/>
+		<text name="beacon_width_label" tool_tip="Amplada de la guia">
+			Amplada :
+		</text>
+		<text name="label_objects">
+			Per aquest objectes :
+		</text>
+		<check_box label="Físic" name="physical"/>
+		<check_box label="Scriptat" name="scripted"/>
+		<check_box label="Només tocar" name="touch_only"/>
+		<check_box label="Fonts sonors" name="sounds"/>
+		<check_box label="Fonts de les partícules" name="particles"/>
+		<check_box label="Fonts dels mitjans" name="moapbeacon"/>
+		<text name="label_direction">
+			Mostrar la direcció :
+		</text>
+		<check_box label="Sol" name="sun"/>
+		<check_box label="Lluna" name="moon"/>
+	</panel>
+</floater>
