@@ -4,7 +4,7 @@
 		<scroll_list.column label="Jouée par" name="played_by"/>
 		<scroll_list.column label="Jouée" name="played"/>
 		<scroll_list.column label="Priorité" name="priority" />
-		<scroll_list.column label="Estampille temporelle" name="timestamp"/>
+		<scroll_list.column label="Heure et date" name="timestamp"/>
 		<scroll_list.column label="ID de l'animation" name="animation_id"/>
 		<scroll_list.column label="ID de l'objet" name="object_id"/>
 	</scroll_list>
