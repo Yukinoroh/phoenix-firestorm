@@ -13,8 +13,8 @@
 			<panel name="scroll_content_panel2">
 				<texture_picker label="Cheveux" name="hair-baked"/>
 				<texture_picker label="Cheveux" name="hair_grain"/>
-				<texture_picker label="Alpha cheveux" name="hair_alpha"/>
-				<texture_picker label="Tatou cheveux" name="hair_tattoo"/>
+				<texture_picker label="Alpha des cheveux" name="hair_alpha"/>
+				<texture_picker label="Tatou des cheveux" name="hair_tattoo"/>
 				<texture_picker label="Tête" name="head-baked"/>
 				<texture_picker label="Maquillage" name="head_bodypaint"/>
 				<texture_picker label="Alpha de la tête" name="head_alpha"/>
