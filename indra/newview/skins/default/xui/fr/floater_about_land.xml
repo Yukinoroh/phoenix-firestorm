@@ -330,7 +330,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront y exécuter des scripts sur le terrain, y compris à partir d'objets portés."/>
 			<check_box label="Pas de dommages" name="check safe" tool_tip="Si cette case est cochée, il n&apos;y aura pas dommages causés par des combats. Si elle est décochée, il pourrait y en avoir."/>
 			<check_box label="Pas de poussées" name="PushRestrictCheck" tool_tip="Empêche l'exécution de poussées physiques à partir de scripts. Cette option est utile pour restreindre les comportements abusifs."/>
-			<check_box label="Mettre dans la recherche (L$30/sem.)" name="ShowDirectoryCheck" tool_tip="Faire en sorte que les résidents voient le terrain dans les résultats de la recherche."/>
+			<check_box label="Mettre dans la recherche (L$30/sem.)" name="ShowDirectoryCheck" tool_tip="Les résidents verront le terrain dans les résultats de la recherche."/>
 			<combo_box name="land category">
 				<combo_box.item label="Toutes catégories" name="item0"/>
 				<combo_box.item label="Appartenant aux Lindens" name="item1"/>
