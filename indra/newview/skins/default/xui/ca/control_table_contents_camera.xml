@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<contents>
+	<rows name="camera_actions">
+		<columns label="Càmera" name="lst_action" />
+	</rows>
+	<rows name="look_up">
+		<columns name="lst_action" value="Mirada amunt" />
+	</rows>
+	<rows name="look_down">
+		<columns name="lst_action" value="Mirada avall" />
+	</rows>
+	<rows name="move_forward">
+		<columns name="lst_action" value="Avanç de la càmera" />
+	</rows>
+	<rows name="move_backward">
+		<columns name="lst_action" value="Retrocés de la càmera" />
+	</rows>
+	<rows name="move_forward_fast">
+		<columns name="lst_action" value="Avanç ràpid de la càmera" />
+	</rows>
+	<rows name="move_backward_fast">
+		<columns name="lst_action" value="Retrocés ràpid de la càmera" />
+	</rows>
+	<rows name="spin_over">
+		<columns name="lst_action" value="Rotació de la càmera amunt" />
+	</rows>
+	<rows name="spin_under">
+		<columns name="lst_action" value="Rotació de la càmera avall" />
+	</rows>
+	<rows name="pan_up">
+		<columns name="lst_action" value="Panoràmica de la càmera amunt" />
+	</rows>
+	<rows name="pan_down">
+		<columns name="lst_action" value="Panoràmica de la càmera avall" />
+	</rows>
+	<rows name="pan_left">
+		<columns name="lst_action" value="Panoràmica de la càmera a l'esquerra" />
+	</rows>
+	<rows name="pan_right">
+		<columns name="lst_action" value="Panoràmica de la càmera a la dreta" />
+	</rows>
+	<rows name="pan_in">
+		<columns name="lst_action" value="Zoom endavant de la càmera" />
+	</rows>
+	<rows name="pan_out">
+		<columns name="lst_action" value="Zoom enrere de la càmera" />
+	</rows>
+	<rows name="spin_around_ccw">
+		<columns name="lst_action" tool_tip="La càmera gira en sentit antihorari" value="Rotació de la càmera cap a l'esquerra" />
+	</rows>
+	<rows name="spin_around_cw">
+		<columns name="lst_action" tool_tip="La càmera gira en sentit horari" value="Rotació de la càmera cap a la dreta" />
+	</rows>
+	<rows name="move_forward_sitting">
+		<columns name="lst_action" value="Càmera frontal quan assegut/da" />
+	</rows>
+	<rows name="move_backward_sitting">
+		<columns name="lst_action" value="Caméra posterior quan assegut/da" />
+	</rows>
+	<rows name="spin_over_sitting">
+		<columns name="lst_action" value="Rotació de la càmera cap amunt" />
+	</rows>
+	<rows name="spin_under_sitting">
+		<columns name="lst_action" value="Rotació de la càmera cap avall" />
+	</rows>
+	<rows name="spin_around_ccw_sitting">
+		<columns name="lst_action" tool_tip="La càmera gira en sentit antihorari al voltant de l'avatar en posició asseguda" value="Rotació cap a l'esquerra" />
+	</rows>
+	<rows name="spin_around_cw_sitting">
+		<columns name="lst_action" tool_tip="La càmera gira en sentit horari al voltant de l'avatar en posició asseguda" value="Rotació cap a la dreta" />
+	</rows>
+</contents>

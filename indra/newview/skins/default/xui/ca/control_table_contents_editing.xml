@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<contents>
+	<rows name="editing_actions">
+		<columns label="Modificació d'aparença" name="lst_action" />
+	</rows>
+	<rows name="edit_avatar_spin_ccw">
+		<columns name="lst_action" tool_tip="La càmera gira al voltant de l'avatar en sentit antihorari" value="Cap a l'esquerra" />
+	</rows>
+	<rows name="edit_avatar_spin_cw">
+		<columns name="lst_action" tool_tip="La càmera gira al voltant de l'avatar en sentit horari" value="Cap a la dreta" />
+	</rows>
+	<rows name="edit_avatar_spin_over">
+		<columns name="lst_action" tool_tip="La càmera gira al voltant de l'avatar cap amunt" value="Rotació de la càmera cap amunt" />
+	</rows>
+	<rows name="edit_avatar_spin_under">
+		<columns name="lst_action" tool_tip="La càmera gira al voltant de l'avatar cap avall" value="Rotació de la càmera cap avall" />
+	</rows>
+	<rows name="edit_avatar_move_forward">
+		<columns name="lst_action" value="Càmera frontal" />
+	</rows>
+	<rows name="edit_avatar_move_backward">
+		<columns name="lst_action" value="Càmera posterior" />
+	</rows>
+</contents>

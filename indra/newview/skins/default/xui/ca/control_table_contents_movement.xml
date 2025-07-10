@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<contents>
+	<rows name="move_actions">
+		<columns label="Accions de moviment" name="lst_action"/>
+	</rows>
+	<rows name="walk_to">
+		<columns name="lst_action" tool_tip="Anar a on apunta el cursor del ratolí" value="Caminar fins allà" />
+	</rows>
+	<rows name="teleport_to">
+		<columns name="lst_action" tool_tip="
+Teletransportar-se a la ubicació apuntada pel cursor del ratolí, però no totes les ubicacions permeten la teletransportació directa. Així doncs, és possible que estiguis en canvi teleportat/da més a prop de la teva destinació." value="Teleportar-se allà" />
+	</rows>
+	<rows name="push_forward">
+		<columns name="lst_action" value="Avançar" />
+	</rows>
+	<rows name="push_backward">
+		<columns name="lst_action" value="Recular" />
+	</rows>
+	<rows name="turn_left">
+		<columns name="lst_action" value="Esquerra" />
+	</rows>
+	<rows name="turn_right">
+		<columns name="lst_action" value="Dreta" />
+	</rows>
+	<rows name="slide_left">
+		<columns name="lst_action" value="Anar cap a l'esquerra" />
+	</rows>
+	<rows name="slide_right">
+		<columns name="lst_action" value="Anar cap a la dreta" />
+	</rows>
+	<rows name="jump">
+		<columns name="lst_action" value="Saltar / amunt" />
+	</rows>
+	<rows name="push_down">
+		<columns name="lst_action" value="Baixar" />
+	</rows>
+	<rows name="run_forward">
+		<columns name="lst_action" value="Córrer endavant" />
+	</rows>
+	<rows name="run_backward">
+		<columns name="lst_action" value="Córrer enrere" />
+	</rows>
+	<rows name="run_left">
+		<columns name="lst_action" value="Córrer cap a l'esquerra" />
+	</rows>
+	<rows name="run_right">
+		<columns name="lst_action" value="Córrer cap a la dreta" />
+	</rows>
+	<rows name="toggle_run">
+		<columns name="lst_action" value="Córrer" />
+	</rows>
+	<rows name="toggle_fly">
+		<columns name="lst_action" value="Volar / Deixar de volar" />
+	</rows>
+	<rows name="toggle_sit">
+		<columns name="lst_action" value="Seure's / Aixecar-se" />
+	</rows>
+	<rows name="stop_moving">
+		<columns name="lst_action" value="Deixar de moure's" />
+	</rows>
+</contents>

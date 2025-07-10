@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<contents>
+	<rows name="media_actions">
+		<columns label="So i mitjans" name="lst_action" />
+	</rows>
+	<rows name="toggle_pause_media">
+		<columns name="lst_action" value="Lectura/Pausa dels mitjans" />
+	</rows>
+	<rows name="toggle_enable_media">
+		<columns name="lst_action" value="Lectura/Pausa de tots els mitjans" />
+	</rows>
+	<rows name="voice_follow_key">
+		<columns name="lst_action" value="Veu" />
+	</rows>
+	<rows name="toggle_voice">
+		<columns name="lst_action" value="Activar la veu" />
+	</rows>
+	<rows name="start_chat">
+		<columns name="lst_action" value="Iniciar la veu" />
+	</rows>
+	<rows name="start_gesture">
+		<columns name="lst_action" value="Fer gestos" />
+	</rows>
+	<rows name="script_trigger_lbutton">
+		<columns name="lst_action" value="Interactuar (botó esquerre)" />
+	</rows>
+</contents>
