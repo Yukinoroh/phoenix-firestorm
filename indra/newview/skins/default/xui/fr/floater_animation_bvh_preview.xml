@@ -30,7 +30,7 @@
 	<floater.string name="E_ST_NO_XLT_NAME">Impossible de lire les noms de transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_IGNORE">Impossible de lire la valeur de transformation à ignorer.</floater.string>
 	<floater.string name="E_ST_NO_XLT_RELATIVE">Impossible de lire la valeur relative de transformation.</floater.string>
-	<floater.string name="E_ST_NO_XLT_OUTNAME">Impossible de lire le nom de sortie dans la transformation.</floater.string>
+	<floater.string name="E_ST_NO_XLT_OUTNAME">Impossible de lire le nom de sortie de la transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_MATRIX">Impossible de lire la matrice de transformation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_MERGECHILD">Impossible de récupérer le nom de l'élément enfant fusionné.</floater.string>
 	<floater.string name="E_ST_NO_XLT_MERGEPARENT">Impossible de récupérer le nom du parent fusionné.</floater.string>
