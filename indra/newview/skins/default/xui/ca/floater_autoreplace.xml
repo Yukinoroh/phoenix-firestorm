@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="autoreplace_floater" title="Paràmetres de substitució automàtica">
+	<check_box label="Activar la substitució automàtica" name="autoreplace_enable" tool_tip="A mesura que escriguis, cada paraula clau introduïda serà substituïda per la substitució corresponent, si n'hi ha."/>
+	<button name="autoreplace_import_list" width="115" left_pad="5" label="Importar une lista..." tool_tip="Carregar a partir d'un fitxer una llista previament exportada."/>
+	<button name="autoreplace_export_list" width="115" left_pad="5" label="Exportar une llista..." tool_tip="Desar la llista seleccionada en un fitxer perquè puguis compartir-la."/>
+	<button name="autoreplace_new_list" width="115" left_pad="5" label="Nova llista..." tool_tip="Crear una nova llista."/>
+	<button name="autoreplace_delete_list" width="115" left_pad="5" label="Suprimir la llista" tool_tip="Suprimir la llista seleccionada."/>
+	<button name="autoreplace_list_up" tool_tip="Augmentar la prioritat d'aquesta llista."/>
+	<button name="autoreplace_list_down" tool_tip="Disminuir la prioritat d'aquesta llista."/>
+	<scroll_list name="autoreplace_list_replacements">
+		<scroll_list.columns label="Paraula clau" name="keyword"/>
+		<scroll_list.columns label="Substitució" name="replacement"/>
+	</scroll_list>
+	<button name="autoreplace_add_entry" label="Afegir..."/>
+	<button name="autoreplace_delete_entry" label="Suprimir"/>
+	<text name="autoreplace_keyword_txt">Paraula clau :</text>
+	<text name="autoreplace_replacement_txt">Substitució :</text>
+	<button name="autoreplace_save_entry" label="Desar" tool_tip="Desar aquesta entrada."/>
+	<button name="autoreplace_save_changes" label="Aplicar" tool_tip="Desar tots els canvis."/>
+	<button name="autoreplace_cancel" label="Anul·lar" tool_tip="Anul·lar tots els canvis."/>
+</floater>
