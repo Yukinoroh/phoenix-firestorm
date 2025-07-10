@@ -87,7 +87,7 @@
 		<item label="Indifférent(e)" name="Shrug"/>
 		<item label="Souriant(e)" name="Smile"/>
 		<item label="Surpris(e)" name="Surprise"/>
-		<item label="Clin d'oeil" name="Wink"/>
+		<item label="Clin d'œil" name="Wink"/>
 		<item label="Inquiet(e)" name="Worry"/>
 	</combo_box>
 	<text name="preview_label">Visualiser en étant</text>
