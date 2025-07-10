@@ -139,7 +139,7 @@
 			<button label="Vente Linden" label_selected="Vente Linden..." name="Linden Sale..." tool_tip="Le terrain doit être la propriété d&apos;un résident, avoir un contenu défini et ne pas être aux enchères."/>
 			<button label="Infos sur les scripts" name="Scripts..." width="110"/>
 			<button label="Acheter pour le groupe" label_selected="Acheter pour le groupe..." name="Buy For Group..."/>
-			<button label="Acheter un pass" label_selected="Acheter un pass..." left_delta="-127" name="Buy Pass..." tool_tip="Un pass vous donne un accès temporaire à ce terrain." width="125"/>
+			<button label="Acheter un laissez-passer" label_selected="Acheter un laissez-passer..." left_delta="-127" name="Buy Pass..." tool_tip="Un laissez-passer vous donne un accès temporaire à ce terrain." width="125"/>
 			<button label="Abandonner le terrain" label_selected="Abandonner le terrain..." name="Abandon Land..."/>
 			<button label="Récupérer le terrain" label_selected="Redemander le terrain…" name="Reclaim Land..."/>
 		</panel>
