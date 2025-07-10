@@ -11,10 +11,10 @@
 						Ambiance :
 					</text>
 					<text name="blue_horizon_lbl">
-						Bleu horizon :
+						Horizon bleu :
 					</text>
 					<text name="blue_density_lbl">
-						Densité bleu :
+						Densité de bleu :
 					</text>
 					<button label="Réinitialiser" tool_tip="Fermer et repasser à l'environnement partagé" name="btn_reset"/>
 					<text name="sun_color_lbl">
@@ -44,7 +44,7 @@
 						Taille des nuages :
 					</text>
 					<text name="reflection_probe_ambiance_label">Ambiance de la sonde de réflexion :</text>
-					<slider name="probe_ambiance" tool_tip="L'intensité de l'éclairage indirect basé sur l'environnement. À zéro, l'échelle HDR devient Luminosité"/>
+					<slider name="probe_ambiance" tool_tip="L'intensité de l'éclairage indirect basé sur l'environnement. À zéro, l'échelle HDR devient Luminosité."/>
 					<text name="scene_gamma_label">
 						Luminosité :
 					</text>
