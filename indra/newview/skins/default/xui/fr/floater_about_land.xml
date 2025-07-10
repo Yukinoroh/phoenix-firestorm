@@ -359,7 +359,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 				Lieu d&apos;arrivée : [LANDING]
 			</text>
 			<button label="Définir" label_selected="Définir" name="Set" tool_tip="Définit le point d&apos;arrivée des visiteurs. Définit l&apos;emplacement de votre avatar sur le terrain."/>
-			<button label="Annuler" label_selected="Annuler" name="Clear" tool_tip="Effacer le lieu d&apos;arrivée"/>
+			<button label="Enlever" label_selected="Enlever" name="Clear" tool_tip="Efface le lieu d&apos;arrivée."/>
 			<text name="Teleport Routing: ">
 				Règles de téléportation :
 			</text>
