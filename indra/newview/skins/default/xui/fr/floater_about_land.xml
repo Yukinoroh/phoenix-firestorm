@@ -305,11 +305,11 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 				Autoriser les autres résidents à :
 			</text>
 			<text name="allow_label1">
-				Modifier le terrain :
+				Terraformer le terrain :
 			</text>
-			<check_box label="Tous" name="edit land check" tool_tip="Si cette option est cochée, tous le monde pourra terraformer votre terrain. Il laisser cette option décochée, car vous pouvez toujours modifier votre terrain."/>
+			<check_box label="Tous" name="edit land check" tool_tip="Si cette option est cochée, tout le monde pourra terraformer votre terrain. Il est recommandé de laisser cette option décochée, car vous pouvez toujours modifier votre propre terrain."/>
 			<text name="caution_text">
-				(À utiliser prudemment !)
+				(À utiliser prudemment!)
          </text>
 			<text name="allow_label0">
 				Voler :
