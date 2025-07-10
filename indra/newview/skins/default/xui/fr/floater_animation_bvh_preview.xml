@@ -9,7 +9,7 @@
          Impossible de lire l'animation.
  [STATUS]
 	</floater.string>
-	<floater.string name="E_ST_OK">Pas d'erreurs</floater.string>
+	<floater.string name="E_ST_OK">Pas d'erreurs.</floater.string>
 	<floater.string name="E_ST_EOF">Fin de fichier prématurée.</floater.string>
 	<floater.string name="E_ST_NO_CONSTRAINT">Impossible de lire la définition de contrainte.</floater.string>
 	<floater.string name="E_ST_NO_FILE">Impossible d'ouvrir le fichier BVH.</floater.string>
@@ -22,7 +22,7 @@
 	<floater.string name="E_ST_NO_AXIS">Impossible de trouver l'axe de rotation.</floater.string>
 	<floater.string name="E_ST_NO_MOTION">Impossible de trouver MOTION.</floater.string>
 	<floater.string name="E_ST_NO_FRAMES">Impossible de trouver le nombre de trames.</floater.string>
-	<floater.string name="E_ST_NO_FRAME_TIME">Impossible de trouver frame time.</floater.string>
+	<floater.string name="E_ST_NO_FRAME_TIME">Impossible de trouver le temps par trame.</floater.string>
 	<floater.string name="E_ST_NO_POS">Impossible de trouver les valeurs de position.</floater.string>
 	<floater.string name="E_ST_NO_ROT">Impossible de trouver les valeurs de rotation.</floater.string>
 	<floater.string name="E_ST_NO_XLT_FILE">Impossible d'ouvrir le fichier de transformation.</floater.string>
