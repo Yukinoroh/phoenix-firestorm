@@ -248,7 +248,7 @@ ou divisé.
 				Sélectionnées/où quelqu&apos;un est assis :
 			</text>
 			<text name="Autoreturn">
-				Renvoi automatique des objets d&apos;autres résidents (minutes, 0 pour désactiver) :
+				Renvoi automatique des objets d&apos;autres résidents (en minutes; 0 pour désactiver) :
 			</text>
 			<line_editor name="clean other time"/>
 			<text name="Object Owners:">
