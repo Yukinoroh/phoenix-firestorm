@@ -3,5 +3,5 @@
 	<text name="name_label">Nom :</text>
 	<text name="description_label">Descripció :</text>
 	<button label="Penjar ([AMOUNT] L$)" name="ok_btn"/>
-	<button label="Cancel·lar" label_selected="Cancel·lar" name="cancel_btn"/>
+	<button label="Anul·lar" label_selected="Anul·lar" name="cancel_btn"/>
 </floater>
