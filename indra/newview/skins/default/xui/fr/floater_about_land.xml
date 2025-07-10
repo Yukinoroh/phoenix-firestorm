@@ -224,10 +224,10 @@ ou divisé.
 				[COUNT] sur [MAX] ([AVAILABLE] disponibles)
 			</text>
 			<text name="Primitives parcel supports:">
-				Capacité de la parcelle :
+				Capacité du terrain :
 			</text>
 			<text name="Primitives on parcel:">
-				Impact sur la parcelle :
+				Impact sur le terrain :
 			</text>
 			<text name="Owned by parcel owner:">
 				Appartenant au propriétaire :
@@ -265,14 +265,14 @@ ou divisé.
 		</panel>
 		<panel label="Options" name="land_options_panel">
 			<panel.string name="search_enabled_tooltip">
-				Permettre aux autres résidents de voir cette parcelle dans les résultats de recherche.
+				Permettre aux autres résidents de voir ce terrain dans les résultats de recherche.
 			</panel.string>
 			<panel.string name="search_disabled_small_tooltip">
-				Cette option est désactivée car la superficie de cette parcelle est inférieure ou égale à 128 m².
-Seules les parcelles de grande taille peuvent apparaître dans la recherche.
+				Cette option est désactivée car la superficie de ce terrain est inférieure ou égale à 128 m².
+Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			</panel.string>
 			<panel.string name="search_disabled_permissions_tooltip">
-				Cette option est désactivée car vous ne pouvez pas modifier les options de cette parcelle.
+				Cette option est désactivée car vous ne pouvez pas modifier les options de ce terrain.
 			</panel.string>
 			<panel.string name="mature_check_mature">
 				Contenu "modéré"
@@ -281,10 +281,10 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 				Contenu "adulte"
 			</panel.string>
 			<panel.string name="mature_check_mature_tooltip">
-				Les informations ou contenu de votre parcelle sont classés "modéré".
+				Les informations ou contenu de votre terrain sont classés "modéré".
 			</panel.string>
 			<panel.string name="mature_check_adult_tooltip">
-				Les informations ou contenu de votre parcelle sont classés "adulte".
+				Les informations ou contenu de votre terrain sont classés "adulte".
 			</panel.string>
 			<panel.string name="landing_point_none">
 				(aucun)
@@ -319,20 +319,20 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 				Construire :
 			</text>
 			<check_box label="Tous" name="edit objects check" tool_tip="Si la case est cochée, les résidents peuvent créer et rezzer des objets sur votre terrain."/>
-			<check_box label="Groupe" name="edit group objects check" tool_tip="Si la case est cochée, les membres du groupe de la parcelle peuvent créer et rezzer des objets sur votre terrain."/>
+			<check_box label="Groupe" name="edit group objects check" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent créer et rezzer des objets sur votre terrain."/>
 			<text name="allow_label3">
 				Laisser entrer des objets :
 			</text>
-			<check_box label="Tous" name="all object entry check" tool_tip="Si la case est cochée, les résidents peuvent déplacer les objets des autres parcelles pour les amener sur cette parcelle."/>
-			<check_box label="Groupe" name="group object entry check" tool_tip="Si la case est cochée, les membres du groupe de la parcelle peuvent déplacer les objets des autres parcelles pour les amener sur cette parcelle."/>
+			<check_box label="Tous" name="all object entry check" tool_tip="Si la case est cochée, les résidents peuvent déplacer les objets des autres terrains pour les amener sur celui-ci."/>
+			<check_box label="Groupe" name="group object entry check" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent déplacer les objets des autres terrains pour les amener sur celui-ci."/>
 			<text name="allow_label4">
 				Exécuter des scripts :
 			</text>
-			<check_box label="Tous" name="check other scripts" tool_tip="Si la case est cochée, les membres du groupe de la parcelle peuvent exécuter des scripts sur votre parcelle, y compris des pièces jointes."/>
-			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe de la parcelle peuvent exécuter des scripts sur votre parcelle, y compris des pièces jointes."/>
+			<check_box label="Tous" name="check other scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent exécuter des scripts sur votre terrain, y compris des pièces jointes."/>
+			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain peuvent exécuter des scripts sur votre terrain, y compris des pièces jointes."/>
 			<check_box label="Sécurisé (pas de dégâts)" name="check safe" tool_tip="Si cette option est cochée, le terrain est sécurisé et il n&apos;y pas de risques de dommages causés par des combats. Si elle est décochée, des dommages causés par les combats peuvent avoir lieu."/>
 			<check_box label="Pas de bousculades" name="PushRestrictCheck" tool_tip="Empêche l&apos;utilisation de scripts causant des bousculades. Cette option est utile pour empêcher les comportements abusifs sur votre terrain."/>
-			<check_box label="Lieu dans la recherche (L$30/week)" name="ShowDirectoryCheck" tool_tip="Laisser les résidents voir cette parcelle dans les résultats de la recherche."/>
+			<check_box label="Lieu dans la recherche (L$30/week)" name="ShowDirectoryCheck" tool_tip="Laisser les résidents voir ce terrain dans les résultats de la recherche."/>
 			<combo_box name="land category">
 				<combo_box.item label="Toutes catégories" name="item0"/>
 				<combo_box.item label="Appartenant aux Lindens" name="item1"/>
@@ -354,9 +354,9 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 			</text>
 			<texture_picker label="" name="snapshot_ctrl" tool_tip="Cliquez pour sélectionner une image"/>
 			<text name="allow_see_label" top="170">
-				Les avatars sur d&apos;autres parcelles peuvent voir et chatter avec les avatars sur cette parcelle.
+				Les avatars sur d&apos;autres terrains peuvent voir et clavarder avec les avatars sur celui-ci.
 			</text>
-			<check_box label="Voir les avatars" name="SeeAvatarsCheck" top="170" tool_tip="Permettre aux avatars présents sur d&apos;autres parcelles de voir et chatter avec les avatars présents sur cette parcelle et à vous de les voir et de chatter avec eux."/>
+			<check_box label="Voir les avatars" name="SeeAvatarsCheck" top="170" tool_tip="Permettre aux avatars présents sur d&apos;autres terrains de voir et clavarder avec les avatars présents sur ce terrain et à vous de les voir et de clavarder avec eux."/>
 			<text name="landing_point">
 				Lieu d&apos;arrivée : [LANDING]
 			</text>
@@ -393,7 +393,7 @@ texture :
 			<text name="replace_texture_help">
 				Les objets avec cette texture affichent le film ou la page web quand vous cliquez sur la flèche Jouer.  Sélectionnez l&apos;image miniature pour choisir une texture différente.
 			</text>
-			<check_box label="Échelle automatique" name="media_auto_scale" tool_tip="Si vous sélectionnez cette option, le contenu de cette parcelle sera automatiquement mis à l&apos;échelle. La qualité visuelle sera peut-être amoindrie mais vous n&apos;aurez à faire aucune autre mise à l&apos;échelle ou alignement."/>
+			<check_box label="Échelle automatique" name="media_auto_scale" tool_tip="Si vous sélectionnez cette option, le contenu de ce terrain sera automatiquement mis à l&apos;échelle. La qualité visuelle sera peut-être amoindrie mais vous n&apos;aurez à faire aucune autre mise à l&apos;échelle ou alignement."/>
 			<text name="media_size" tool_tip="Taille du média Web, laisser 0 pour la valeur par défaut.">
 				Taille :
 			</text>
@@ -418,7 +418,7 @@ musique :
 			<text name="Sound:">
 				Son :
 			</text>
-			<check_box label="Limiter les sons des gestes et des objets à cette parcelle" name="check sound local"/>
+			<check_box label="Limiter les sons des gestes et des objets à ce terrain" name="check sound local"/>
 			<text name="Avatar Sounds:">
 				Sons d&apos;avatar :
 			</text>
@@ -427,13 +427,13 @@ musique :
 			<text name="Voice settings:">
 				Voix :
 			</text>
-			<check_box label="Activer le chat vocal" name="parcel_enable_voice_channel"/>
+			<check_box label="Activer la voix" name="parcel_enable_voice_channel"/>
 			<check_box label="Activer la voix (contrôlé par le domaine)" name="parcel_enable_voice_channel_is_estate_disabled"/>
-			<check_box label="Limiter le chat vocal à cette parcelle" name="parcel_enable_voice_channel_local"/>
+			<check_box label="Limiter la voix à ce terrain" name="parcel_enable_voice_channel_local"/>
 			<text name="media">
 				Média:
 			</text>
-			<check_box label="Masquer MOAP" name="obscure_moap" tool_tip="Les médias d'un prim situé en dehors de la parcelle ne doivent pas être lus automatiquement par un agent situé dans cette parcelle et vice versa."/>
+			<check_box label="Masquer MOAP" name="obscure_moap" tool_tip="Les médias d'un prim situé en dehors du terrain ne doivent pas être lus automatiquement par un agent situé sur ce terrain et vice versa."/>
 		</panel>
 		<panel label="Accès" name="land_access_panel">
 			<panel.string name="access_estate_defined">
@@ -443,10 +443,10 @@ musique :
 				Au moins une de ces options est définie au niveau du domaine.
 			</panel.string>
 			<check_box label="Tout le monde peut rendre visite" tool_tip="Des lignes d&apos;interdiction seront créées si cette case n&apos;est pas cochée" name="public_access"/>
-			<check_box label="Doit avoir plus de 18 ans [ESTATE_AGE_LIMIT]" name="limit_age_verified" tool_tip="Pour accéder à cette parcelle, les résidents doivent avoir au moins 18 ans. Consultez le [SUPPORT_SITE] pour plus d&apos;informations."/>
-			<check_box label="Les infos de paiement doivent être enregistrées dans le dossier [ESTATE_PAYMENT_LIMIT]" name="limit_payment" tool_tip="Pour pouvoir accéder à cette parcelle, les résidents doivent avoir enregistré des informations de paiement. Consultez le [SUPPORT_SITE] pour plus d&apos;informations."/>
+			<check_box label="Doit avoir plus de 18 ans [ESTATE_AGE_LIMIT]" name="limit_age_verified" tool_tip="Pour accéder à ce terrain, les résidents doivent avoir au moins 18 ans. Consultez le [SUPPORT_SITE] pour plus d&apos;informations."/>
+			<check_box label="Les infos de paiement doivent être enregistrées dans le dossier [ESTATE_PAYMENT_LIMIT]" name="limit_payment" tool_tip="Pour accéder à ce terrain, les résidents doivent avoir enregistré des informations de paiement. Consultez le [SUPPORT_SITE] pour plus d&apos;informations."/>
 			<check_box label="Autoriser le groupe [GROUP] sans restrictions" name="GroupCheck" tool_tip="Définir le groupe à l&apos;onglet Général."/>
-			<check_box label="Vendre des pass à :" name="PassCheck" tool_tip="Autoriser un accès temporaire à cette parcelle"/>
+			<check_box label="Vendre des pass à :" name="PassCheck" tool_tip="Autoriser un accès temporaire à ce terrain"/>
 			<combo_box name="pass_combo" width="110">
 				<combo_box.item label="Tout le monde" name="Anyone"/>
 				<combo_box.item label="Groupe" name="Group"/>
