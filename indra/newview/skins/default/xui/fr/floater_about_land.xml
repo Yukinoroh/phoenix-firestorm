@@ -420,7 +420,7 @@ musique :
 			<text name="Avatar Sounds:">
 				Sons d&apos;avatar :
 			</text>
-			<check_box label="Tout le monde" name="all av sound check"/>
+			<check_box label="Tous" name="all av sound check"/>
 			<check_box label="Groupe" name="group av sound check"/>
 			<text name="Voice settings:">
 				Voix :
@@ -429,24 +429,24 @@ musique :
 			<check_box label="Activer la voix (contrôlé par le domaine)" name="parcel_enable_voice_channel_is_estate_disabled"/>
 			<check_box label="Limiter la voix au terrain" name="parcel_enable_voice_channel_local"/>
 			<text name="media">
-				Média:
+				Média :
 			</text>
-			<check_box label="Masquer MOAP" name="obscure_moap" tool_tip="Les médias d'un prim situé en dehors du terrain ne seront pas lus automatiquement par un agent situé sur le terrain et vice versa."/>
+			<check_box label="Limiter les MOAP" name="obscure_moap" tool_tip="Les médias sur un prim (MOAP) situés hors du terrain ne seront pas lus automatiquement à partir du terrain et vice versa."/>
 		</panel>
 		<panel label="Accès" name="land_access_panel">
 			<panel.string name="access_estate_defined">
-				(défini par le domaine
+				(défini par le domaine)
 			</panel.string>
 			<panel.string name="estate_override">
 				Au moins une de ces options est définie au niveau du domaine.
 			</panel.string>
-			<check_box label="Tout le monde peut rendre visite" tool_tip="Des lignes d&apos;interdiction seront créées si cette case n&apos;est pas cochée" name="public_access"/>
+			<check_box label="Tout le monde peut rendre visite" tool_tip="Des lignes d&apos;interdiction d'accès seront créées si cette case n&apos;est pas cochée." name="public_access"/>
 			<check_box label="Doit avoir plus de 18 ans [ESTATE_AGE_LIMIT]" name="limit_age_verified" tool_tip="Pour accéder au terrain, les résidents devront avoir au moins 18 ans. Consultez le [SUPPORT_SITE] pour plus d&apos;informations."/>
 			<check_box label="Les infos de paiement doivent être enregistrées dans le dossier [ESTATE_PAYMENT_LIMIT]" name="limit_payment" tool_tip="Pour accéder au terrain, les résidents devront avoir enregistré des informations de paiement. Consultez le [SUPPORT_SITE] pour plus d&apos;informations."/>
 			<check_box label="Autoriser le groupe [GROUP] sans restrictions" name="GroupCheck" tool_tip="Définir le groupe à l&apos;onglet Général."/>
-			<check_box label="Vendre des pass à :" name="PassCheck" tool_tip="Autoriser un accès temporaire au terrain"/>
+			<check_box label="Vendre des laissez-passer à :" name="PassCheck" tool_tip="Autoriser un accès temporaire au terrain"/>
 			<combo_box name="pass_combo" width="110">
-				<combo_box.item label="Tout le monde" name="Anyone"/>
+				<combo_box.item label="Tous" name="Anyone"/>
 				<combo_box.item label="Groupe" name="Group"/>
 			</combo_box>
 			<spinner label="Prix en L$ :" name="PriceSpin"/>
@@ -458,16 +458,16 @@ musique :
 				<text label="Toujours autoriser" name="AllowedText">
 					Toujours autorisé ([COUNT], max. [MAX])
 				</text>
-				<name_list name="AccessList" tool_tip="([LISTED] dans la liste, [MAX] max.)"/>
+				<name_list name="AccessList" tool_tip="([LISTED] dans la liste, max. [MAX].)"/>
 				<button label="Ajouter" name="add_allowed"/>
 				<button label="Supprimer" label_selected="Supprimer" name="remove_allowed"/>
 				<button label="Exporter" label_selected="Exporter" name="export_allowed"/>
 			</panel>
 			<panel name="Banned_layout_panel">
 				<text label="Bannir" name="BanCheck">
-					Interdit interdit ([COUNT], max. [MAX])
+					Banni ([COUNT], max. [MAX])
 				</text>
-				<name_list name="BannedList" tool_tip="([LISTED] dans la liste, [MAX] max.)">
+				<name_list name="BannedList" tool_tip="([LISTED] dans la liste, max. [MAX].)">
 					<columns label="Nom" name="name"/>
 					<columns label="Durée" name="duration"/>
 				</name_list>
