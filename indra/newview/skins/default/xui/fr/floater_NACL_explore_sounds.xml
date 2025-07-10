@@ -21,7 +21,7 @@
 	<button label="Écouter" name="play_locally_btn"/>
 	<button label="Regarder" name="look_at_btn"/>
 	<button label="Arrêter" name="stop_btn"/>
-	<button label="Ajout à liste noire" name="bl_btn"/>
+	<button label="Ajouter à liste noire" name="bl_btn"/>
 	<button label="Bloquer sons portés AV" name="block_avatar_worn_sounds_btn"/>
 	<button label="Bloquer sons rezzés AV" name="block_avatar_rezzed_sounds_btn"/>
 	<button label="Bloquer sons gestes AV" name="block_avatar_gesture_sounds_btn"/>
