@@ -39,7 +39,7 @@
 				Codi de la subhasta : [ID]
 			</panel.string>
 			<panel.string name="need_tier_to_modify">
-				Per modificar aquest terreny, has d'aprovar la compra.
+				Per modificar aquest terreny, has d'aprovar-ne la compra.
 			</panel.string>
 			<panel.string name="group_owned_text">
 				(propietari del grup)
@@ -60,7 +60,7 @@
 				(venda en curs)
 			</panel.string>
 			<panel.string name="no_selection_text">
-				Cap parcel·la seleccionada.
+				Cap terreny seleccionat.
 			</panel.string>
 			<panel.string name="time_stamp_template">
 				[wkday,datetime,slt] [day,datetime,slt] [mth,datetime,slt] [year,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt]
@@ -116,7 +116,7 @@
 			<text name="Selling with no objects in parcel.">
 				Objectes no inclosos en la venda
 			</text>
-			<button label="Cancel·lar la venda del terreny" label_selected="Cancel·lar la venda del terreny" name="Cancel Land Sale"/>
+			<button label="Anul·lar la venda del terreny" label_selected="Anul·lar la venda del terreny" name="Cancel Land Sale"/>
 			<text name="Claimed:">
 				Adquirit :
 			</text>
@@ -222,10 +222,10 @@
 				[COUNT] de [MAX] ([AVAILABLE] disponibles)
 			</text>
 			<text name="Primitives parcel supports:">
-				Capacitat de la parcel·la :
+				Capacitat del terreny :
 			</text>
 			<text name="Primitives on parcel:">
-				Impacte en la parcel·la :
+				Impacte en el terrany :
 			</text>
 			<text name="Owned by parcel owner:">
 				Pertanyent al propietari :
@@ -263,14 +263,14 @@
 		</panel>
 		<panel label="Opcions" name="land_options_panel">
 			<panel.string name="search_enabled_tooltip">
-				Permetre als altres residents veure aquesta parcel·la als resultats de la cerca.
+				Permetre als altres residents veure aquest terreny als resultats de la cerca.
 			</panel.string>
 			<panel.string name="search_disabled_small_tooltip">
-				Aquesta opció està desactivada perquè la superfície d'aquesta parcel·la és inferior o igual a 128 m².
-Només les parcel·les de gran mida poden aparèixer a la cerca.
+				Aquesta opció està desactivada perquè la superfície del terreny és inferior o igual a 128 m².
+Només els terrenys de gran mida poden aparèixer a la cerca.
 			</panel.string>
 			<panel.string name="search_disabled_permissions_tooltip">
-				Aquesta opció està desactivada perquè no podeu canviar les opcions d'aquesta parcel·la.
+				Aquesta opció està desactivada perquè no podeu canviar les opcions d'aquest terreny.
 			</panel.string>
 			<panel.string name="mature_check_mature">
 				Contingut moderat
@@ -279,10 +279,10 @@ Només les parcel·les de gran mida poden aparèixer a la cerca.
 				Contingut adult
 			</panel.string>
 			<panel.string name="mature_check_mature_tooltip">
-				Les informacions o contingut de la teva parcel·la estan classificades moderat.
+				Les informacions o contingut del terreny estan classificades moderat.
 			</panel.string>
 			<panel.string name="mature_check_adult_tooltip">
-				Les informacions o contingut de la teva parcel·la estan classificades adult.
+				Les informacions o contingut del terreny estan classificades adult.
 			</panel.string>
 			<panel.string name="landing_point_none">
 				(cap)
