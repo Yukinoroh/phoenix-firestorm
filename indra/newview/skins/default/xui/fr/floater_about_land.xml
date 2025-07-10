@@ -254,8 +254,8 @@ ou divisé.
 			<text name="Object Owners:">
 				Propriétaires :
 			</text>
-			<button label="Rafraîchir" label_selected="Rafraîchir" name="Refresh List" tool_tip="Actualiser la liste des objets"/>
-			<button label="Renvoi des objets" label_selected="Renvoyer les objets..." name="Return objects..."/>
+			<button label="Actualiser" label_selected="Actualiser" name="Refresh List" tool_tip="Actualiser la liste des objets"/>
+			<button label="Renvoi d'objets" label_selected="Renvoyer les objets..." name="Return objects..."/>
 			<name_list label="Plus récents" name="owner list">
 				<name_list.columns label="Type" name="type"/>
 				<name_list.columns label="Nom" name="name"/>
