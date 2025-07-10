@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="floater_about" title="Sobre [APP_NAME]">
+	<tab_container name="about_tab">
+		<panel label="Informacions" name="support_panel">
+			<text name="support_intro">
+ Per a les útlimes informacions sobre Firestorm, visita
+ https://www.firestormviewer.org
+			</text>
+			<button label="Copiar" name="copy_btn"/>
+		</panel>
+		<panel label="Autors Linden Lab" name="credits_panel">
+			<text name="linden_intro">
+ Firestorm no existiria sense la decisió de Linden Lab de posar a disposició el seu codi font. 
+ Second Life està dissenyat pels Lindens,
+ amb contribucions de codi obert de:
+			</text>
+			<text_editor name="contrib_names">Dummy Name replaced at run time</text_editor>
+		</panel>
+		<panel label="Col·laboradors Firestorm" name="fs_credits_panel">
+			<scroll_container name="fs_credits_scroll_container">
+				<panel name="fs_credits_scroll_container_content_panel">
+					<text name="firestorm_intro">
+ Firestorm és un projecte dissenyat per millorar la immersió a SecondLife(tm). Hem reunit les contribucions d'una comunitat de desenvolupadors que treballen amb el codi proporcionat per Linden Lab i el nostre per oferir-te una interfície rica en possibilitats i amb el suport de molts voluntaris. Firestorm t'ho ofereix The Phoenix Firestorm Project, Inc., una organització sense ànim de lucre.
+ L'equip de desenvolupament de Firestorm:
+					</text>
+					<text name="fs_contrib_intro">Codi addicional per a Firestorm proporcionat generosament per :</text>
+					<text name="fs_support_intro">Aagraïments especials al nostre equip d'ajuda de Firestorm, als col·laboradors de la wiki, educadors i traductors :</text>
+					<text name="fs_art_intro" height="70">
+ Firestorm incorpora Starlight modificat per a Firestorm, desenvolupat per uns residents per als residents, amb l'objectiu d'oferir una interfície alternativa, més neta i, amb sort, més fàcil d'utilitzar. Per a més detalls, consulta &lt;nolink&gt;https://wiki.secondlife.com/wiki/Viewer_Skins/Starlight&lt;/nolink&gt;
+ Creació de la interfície :
+					</text>
+				</panel>
+			</scroll_container>
+		</panel>
+	</tab_container>
+</floater>
