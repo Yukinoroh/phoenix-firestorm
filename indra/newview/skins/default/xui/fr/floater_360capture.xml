@@ -11,7 +11,7 @@
 			<radio_item label="Maximale" name="maximum_quality" tool_tip="Qualité maximale" />
 		</radio_group>
 		<check_box label="Masquer les avatars" name="360_hide_avatar" />
-		<button label="Créer une image 360°" name="capture_button" />
+		<button label="Créer une image de 360°" name="capture_button" />
 		<button label="Enregistrer sous..." name="save_local_button" />
 	</panel>
 	<panel name="ui_panel_right">
