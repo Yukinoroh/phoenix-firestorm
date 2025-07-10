@@ -233,17 +233,17 @@ ou divisé.
 				Appartenant au propriétaire :
 			</text>
 			<button label="Afficher" label_selected="Afficher" name="ShowOwner"/>
-			<button label="Retour" label_selected="Renvoyer..." name="ReturnOwner..." tool_tip="Renvoyer les objets à leurs propriétaires."/>
+			<button label="Renvoyer" label_selected="Renvoyer..." name="ReturnOwner..." tool_tip="Renvoyer les objets à leurs propriétaires."/>
 			<text name="Set to group:">
 				Données au groupe :
 			</text>
 			<button label="Afficher" label_selected="Afficher" name="ShowGroup"/>
-			<button label="Retour" label_selected="Renvoyer..." name="ReturnGroup..." tool_tip="Renvoyer les objets à leurs propriétaires."/>
+			<button label="Renvoyer" label_selected="Renvoyer..." name="ReturnGroup..." tool_tip="Renvoyer les objets à leurs propriétaires."/>
 			<text name="Owned by others:">
 				Appartenant à d&apos;autres :
 			</text>
 			<button label="Afficher" label_selected="Afficher" name="ShowOther"/>
-			<button label="Retour" label_selected="Renvoyer..." name="ReturnOther..." tool_tip="Renvoyer les objets à leurs propriétaires."/>
+			<button label="Renvoyer" label_selected="Renvoyer..." name="ReturnOther..." tool_tip="Renvoyer les objets à leurs propriétaires."/>
 			<text name="Selected / sat upon:">
 				Sélectionnées/où quelqu&apos;un est assis :
 			</text>
