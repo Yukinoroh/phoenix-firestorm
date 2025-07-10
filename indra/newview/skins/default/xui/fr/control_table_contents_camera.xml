@@ -52,10 +52,10 @@
 		<columns name="lst_action" tool_tip="La caméra tourne dans le sens des aiguilles d'une montre" value="Rotation de la caméra vers la droite" />
 	</rows>
 	<rows name="move_forward_sitting">
-		<columns name="lst_action" value="Caméra avant assis" />
+		<columns name="lst_action" value="Caméra avant lorsque assis" />
 	</rows>
 	<rows name="move_backward_sitting">
-		<columns name="lst_action" value="Caméra arrière assis" />
+		<columns name="lst_action" value="Caméra arrière lorsque assis" />
 	</rows>
 	<rows name="spin_over_sitting">
 		<columns name="lst_action" value="Rotation de la caméra vers le haut" />
