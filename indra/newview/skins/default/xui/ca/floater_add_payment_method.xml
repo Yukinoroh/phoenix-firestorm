@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="floater_add_payment_method">
+	<panel name="wrapper_panel">
+		<text name="title_txt">
+			Afegir un mètode de pagament per comprar Lindens i gaudir millor de Second Life.
+		</text>
+		<button label="Iniciar" name="continue_btn" />
+		<button label="Més tard" name="close_btn" />
+		<text name="image_left_desc">
+			Crea l'avatar que t'agradi. Tria entre milions d'articles a les botigues i al mercat de Second Life. El teu estil és aquí.
+		</text>
+		<text name="image_center_desc">
+			Dóna suport als teus artistes i artistes preferits. Els ajudaràs a crear grans experiències.
+		</text>
+		<text name="image_right_desc">
+			Crea la casa dels teus somnis. Els milions d'articles disponibles per a la compra poden fer que la teva llar sigui única.
+		</text>
+	</panel>
+</floater>
