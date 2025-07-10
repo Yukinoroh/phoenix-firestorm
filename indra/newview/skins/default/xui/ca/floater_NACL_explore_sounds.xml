@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="sound_explorer" title="Explorador de sons">
+	<floater.string name="Playing">Posat</floater.string>
+	<floater.string name="NotPlaying">fa [TIME] min</floater.string>
+	<floater.string name="Type_UI">UI</floater.string>
+	<floater.string name="Type_Avatar">Avatar</floater.string>
+	<floater.string name="Type_llTriggerSound">llTriggerSound</floater.string>
+	<floater.string name="Type_llLoopSound">llLoopSound</floater.string>
+	<floater.string name="Type_llPlaySound">llPlaySound</floater.string>
+	<check_box name="avatars_chk" label="Avatars"/>
+	<check_box name="objects_chk" label="Objectes"/>
+	<check_box name="collision_chk" label="Sons de col·lisió per defecte" />
+	<check_box name="repeated_asset_chk" label="Repeticions" left_delta="180" />
+	<check_box name="pause_chk" label="Pausa"/>
+	<scroll_list name="sound_list">
+		<columns label="Posat" name="playing" />
+		<columns label="Tipus" name="type" />
+		<columns label="Propietari" name="owner" />
+		<columns label="So" name="sound" />
+	</scroll_list>
+	<button label="Escoltar" name="play_locally_btn"/>
+	<button label="Mirar" name="look_at_btn"/>
+	<button label="Aturar" name="stop_btn"/>
+	<button label="Afegir a llista negra" name="bl_btn"/>
+	<button label="Bloquejar sons portats AV" name="block_avatar_worn_sounds_btn"/>
+	<button label="Bloquejar sons rezzats AV" name="block_avatar_rezzed_sounds_btn"/>
+	<button label="Bloquejar sons gestos AV" name="block_avatar_gesture_sounds_btn"/>
+</floater>
