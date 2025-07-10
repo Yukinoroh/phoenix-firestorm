@@ -93,7 +93,7 @@
 				Groupe :
 			</text>
 			<button label="Choisir" label_selected="Définir..." name="Set..."/>
-			<check_box label="Autoriser la cession au groupe" name="check deed" tool_tip="Un officier du groupe peut céder ce terrain à ce groupe, afin qu&apos;il soit pris en charge dans l&apos;allocation de terrains du groupe."/>
+			<check_box label="Autoriser la cession au groupe" name="check deed" tool_tip="Un officier du groupe peut céder ce terrain à ce groupe, afin qu&apos;il soit pris en charge dans l&apos;allocation de terrains au groupe."/>
 			<button label="Céder" label_selected="Céder..." name="Deed..." tool_tip="Vous ne pouvez céder le terrain que si vous avez un rôle d&apos;officier dans le groupe sélectionné."/>
 			<check_box label="Le propriétaire contribue en cédant du terrain" name="check contrib" tool_tip="Lorsqu&apos;un terrain est cédé au groupe, l&apos;ancien propriétaire fait également un don de terrain suffisant."/>
 			<text name="For Sale:">
