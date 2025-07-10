@@ -352,9 +352,9 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			</text>
 			<texture_picker label="" name="snapshot_ctrl" tool_tip="Cliquez pour sélectionner une image"/>
 			<text name="allow_see_label" top="170">
-				Les résidents sur d&apos;autres terrains pourront voir les avatars sur celui-ci et clavarder avec eux.
+                Permettre l'affiche des avatars et le clavardage avec eux à partir d'autres terrains
 			</text>
-			<check_box label="Afficher les avatars" name="SeeAvatarsCheck" top="170" tool_tip="Permettre aux avatars présents sur d&apos;autres terrains de voir et clavarder avec les avatars présents sur le terrain et à vous de les voir et de clavarder avec eux."/>
+			<check_box label="Afficher les avatars" name="SeeAvatarsCheck" top="170" tool_tip="Les avatars présents sur d&apos;autres terrains pourront voir et clavarder avec les avatars du terrain et vice-versa."/>
 			<text name="landing_point">
 				Lieu d&apos;arrivée : [LANDING]
 			</text>
