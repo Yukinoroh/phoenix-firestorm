@@ -5,13 +5,13 @@
       <key>Name</key>
       <string>smileys and emotion</string>
       <key>Category</key>
-      <string>smileys et émotion</string>
+      <string>faces et émotions</string>
     </map>
     <map>
       <key>Name</key>
       <string>people and body</string>
       <key>Category</key>
-      <string>les gens et le corps</string>
+      <string>personnes et corps</string>
     </map>
     <map>
       <key>Name</key>
@@ -23,7 +23,7 @@
       <key>Name</key>
       <string>animals and nature</string>
       <key>Category</key>
-      <string>animaux et la nature</string>
+      <string>animaux et nature</string>
     </map>
     <map>
       <key>Name</key>
