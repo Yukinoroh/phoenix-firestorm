@@ -5,8 +5,8 @@
 	<button name="autoreplace_export_list" width="115" left_pad="5" label="Exporter une liste..." tool_tip="Enregistrer la liste sélectionnée dans un fichier afin que vous puissiez la partager."/>
 	<button name="autoreplace_new_list" width="115" left_pad="5" label="Nouvelle liste..." tool_tip="Créer une nouvelle liste."/>
 	<button name="autoreplace_delete_list" width="115" left_pad="5" label="Supprimer la liste" tool_tip="Supprimer la liste sélectionnée."/>
-	<button name="autoreplace_list_up" tool_tip="Déplacer cette liste en priorité."/>
-	<button name="autoreplace_list_down" tool_tip="Déplacer cette liste dans la priorité."/>
+	<button name="autoreplace_list_up" tool_tip="Augmenter la priorité de cette liste."/>
+	<button name="autoreplace_list_down" tool_tip="Diminuer la priorité de cette liste."/>
 	<scroll_list name="autoreplace_list_replacements">
 		<scroll_list.columns label="Mot-clé" name="keyword"/>
 		<scroll_list.columns label="Remplacement" name="replacement"/>
