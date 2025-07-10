@@ -328,7 +328,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			</text>
 			<check_box label="Tous" name="check other scripts" tool_tip="Si la case est cochée, n'importe qui pourra exécuter des scripts sur le terrain, y compris à partir d'objets portés."/>
 			<check_box label="Groupe" name="check group scripts" tool_tip="Si la case est cochée, les membres du groupe du terrain pourront y exécuter des scripts sur le terrain, y compris à partir d'objets portés."/>
-			<check_box label="Sécurisé (pas de dégâts)" name="check safe" tool_tip="Si cette option est cochée, le terrain sera sécurisé et il n&apos;y aura pas de risque de dommages causés par des combats. Si elle est décochée, il pourra y avoir des dommages causés par les combats."/>
+			<check_box label="Sauf (pas de dommages)" name="check safe" tool_tip="Si cette option est cochée, il n&apos;y aura pas de risque de dommages causés par des combats. Si elle est décochée, il pourra y en avoir."/>
 			<check_box label="Pas de poussées" name="PushRestrictCheck" tool_tip="Empêche l&apos;utilisation de scripts causant des poussées. Cette option est utile pour empêcher les comportements abusifs."/>
 			<check_box label="Mettre dans la recherche (L$30/week)" name="ShowDirectoryCheck" tool_tip="Faire en sorte que les résidents voient le terrain dans les résultats de la recherche."/>
 			<combo_box name="land category">
