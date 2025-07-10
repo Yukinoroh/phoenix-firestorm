@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<teleport_messages>
+    <message_set name="errors">
+        <message name="invalid_tport">
+            Hi ha hagut un problema en processar la teva petició de teleportació. Has de tornar a iniciar la sessió abans de poder teleportar-te de nou.
+Si continues rebent aquest missatge, si us plau, adreça't al [SUPPORT_SITE].
+        </message>
+        <message name="invalid_region_handoff">
+            Hi ha hagut un problema en processar el teu pas a una altra regió. Has de tornar a iniciar la sessió per poder passar de regió a regió.
+Si continues rebent aquest missatge, si us plau, adreça't al [SUPPORT_SITE].
+        </message>
+        <message name="blocked_tport">
+            Ho sentim, en aquests moments les teleportacions estan bloquejades. Torna-ho a provar d'aquí a un moment. Si continues sense poder teleportar-te, desconnecta't i torna a iniciar la sessió per solucionar el problema.
+        </message>
+        <message name="nolandmark_tport">
+            Ho sentim, però el sistema no ha pogut localitzar la destinació d'aquesta fita.
+        </message>
+        <message name="timeout_tport">
+            Ho sentim, però el sistema no ha pogut completar la teleportació.
+Torna-ho a provar d'aquí a un moment.
+        </message>
+        <message name="NoHelpIslandTP">
+            No et pots tornar a teleportar a l'illa de benvinguda.
+Per repetir el tutorial, visita l'illa de benvinguda pública.
+        </message>
+        <message name="noaccess_tport">
+            Ho sentim, però no tens accés a la destinació d'aquesta teleportació.
+        </message>
+        <message name="missing_attach_tport">
+            Encara no han arribat els teus objectes annexats. Espera uns segons més o desconnecta't i torna a iniciar la sessió abans de teleportar-te.
+        </message>
+        <message name="too_many_uploads_tport">
+            La cua d'espera en aquesta regió està actualment obstruïda, per la qual cosa la teva petició de teleportació no s'atendrà en un temps prudencial. Si us plau, torna-ho a provar d'aquí a uns minuts o ves a una zona menys ocupada.
+        </message>
+        <message name="expired_tport">
+            Ho sentim, però el sistema no ha pogut atendre la teva petició de teleportació en un temps prudencial. Si us plau, torna-ho a provar d'aquí a uns minuts.
+        </message>
+        <message name="expired_region_handoff">
+            Ho sentim, però el sistema no ha pogut completar el teu pas a una altra regió en un temps prudencial. Si us plau, torna-ho a provar d'aquí a uns minuts.
+        </message>
+        <message name="no_host">
+            Ha estat impossible trobar la destinació de la teleportació: o està desactivada temporalment o ja no existeix. Si us plau, torna-ho a provar d'aquí a uns minuts.
+        </message>
+        <message name="no_inventory_host">
+            En aquests moments no està disponible el sistema de l'inventari.
+        </message>
+        <message name="MustGetAgeRegion">
+            Has de tenir 18 anys o més per accedir a aquesta regió.
+        </message>
+        <message name="RegionTPSpecialUsageBlocked">
+            No pots entrar a la regió. '[REGION_NAME]' és una regió de jocs d'habilitat, i has de complir determinats criteris per poder-hi entrar. Consulta els detalls a les [http://wiki.secondlife.com/wiki/Linden_Lab_Official:Skill_Gaming_in_Second_Life P+F de jocs d'habilitat].
+        </message>
+    </message_set>
+    <message_set name="progress">
+        <message name="sending_dest">
+            Portant a la destinació.
+        </message>
+        <message name="redirecting">
+            Redirigint a una posició diferent.
+        </message>
+        <message name="relaying">
+            Reorientant la destinació.
+        </message>
+        <message name="sending_home">
+            Enviant la petició de posició de la Base.
+        </message>
+        <message name="sending_landmark">
+            Enviant la petició de posició de la fita.
+        </message>
+        <message name="completing">
+            Completant la teleportació.
+        </message>
+        <message name="completed_from">
+            Teleportació realitzada des de [T_SLURL]
+        </message>
+        <message name="resolving">
+            Especificant la destinació.
+        </message>
+        <message name="contacting">
+            Contactant amb la nova regió.
+        </message>
+        <message name="arriving">
+            Arribant...
+        </message>
+        <message name="requesting">
+            Sol·licitant teleportació...
+        </message>
+        <message name="pending">
+            Teleportació pendent...
+        </message>
+    </message_set>
+</teleport_messages>
