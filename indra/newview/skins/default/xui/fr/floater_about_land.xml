@@ -358,12 +358,12 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			<text name="landing_point">
 				Lieu d&apos;arrivée : [LANDING]
 			</text>
-			<button label="Définir" label_selected="Définir" name="Set" tool_tip="Définit le point d&apos;arrivée des visiteurs. Définit l&apos;emplacement de votre avatar sur le terrain."/>
+			<button label="Définir" label_selected="Définir" name="Set" tool_tip="Définit le lieu d&apos;arrivée des visiteurs à l'emplacement actuel de votre avatar."/>
 			<button label="Enlever" label_selected="Enlever" name="Clear" tool_tip="Efface le lieu d&apos;arrivée."/>
 			<text name="Teleport Routing: ">
-				Règles de téléportation :
+				Règle de téléportation :
 			</text>
-			<combo_box name="landing type" tool_tip="Règles de téléportation - Choisissez les règles de téléportation sur votre terrain" width="140">
+			<combo_box name="landing type" tool_tip="Choisissez la règle de téléportation sur le terrain :" width="140">
 				<combo_box.item label="Bloqué" name="Blocked"/>
 				<combo_box.item label="Lieu d&apos;arrivée fixe" name="LandingPoint"/>
 				<combo_box.item label="Lieu d&apos;arrivée libre" name="Anywhere"/>
