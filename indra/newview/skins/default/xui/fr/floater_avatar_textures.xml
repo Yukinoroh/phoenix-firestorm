@@ -14,7 +14,7 @@
 				<texture_picker label="Cheveux" name="hair-baked"/>
 				<texture_picker label="Cheveux" name="hair_grain"/>
 				<texture_picker label="Alpha des cheveux" name="hair_alpha"/>
-				<texture_picker label="Tatou aux cheveux" name="hair_tattoo"/>
+				<texture_picker label="Tatou des cheveux" name="hair_tattoo"/>
 				<texture_picker label="Tête" name="head-baked"/>
 				<texture_picker label="Maquillage" name="head_bodypaint"/>
 				<texture_picker label="Alpha de la tête" name="head_alpha"/>
@@ -26,7 +26,7 @@
 				<texture_picker label="Tatou des yeux" name="eyes_tattoo"/>
 				<texture_picker label="Haut du corps" name="upper-baked"/>
 				<texture_picker label="Peau (haut)" name="upper_bodypaint"/>
-				<texture_picker label="Débardeur" name="upper_undershirt"/>
+				<texture_picker label="Gilet de corps" name="upper_undershirt"/>
 				<texture_picker label="Gants" name="upper_gloves"/>
 				<texture_picker label="Chemise" name="upper_shirt"/>
 				<texture_picker label="Veste (haut)" name="upper_jacket"/>
@@ -39,17 +39,17 @@
 				<texture_picker label="Chaussettes" name="lower_socks"/>
 				<texture_picker label="Chaussures" name="lower_shoes"/>
 				<texture_picker label="Pantalon" name="lower_pants"/>
-				<texture_picker label="Veste" name="lower_jacket"/>
+				<texture_picker label="Veste (bas)" name="lower_jacket"/>
 				<texture_picker label="Alpha (bas)" name="lower_alpha"/>
 				<texture_picker label="Tatou (bas)" name="lower_tattoo"/>
 				<texture_picker label="Tatou univ. (bas)" name="lower_universal_tattoo"/>
 				<texture_picker label="Jupe" name="skirt-baked"/>
 				<texture_picker label="Jupe" name="skirt"/>
-				<texture_picker label="Tatou jupe" name="skirt_tattoo"/>
+				<texture_picker label="Tatou de jupe" name="skirt_tattoo"/>
 				<texture_picker label="Bras gauche" name="leftarm-baked"/>
-				<texture_picker label="Tatou bras gch" name="leftarm_tattoo"/>
+				<texture_picker label="Tatou de bras gch" name="leftarm_tattoo"/>
 				<texture_picker label="Jambe gauche" name="leftleg-baked"/>
-				<texture_picker label="Tatou jambe gch" name="leftleg_tattoo"/>
+				<texture_picker label="Tatou de jambe gch" name="leftleg_tattoo"/>
 				<texture_picker label="AUX 1" name="aux1-baked"/>
 				<texture_picker label="Tatou AUX 1" name="aux1_tattoo"/>
 				<texture_picker label="AUX 2" name="aux2-baked"/>
