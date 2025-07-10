@@ -22,6 +22,6 @@
 		<columns name="lst_action" value="Faire des gestes" />
 	</rows>
 	<rows name="script_trigger_lbutton">
-		<columns name="lst_action" value="Interagir (LMB)" />
+		<columns name="lst_action" value="Interagir (bouton gauche)" />
 	</rows>
 </contents>
