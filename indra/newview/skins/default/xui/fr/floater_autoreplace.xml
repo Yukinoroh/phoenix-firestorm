@@ -9,7 +9,7 @@
 	<button name="autoreplace_list_down" tool_tip="Diminuer la priorité de cette liste."/>
 	<scroll_list name="autoreplace_list_replacements">
 		<scroll_list.columns label="Mot-clé" name="keyword"/>
-		<scroll_list.columns label="Remplacement" name="replacement"/>
+		<scroll_list.columns label="Substitution" name="replacement"/>
 	</scroll_list>
 	<button name="autoreplace_add_entry" label="Ajouter..."/>
 	<button name="autoreplace_delete_entry" label="Supprimer"/>
