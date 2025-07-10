@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="avatarpicker" title="Tria un resident">
+	<floater.string name="not_found">'[TEXT]' no trobat</floater.string>
+	<floater.string name="no_one_near">Ningú a prop</floater.string>
+	<floater.string name="no_results">Cap resultat</floater.string>
+	<floater.string name="searching">Cerca...</floater.string>
+	<string name="Select">Seleccionar</string>
+	<string name="Close">Tancar</string>
+	<tab_container name="ResidentChooserTabs">
+		<panel label="Cerca" name="SearchPanel">
+			<text name="InstructSearchResidentName">Introdueix part del nom d'una persona :</text>
+			<button label="Trobar" label_selected="Trobar" name="Find"/>
+			<fs_scroll_list name="SearchResults">
+				<columns label="Nom" name="name"/>
+				<columns label="Nom d'usuari" name="username"/>
+			</fs_scroll_list>
+		</panel>
+		<panel label="Amics" name="FriendsPanel">
+			<text name="InstructSelectFriend">Selecciona una persona :</text>
+			<fs_scroll_list name="Friends">
+				<columns label="Nom" name="name"/>
+				<columns label="Nom d'usuari" name="username"/>
+			</fs_scroll_list>
+		</panel>
+		<panel label="A prop" name="NearMePanel">
+			<text name="InstructSelectResident">Selecciona una persona a prop :</text>
+			<slider label="Distància" name="near_me_range"/>
+			<text name="meters">Metres</text>
+			<fs_scroll_list name="NearMe">
+				<columns label="Nom" name="name"/>
+				<columns label="Nom d'usuari" name="username"/>
+			</fs_scroll_list>
+		</panel>
+		<panel label="Cerca per UUID" name="SearchPanelUUID">
+			<text name="SearchByUUIDLabel">Introdueix l'UUID d'una persona :</text>
+			<button label="Trobar" label_selected="Trobar" name="FindUUID"/>
+			<fs_scroll_list name="SearchResultsUUID">
+				<columns label="Nom" name="nameUUID"/>
+				<columns label="Nom d'usuari" name="usernameUUID"/>
+			</fs_scroll_list>
+		</panel>
+	</tab_container>
+	<button label="Anul·lar" label_selected="Anul·lar" name="cancel_btn"/>
+</floater>
