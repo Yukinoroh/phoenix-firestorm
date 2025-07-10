@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="Animation Preview">
+	<floater.string name="failed_to_initialize">Fràcas a la inicialització del moviment</floater.string>
+	<floater.string name="anim_too_long">
+         L'animació dura [LENGTH] segons.
+ La durada màxima d'una animació és de [MAX_LENGTH] segons.
+	</floater.string>
+	<floater.string name="failed_file_read">
+         Impossible de llegir l'animació.
+ [STATUS]
+	</floater.string>
+	<floater.string name="E_ST_OK">Cap error.</floater.string>
+	<floater.string name="E_ST_EOF">Final prematur del fitxer.</floater.string>
+	<floater.string name="E_ST_NO_CONSTRAINT">No s'ha pogut llegir la definició de restricció.</floater.string>
+	<floater.string name="E_ST_NO_FILE">No s'ha pogut obrir el fitxer BVH.</floater.string>
+	<floater.string name="E_ST_NO_HIER">Capçalera HIERARCHY invàlid.</floater.string>
+	<floater.string name="E_ST_NO_JOINT">No s'ha pogut trobar ROOT o JOINT.</floater.string>
+	<floater.string name="E_ST_NO_NAME">No s'ha pogut trobar el nom JOINT.</floater.string>
+	<floater.string name="E_ST_NO_OFFSET">No s'ha pogut trobar OFFSET.</floater.string>
+	<floater.string name="E_ST_NO_CHANNELS">No s'ha pogut trobar CHANNELS.</floater.string>
+	<floater.string name="E_ST_NO_ROTATION">No s'ha pogut trobar el sentit de rotació.</floater.string>
+	<floater.string name="E_ST_NO_AXIS">No s'ha pogut trobar l'eix de rotació.</floater.string>
+	<floater.string name="E_ST_NO_MOTION">No s'ha pogut trobar MOTION.</floater.string>
+	<floater.string name="E_ST_NO_FRAMES">No s'ha pogut trobar el nombre de trames.</floater.string>
+	<floater.string name="E_ST_NO_FRAME_TIME">No s'ha pogut trobar el temps per trama.</floater.string>
+	<floater.string name="E_ST_NO_POS">No s'ha pogut trobar els valors de posici­ó.</floater.string>
+	<floater.string name="E_ST_NO_ROT">No s'ha pogut trobar els valors de rotació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_FILE">No s'ha pogut obrir el fitxer de transformació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_HEADER">No s'ha pogut llegir la capçalera de transformació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_NAME">No s'ha pogut llegir els noms de transformació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_IGNORE">No s'ha pogut llegir el valor de transformació per ignorar.</floater.string>
+	<floater.string name="E_ST_NO_XLT_RELATIVE">No s'ha pogut llegir el valor relatiu de transformació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_OUTNAME">No s'ha pogut llegir el nom de sortida de la transformació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_MATRIX">No s'ha pogut llegir la matriu de transformació.</floater.string>
+	<floater.string name="E_ST_NO_XLT_MERGECHILD">No s'ha pogut recuparar el nom de l'element fill fusionat.</floater.string>
+	<floater.string name="E_ST_NO_XLT_MERGEPARENT">No s'ha pogut recuparar el nom del pare fusionat.</floater.string>
+	<floater.string name="E_ST_NO_XLT_PRIORITY">>No s'ha pogut recuparar la prioritat.</floater.string>
+	<floater.string name="E_ST_NO_XLT_LOOP">>No s'ha pogut recuparar el valor del bucle.</floater.string>
+	<floater.string name="E_ST_NO_XLT_EASEIN">No s'ha pogut recuparar el valor de transició inicial.</floater.string>
+	<floater.string name="E_ST_NO_XLT_EASEOUT">No s'ha pogut recuparar el valor de transició terminal.</floater.string>
+	<floater.string name="E_ST_NO_XLT_HAND">No s'ha pogut recuparar el valor de disposició de la mà.</floater.string>
+	<floater.string name="E_ST_NO_XLT_EMOTE">No s'ha pogut recuparar el nom de la expressió.</floater.string>
+	<floater.string name="E_ST_BAD_ROOT">Punt arrel (root) incorrecte; feu servir els malucs (hip).</floater.string>
+	<floater.string name="FS_report_frames">[F] frm. [S] s. [FPS] FPS</floater.string>
+	<text name="name_label">Nom :</text>
+	<text name="description_label">Descripció :</text>
+	<spinner label="Prioritat" name="priority" tool_tip="Controla quines altres animacions poden ser anul·lades per aquesta animació"/>
+	<check_box label="Bucle" name="loop_check" tool_tip="Reproduir l'animació en bucle"/>
+	<text name="frames_label">300 frm. 30 s. 10 FPS</text>
+	<spinner label="Inici (%)" name="loop_in_point" tool_tip="Selecciona el punt on s'entra al bucle"/>
+	<spinner label="Final (%)" name="loop_out_point" tool_tip="Selecciona el punt d'on sortir del bucle"/>
+	<spinner label="Inici (frm)" name="loop_in_frames" tool_tip="Selecciona el punt on s'entra al bucle, en trames"/>
+	<spinner label="Final (frm)" name="loop_out_frames" tool_tip="Selecciona el punt d'on sortir del bucle, en trames"/>
+	<text name="hand_label" width="120">Disposició de la mà</text>
+	<combo_box name="hand_pose_combo" left_pad="10" tool_tip="Controla el que fan les mans durant l'animació">
+		<combo_box.item label="Estesa" name="Spread"/>
+		<combo_box.item label="Relaxada" name="Relaxed"/>
+		<combo_box.item label="Assenyala amb les dues mans" name="PointBoth"/>
+		<combo_box.item label="Tanca els punys" name="Fist"/>
+		<combo_box.item label="Mà esquerra relaxada" name="RelaxedLeft"/>
+		<combo_box.item label="Assenyala cap a l'esquerra" name="PointLeft"/>
+		<combo_box.item label="Tanca el puny esquerre" name="FistLeft"/>
+		<combo_box.item label="Mà dreta relaxada" name="RelaxedRight"/>
+		<combo_box.item label="Assenyala amb la mà dreta" name="PointRight"/>
+		<combo_box.item label="Tanca el puny dret" name="FistRight"/>
+		<combo_box.item label="Salutació amb la mà dreta" name="SaluteRight"/>
+		<combo_box.item label="Tecleja" name="Typing"/>
+		<combo_box.item label="Signe de pau amb la mà dreta" name="PeaceRight"/>
+	</combo_box>
+	<text name="emote_label">Expressió</text>
+	<combo_box name="emote_combo" tool_tip="Controla el que fa la cara durant l'animació">
+		<item label="(Cap)" name="[None]"/>
+		<item label="Aaaaah" name="Aaaaah"/>
+		<item label="Temorós/osa" name="Afraid"/>
+		<item label="Enfadat/da" name="Angry"/>
+		<item label="Gran somriure" name="BigSmile"/>
+		<item label="Avorrit/da" name="Bored"/>
+		<item label="Plorant" name="Cry"/>
+		<item label="Desdenyós/osa" name="Disdain"/>
+		<item label="Avergonyit/da" name="Embarrassed"/>
+		<item label="Amb mala cara" name="Frown"/>
+		<item label="Petó" name="Kiss"/>
+		<item label="Riure" name="Laugh"/>
+		<item label="Treu la llengua" name="Plllppt"/>
+		<item label="Rebudjat/da" name="Repulsed"/>
+		<item label="Trist" name="Sad"/>
+		<item label="Indiferent" name="Shrug"/>
+		<item label="Somrient" name="Smile"/>
+		<item label="Sorprès/esa" name="Surprise"/>
+		<item label="Parpelleig" name="Wink"/>
+		<item label="Preocupat/da" name="Worry"/>
+	</combo_box>
+	<text name="preview_label">Visualitzar sent</text>
+	<combo_box name="preview_base_anim" tool_tip="Fes servir aquest per provar com es comporta l'animació mentre l'avatar fa alguna altra cosa.">
+		<item label="Dret" name="Standing"/>
+		<item label="Caminant" name="Walking"/>
+		<item label="Assegut" name="Sitting"/>
+		<item label="En vol" name="Flying"/>
+	</combo_box>
+	<spinner label="Transició inicial (s)" name="ease_in_time" tool_tip="Durada en segons de la transició inicial"/>
+	<spinner label="Transició terminal (s)" name="ease_out_time" tool_tip="Durada en segons de la transició terminal"/>
+	<button name="play_btn" tool_tip="Reproduir l'animació"/>
+	<button name="pause_btn" tool_tip="Pausar l'animació"/>
+	<button name="stop_btn" tool_tip="Aturar l'animació"/>
+	<text name="bad_animation_text">
+         No s'ha pogut llegir l'animació.
+ Recomanem fitxers BVH exportats des del Poser 4.
+	</text>
+	<button label="Tornar a carregar el fitxer" width="140" name="reload_btn"/>
+	<button label="Penjar (10 L$)" width="140" name="ok_btn"/>
+	<button label="Cancel·lar" width="100" left="170" name="cancel_btn"/>
+</floater>
