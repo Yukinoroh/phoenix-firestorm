@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="env_adjust_snapshot" title="Éclairage personnel">
+<floater name="env_adjust_snapshot" title="Éclairage personnalisé">
 	<string name="hdr_string">Échelle HDR :</string>
 	<string name="brightness_string">Luminosité :</string>
 	<string name="hdr_tooltip">Intensité des effets d'éclairage tels que les ciels lumineux réalistes et l'exposition dynamique. 1.0 est la valeur par défaut, 0 correspond à la désactivation, les valeurs entre 0 et 1 mélangent la lumière ambiante et la lumière HDR.</string>
