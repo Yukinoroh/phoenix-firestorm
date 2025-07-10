@@ -364,9 +364,9 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 				Règle de téléportation :
 			</text>
 			<combo_box name="landing type" tool_tip="Choisissez la règle de téléportation sur le terrain :" width="140">
-				<combo_box.item label="Bloqué" name="Blocked"/>
-				<combo_box.item label="Lieu d&apos;arrivée fixe" name="LandingPoint"/>
-				<combo_box.item label="Lieu d&apos;arrivée libre" name="Anywhere"/>
+				<combo_box.item label="Bloquée" name="Blocked"/>
+				<combo_box.item label="Point d&apos;arrivée fixe" name="LandingPoint"/>
+				<combo_box.item label="Point d&apos;arrivée libre" name="Anywhere"/>
 			</combo_box>
 		</panel>
 		<panel label="Médias" name="land_media_panel">
