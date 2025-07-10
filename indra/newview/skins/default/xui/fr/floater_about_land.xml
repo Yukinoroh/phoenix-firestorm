@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="floaterland" title="À propos du terrain">
 	<floater.string name="Hours">
-		[HOURS] hrs.
+		[HOURS] h
 	</floater.string>
 	<floater.string name="Hour">
-		hr.
+		h
 	</floater.string>
 	<floater.string name="Minutes">
 		[MINUTES] min
 	</floater.string>
 	<floater.string name="Minute">
-		lmin
+		min
 	</floater.string>
 	<floater.string name="Seconds">
 		[SECONDS] s
