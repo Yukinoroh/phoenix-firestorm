@@ -278,13 +278,13 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 				Contenu Modéré
 			</panel.string>
 			<panel.string name="mature_check_adult">
-				Contenu Adult
+				Contenu Adulte
 			</panel.string>
 			<panel.string name="mature_check_mature_tooltip">
 				Les informations ou contenu de votre parcelle sont classés Modéré.
 			</panel.string>
 			<panel.string name="mature_check_adult_tooltip">
-				Les informations ou contenu de votre parcelle sont classés Adult.
+				Les informations ou contenu de votre parcelle sont classés Adulte.
 			</panel.string>
 			<panel.string name="landing_point_none">
 				(aucun)
