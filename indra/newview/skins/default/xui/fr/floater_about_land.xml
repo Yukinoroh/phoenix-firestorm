@@ -265,7 +265,7 @@ ou divisé.
 		</panel>
 		<panel label="Options" name="land_options_panel">
 			<panel.string name="search_enabled_tooltip">
-				Permettre aux autres résidents de voir cette parcelle dans les résultats de recherche
+				Permettre aux autres résidents de voir cette parcelle dans les résultats de recherche.
 			</panel.string>
 			<panel.string name="search_disabled_small_tooltip">
 				Cette option est désactivée car la superficie de cette parcelle est inférieure ou égale à 128 m².
