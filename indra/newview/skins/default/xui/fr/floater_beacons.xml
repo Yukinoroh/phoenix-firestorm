@@ -4,7 +4,7 @@
 		<text name="label_show">
 			Afficher :
 		</text>
-		<check_box label="Boîte de délimitation des lumières" name="lights_bounding_boxes"/>
+		<check_box label="Boîtes de délimitation des lumières" name="lights_bounding_boxes"/>
 		<check_box label="Balises" name="beacons"/>
 		<check_box label="Surbrillances" name="highlights"/>
 		<check_box label="Infos sur les balises dans la fenêtre" name="FSRenderBeaconText"/>
