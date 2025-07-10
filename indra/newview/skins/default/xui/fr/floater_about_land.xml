@@ -273,16 +273,16 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 				Cette option est désactivée car vous ne pouvez pas modifier les options du terrain.
 			</panel.string>
 			<panel.string name="mature_check_mature">
-				Contenu "modéré"
+				Contenu modéré
 			</panel.string>
 			<panel.string name="mature_check_adult">
-				Contenu "adulte"
+				Contenu adulte
 			</panel.string>
 			<panel.string name="mature_check_mature_tooltip">
-				Les informations ou contenu de votre terrain sont classés "modéré".
+				Les informations ou contenu de votre terrain sont classés modéré.
 			</panel.string>
 			<panel.string name="mature_check_adult_tooltip">
-				Les informations ou contenu de votre terrain sont classés "adulte".
+				Les informations ou contenu de votre terrain sont classés adulte.
 			</panel.string>
 			<panel.string name="landing_point_none">
 				(aucun)
@@ -346,7 +346,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 				<combo_box.item label="Location" name="item13"/>
 				<combo_box.item label="Autre" name="item12"/>
 			</combo_box>
-			<check_box label="Contenu Modéré" name="MatureCheck" />
+			<check_box label="Contenu modéré" name="MatureCheck" />
 			<text name="Snapshot:">
 				Photo :
 			</text>
