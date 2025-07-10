@@ -215,7 +215,7 @@ ou divisé.
 				[COUNT] sur [MAX] ([DELETED] seront supprimés)
 			</panel.string>
 			<text name="parcel_object_bonus">
-				Facteur Bonus objets : [BONUS]
+				Facteur bonus d'objets : [BONUS]
 			</text>
 			<text name="Simulator primitive usage:">
 				Capacité de la région :
