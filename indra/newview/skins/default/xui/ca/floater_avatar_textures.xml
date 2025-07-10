@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="avatar_texture_debug" title="Textures de l'avatar">
+	<floater.string name="InvalidAvatar">Avatar invàlid</floater.string>
+	<scroll_container name="profile_scroll">
+		<panel name="scroll_content_panel">
+			<text name="label">
+				Textures BOM
+			</text>
+			<text name="composite_label">
+				Textures composits
+			</text>
+			<button label="Sauvegarder les IDs dans la console" label_selected="Sauvegarder" name="Dump"/>
+			<panel name="scroll_content_panel2">
+				<texture_picker label="Cabells" name="hair-baked"/>
+				<texture_picker label="Cabells" name="hair_grain"/>
+				<texture_picker label="Alfa dels cabells" name="hair_alpha"/>
+				<texture_picker label="Tatuatge dels cabells" name="hair_tattoo"/>
+				<texture_picker label="Cap" name="head-baked"/>
+				<texture_picker label="Maquillatge" name="head_bodypaint"/>
+				<texture_picker label="Alfa del cap" name="head_alpha"/>
+				<texture_picker label="Tatuatge facial" name="head_tattoo"/>
+				<texture_picker label="Tatou univ. de cap" name="head_universal_tattoo"/>
+				<texture_picker label="Ulls" name="eyes-baked"/>
+				<texture_picker label="Iris" name="eyes_iris"/>
+				<texture_picker label="Alfa dels ulls" name="eyes_alpha"/>
+				<texture_picker label="Tatuatge dels ulls" name="eyes_tattoo"/>
+				<texture_picker label="Part superior del cos" name="upper-baked"/>
+				<texture_picker label="Pell (part superior)" name="upper_bodypaint"/>
+				<texture_picker label="Dessuadora" name="upper_undershirt"/>
+				<texture_picker label="Guants" name="upper_gloves"/>
+				<texture_picker label="Camisa" name="upper_shirt"/>
+				<texture_picker label="Jaqueta (part superior)" name="upper_jacket"/>
+				<texture_picker label="Alfa (part superior)" name="upper_alpha"/>
+				<texture_picker label="Tatuatge (part superior)" name="upper_tattoo"/>
+				<texture_picker label="Tatuatge univ. (part superior)" name="upper_universal_tattoo"/>
+				<texture_picker label="Part inferior del cos" name="lower-baked"/>
+				<texture_picker label="Pell (part inferior)" name="lower_bodypaint"/>
+				<texture_picker label="Calçotets" name="lower_underpants"/>
+				<texture_picker label="Mitjons" name="lower_socks"/>
+				<texture_picker label="Sabates" name="lower_shoes"/>
+				<texture_picker label="Pantalons" name="lower_pants"/>
+				<texture_picker label="Jaqueta (part inferior)" name="lower_jacket"/>
+				<texture_picker label="Alfha (part inferior)" name="lower_alpha"/>
+				<texture_picker label="Tatuatge (part inferior)" name="lower_tattoo"/>
+				<texture_picker label="Tatuatge univ. (part inferior)" name="lower_universal_tattoo"/>
+				<texture_picker label="Faldilla" name="skirt-baked"/>
+				<texture_picker label="Faldilla" name="skirt"/>
+				<texture_picker label="Tatuatge de faldilla" name="skirt_tattoo"/>
+				<texture_picker label="Braç esquerre" name="leftarm-baked"/>
+				<texture_picker label="Tatuatge de braç esq" name="leftarm_tattoo"/>
+				<texture_picker label="Cama esquerra" name="leftleg-baked"/>
+				<texture_picker label="Tatuatge de cama esq" name="leftleg_tattoo"/>
+				<texture_picker label="AUX 1" name="aux1-baked"/>
+				<texture_picker label="Tatuatge AUX 1" name="aux1_tattoo"/>
+				<texture_picker label="AUX 2" name="aux2-baked"/>
+				<texture_picker label="Tatuatge AUX 2" name="aux2_tattoo"/>
+				<texture_picker label="AUX 3" name="aux3-baked"/>
+				<texture_picker label="Tatuatge AUX 3" name="aux3_tattoo"/>
+			</panel>
+		</panel>
+	</scroll_container>
+</floater>
