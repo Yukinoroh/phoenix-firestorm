@@ -10,13 +10,13 @@
 		<columns name="lst_action" value="Lecture/arrêt de tous les médias" />
 	</rows>
 	<rows name="voice_follow_key">
-		<columns name="lst_action" value="Chat vocal" />
+		<columns name="lst_action" value="Voix" />
 	</rows>
 	<rows name="toggle_voice">
-		<columns name="lst_action" value="Activer le clavardage vocal" />
+		<columns name="lst_action" value="Activer la voix" />
 	</rows>
 	<rows name="start_chat">
-		<columns name="lst_action" value="Démarrer le clavardage vocal" />
+		<columns name="lst_action" value="Démarrer la voix" />
 	</rows>
 	<rows name="start_gesture">
 		<columns name="lst_action" value="Faire des gestuelles" />
