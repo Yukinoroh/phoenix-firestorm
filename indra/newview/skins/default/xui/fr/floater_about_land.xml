@@ -275,16 +275,16 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 				Cette option est désactivée car vous ne pouvez pas modifier les options de cette parcelle.
 			</panel.string>
 			<panel.string name="mature_check_mature">
-				Contenu Modéré
+				Contenu "modéré"
 			</panel.string>
 			<panel.string name="mature_check_adult">
-				Contenu Adulte
+				Contenu "adulte"
 			</panel.string>
 			<panel.string name="mature_check_mature_tooltip">
-				Les informations ou contenu de votre parcelle sont classés Modéré.
+				Les informations ou contenu de votre parcelle sont classés "modéré".
 			</panel.string>
 			<panel.string name="mature_check_adult_tooltip">
-				Les informations ou contenu de votre parcelle sont classés Adulte.
+				Les informations ou contenu de votre parcelle sont classés "adulte".
 			</panel.string>
 			<panel.string name="landing_point_none">
 				(aucun)
