@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="animation_explorer" title="Explorador d'animacions">
+	<scroll_list name="animation_list">
+		<scroll_list.column label="Reproduïda per" name="played_by"/>
+		<scroll_list.column label="Reproduïda" name="played"/>
+		<scroll_list.column label="Prioritat" name="priority" />
+		<scroll_list.column label="Hora i data" name="timestamp"/>
+		<scroll_list.column label="ID de l'animació" name="animation_id"/>
+		<scroll_list.column label="ID de l'objecte" name="object_id"/>
+	</scroll_list>
+	<panel name="buttons_panel">
+		<button label="Aturar" name="stop_btn"/>
+		<button label="Aturar i revocar" name="stop_and_revoke_btn"/>
+		<button label="Posar a llista negra" name="blacklist_btn" width="100"/>
+		<check_box label="No posseïdes" name="no_owned_animations_check" tool_tip="Activar l'opció filtrarà les animacions que té el teu avatar (AO i animacions sistema)."/>
+	</panel>
+</floater>
