@@ -31,7 +31,7 @@
 				<columns label="Nom d'utilisateur" name="username"/>
 			</fs_scroll_list>
 		</panel>
-		<panel label="Recherche par l'UUID" name="SearchPanelUUID">
+		<panel label="Recherche par UUID" name="SearchPanelUUID">
 			<text name="SearchByUUIDLabel">Saisissez l'UUID d'une personne :</text>
 			<button label="Trouver" label_selected="Trouver" name="FindUUID"/>
 			<fs_scroll_list name="SearchResultsUUID">
