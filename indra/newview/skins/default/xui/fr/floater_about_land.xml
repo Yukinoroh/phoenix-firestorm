@@ -373,7 +373,7 @@ Seuls les terrains de grande taille peuvent apparaître dans la recherche.
 			<text name="with media:" width="85">
 				Type :
 			</text>
-			<combo_box left="97" name="media type" tool_tip="Indiquez s&apos;il s&apos;agit de l&apos;URL d&apos;un film, d&apos;une page web ou autre"/>
+			<combo_box left="97" name="media type" tool_tip="Indiquez s&apos;il s&apos;agit de l&apos;URL d&apos;un vidéo, d&apos;une page web ou autre"/>
 			<text name="at URL:" width="85">
 				Page d&apos;accueil :
 			</text>
