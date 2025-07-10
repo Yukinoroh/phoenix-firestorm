@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="avatarpicker" title="Choisissez un Résident">
+<floater name="avatarpicker" title="Choisissez un résident">
 	<floater.string name="not_found">'[TEXT]' pas trouvé</floater.string>
 	<floater.string name="no_one_near">Personne a proximité</floater.string>
 	<floater.string name="no_results">Aucun résultat</floater.string>
