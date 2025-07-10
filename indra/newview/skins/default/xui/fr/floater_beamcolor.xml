@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="BeamColor" title="Rotation du faisceau de couleur">
-	<floater.string name="start_hue">Teinte de départ</floater.string>
-	<floater.string name="end_hue">Teinte de fin</floater.string>
+	<floater.string name="start_hue">Couleur de départ</floater.string>
+	<floater.string name="end_hue">Couleur de fin</floater.string>
 	<text name="beamcolor_text">
- Utilisez la souris pour choisir les teintes
- primaires et secondaires de votre faisceau de couleur
+ Utilisez la souris pour choisir les couleurs
+ primaires et secondaires de votre faisceau de couleur.
  Le clic-gauche change celle de départ.
  Le clic-droit change celle de fin.
 	</text>
