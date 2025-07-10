@@ -296,10 +296,10 @@ Seules les parcelles de grande taille peuvent apparaître dans la recherche.
 				Pas de poussées (les règles de la région priment)
 			</panel.string>
 			<panel.string name="DirectoryFree">
-				Lieu dans la recherche
+				Mettre dans la recherche
 			</panel.string>
 			<panel.string name="DirectoryFee">
-				Lieu dans la recherche ([DIRECTORY_FEE]L$/sem.)
+				Mettre dans la recherche ([DIRECTORY_FEE]L$/sem.)
 			</panel.string>
 			<text name="allow_label">
 				Autoriser les autres résidents à :
