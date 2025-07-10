@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="floater_avatar_render_settings" title="PARÀMETRES DE RENDERITZACIÓ DE L'AVATAR">
+	<string name="av_never_render" value="Mai"/>
+	<string name="av_always_render" value="Sempre"/>
+	<filter_editor label="Filtrar les persones" name="people_filter_input"/>
+	<menu_button name="plus_btn" tool_tip="Acccions sobre la persona seleccionada"/>
+	<name_list name="render_settings_list">
+		<name_list.columns label="Nom" name="name"/>
+		<name_list.columns label="Paràmetre de renderització" name="setting"/>
+		<name_list.columns label="Data afegida" name="timestamp"/>
+	</name_list>
+</floater>
