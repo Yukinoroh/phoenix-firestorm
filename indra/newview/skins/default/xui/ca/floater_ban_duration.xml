@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="ban_duration" title="Durada del bandejament">
+	<text name="duration_textbox">
+		Durada del bandejament :
+	</text>
+	<radio_group name="ban_duration_radio">
+		<radio_item label="Sempre" name="always_radio">
+			Sempre
+		</radio_item>
+		<radio_item label="Temporari" name="temporary_radio">
+			Temporari
+		</radio_item>
+	</radio_group>
+	<text name="hours_textbox">
+		hores
+	</text>
+	<button label="OK" name="ok_btn"/>
+	<button label="Anul·lar" name="cancel_btn"/>
+</floater>
