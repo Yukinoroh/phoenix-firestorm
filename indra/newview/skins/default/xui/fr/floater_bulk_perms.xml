@@ -12,7 +12,7 @@
 	<floater.string name="done_text">
 		Demande de changement des droits terminée.
 	</floater.string>
-	<check_box label="Animation" name="check_animation"/>
+	<check_box label="Animations" name="check_animation"/>
 	<icon name="icon_animation" tool_tip="Animation"/>
 	<check_box label="Parties du corps" name="check_bodypart"/>
 	<icon name="icon_bodypart" tool_tip="Parties du corps"/>
