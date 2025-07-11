@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="BeamCreator" title="Creador de formes">
+	<text name="beamcreator_text" width="330">
+Per crear una forma nova, fes clic a la taula per
+dibuixar-la de punt a punt amb el color seleccionat
+o fes clic dret per suprimir el feix en qüestió.
+Prem Desa quan hagis acabat.
+	</text>
+	<color_swatch left_delta="335" width="60" label="Color" name="beam_color_swatch" tool_tip="Clica per obrir el selector de color i canviar el colors dels punts."/>
+	<button label="Desar" name="beamshape_save"/>
+	<button label="Carregar" name="beamshape_load"/>
+	<button label="Esborrar" name="beamshape_clear"/>
+</floater>
