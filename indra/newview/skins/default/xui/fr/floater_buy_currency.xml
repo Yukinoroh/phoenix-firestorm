@@ -64,12 +64,12 @@
 				Saisissez à nouveau le montant pour voir le taux de change actuel.
 			</text>
 			<text name="purchase_warning_repurchase">
-                Cette transaction n'achète que des L$. Vous devrez par la suite acheter l'objet (ou son contenu).
+                Note: cette transaction n'achète que des L$. Une fois que vous aurez reçu les L$, vous pourrez effectuer la transaction voulue (pas la même procédure).
 			</text>
 		</layout_panel>
 		<layout_panel name="layout_panel_buttons">
 			<text name="contacting">
-				Contact avec LindeX...
+				En contact avec LindeX...
 			</text>
 			<button label="Acheter" name="buy_btn" />
 			<button label="Annuler" name="cancel_btn" />
