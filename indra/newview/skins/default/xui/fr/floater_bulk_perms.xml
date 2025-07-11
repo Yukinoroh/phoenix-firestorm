@@ -47,7 +47,7 @@
 	<text name="NextOwnerLabel">
 		Prochain propr. :
 	</text>
-	<check_box label="Modifier" name="next_owner_modify" tool_tip="Le prochain propriétaire pourra modifier des propriétés telles que le libellé de l&apos;élément ou l&apos;échelle de cet objet."/>
+	<check_box label="Modifier" name="next_owner_modify" tool_tip="Le prochain propriétaire pourra modifier des propriétés telles que le nom de l'objet ou son échelle."/>
 	<check_box label="Copier" name="next_owner_copy" tool_tip="Le prochain propriétaire poura faire des copies illimitées de cet objet. Les copies conserveront les informations sur le créateur et ne pourront jamais être plus permissives que l&apos;élément qui est copié."/>
 	<check_box initial_value="true" label="Transférer" name="next_owner_transfer" tool_tip="Le prochain propriétaire pourra donner ou revendre cet objet."/>
 	<button label="OK" name="ok"/>
