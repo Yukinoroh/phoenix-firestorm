@@ -31,7 +31,7 @@
 	<check_box label="Textures" name="check_texture"/>
 	<icon name="icon_texture" tool_tip="Textures"/>
 	<icon name="icon_setting" tool_tip="Paramètres d&apos;environnement"/>
-	<button label="√ Tout" label_selected="Tout" name="check_all"/>
+	<button label="Cocher tout" label_selected="Cocher tout" name="check_all"/>
 	<button label="Effacer" label_selected="Aucun" name="check_none"/>
 	<text name="newperms">
 		Modifier les droits relatifs au contenu et remplacer par
@@ -43,13 +43,13 @@
 	<text name="AnyoneLabel">
 		N&apos;importe qui :
 	</text>
-	<check_box label="Copier" name="everyone_copy" tool_tip="Tout le monde peut prendre une copie de l&apos;objet. L&apos;objet et tout son contenu doit être autorisé à être copié et transféré."/>
+	<check_box label="Copier" name="everyone_copy" tool_tip="Tout le monde pourra prendre une copie de l&apos;objet. L&apos;objet et tout son contenu doit être autorisé à être copié et transféré."/>
 	<text name="NextOwnerLabel">
 		Prochain propr. :
 	</text>
-	<check_box label="Modifier" name="next_owner_modify" tool_tip="Le prochain propriétaire peut modifier des propriétés telles que le libellé de l&apos;élément ou l&apos;échelle de cet objet."/>
-	<check_box label="Copier" name="next_owner_copy" tool_tip="Le prochain propriétaire peut faire des copies illimitées de cet objet. Les copies conservent les informations sur le créateur et ne peuvent jamais être plus permissives que l&apos;élément qui est copié."/>
-	<check_box initial_value="true" label="Transférer" name="next_owner_transfer" tool_tip="Le prochain propriétaire peut donner ou revendre cet objet."/>
+	<check_box label="Modifier" name="next_owner_modify" tool_tip="Le prochain propriétaire pourra modifier des propriétés telles que le libellé de l&apos;élément ou l&apos;échelle de cet objet."/>
+	<check_box label="Copier" name="next_owner_copy" tool_tip="Le prochain propriétaire poura faire des copies illimitées de cet objet. Les copies conserveront les informations sur le créateur et ne pourront jamais être plus permissives que l&apos;élément qui est copié."/>
+	<check_box initial_value="true" label="Transférer" name="next_owner_transfer" tool_tip="Le prochain propriétaire pourra donner ou revendre cet objet."/>
 	<button label="OK" name="ok"/>
 	<button label="Appliquer" name="apply"/>
 	<button label="Annuler" name="close"/>
