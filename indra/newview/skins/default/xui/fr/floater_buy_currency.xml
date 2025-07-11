@@ -41,7 +41,7 @@
 		</layout_panel>
 		<layout_panel name="layout_panel_action">
 			<text name="currency_action">
-				Choisir le montant voulu
+				Vous voulez acheter
 			</text>
 			<text name="currency_est">
 				environ [LOCALAMOUNT]
