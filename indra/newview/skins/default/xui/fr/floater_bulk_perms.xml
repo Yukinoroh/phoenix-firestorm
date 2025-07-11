@@ -43,7 +43,7 @@
 	<text name="AnyoneLabel">
 		N&apos;importe qui :
 	</text>
-	<check_box label="Copier" name="everyone_copy" tool_tip="Tout le monde pourra prendre une copie de l&apos;objet. L&apos;objet et tout son contenu doit être autorisé à être copié et transféré."/>
+	<check_box label="Copier" name="everyone_copy" tool_tip="N'importe qui pourra prendre une copie de l&apos;objet. L&apos;objet et tout son contenu doit être autorisé à être copié et transféré."/>
 	<text name="NextOwnerLabel">
 		Prochain propr. :
 	</text>
