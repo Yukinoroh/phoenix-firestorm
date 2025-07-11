@@ -64,7 +64,7 @@
 				Saisissez à nouveau le montant pour voir le taux de change actuel.
 			</text>
 			<text name="purchase_warning_repurchase">
-                N'oubliez pas que cette transaction n'achète que des L$. Vous devrez par la suite acheter l'objet (ou son contenu).
+                Cette transaction n'achète que des L$. Vous devrez par la suite acheter l'objet (ou son contenu).
 			</text>
 		</layout_panel>
 		<layout_panel name="layout_panel_buttons">
