@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="floater_bumps" title="Collisions, Coups &amp; Bousculades">
+<floater name="floater_bumps" title="Collisions, poussées et coups">
 	<floater.string name="none_detected">Aucun détecté</floater.string>
 	<floater.string name="bump">[TIME]  [NAME] est entré en collision avec vous</floater.string>
 	<floater.string name="llpushobject">[TIME]  [NAME] vous a bousculé avec un script</floater.string>
