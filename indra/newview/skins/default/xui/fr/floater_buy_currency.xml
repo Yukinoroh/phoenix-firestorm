@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="buy currency" title="ACHETER DES L$">
 	<floater.string name="buy_currency">
-		Achetez [LINDENS] L$ pour environ [LOCALAMOUNT]
+		Acheter [LINDENS] L$ pour environ [LOCALAMOUNT]
 	</floater.string>
 	<floater.string name="info_cannot_buy">
 		Achat impossible
