@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="buy land" title="Achat de terrain">
 	<floater.string name="can_resell">Peuvent être revendus.</floater.string>
-	<floater.string name="can_not_resell">Ne peuvent être revendu.</floater.string>
+	<floater.string name="can_not_resell">Ne peuvent être revendus.</floater.string>
 	<floater.string name="can_change">Ne peuvent être fusionnés ou subdivisés.</floater.string>
 	<floater.string name="can_not_change">Ne peuvent être fusionnés ou subdivisés.</floater.string>
 	<floater.string name="cant_buy_for_group">Vous n'avez pas la permission d'acheter un terrain au nom de votre groupe actuellement activé.</floater.string>
