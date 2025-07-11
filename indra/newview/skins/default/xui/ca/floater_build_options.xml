@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="build options floater" title="Opcions del regle">
+	<spinner label="Unitat (metres)" name="GridResolution"/>
+	<spinner label="Interseccions fins a (metres)" name="GridDrawSize"/>
+	<spinner label="Precisió decimal" name="DecimalPrecision"/>
+	<check_box label="Mostrar les graduacions intermediaris" name="GridSubUnit"/>
+	<check_box label="Mostrar les interseccions" name="GridCrossSection"/>
+	<text tool_tip="Opacitat del regle" name="grid_opacity_label">
+ Opacitat :
+	</text>
+</floater>
