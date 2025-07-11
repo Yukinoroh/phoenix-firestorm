@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="BeamColor" title="Rotació del feix de color">
+	<floater.string name="start_hue">Color d'inici</floater.string>
+	<floater.string name="end_hue">Color de final</floater.string>
+	<text name="beamcolor_text">
+ Fes servir el ratolí per triar els colors
+ primaris i secondaris.
+ El clic esquerre canvia la d'inici.
+ El click dret canvia la de final.
+	</text>
+	<color_swatch name="BeamColor_Preview" tool_tip="Clica per obrir el selector de color"/>
+	<text name="beamcolor_text2">Vista prèvia</text>
+	<slider name="BeamColor_Speed" label="Velocitat de rotació :" tool_tip="Controla la velocitat del cile de clors"/>
+	<button label="Desar" name="BeamColor_Save"/>
+	<button label="Carregar" name="BeamColor_Load"/>
+	<button label="Anul·lar" name="BeamColor_Cancel"/>
+</floater>
