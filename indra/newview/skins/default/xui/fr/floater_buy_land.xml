@@ -51,9 +51,9 @@ Accepte [AMOUNT2] objets
 [SOLD_WITH_OBJECTS]
 	</floater.string>
 	<floater.string name="insufficient_land_credits">Le groupe [GROUP] aura besoin de crédits suffisants pour l'utilisation du terrain pour couvrir les dépenses du terrain avant l'achat.</floater.string>
-	<floater.string name="have_enough_lindens">Vous avez L$ [AMOUNT], vous pouvez acheter ce terrain.</floater.string>
-	<floater.string name="not_enough_lindens">Vous avez seulement [AMOUNT] L$, et avez encore besoin de [AMOUNT2] L$ supplémentaires.</floater.string>
-	<floater.string name="balance_left">Après l'achat, vous n'aurez plus que [AMOUNT] L$</floater.string>
+	<floater.string name="have_enough_lindens">Vous avez [AMOUNT] L$; vous pouvez donc acheter ce terrain.</floater.string>
+	<floater.string name="not_enough_lindens">Vous avez seulement [AMOUNT] L$; il vous manque [AMOUNT2] L$.</floater.string>
+	<floater.string name="balance_left">Après l'achat, il vous restera [AMOUNT] L$</floater.string>
 	<floater.string name="balance_needed">Vous devez acquérir au moins [AMOUNT] L$ pour acheter ce terrain.</floater.string>
 	<floater.string name="no_parcel_selected">(pas de terrain sélectionné)</floater.string>
 	<text name="region_name_label">Région :</text>
