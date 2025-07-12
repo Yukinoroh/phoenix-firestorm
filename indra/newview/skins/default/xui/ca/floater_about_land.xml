@@ -145,10 +145,10 @@
 		</panel>
 		<panel label="Règlement" name="land_covenant_panel">
 			<panel.string name="can_resell">
-				El terreny comprat en aquesta regió pot ser revendut.
+				El terreny comprat en aquesta regió pot ser revenut.
 			</panel.string>
 			<panel.string name="can_not_resell">
-				El terreny comprat en aquesta regió no pot ser revendut.
+				El terreny comprat en aquesta regió no pot ser revenut.
 			</panel.string>
 			<panel.string name="can_change">
 				El terreny comprat en aquesta regió pot ser fusionat o dividit.
@@ -196,7 +196,7 @@
 				Revendre :
 			</text>
 			<text name="resellable_clause">
-				El terreny en aquesta regió no pot ser revendut.
+				El terreny en aquesta regió no pot ser revenut.
 			</text>
 			<text name="changeable_lbl">
 				Subdividir :
