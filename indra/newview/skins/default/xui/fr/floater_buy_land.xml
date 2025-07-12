@@ -22,6 +22,7 @@ Essayez de sélectionner une zone plus petite.
 	</floater.string>
 	<floater.string name="processing">
          Votre achat est en cours...
+        
 (Peut prendre quelques instants.)
 	</floater.string>
 	<floater.string name="fetching_error">Une erreur s'est produite pendant la récupération des informations d'achat :</floater.string>
