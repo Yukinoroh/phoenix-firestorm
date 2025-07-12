@@ -1211,6 +1211,7 @@ class Darwin_x86_64_Manifest(ViewerManifest):
                 # self.path("German.lproj")
                 # self.path("Japanese.lproj")
                 # self.path("Korean.lproj")
+                # self.path("ca.lproj")    
                 # self.path("da.lproj")
                 # self.path("es.lproj")
                 # self.path("fr.lproj")
