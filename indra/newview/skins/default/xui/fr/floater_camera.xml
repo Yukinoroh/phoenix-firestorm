@@ -4,7 +4,7 @@
 	<floater.string name="zoom_tooltip">Zoom en direction du point central</floater.string>
 	<floater.string name="move_tooltip">Déplace la caméra vers le haut et le bas, la gauche et la droite</floater.string>
 	<floater.string name="free_mode_title">Voir l'objet</floater.string>
-	<string name="inactive_combo_text">Utiliser les réglages</string>
+	<string name="inactive_combo_text">Utiliser le préréglage</string>
 	<panel name="buttons_panel">
 		<panel_camera_item name="front_view" tool_tip="Vue frontale"/>
 		<panel_camera_item name="group_view" tool_tip="Vue latérale"/>
@@ -32,7 +32,7 @@
 		<button label="Position..." name="camera_position_btn"/>
 		<button name="save_preset_btn" tool_tip="Enregistrer comme préréglage"/>
 		<combo_box name="preset_combo">
-			<combo_box.item label="Utiliser réglage" name="Use preset"/>
+			<combo_box.item label="Utiliser le préréglage" name="Use preset"/>
 		</combo_box>
 		<button name="gear_btn" tool_tip="Préréglages de la caméra"/>
 	</panel>
