@@ -21,7 +21,7 @@
 				<button name="roll_right" tool_tip="Faire pivoter la caméra vers la droite"/>
 			</layout_panel>
 			<layout_panel name="camera_zoom_layout_panel">
-				<slider_bar name="zoom_slider" tool_tip="Zoomer en direction du point central"/>
+				<slider_bar name="zoom_slider" tool_tip="Faire un zoom en direction du point central"/>
 			</layout_panel>
 			<layout_panel name="panel_track">
 				<joystick_track name="cam_track_stick" tool_tip="Déplacer la caméra vers le haut et le bas, la gauche et la droite"/>
