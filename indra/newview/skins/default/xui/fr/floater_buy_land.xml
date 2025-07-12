@@ -34,8 +34,8 @@ Essayez de sélectionner une zone plus petite.
 	<floater.string name="must_upgrade">Votre compte doit être étendu pour posséder un terrain.</floater.string>
 	<floater.string name="cant_own_land">Votre compte vous permet de posséder un terrain.</floater.string>
 	<floater.string name="land_holdings">Vous possédez [BUYER] m² de terrain.</floater.string>
-	<floater.string name="pay_to_for_land">Payez L$ [AMOUNT] à [SELLER] pour ce terrain</floater.string>
-	<floater.string name="buy_for_US">Achetez [AMOUNT] L$ pour approximativement [LOCAL_AMOUNT],</floater.string>
+	<floater.string name="pay_to_for_land">Payer L$ [AMOUNT] à [SELLER] pour ce terrain</floater.string>
+	<floater.string name="buy_for_US">Acheter [AMOUNT] L$ pour approximativement [LOCAL_AMOUNT],</floater.string>
 	<floater.string name="parcel_meters">Ce terrain fait [AMOUNT] m²</floater.string>
 	<floater.string name="premium_land">Ce terrain est Premium et vous sera facturé [AMOUNT] m².</floater.string>
 	<floater.string name="discounted_land">Ce terrain est à prix réduit et vous sera facturé [AMOUNT] m².</floater.string>
