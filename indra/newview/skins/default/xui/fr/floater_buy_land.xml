@@ -14,7 +14,7 @@ Essayez de sélectionner une zone plus petite.
 	<floater.string name="parcel_not_for_sale">Le terrain sélectionné n'est pas à vendre.</floater.string>
 	<floater.string name="group_already_owns">Le groupe possède déjà ce terrain.</floater.string>
 	<floater.string name="you_already_own">Vous possédez déjà ce terrain.</floater.string>
-	<floater.string name="set_to_sell_to_other">Le terrain sélectionné est configuré pour vendu à un tiers</floater.string>
+	<floater.string name="set_to_sell_to_other">Le terrain sélectionné est configuré pour être vendu à un tiers.</floater.string>
 	<floater.string name="no_public_land">La zone sélectionnée n'a pas d'accès public.</floater.string>
 	<floater.string name="not_owned_by_you">
          Vous avez sélectionné un terrain appartenant à un autre résident. 
