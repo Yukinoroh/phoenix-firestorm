@@ -72,7 +72,7 @@ Accepte [AMOUNT2] objets
 	<check_box label="J'accepte les termes du règlement rédigé ci-dessus" name="agree_covenant"/>
 	<text name="info_parcel_label">Terrain :</text>
 	<text name="info_parcel">Scotopteryx 138,204</text>
-	<text name="info_size_label">Surface :</text>
+	<text name="info_size_label">Superficie :</text>
 	<text name="info_size">1024 m²</text>
 	<text name="info_price_label">Prix :</text>
 	<text name="info_price">
@@ -93,15 +93,15 @@ Vendu avec les objets
 	<text name="land_use_action">Augmentez vos potentiel d'utilisation de terrain pour seulement 40 US$ / mois.</text>
 	<text name="land_use_reason">
          Vous possédez 1309 m² de terrain.
-Ce terrain est de 512 m² de surface.
+Ce terrain est de 512 m² de superficie.
 	</text>
-	<text name="purchase_action">Payez Joe Resident L $ 4000 pour le terrain</text>
-	<text name="currency_reason">Vous avez L$ 2,100.</text>
+	<text name="purchase_action">Payer 4000 L$ à Joe Resident pour le terrain</text>
+	<text name="currency_reason">Vous avez 2100 L$.</text>
 	<text name="currency_action">Acheter des L$ supplémentaires</text>
 	<line_editor name="currency_amt">1000</line_editor>
-	<text name="currency_est">Pour approximativement. [LOCAL_AMOUNT]</text>
-	<text name="currency_balance">Vous avez L$ 2,100.</text>
-	<check_box label="Supprimer [AMOUNT] m² de la contribution du groupe." name="remove_contribution"/>
+	<text name="currency_est">Pour approximativement [LOCAL_AMOUNT]</text>
+	<text name="currency_balance">Vous avez 2100 L$.</text>
+	<check_box label="Suprimir [AMOUNT] m² de la contribution au groupe." name="remove_contribution"/>
 	<button label="Achat" name="buy_btn"/>
 	<button label="Annuler" name="cancel_btn"/>
 </floater>
