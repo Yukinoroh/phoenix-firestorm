@@ -66,7 +66,7 @@ Accepte [AMOUNT2] objets
 	<text name="estate_owner_text">(inconnu)</text>
 	<text name="resellable_changeable_label">Les terrains dans cette région :</text>
 	<text name="resellable_clause">Revente autorisée.</text>
-	<text name="changeable_clause">Fusion &amp; Subdivision autorisée.</text>
+	<text name="changeable_clause">Fusion et subdivision autorisées.</text>
 	<text name="covenant_text">Vous devez accepter le règlement du domaine :</text>
 	<text_editor name="covenant_editor">Chargement...</text_editor>
 	<check_box label="J'accepte les termes du règlement rédigé ci-dessus" name="agree_covenant"/>
