@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="buy land" title="Compra de terreny">
+	<floater.string name="can_resell">Es poden revendre.</floater.string>
+	<floater.string name="can_not_resell">No es poden revendre.</floater.string>
+	<floater.string name="can_change">Es poden fusionar o subdividir.</floater.string>
+	<floater.string name="can_not_change">No es poden fusionar o subdividir.</floater.string>
+	<floater.string name="cant_buy_for_group">No tens la permissió per comprar terreny pel compte del grup que tens activat.</floater.string>
+	<floater.string name="no_land_selected">Cap terreny seleccionat.</floater.string>
+	<floater.string name="multiple_parcels_selected">
+		Diversos terrenys seleccionats.
+Prova de seleccionar una àrea més petita.
+	</floater.string>
+	<floater.string name="no_permission">No tens la permissió per comprar terreny pel compte del grup que tens activat.</floater.string>
+	<floater.string name="parcel_not_for_sale">El terreny seleccionat no està a la venda.</floater.string>
+	<floater.string name="group_already_owns">El grup que tens activat ja posseeix aquest terreny.</floater.string>
+	<floater.string name="you_already_own">Ja posseixes aquest terreny.</floater.string>
+	<floater.string name="set_to_sell_to_other">El terreny seleccionat està configurat per ser venut a un tercer.</floater.string>
+	<floater.string name="no_public_land">La zona seleccionada no té terres públiques.</floater.string>
+	<floater.string name="not_owned_by_you">
+         Has seleccionat un terreny pertanyent a un altre resident.
+Intenta seleccionar una zona més petita.
+	</floater.string>
+	<floater.string name="processing">
+         Processant la teva compra...
+
+(Pot trigar un minut o dos.)
+	</floater.string>
+	<floater.string name="fetching_error">S'ha produït un error en recuperar la informació de compra :</floater.string>
+	<floater.string name="buying_will">Comprar aquest terreny implica :</floater.string>
+	<floater.string name="buying_for_group">La compra de terreny per al grup serà :</floater.string>
+	<floater.string name="cannot_buy_now">No es pot comprar :</floater.string>
+	<floater.string name="not_for_sale">No està a la venda :</floater.string>
+	<floater.string name="none_needed">no necessari</floater.string>
+	<floater.string name="must_upgrade">Has d'ampliar el teu compte per posseir un terreny.</floater.string>
+	<floater.string name="cant_own_land">El teu compte et permet posseir un terreny.</floater.string>
+	<floater.string name="land_holdings">Posseixes [BUYER] m² de terreny.</floater.string>
+	<floater.string name="pay_to_for_land">Pagar L$ [AMOUNT] a [SELLER] per aquest terreny</floater.string>
+	<floater.string name="buy_for_US">Comprar [AMOUNT] L$ per aproximadament [LOCAL_AMOUNT],</floater.string>
+	<floater.string name="parcel_meters">Aquest terreny fa [AMOUNT] m²</floater.string>
+	<floater.string name="premium_land">Aquest terreny és Premium i se te'l cobrarà com [AMOUNT] m².</floater.string>
+	<floater.string name="discounted_land">Aquest terreny és a preu reduit i se te'l cobrarà com [AMOUNT] m².</floater.string>
+	<floater.string name="meters_supports_object">
+         [AMOUNT] m²
+Accepta [AMOUNT2] objectes
+	</floater.string>
+	<floater.string name="sold_with_objects">venut amb els seus objectes</floater.string>
+	<floater.string name="sold_without_objects">objectes no inclosos</floater.string>
+	<floater.string name="info_price_string">
+         L$ [PRICE]
+(L$ [PRICE_PER_SQM]/m²)
+[SOLD_WITH_OBJECTS]
+	</floater.string>
+	<floater.string name="insufficient_land_credits">El grup [GROUP] necessita més crèdits d'ús del terres aportats per cobrir aquest terreny abans que es completi la compra.</floater.string>
+	<floater.string name="have_enough_lindens">Tens [AMOUNT] L$; pots comprar aquest terreny.</floater.string>
+	<floater.string name="not_enough_lindens">Només tens [AMOUNT] L$; et falta [AMOUNT2] L$.</floater.string>
+	<floater.string name="balance_left">Després de la compra, et quedarà [AMOUNT] L$</floater.string>
+	<floater.string name="balance_needed">Has d'adquirir com a mínim [AMOUNT] L$ per comprar aquest terreny.</floater.string>
+	<floater.string name="no_parcel_selected">(cap terreny seleccionat)</floater.string>
+	<text name="region_name_label">Regió :</text>
+	<text name="region_name_text">(desconeguda)</text>
+	<text name="region_type_label">Tipus :</text>
+	<text name="region_type_text">(desconegut)</text>
+	<text name="estate_name_label">Domini :</text>
+	<text name="estate_name_text">(desconegut)</text>
+	<text name="estate_owner_label">Propietari :</text>
+	<text name="estate_owner_text">(desconegut)</text>
+	<text name="resellable_changeable_label">Els terrenys dins d'aquesta regió :</text>
+	<text name="resellable_clause">Revenda autoritzada.</text>
+	<text name="changeable_clause">Fusió i subdivisió autorisées.</text>
+	<text name="covenant_text">Has d'accepter el conveni del domini :</text>
+	<text_editor name="covenant_editor">Carregant...</text_editor>
+	<check_box label="Accepto els termes del conveni redactat damunt" name="agree_covenant"/>
+	<text name="info_parcel_label">Terreny :</text>
+	<text name="info_parcel">Scotopteryx 138,204</text>
+	<text name="info_size_label">Superfície :</text>
+	<text name="info_size">1024 m²</text>
+	<text name="info_price_label">Preu :</text>
+	<text name="info_price">
+         L$ 1500
+(L$ 1.1/m²)
+Venut amb els objectes
+	</text>
+	<text name="info_action">Comprar aquest terreny serà :</text>
+	<text name="error_message">S'ha produït un error.</text>
+	<button label="Anar al lloc web" name="error_web"/>
+	<text name="account_action">Necessitaràs una subscripció premium.</text>
+	<text name="account_reason">Només els membres premium poden tenir un terreny.</text>
+	<combo_box name="account_level">
+		<combo_box.item label="US$9.95/més, facturats mensualment" name="US$9.95/month,billedmonthly"/>
+		<combo_box.item label="US$7.50/més, facturats trimestralment" name="US$7.50/month,billedquarterly"/>
+		<combo_box.item label="US$6.00/més, facturat anualment" name="US$6.00/month,billedannually"/>
+	</combo_box>
+	<text name="land_use_action">Augmenta el potencial d'ús del terreny per només 40 US$ / més.</text>
+	<text name="land_use_reason">
+         Posseixes 1309 m² de terreny.
+Aquest terreny és de 512 m² de superfície.
+	</text>
+	<text name="purchase_action">Pagar 4000 L$ a Joe Resident pel terreny</text>
+	<text name="currency_reason">Tens 2100 L$.</text>
+	<text name="currency_action">Comprar L$ suplementaris</text>
+	<line_editor name="currency_amt">1000</line_editor>
+	<text name="currency_est">Per aproximadament [LOCAL_AMOUNT]</text>
+	<text name="currency_balance">Tens 2100 L$.</text>
+	<check_box label="Suprimir [AMOUNT] m² de la contribució al grup." name="remove_contribution"/>
+	<button label="Comprar" name="buy_btn"/>
+	<button label="Anul·lar" name="cancel_btn"/>
+</floater>
