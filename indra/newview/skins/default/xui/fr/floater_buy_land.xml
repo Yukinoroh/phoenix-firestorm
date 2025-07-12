@@ -102,6 +102,6 @@ Ce terrain est de 512 m² de superficie.
 	<text name="currency_est">Pour approximativement [LOCAL_AMOUNT]</text>
 	<text name="currency_balance">Vous avez 2100 L$.</text>
 	<check_box label="Suprimir [AMOUNT] m² de la contribution au groupe." name="remove_contribution"/>
-	<button label="Achat" name="buy_btn"/>
+	<button label="Acheter" name="buy_btn"/>
 	<button label="Annuler" name="cancel_btn"/>
 </floater>
