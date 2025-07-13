@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="change_item_thumbnail" title="Modificar la imatge">
+	<floater.string name="title_item_thumbnail">
+		Modificar la imatge de l'objecte
+	</floater.string>
+	<floater.string name="title_folder_thumbnail">
+		Modificar la imatge de la carpeta
+	</floater.string>
+	<floater.string name="tooltip_upload_local">
+		Penjar des del teu ordinador
+	</floater.string>
+	<floater.string name="tooltip_upload_snapshot">
+		Prendre una foto
+	</floater.string>
+	<floater.string name="tooltip_use_texture">
+		Triar una textura
+	</floater.string>
+	<floater.string name="tooltip_copy_to_clipboard">
+		Copia al porta-retalls
+	</floater.string>
+	<floater.string name="tooltip_paste_from_clipboard">
+		Enganxa des del porta-retalls
+	</floater.string>
+	<floater.string name="tooltip_remove_image">
+		Supprimer l'image
+	</floater.string>
+</floater>
