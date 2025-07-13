@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="groups" title="Grups">
+	<text name="groupdesc">Seleccionar un grup :</text>
+	<button label="Anul·lar" label_selected="Anul·lar" name="Cancel" />
+</floater>
