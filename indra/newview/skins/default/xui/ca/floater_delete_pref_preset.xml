@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<floater name="delete_pref_preset" title="Suprimir un prereglatge">
+	<string name="title_graphic">
+		Suprimir el prereglatge gràfic
+	</string>
+	<string name="title_camera">
+		Suprimir el prereglatge de càmera
+	</string>
+	<text name="Preset">
+		Seleccionar un prereglatge
+	</text>
+	<button label="Suprimir" name="delete"/>
+	<button label="Anul·lar" name="cancel"/>
+</floater>
