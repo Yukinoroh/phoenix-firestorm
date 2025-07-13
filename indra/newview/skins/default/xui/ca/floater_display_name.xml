@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="Display Name" title="Definir el nom de mostra">
+	<text name="info_text">El nom de mostra és el que els altres veuran al part superior del teu cap. És diferent del teu nom d'usuari. El pots canviar un cop per setmana.</text>
+	<text name="lockout_text">
+No pots canviar el teu nom abans el
+[TIME].
+	</text>
+	<text name="set_name_label">Nou nom :</text>
+	<text name="name_confirm_label">Reescriu el nom :</text>
+	<button label="Reinicialitzar" name="reset_btn" tool_tip="Posa el nom d'usuari com a nom de mostra" />
+	<button label="Desar" name="save_btn" tool_tip="Desa el nou nom"/>
+	<button label="Anul·lar" name="cancel_btn"/>
+</floater>
