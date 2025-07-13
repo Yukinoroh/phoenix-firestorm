@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <floater name="delete_pref_preset" title="Supprimer un préréglage">
 	<string name="title_graphic">
-		Supprimer le préréglage de graphique
+		Supprimer le préréglage graphique
 	</string>
 	<string name="title_camera">
 		Supprimer le préréglage de caméra
