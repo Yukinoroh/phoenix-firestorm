@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="preview_conversation" title="Conversa :">
+	<floater.string name="Title">Conversa : [NAME]</floater.string>
+	<button tool_tip="Obrir l'historial de conversa en un editor extern" name="open_external_btn"/>
+	<button tool_tip="Cercar a l'historial de conversa" name="search_btn"/>
+</floater>
