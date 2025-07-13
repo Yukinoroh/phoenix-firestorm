@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="create_landmark" title="Crear una fita">
+	<string name="favorites_bar">
+		Barra dels preferits
+	</string>
+	<text name="title_label" value="Detalls de la fita" />
+	<text name="name_label" value="Nom :" />
+	<text name="folder_label" value="Ubicació :" />
+	<text name="new_folder_textbox">
+		[secondlife:/// Crear una carpeta nova]
+	</text>
+	<text name="notes_label" value="Notes :" />
+	<button label="Anul·lar" name="cancel_btn" />
+</floater>
