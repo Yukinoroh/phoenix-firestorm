@@ -30,7 +30,7 @@
 	<icon name="icon_sound" tool_tip="Sons"/>
 	<check_box label="Textures" name="check_texture"/>
 	<icon name="icon_texture" tool_tip="Textures"/>
-	<icon name="icon_setting" tool_tip="Paràmetres de medi ambient"/>
+	<icon name="icon_setting" tool_tip="Paràmetres d'entorn"/>
 	<button label="Marcar-ho tot" label_selected="Tot" name="check_all"/>
 	<button label="Esborrar-ho tot" label_selected="Cap" name="check_none"/>
 	<text name="newperms">
