@@ -42,7 +42,7 @@
 			<check_box name="filter_perm_copy" label="Copiables"/>
 			<check_box name="filter_perm_modify" label="Modifiables"/>
 			<check_box name="filter_perm_transfer" label="Transférables"/>
-			<check_box name="filter_reflection_probe" label="Sondes de réflexion" tool_tip="Inclut uniquement les sondes manuelles, pas les sondes automatiques. Inclut les sondes à miroir uniquement si les miroirs sont activés dans les préférences graphiques. Si la couverture des reflets est définie sur « aucune » ou si la sonde n'est pas appliquée, il se peut que les objets ne soient pas identifiés."/>
+			<check_box name="filter_reflection_probe" label="Sondes de réflexion" tool_tip="Inclut uniquement les sondes manuelles, pas celles automatiques. Inclut celles à miroir uniquement si les miroirs sont activés dans les préférences graphiques. Si la couverture des reflets est définie sur « aucune » ou si la sonde n'est pas appliquée, il se peut que ces objets ne soient pas identifiés."/>
 			<check_box name="filter_for_sale" label="Prix de vente entre" width="130"/>
 			<text name="and">et</text>
 			<text name="mouse_text" width="120">Action du clic :</text>
