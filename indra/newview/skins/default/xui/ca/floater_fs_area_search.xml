@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="area_search" title="Cerca d'objectes en la regió">
+	<tab_container name="area_searchtab">
+		<panel label="Llista" name="area_search_list_panel">
+			<panel.string name="ListedPendingTotalBlank">Llistats | En espera | Total</panel.string>
+			<panel.string name="ListedPendingTotalFilled">[LISTED] llistats | [PENDING] en espera | [TOTAL] total</panel.string>
+			<fs_scroll_list name="result_list">
+				<fs_scroll_list.columns name="distance" label="Dist." tool_tip="Distància entre el teu avatar i l'objecte."/>
+				<fs_scroll_list.columns name="name" label="Nom"/>
+				<fs_scroll_list.columns name="description" label="Descripció"/>
+				<fs_scroll_list.columns name="price" label="Preu" tool_tip="Si l'objecte està a la venda, el que has de pagar per comprar-lor."/>
+				<fs_scroll_list.columns name="land_impact" label="LI" tool_tip="L'impacte atribuït a l'objecte en el compte del terreny."/>
+				<fs_scroll_list.columns name="prim_count" label="Prims" tool_tip="Nombre de prims que componen cada objecte."/>
+				<fs_scroll_list.columns name="owner" label="Propietari"/>
+				<fs_scroll_list.columns name="group" label="Grup" tool_tip="El grup propietari de l'objecte."/>
+				<fs_scroll_list.columns name="creator" label="Creador(a)"/>
+				<fs_scroll_list.columns name="last_owner" label="Propietari anterior" tool_tip="El propietari anterior de l'objecte."/>
+			</fs_scroll_list>
+			<button name="Refresh" label="Actualitzar"/>
+			<text name="counter">Llistats | En espera | Total</text>
+			<check_box name="beacons" label="Mostrar les guies" left_pad="160"/>
+		</panel>
+		<panel label="Cerca" name="area_search_find_panel">
+			<text name="name_label">Nom :</text>
+			<text name="desc_label">Descripció :</text>
+			<text name="owner_label">Proprietari :</text>
+			<text name="group_label">Grup :</text>
+			<text name="creator_label">Creador(a) :</text>
+			<text name="last_owner_label">Propietari anterior :</text>
+			<check_box name="regular_expression" label="Expressió regular"/>
+			<button name="search" label="Cerca"/>
+			<button name="clear" label="Esborrar"/>
+		</panel>
+		<panel label="Filtrar" name="area_search_filter_panel">
+			<text name="only_list">Només els objectes :</text>
+			<check_box name="filter_locked" label="Bloquejats"/>
+			<check_box name="filter_physical" label="Físics"/>
+			<check_box name="filter_phantom" label="Fantasmes"/>
+			<check_box name="filter_temporary" label="Temporaris"/>
+			<check_box name="filter_attachment" label="Portats"/>
+			<check_box name="filter_moap" label="Amb media compartit"/>
+			<check_box name="filter_perm_copy" label="Copiables"/>
+			<check_box name="filter_perm_modify" label="Modificables"/>
+			<check_box name="filter_perm_transfer" label="Transferibles"/>
+			<check_box name="filter_reflection_probe" label="Sondes de reflexió" tool_tip="Inclou només les sondes manuals, no aquelles automàtiques. Inclou aquelles de mirall només si els miralls estan habilitats a les preferències gràfiques. Si la cobertura de reflexió està definida com a « cap » o no s'aplica la sonda, és possible que no es puguin identificar aquells objectes."/>
+			<check_box name="filter_for_sale" label="Preux de venda entre" width="130"/>
+			<text name="and">i</text>
+			<text name="mouse_text" width="120">Acció del clic :</text>
+			<combo_box name="click_action" tool_tip="Acció realitzada quan fas clic a l'objecte">
+				<combo_box.item label="Elecció teva" name="click_any"/>
+				<combo_box.item label="Tocar" name="click_touch"/>
+				<combo_box.item label="Seure" name="click_sit"/>
+				<combo_box.item label="Comprar l'objecte" name="click_buy"/>
+				<combo_box.item label="Pagar a l'objecte" name="click_pay"/>
+				<combo_box.item label="Obrir" name="click_open"/>
+				<combo_box.item label="Reproduir" name="click_play"/>
+				<combo_box.item label="Obrir el mitjà" name="click_open_media"/>
+				<combo_box.item label="Fer zoom" name="click_zoom"/>
+			</combo_box>
+			<check_box name="filter_distance" label="Distància entre" width="130"/>
+			<text name="and2">i</text>
+			<check_box name="filter_agent_parcel_only" label="Només en aquest terreny" width="140"/>
+			<text name="only_list">Excloure els obejctes :</text>
+			<check_box name="exclude_attachment" label="Portas"/>
+			<check_box name="exclude_physical" label="Físics"/>
+			<check_box name="exclude_temporary" label="Temporaris"/>
+			<check_box name="exclude_reflection_probes" label="Amb sondes de reflexió"/>
+			<check_box name="exclude_childprim" label="Prims fill"/>
+			<check_box name="exclude_neighbor_region" label="En regions veïnes"/>
+			<button name="apply" label="Aplicar"/>
+			<button name="save_as_default" label="Desar com a defecte"/>
+		</panel>
+		<panel label="Opcions" name="area_search_options_panel">
+			<text name="display_column">Mostrar les columnes :</text>
+			<check_box name="show_distance" label="Distància"/>
+			<check_box name="show_name" label="Nom"/>
+			<check_box name="show_description" label="Descripció"/>
+			<check_box name="show_price" label="Preu"/>
+			<check_box name="show_land_impact" label="Impact"/>
+			<check_box name="show_prim_count" label="Prims"/>
+			<check_box name="show_owner" label="Propietari"/>
+			<check_box name="show_group" label="Grup"/>
+			<check_box name="show_creator" label="Creador(a)"/>
+			<check_box name="show_last_owner" label="Propietari anterior"/>
+		</panel>
+		<panel label="Avançat" name="area_search_advanced_panel">
+			<check_box name="double_click_touch" label="Doble clic per tocar l'objecte"/>
+			<check_box name="double_click_buy" label="doble clic per comprar l'objecte"/>
+		</panel>
+	</tab_container>
+</floater>
