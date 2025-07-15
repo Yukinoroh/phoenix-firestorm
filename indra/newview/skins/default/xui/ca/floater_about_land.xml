@@ -358,7 +358,7 @@ Només els terrenys de gran mida poden aparèixer a la cerca.
 			<text name="landing_point">
 				Punt d'arribada : [LANDING]
 			</text>
-			<button label="Definir" label_selected="Definir" name="Set" tool_tip="Defineix el punt d'arribada dels visitants al lloc actual del teu avatar."/>
+			<button label="Definir" label_selected="Definir" name="Set" tool_tip="Defineix el punt d'arribada dels visitants a la ubicació actual del teu avatar."/>
 			<button label="Treure" label_selected="Treure" name="Clear" tool_tip="Esborra el punt d'arribada."/>
 			<text name="Teleport Routing: ">
 				Regla de teleportació :
