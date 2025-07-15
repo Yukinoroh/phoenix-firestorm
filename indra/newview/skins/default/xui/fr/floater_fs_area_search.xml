@@ -3,7 +3,7 @@
 	<tab_container name="area_searchtab">
 		<panel label="Liste" name="area_search_list_panel">
 			<panel.string name="ListedPendingTotalBlank">Listés | En attente | Total</panel.string>
-			<panel.string name="ListedPendingTotalFilled">[LISTED] Listés | [PENDING] En attente | [TOTAL] Total</panel.string>
+			<panel.string name="ListedPendingTotalFilled">[LISTED] listés | [PENDING] en attente | [TOTAL] total</panel.string>
 			<fs_scroll_list name="result_list">
 				<fs_scroll_list.columns name="distance" label="Dist" tool_tip="Distance entre votre avatar et l'objet."/>
 				<fs_scroll_list.columns name="name" label="Nom"/>
