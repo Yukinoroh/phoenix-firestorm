@@ -46,8 +46,8 @@
 					</icons_combo_box>
 					<text name="edit_Location">Lieu :</text>
 					<button name="location_btn" label="Défini sur actuel"/>
-					<button name="clear_btn" label="Effacer le Lieu"/>
-					<text name="edit_marketplace">Magasin Marketplace :</text>
+					<button name="clear_btn" label="Effacer le lieu"/>
+					<text name="edit_marketplace">Boutique Marketplace :</text>
 					<check_box label="Activer l'expérience" name="edit_enable_btn"/>
 					<check_box label="Cacher la recherche" name="edit_private_btn"/>
 					<button label="Annuler" name="cancel_btn"/>
