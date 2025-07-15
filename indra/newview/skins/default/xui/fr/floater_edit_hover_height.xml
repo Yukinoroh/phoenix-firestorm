@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="HoverHeight" title="Définir la hauteur du survol">
+<floater name="HoverHeight" title="Définir la hauteur du vol près du sol">
 	<slider label="Hauteur" name="HoverHeightSlider"/>
 </floater>
