@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<panel height="590" layout="topleft" name="object properties" help_topic="object_properties" title="Perfil de l'objecte" follows="all" width="333">
+	 <panel.string name="text deed continued">
+		Cedir
+	 </panel.string>
+	<panel.string name="text deed">
+		Cedir
+	</panel.string>
+            <panel.string name="text modify info 1">
+                Pots modificar aquest objecte
+            </panel.string>
+            <panel.string name="text modify info 2">
+                Pots modificar aquests objectes
+            </panel.string>
+            <panel.string name="text modify info 3">
+                No pots modificar aquest objecte
+            </panel.string>
+            <panel.string name="text modify info 4">
+                No pots modificar aquests objectes
+            </panel.string>
+            <panel.string name="text modify info 5">
+                No pots modificar aquest objecte a través del límit d'una regió
+            </panel.string>
+            <panel.string name="text modify info 6">
+                No pots modificar aquests objectes a través del límit d'una regió
+            </panel.string>
+            <panel.string name="text modify warning">
+                Aquest objecte té parts enllaçades
+            </panel.string>
+            <panel.string name="Cost Default">
+                Preu: L$
+            </panel.string>
+            <panel.string name="Cost Total">
+                Preu Total: L$
+            </panel.string>
+            <panel.string name="Cost Per Unit">
+                Preu Per: L$
+            </panel.string>
+            <panel.string name="Cost Mixed">
+                Preu Mixt
+            </panel.string>
+            <panel.string name="Sale Mixed">
+                Venda Mixta
+            </panel.string>
+    <text follows="top|left|right" font="SansSerifHuge" height="26" layout="topleft" left_pad="10" name="title" text_color="LtGray" top="0" use_ellipses="true" value="Perfil de l'objecte" right="-10"/>
+	    <text follows="top|left|right" height="13" layout="topleft" left="45" name="where" text_color="LtGray_50" value="(Al món)" right="-10"/>
+    <scroll_container color="SL-Background_Light" follows="all" layout="topleft" left="9" name="item_profile_scroll" opaque="true" height="493" width="313" top="45">
+	<panel follows="left|top|right" height="450" label="" layout="topleft" left="10" help_topic="" name="properties_panel" top="45" right="-10" background_visible="true" bg_alpha_color="SL-Background_Light">
+	    	    <text type="string" length="1" follows="left|top" height="10" layout="topleft" left="5" name="Name:" top="10" width="78">
+	        Nom:
+	    </text>
+	    <line_editor border_style="line" border_thickness="1" follows="left|top|right" height="20" layout="topleft" left_delta="78" max_length_bytes="63" name="Object Name" top_delta="0" width="225" tool_tip="El nom està limitat a 63 caràcters. Els noms de prim més llargs s'escurcen. Els noms només poden contenir caràcters imprimibles del joc de caràcters ASCII-7 (no estès), amb l'excepció de la barra vertical '|'."/>
+	    <text type="string" length="1" follows="left|top" height="10" layout="topleft" left="5" name="Description:" top_pad="10" width="78">
+	        Descripció:
+	    </text>
+            <line_editor border_style="line" border_thickness="1" follows="left|top|right" height="23" layout="topleft" name="Object Description" select_on_focus="true" left_delta="78" max_length_bytes="127" top_delta="-5" width="225" tool_tip="Quan la gent té 'Consells flotants en tots els objectes' seleccionat a la configuració del visor, veurà aparèixer la descripció de l'objecte sobre qualsevol objecte sota el punter del ratolí. La descripció del prim està limitada a 127 bytes, qualsevol cadena més llarga serà truncada."/>
+	    <text type="string" length="1" follows="left|top" height="23" layout="topleft" left="5" name="CreatorNameLabel" top_pad="12" width="78">
+	        Creador:
+    	</text>
+	    <text type="string" follows="left|right|top" font="SansSerifSmall" height="15" layout="topleft" left_pad="0" name="Creator Name" top_delta="0" translate="false" use_ellipses="true" width="225">
+	     </text>
+	    <text type="string" length="1" follows="left|top" height="23" layout="topleft" left="5" name="Owner:" top_pad="15" width="78">
+			    Propietari:
+	     </text>
+	     <text type="string" follows="left|right|top" font="SansSerifSmall" height="15" layout="topleft" left_pad="0" name="Owner Name" top_delta="0" translate="false" use_ellipses="true" width="225">
+	     </text>
+	    	    <text type="string" length="1" follows="left|top" height="23" layout="topleft" left="5" name="Group_label" top_pad="15" width="78">
+			    Grup:
+	     </text>
+      		<button follows="top|left" height="10" image_disabled="Activate_Checkmark" image_selected="Activate_Checkmark" image_unselected="Activate_Checkmark" image_color="White_50" layout="topleft" left_pad="0" top_delta="0" name="button set group" tab_stop="false" tool_tip="Tria un grup per compartir els permisos d'aquest objecte" width="10"/>
+            <name_box follows="left|top" height="18" initial_value="Carregant..." layout="topleft" left_pad="5" top_delta="-1" name="Group Name Proxy" width="150"/>
+            <button follows="top|left" height="23" label="Cedir" label_selected="Cedir" layout="topleft" name="button deed" top_pad="0" left="81" tool_tip="La cessió entrega aquest article amb els permisos del pròxim propietari. Els objectes compartits amb el grup poden ser cedits per un oficial del grup." width="100"/>
+            <text type="string" length="1" follows="left|top" height="9" layout="topleft" top_pad="5" left="5" name="label click action" width="280">
+                En clicar:
+            </text>
+            <combo_box follows="left|top" height="23" layout="topleft" name="clickaction" width="168" left="81" tool_tip="Una acció de clic et permet interactuar amb un objecte amb un sol clic esquerre. Cada acció de clic té un cursor especial que indica què fa. Algunes accions de clic tenen requisits per funcionar. Per exemple, Tocar i Pagar requereixen scripts.">
+                <combo_box.item label="Tocar (per defecte)" name="Touch/grab(default)" value="Touch"/>
+                <combo_box.item label="Seure a l'objecte" name="Sitonobject" value="Sit"/>
+                <combo_box.item label="Comprar l'objecte" name="Buyobject" value="Buy"/>
+                <combo_box.item label="Pagar a l'objecte" name="Payobject" value="Pay"/>
+                <combo_box.item label="Obrir" name="Open" value="Open"/>
+                <combo_box.item label="Zoom" name="Zoom" value="Zoom"/>
+                <combo_box.item label="Cap" name="None" value="None"/>
+                <combo_box.item label="Ignorar l'objecte" name="Ignoreobject" value="Ignore"/>
+            </combo_box>
+	 <panel border="false" follows="left|top" layout="topleft" mouse_opaque="false" background_visible="true" bg_alpha_color="SL-Background_Light" name="perms_inv" left="0" top_pad="15" height="135" width="313">
+	  <text type="string" length="1" left="10" top_pad="15" text_color="EmphasisColor" height="15" follows="left|top|right" layout="topleft" name="perm_modify" width="280">
+                Pots modificar aquest objecte
+            </text>
+	  	    <text type="string" length="1" follows="left|top" height="16" layout="topleft" left="10" name="Anyone can:" top_pad="8" width="100">
+			Tothom:
+	    </text>
+	    <check_box height="18" label="Copiar" layout="topleft" left_pad="0" name="checkbox allow everyone copy" tool_tip="Qualsevol pot agafar una còpia de l'objecte. L'objecte i tot el seu contingut han de tenir permisos de còpia i transferència." top_delta="-2" width="90"/>
+	    <check_box height="18" label="Moure" layout="topleft" name="checkbox allow everyone move" tool_tip="Qualsevol pot moure l'objecte." left_pad="0" width="150"/>
+	       	<text type="string" length="1" follows="left|top" height="16" layout="topleft" left="10" name="GroupLabel" top_pad="8" width="100">
+			Grup:
+    	</text>
+			    <check_box height="18" label="Compartir" layout="topleft" left_pad="90" top_delta="-2" name="checkbox share with group" tool_tip="Permet a tots els membres del grup establert compartir els teus permisos de modificació per a aquest objecte. Has de Cedir-lo per activar les restriccions de rol." width="150"/>
+	    	    <text type="string" length="1" follows="left|top" height="16" layout="topleft" left="10" name="NextOwnerLabel" top_pad="8" width="200" word_wrap="true">
+			Pròxim propietari:
+	    </text>
+	    <check_box height="18" label="Modificar" layout="topleft" left="20" top_pad="0" name="checkbox next owner can modify" tool_tip="El pròxim propietari pot editar propietats com el nom o l'escala de l'article." width="90"/>
+	    <check_box height="18" label="Copiar" layout="topleft" left_pad="0" name="checkbox next owner can copy" tool_tip="El pròxim propietari pot fer còpies il·limitades d'aquest objecte. Les còpies mantenen la informació del creador i mai poden ser més permissives que l'article que es copia." width="90"/>
+	    <check_box height="18" label="Transferir" layout="topleft" left_pad="0" name="checkbox next owner can transfer" tool_tip="El pròxim propietari pot regalar o revendre aquest objecte" width="106"/>
+	    </panel>
+	    <check_box height="23" label="A la venda" layout="topleft" left="20" name="checkbox for sale" top_pad="10" width="100" tool_tip="Permet que la gent compri aquest objecte, el seu contingut o la seva còpia al món pel preu especificat."/>
+		<combo_box height="23" left_pad="0" layout="topleft" follows="left|top" name="sale type" width="170" tool_tip="Selecciona si el comprador rebrà una còpia, el contingut o l'article original.">
+        <combo_box.item name="Copy" label="Còpia" value="2"/>
+        <combo_box.item name="Contents" label="Contingut" value="3"/>
+        <combo_box.item name="Original" label="Original" value="1"/>
+	    </combo_box>
+		<spinner follows="left|top" decimal_digits="0" increment="1" top_pad="10" left="120" name="Edit Cost" label="Preu: L$" label_width="65" width="150" min_val="0" height="20" max_val="999999999" tool_tip="Cost de l'objecte."/>
+      <check_box height="20" width="110" top_pad="6" label="Mostrar a la cerca" layout="topleft" left="120" name="search_check" tool_tip="Permet que la gent vegi aquest objecte als resultats de la cerca"/>
+      <text type="string" follows="left|top" name="pathfinding_attributes_label" top_pad="6" width="150" left="5">
+      Atributs de cerca de camins:
+      </text>
+      <text type="string" follows="left|top" text_color="EmphasisColor" name="pathfinding_attributes_value" width="130" word_wrap="false" left_pad="0">
+      </text>
+            <text type="string" text_color="EmphasisColor" length="1" top_pad="15" follows="left|top" layout="topleft" left="10" name="B:" height="10" width="50">
+                B:
+            </text>
+            <text type="string" text_color="White" length="1" follows="left|top" layout="topleft" left_pad="0" name="O:" height="10" width="50">
+                O:
+            </text>
+            <text type="string" text_color="EmphasisColor" length="1" follows="left|top" layout="topleft" left_pad="0" name="G:" height="10" width="50">
+                G:
+            </text>
+            <text type="string" text_color="White" length="1" follows="left|top" left_pad="0" layout="topleft" name="E:" height="10" width="50">
+                E:
+            </text>
+            <text type="string" text_color="EmphasisColor" length="1" follows="left|top" layout="topleft" left_pad="0" name="N:" height="10" width="50">
+                N:
+            </text>
+            <text type="string" text_color="White" length="1" follows="left|top" layout="topleft" left_pad="0" name="F:" height="10" width="50">
+                F:
+            </text>
+		</panel>
+	</scroll_container>
+      <layout_stack top_pad="-1" follows="bottom|left|right" height="28" layout="topleft" left="5" name="buttons_ls" orientation="horizontal" width="313">
+      <layout_panel follows="bottom|left" auto_resize="false" height="25" layout="topleft" name="open_btn_panel" width="73">
+                <button follows="top|left|right" height="23" label="Obrir" auto_resize="true" layout="topleft" name="open_btn" width="73" tool_tip="Obre per veure el contingut de l'objecte."/>
+      </layout_panel>
+      <layout_panel follows="bottom|left" auto_resize="false" height="25" left_pad="5" layout="topleft" name="pay_btn_panel" width="73">
+	          <button follows="top|left|right" height="23" label="Pagar" layout="topleft" name="pay_btn" width="73" tool_tip="Obre la finestra de pagament. L'objecte ha de tenir un script de pagament perquè funcioni."/>
+      </layout_panel>
+      <layout_panel follows="bottom|left" auto_resize="false" height="25" left_pad="5" layout="topleft" name="buy_btn_panel" width="73">
+	          <button follows="top|left|right" height="23" label="Comprar" layout="topleft" name="buy_btn" width="73" tool_tip="Obre la finestra de compra. Requereix que l'objecte estigui a la venda."/>
+      </layout_panel>
+      <layout_panel follows="bottom|left" auto_resize="false" height="25" left_pad="5" layout="topleft" name="details_btn_panel" width="74">
+                <button follows="top|left|right" height="23" label="Detalls" layout="topleft" name="details_btn" width="74" tool_tip="Obre la finestra d'inspecció de l'objecte."/>
+
+	    </layout_panel>
+      </layout_stack>
+</panel>
