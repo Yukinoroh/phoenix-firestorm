@@ -3,7 +3,7 @@
 	<string name="pause">Pause</string>
 	<string name="run">Lancer</string>
 	<combo_box name="time_scale_combo">
-		<item name="2x Average" label="2 fois la moyenne"/>
+		<item name="2x Average" label="2x la moyenne"/>
 		<item name="Max" label="Maximum"/>
 		<item name="Recent Max" label="Maximum récent"/>
 		<item name="100ms" label="100ms"/>
