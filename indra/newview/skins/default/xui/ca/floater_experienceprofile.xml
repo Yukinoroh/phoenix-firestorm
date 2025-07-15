@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<floater name="experience_profile" title="Experiència">
+	<floater.string name="empty_slurl">(cap)</floater.string>
+	<text name="edit_title">Experiència</text>
+	<tab_container hide_tabs="true" name="tab_container">
+		<panel name="panel_experience_info">
+			<scroll_container name="xp_scroll">
+				<panel name="scrolling_panel">
+					<layout_stack name="ls1">
+						<layout_panel name="top panel"><button label="Editar" name="edit_btn"/></layout_panel>
+						<layout_panel name="maturity panel">
+							<text name="ContentRating">Classificació :</text>
+						</layout_panel>
+						<layout_panel name="location panel">
+							<text name="Location">Ubicació :</text>
+						</layout_panel>
+						<layout_panel name="marketplace panel">
+							<text name="Marketplace">Botiga Marketplace :</text>
+						</layout_panel>
+						<layout_panel name="owner panel">
+							<text name="Owner">Propietari :</text>
+						</layout_panel>
+						<layout_panel name="group_panel">
+							<text name="Group">Grup :</text>
+						</layout_panel>
+						<layout_panel name="perm panel">
+							<button label="Autoritzar" name="allow_btn"/>
+							<button label="Oblidar" name="forget_btn"/>
+							<button label="Bloquejar" name="block_btn"/>
+							<text name="privileged">Aquesta experiència està activata per tots els residents.</text>
+							<button label="Informar d'un abus" width="110" name="report_btn"/>
+						</layout_panel>
+					</layout_stack>
+				</panel>
+			</scroll_container>
+		</panel>
+		<panel name="edit_panel_experience_info">
+			<scroll_container name="edit_xp_scroll">
+				<panel name="edit_scrolling_panel">
+					<button name="Group_btn" label="Grup"/>
+					<text name="edit_ContentRating">Classificació :</text>
+					<icons_combo_box label="Moderar" tool_tip="L'augment de la maduresa d'una experiència reiniciarà les permissions de tots els residents que van permetre aquesta experiència." name="edit_ContentRatingText">
+						<icons_combo_box.item label="Adult" name="Adult"/>
+						<icons_combo_box.item label="Moderat" name="Mature"/>
+						<icons_combo_box.item label="General" name="PG"/>
+					</icons_combo_box>
+					<text name="edit_Location">Ubicació :</text>
+					<button name="location_btn" label="Definit sobre actual"/>
+					<button name="clear_btn" label="Esborrar la ubicació"/>
+					<text name="edit_marketplace">Botiga Marketplace :</text>
+					<check_box label="Activar la experiència" name="edit_enable_btn"/>
+					<check_box label="Amagar de la cerca" name="edit_private_btn"/>
+					<button label="Anul·lar" name="cancel_btn"/>
+					<button label="Desar" name="save_btn"/>
+				</panel>
+			</scroll_container>
+		</panel>
+	</tab_container>
+</floater>
