@@ -38,7 +38,7 @@
 			<check_box name="filter_phantom" label="Fantômes"/>
 			<check_box name="filter_temporary" label="Temporaires"/>
 			<check_box name="filter_attachment" label="Portés"/>
-			<check_box name="filter_moap" label="Media partagé"/>
+			<check_box name="filter_moap" label="Avec média partagé"/>
 			<check_box name="filter_perm_copy" label="Copiables"/>
 			<check_box name="filter_perm_modify" label="Modifiables"/>
 			<check_box name="filter_perm_transfer" label="Transférables"/>
