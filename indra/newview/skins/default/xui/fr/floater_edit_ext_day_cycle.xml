@@ -35,7 +35,7 @@
 			<text name="label">
 				Nom du cycle :
 			</text>
-			<button label="Importer" name="btn_import" tool_tip="Importer les paramètres à partir du disque."/>
+			<button label="Importer" name="btn_import" tool_tip="Importer du disque d'anciens paramètres."/>
 		</layout_panel>
 		<layout_panel name="content">
 			<layout_stack name="content_stack">
