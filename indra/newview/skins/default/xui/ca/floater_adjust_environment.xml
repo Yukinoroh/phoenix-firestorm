@@ -16,7 +16,7 @@
 					<text name="blue_density_lbl">
 						Densitat de blau :
 					</text>
-					<button label="Reinicialitzar" tool_tip="Tancar i tornar al medi ambient compartit" name="btn_reset"/>
+					<button label="Reinicialitzar" tool_tip="Tancar i tornar a l'entorn compartit" name="btn_reset"/>
 					<text name="sun_color_lbl">
 						Sol :
 					</text>
@@ -44,7 +44,7 @@
 						Mida dels núvols :
 					</text>
 					<text name="reflection_probe_ambiance_label">Ambient de la sonda de reflexió :</text>
-					<slider name="probe_ambiance" tool_tip="La intensitat de la il·luminació indirecta en funció del medi ambient. A zero, l'escala HDR esdevé Brillantor."/>
+					<slider name="probe_ambiance" tool_tip="La intensitat de la il·luminació indirecta en funció de l'entorn. A zero, l'escala HDR esdevé Brillantor."/>
 					<text name="scene_gamma_label">
 						Brillantor :
 					</text>
