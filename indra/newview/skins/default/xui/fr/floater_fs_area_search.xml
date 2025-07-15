@@ -8,7 +8,7 @@
 				<fs_scroll_list.columns name="distance" label="Dist." tool_tip="Distance entre votre avatar et l'objet."/>
 				<fs_scroll_list.columns name="name" label="Nom"/>
 				<fs_scroll_list.columns name="description" label="Description"/>
-				<fs_scroll_list.columns name="price" label="Prix" tool_tip="Si l'objet est à vendre, ce que vous payerez pour l'acheter."/>
+				<fs_scroll_list.columns name="price" label="Prix" tool_tip="Si l'objet est à vendre, ce que vous devez payer pour l'acheter."/>
 				<fs_scroll_list.columns name="land_impact" label="LI" tool_tip="L'impact imputé à l'objet sur le compte du terrain."/>
 				<fs_scroll_list.columns name="prim_count" label="Prims" tool_tip="Nombre de prims qui composent chaque objet."/>
 				<fs_scroll_list.columns name="owner" label="Propriétaire"/>
