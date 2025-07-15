@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="groups" title="Usuaris desats">
+    <button label="Oblidar" label_selected="Oblidar" name="forget" />
+    <check_box label="Suprimir també les dades locals" name="delete_data" tool_tip="Suprimeix els fitxers locals : historial de xat, captura de pantalla de l'última sessió, cookies du navigateur, galetes del navegador, historial de teleportació, paràmetres de la barra d'eines, etc. Alguns fitxers locals estàn compartits entre les graelles."/>
+</floater>
