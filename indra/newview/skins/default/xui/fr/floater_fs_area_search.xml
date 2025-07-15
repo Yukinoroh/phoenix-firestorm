@@ -42,31 +42,31 @@
 			<check_box name="filter_perm_copy" label="Copiables"/>
 			<check_box name="filter_perm_modify" label="Modifiables"/>
 			<check_box name="filter_perm_transfer" label="Transférables"/>
-			<check_box name="filter_reflection_probe" label="Sondes de réflexion" tool_tip="Inclut uniquement les sondes manuelles, pas celles automatiques. Inclut celles à miroir uniquement si les miroirs sont activés dans les préférences graphiques. Si la couverture des reflets est définie sur « aucune » ou si la sonde n'est pas appliquée, il se peut que ces objets ne soient pas identifiés."/>
+			<check_box name="filter_reflection_probe" label="Avec sonde de réflexion" tool_tip="Inclut uniquement les sondes manuelles, pas celles automatiques. Inclut celles à miroir uniquement si les miroirs sont activés dans les préférences graphiques. Si la couverture des reflets est définie sur « aucune » ou si la sonde n'est pas appliquée, il se peut que ces objets ne soient pas identifiés."/>
 			<check_box name="filter_for_sale" label="Prix de vente entre" width="130"/>
 			<text name="and">et</text>
 			<text name="mouse_text" width="120">Action du clic :</text>
 			<combo_box name="click_action" tool_tip="Action effectuée lorsque vous cliquez sur l'objet">
-				<combo_box.item label="Tout" name="click_any"/>
+				<combo_box.item label="Au choix" name="click_any"/>
 				<combo_box.item label="Toucher" name="click_touch"/>
 				<combo_box.item label="S'asseoir" name="click_sit"/>
 				<combo_box.item label="Acheter l'objet" name="click_buy"/>
-				<combo_box.item label="Payer l'objet" name="click_pay"/>
+				<combo_box.item label="Payer à l'objet" name="click_pay"/>
 				<combo_box.item label="Ouvrir" name="click_open"/>
 				<combo_box.item label="Jouer" name="click_play"/>
-				<combo_box.item label="Jouer le média" name="click_open_media"/>
-				<combo_box.item label="Zoomer" name="click_zoom"/>
+				<combo_box.item label="Ouvrir le média" name="click_open_media"/>
+				<combo_box.item label="Zoom" name="click_zoom"/>
 			</combo_box>
 			<check_box name="filter_distance" label="Distance entre" width="130"/>
 			<text name="and2">et</text>
 			<check_box name="filter_agent_parcel_only" label="Uniquement sur ce terrain" width="140"/>
-			<text name="only_list">Exclure les objets qui sont :</text>
+			<text name="only_list">Exclure les objets :</text>
 			<check_box name="exclude_attachment" label="Portés"/>
 			<check_box name="exclude_physical" label="Physiques"/>
 			<check_box name="exclude_temporary" label="Temporaires"/>
-			<check_box name="exclude_reflection_probes" label="Sondes de réflexion"/>
+			<check_box name="exclude_reflection_probes" label="Avec sonde de réflexion"/>
 			<check_box name="exclude_childprim" label="Prims enfant"/>
-			<check_box name="exclude_neighbor_region" label="Régions voisines"/>
+			<check_box name="exclude_neighbor_region" label="Dans régions voisines"/>
 			<button name="apply" label="Appliquer"/>
 			<button name="save_as_default" label="Enr. comme défaut"/>
 		</panel>
