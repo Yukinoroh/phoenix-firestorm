@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="env_edit_extdaycycle" title="Modificar un cicle de dia">
+	<string name="title_new">
+		Crear un nou cicle de dia
+	</string>
+	<string name="title_edit">
+		Modificar un cicle de dia
+	</string>
+	<string name="hint_new">
+		Dona un mom al ciclde de dia, ajuta els controls per crear-lo i fes clic a Desa.
+	</string>
+	<string name="hint_edit">
+		Pour modifier le cycle du jour, ajustez les contrôles ci-dessous, puis cliquez sur « Enregistrer ».
+	</string>
+	<string name="time_label">
+		([HH]:[MM])
+	</string>
+	<string name="sky_track_label">
+		Cel [ALT]
+	</string>
+	<string name="sky_label">
+		Cel
+	</string>
+	<string name="water_label">
+		Aigua
+	</string>
+	<string name="commit_parcel">
+		Aplicar a la parcel·la
+	</string>
+	<string name="commit_region">
+		Aplicar a la regió
+	</string>
+	<layout_stack name="outer_stack">
+		<layout_panel name="name_and_import">
+			<text name="label">
+				Nom del cicle :
+			</text>
+			<button label="Importer" name="btn_import" tool_tip="Importar del disc paràmetres antics."/>
+		</layout_panel>
+		<layout_panel name="content">
+			<layout_stack name="content_stack">
+				<layout_panel name="timeline_track_selection">
+					<panel name="timeline_layers">
+						<button label="Cel 4" name="sky4_track"/>
+						<button label="Cel 3" name="sky3_track"/>
+						<button label="Cel 2" name="sky2_track"/>
+						<button label="Nivell del terra" name="sky1_track"/>
+						<button label="Aigua" name="water_track"/>
+					</panel>
+					<panel name="timeline">
+						<layout_stack name="track_options_ls">
+							<layout_panel name="track_options_lp">
+								<button label="Clonar una pista" name="copy_track"/>
+								<button label="Carregar una pista" name="load_track"/>
+								<button label="Esborrar la pista" name="clear_track"/>
+							</layout_panel>
+							<layout_panel name="track_progress_lp">
+								<layout_stack name="progress_control">
+									<layout_panel name="skip_back">
+										<button name="skip_back_btn" tool_tip="Retrocedir"/>
+									</layout_panel>
+									<layout_panel name="skip_forward">
+										<button name="skip_forward_btn" tool_tip="Avançar"/>
+									</layout_panel>
+								</layout_stack>
+							</layout_panel>
+							<layout_panel name="frames_lp">
+								<button label="Afegir [FRAME]" name="add_frame"/>
+								<button label="Carregar [FRAME]" name="btn_load_frame"/>
+								<button label="Anul·lar [FRAME]" name="delete_frame"/>
+							</layout_panel>
+						</layout_stack>
+					</panel>
+				</layout_panel>
+				<layout_panel name="frame_edit_controls">
+					<text name="icn_lock_edit">
+						Selecciona un quadre clau del calendari a dalt per modificar els paràmetres.
+					</text>
+				</layout_panel>
+				<layout_panel name="frame_settings_water">
+					<tab_container name="water_tabs">
+						<panel label="Aigua" name="water_panel"/>
+					</tab_container>
+				</layout_panel>
+				<layout_panel name="frame_settings_sky">
+					<tab_container name="sky_tabs">
+						<panel label="Atmosfera i il·luminació" name="atmosphere_panel"/>
+						<panel label="Núvols" name="clouds_panel"/>
+						<panel label="Sol i lluna" name="moon_panel"/>
+					</tab_container>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+		<layout_panel name="buttons">
+			<button label="Desar" name="save_btn"/>
+			<button label="Anul·lar" name="cancel_btn"/>
+		</layout_panel>
+	</layout_stack>
+</floater>
