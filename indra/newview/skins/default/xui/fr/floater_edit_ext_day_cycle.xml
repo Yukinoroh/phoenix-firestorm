@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="env_edit_extdaycycle" title="Modifier un cycle du jour">
+<floater name="env_edit_extdaycycle" title="Modifier un cycle de jour">
 	<string name="title_new">
-		Créer un nouveau cycle du jour
+		Créer un nouveau cycle de jour
 	</string>
 	<string name="title_edit">
-		Modifier un cycle du jour
+		Modifier un cycle de jour
 	</string>
 	<string name="hint_new">
-		Donner un nom au cycle du jour, ajuster les contrôles afin de le créer, puis cliquez sur « Enregistrer ».
+		Donner un nom au cycle de jour, ajuster les contrôles afin de le créer, puis cliquez sur « Enregistrer ».
 	</string>
 	<string name="hint_edit">
-		Pour modifier le cycle du jour, ajustez les contrôles ci-dessous, puis cliquez sur « Enregistrer ».
+		Pour modifier le cycle de jour, ajustez les contrôles ci-dessous, puis cliquez sur « Enregistrer ».
 	</string>
 	<string name="time_label">
 		([HH]:[MM])
