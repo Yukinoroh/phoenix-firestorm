@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="area_search" title="Recherche d'objets sur la région">
+<floater name="area_search" title="Recherche d'objets dans la région">
 	<tab_container name="area_searchtab">
 		<panel label="Liste" name="area_search_list_panel">
 			<panel.string name="ListedPendingTotalBlank">Listés | En attente | Total</panel.string>
