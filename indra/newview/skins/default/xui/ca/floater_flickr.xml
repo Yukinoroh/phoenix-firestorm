@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<floater name="floater_flickr" title="Enviar al Flickr">
+	<panel name="background">
+		<tab_container name="tabs">
+			<panel label="Foto" name="panel_flickr_photo"/>
+			<panel label="Compte" name="panel_flickr_account"/>
+		</tab_container>
+		<panel name="connection_status_panel">
+			<text name="connection_error_text">Eror</text>
+			<text name="connection_loading_text">Carregant...</text>
+		</panel>
+	</panel>
+</floater>
