@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="emojipicker" title="Triar un emoji">
+	<floater.string name="title_for_frequently_used" value="Sovint utilitzat"/>
+	<floater.string name="text_no_emoji_for_filter" value="Cap emoji trobat per '[FILTER]'"/>
+	<text name="Dummy">
+		Cap emoji seleccionat
+	</text>
+</floater>
