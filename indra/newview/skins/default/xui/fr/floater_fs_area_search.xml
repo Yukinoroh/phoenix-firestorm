@@ -14,7 +14,7 @@
 				<fs_scroll_list.columns name="owner" label="Propriétaire"/>
 				<fs_scroll_list.columns name="group" label="Groupe" tool_tip="Le groupe propriétaire de l'objet."/>
 				<fs_scroll_list.columns name="creator" label="Créateur"/>
-				<fs_scroll_list.columns name="last_owner" label="Propriétaire précédent" tool_tip="Le propriétaire précédent de cet objet."/>
+				<fs_scroll_list.columns name="last_owner" label="Propriétaire précédent" tool_tip="Le propriétaire précédent de l'objet."/>
 			</fs_scroll_list>
 			<button name="Refresh" label="Actualiser"/>
 			<text name="counter">Listés | En attente | Total</text>
