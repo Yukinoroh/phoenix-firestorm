@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater label="Esdeveniment" name="Event" title="Detalls de l'esdeveniment">
+	<floater.string name="loading_text">Carregant...</floater.string>
+	<floater.string name="done_text">Acabat</floater.string>
+</floater>
