@@ -39,7 +39,7 @@
 				<panel name="edit_scrolling_panel">
 					<button name="Group_btn" label="Grup"/>
 					<text name="edit_ContentRating">Classificació :</text>
-					<icons_combo_box label="Moderar" tool_tip="L'augment de la maduresa d'una experiència reiniciarà les permissions de tots els residents que van permetre aquesta experiència." name="edit_ContentRatingText">
+					<icons_combo_box label="Moderar" tool_tip="L'augment de la maduresa d'una experiència reinicialitzarà les permissions de tots els residents que van permetre aquesta experiència." name="edit_ContentRatingText">
 						<icons_combo_box.item label="Adult" name="Adult"/>
 						<icons_combo_box.item label="Moderat" name="Mature"/>
 						<icons_combo_box.item label="General" name="PG"/>
