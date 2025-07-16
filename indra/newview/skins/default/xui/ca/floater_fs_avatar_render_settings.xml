@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="avatarrendersettings" title="Excepcions a la mostra de l'avatar">
+	<floater.string name="av_render_never">
+		Mai
+	</floater.string>
+	<floater.string name="av_render_always">
+		Sempre
+	</floater.string>
+	<filter_editor label="Filtrar els avatars" name="filter_input" />
+	<menu_button name="plus_btn" tool_tip="Afegir una nova persona a la llista" />
+	<name_list name="avatar_list">
+		<name_list.columns label="Nom" name="name" />
+		<name_list.columns label="Tots els detalls" name="render_setting" />
+	</name_list>
+	<button name="close_btn" label="Tancar" />
+</floater>
