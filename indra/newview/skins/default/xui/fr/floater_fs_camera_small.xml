@@ -25,9 +25,9 @@
 		</layout_stack>
 	</panel>
 	<panel name="buttons_view">
-		<panel_camera_item name="front_view" tool_tip="Vue de devant" />
-		<panel_camera_item name="group_view" tool_tip="Vue de côté" />
-		<panel_camera_item name="rear_view" tool_tip="Vue de l'arrière" />
+		<panel_camera_item name="front_view" tool_tip="Vue frontale" />
+		<panel_camera_item name="group_view" tool_tip="Vue latérale" />
+		<panel_camera_item name="rear_view" tool_tip="Vue arrière" />
 	</panel>
 	<panel name="buttons">
 		<panel_camera_item name="object_view" tool_tip="Vue de l'objet" />
