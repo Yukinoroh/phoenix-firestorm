@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="floater_fs_add_contact" title="Afegir a un cercle...">
+	<floater.string name="no_sets">Cap cercle definit</floater.string>
+	<floater.string name="text_add_single">Selecciona el cercle al qual afegir [NAME] :</floater.string>
+	<floater.string name="text_add_multiple">Selecciona el cercle al qual agerir els [COUNT] residents :</floater.string>
+	<button label="Afegir al cercle" name="add_btn"/>
+	<button label="Anul·lar" name="cancel_btn"/>
+</floater>
