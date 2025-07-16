@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="floater_blocklist" title="Éléments ignorés">
-	<panel name="panel_block_list_sidetray" label="Éléments ignorés"/>
+<floater name="floater_blocklist" title="Objets et résidents ignorés">
+	<panel name="panel_block_list_sidetray" label="Objets et résidents ignorés"/>
 </floater>
