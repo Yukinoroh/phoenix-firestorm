@@ -93,7 +93,7 @@
 				Grup :
 			</text>
 			<button label="Triar" label_selected="Definir..." name="Set..."/>
-			<check_box label="Autoritzar la cessió al grup" name="check deed" tool_tip="Un oficial del grup pot cedir aquest terreny a aquest grup, de manera que se'n faci carrèc dins de l'assignació de terrenys al grup."/>
+			<check_box label="Autoritzar la cessió al grup" name="check deed" tool_tip="Un oficial del grup pot cedir aquest terreny a aquest grup, de manera que se'n faci carrèc en l'assignació de terrenys al grup."/>
 			<button label="Cedir" label_selected="Cedir..." name="Deed..." tool_tip="Només pots cedir el terreny si tens un rol d'oficial en el grup seleccionat."/>
 			<check_box label="El propietari contribueix cedint terrenys" name="check contrib" tool_tip="Quan es transfereix un terreny al grup, l'antic propietari també fa una donació suficient de terreny."/>
 			<text name="For Sale:">
