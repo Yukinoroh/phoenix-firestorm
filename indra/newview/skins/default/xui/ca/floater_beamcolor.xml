@@ -8,7 +8,7 @@
  El clic esquerre canvia la d'inici.
  El click dret canvia la de final.
 	</text>
-	<color_swatch name="BeamColor_Preview" tool_tip="Clica per obrir el selector de color"/>
+	<color_swatch name="BeamColor_Preview" tool_tip="Fes clic per obrir el selector de color"/>
 	<text name="beamcolor_text2">Vista prèvia</text>
 	<slider name="BeamColor_Speed" label="Velocitat de rotació :" tool_tip="Controla la velocitat del cile de clors"/>
 	<button label="Desar" name="BeamColor_Save"/>
