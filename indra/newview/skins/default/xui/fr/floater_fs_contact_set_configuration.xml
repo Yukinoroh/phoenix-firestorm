@@ -18,7 +18,7 @@
 		<text name="label_colors">Couleurs personnalisées :</text>
 		<check_box label="Couleur des points de la mini-carte selon leur cercle" name="FSContactSetsColorizeMiniMap"/>
 		<check_box label="Couleur des noms flottants selon leur cercle" name="FSContactSetsColorizeNameTag"/>
-		<check_box label="Couleur des noms dans le radar selon leur cercle" name="FSContactSetsColorizeRadar"/>
+		<check_box label="Couleur des noms sur le radar selon leur cercle" name="FSContactSetsColorizeRadar"/>
 		<check_box label="Couleur des messages de résidents selon leur cercle" name="FSContactSetsColorizeChat"/>
 	</panel>
 </floater>
