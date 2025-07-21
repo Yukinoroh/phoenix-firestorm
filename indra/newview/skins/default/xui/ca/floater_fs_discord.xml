@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<floater name="floater_discord" title="Discord">
+	<string name="discord_connected">
+		Conectat/da a Discord com a :
+	</string>
+	<string name="discord_disconnected">
+		No conectat/da a Discord.
+	</string>
+	<string name="SocialDiscordConnecting">
+		Conectant a Discord...
+	</string>
+	<string name="SocialDiscordErrorConnecting">
+		Problema de conecció a Discord
+	</string>
+	<string name="SocialDiscordDisconnecting">
+		Desconectant de Discord...
+	</string>
+	<text name="account_caption_label">
+		No conectat a Discord.
+	</text>
+	<check_box label="Conecció automàtica a l'inici de sessió" name="startup_check"/>
+	<check_box label="Compartir el nom d'usuari" name="name_check"/>
+	<button label="Conectar-se..." name="connect_btn"/>
+	<button label="Desconectar-se" name="disconnect_btn"/>
+	<text name="rating_label">
+		Compartir amb Discord el nom de les regions tenint la següent classificació :
+	</text>
+	<combo_box name="maturity_desired_combobox">
+		<combo_box.item label="General, moderat i adult" name="Desired_Adult"/>
+		<combo_box.item label="General i moderat" name="Desired_Mature"/>
+		<combo_box.item label="General" name="Desired_PG"/>
+		<combo_box.item label="No compartir" name="Desired_None"/>
+	</combo_box>
+	<text name="dont_names_label">
+		No compartir amb Discord el nom de les regions a sota :
+	</text>
+	<text name="connection_status_text">
+		Carregant...
+	</text>
+</floater>
