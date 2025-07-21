@@ -4,7 +4,7 @@
 		Connecté(e) à Discord en tant que :
 	</string>
 	<string name="discord_disconnected">
-		Non connecté(e) Discord.
+		Non connecté(e) à Discord.
 	</string>
 	<string name="SocialDiscordConnecting">
 		En cours de connexion à Discord...
