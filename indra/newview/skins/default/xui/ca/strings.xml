@@ -1,0 +1,7143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<string name="SECOND_LIFE_GRID">
+		Graella de Second Life
+	</string>
+	<string name="SUPPORT_SITE">
+		Portal d'Assistència de Firestorm
+	</string>
+	<string name="StartupDetectingHardware">
+		Detectant el maquinari...
+	</string>
+	<string name="StartupLoading">
+		Carregant [APP_NAME]...
+	</string>
+	<string name="StartupClearingCache">
+		Buidant la memòria cau...
+	</string>
+	<string name="StartupClearingTextureCache">
+		Netejant la memòria cau de textures...
+	</string>
+	<string name="StartupInitializingTextureCache">
+		Inicialitzant la memòria cau de textures...
+	</string>
+	<string name="StartupRequireDriverUpdate">
+		Ha fallat la inicialització dels gràfics. Si us plau, actualitzeu el controlador gràfic.
+	</string>
+	<string name="AboutHeader">
+		[APP_NAME] [VIEWER_VERSION_0].[VIEWER_VERSION_1].[VIEWER_VERSION_2] ([VIEWER_VERSION_3]) [BUILD_DATE] [BUILD_TIME] ([ADDRESS_SIZE]bit / [SIMD]) ([CHANNEL])
+[[VIEWER_RELEASE_NOTES_URL] [ReleaseNotes]]
+	</string>
+	<string name="AboutCompiler">
+		Compilat amb [COMPILER] versió [COMPILER_VERSION]
+	</string>
+	<string name="AboutPosition">
+		Ets a [POSITION_LOCAL_0,number,1], [POSITION_LOCAL_1,number,1], [POSITION_LOCAL_2,number,1] a [REGION], que es troba a &lt;nolink&gt;[HOSTNAME]&lt;/nolink&gt;
+SLURL: &lt;nolink&gt;[SLURL]&lt;/nolink&gt;
+(coordenades globals [POSITION_0,number,1], [POSITION_1,number,1], [POSITION_2,number,1])
+[SERVER_VERSION]
+[SERVER_RELEASE_NOTES_URL]
+	</string>
+	<string name="AboutPositionRLVShowLoc">
+Ets a [REGION]
+[SERVER_VERSION]
+[SERVER_RELEASE_NOTES_URL]
+	</string>
+	<string name="AboutSystem">
+		CPU: [CPU]
+Memòria: [MEMORY_MB] Mo (Utilitzada: [USED_RAM] Mo)
+Concurrència: [CONCURRENCY]
+Versió SO: [OS_VERSION]
+Distribuïdor de targetes gràfiques: [GRAPHICS_CARD_VENDOR]
+Targeta gràfica: [GRAPHICS_CARD]
+Memòria de targeta gràfica: [GRAPHICS_CARD_MEMORY] Mo
+Memòria de targeta gràfica (Detectada): [GRAPHICS_CARD_MEMORY_DETECTED] Mo
+Memòria de targeta gràfica (Capacitat): [VRAM_BUDGET]
+	</string>
+	<string name="AboutDriver">
+		Versió del controlador gràfic de Windows: [GRAPHICS_DRIVER_VERSION]
+	</string>
+	<string name="AboutOGL">
+		Versió d'OpenGL: [OPENGL_VERSION]
+	</string>
+	<string name="AboutSettings">
+Mode de configuració: [MODE]
+Skin del visor: [SKIN] ([THEME])
+Mida de la finestra: [WINDOW_WIDTH]x[WINDOW_HEIGHT] px
+Tipus de lletra utilitzat: [FONT] ([FONT_SCREEN_DPI] dpi)
+Mida de la lletra: [FONT_SIZE] pt
+Escalat de la IU: [UI_SCALE_FACTOR]
+Distància de visió: [DRAW_DISTANCE] m
+Amplada de banda: [BANDWIDTH] kbit/s
+Factor LOD: [LOD]
+Qualitat de renderització: [RENDERQUALITY]
+	</string>
+	<string name="AboutCache">
+		Memòria cau del disc: [DISK_CACHE_INFO]
+	</string>
+	<string name="AboutOSXHiDPI">
+		Mode de visualització HiDPI: [HIDPI]
+	</string>
+	<string name="AboutLibs">
+Versió libcurl: [LIBCURL_VERSION]
+Versió del descodificador J2C: [J2C_VERSION]
+Versió del controlador d'àudio: [AUDIO_DRIVER_VERSION]
+[LIBCEF_VERSION]
+Versió LibVLC: [LIBVLC_VERSION]
+Versió del servidor de veu: [VOICE_VERSION]
+	</string>
+	<string name="AboutTraffic">
+		Paquets perduts: [PACKETS_LOST,number,0]/[PACKETS_IN,number,0] ([PACKETS_PCT,number,1]%)
+	</string>
+	<string name="AboutTime">
+		[month, datetime, slt] [day, datetime, slt] [year, datetime, slt] [hour, datetime, slt]:[min, datetime, slt]:[second,datetime,slt]
+	</string>
+	<string name="ErrorFetchingServerReleaseNotesURL">
+		Error en obtenir l'URL de les notes de la versió del servidor.
+	</string>
+	<string name="ProgressRestoring">
+		Restaurant...
+	</string>
+	<string name="ProgressChangingResolution">
+		Canviant la resolució...
+	</string>
+	<string name="Fullbright">
+		Lluminositat completa (Legacy)
+	</string>
+	<string name="LoginInProgress">
+		La connexió a [APP_NAME] pot semblar bloquejada. Si us plau, espereu.
+	</string>
+	<string name="LoginInProgressNoFrozen">
+		Connectant...
+	</string>
+	<string name="LoginAuthenticating">
+		Autenticant...
+	</string>
+	<string name="LoginMaintenance">
+		Realitzant manteniment del compte...
+	</string>
+	<string name="LoginAttempt">
+		L'intent de connexió anterior ha fallat. Connectant, intent [NUMBER]
+	</string>
+	<string name="LoginPrecaching">
+		Carregant el món...
+	</string>
+	<string name="LoginInitializingBrowser">
+		Inicialitzant el navegador web integrat...
+	</string>
+	<string name="LoginInitializingMultimedia">
+		Inicialitzant el sistema multimèdia...
+	</string>
+	<string name="LoginInitializingFonts">
+		Carregant les fonts...
+	</string>
+	<string name="LoginVerifyingCache">
+		Verificant els fitxers de la memòria cau (pot trigar 60-90 s)...
+	</string>
+	<string name="LoginProcessingResponse">
+		Processant la resposta...
+	</string>
+	<string name="LoginInitializingWorld">
+		Inicialitzant el món...
+	</string>
+	<string name="LoginDecodingImages">
+		Descodificant les imatges...
+	</string>
+	<string name="LoginInitializingQuicktime">
+		Inicialitzant Quicktime...
+	</string>
+	<string name="LoginQuicktimeNotFound">
+		No s'ha trobat Quicktime, no es pot inicialitzar.
+	</string>
+	<string name="LoginQuicktimeOK">
+		Inicialització de Quicktime correcta.
+	</string>
+	<string name="LoginRequestSeedCapGrant">
+		Demanant capacitats de la regió...
+	</string>
+	<string name="LoginRetrySeedCapGrant">
+		Demanant capacitats de la regió... Intent [NUMBER].
+	</string>
+	<string name="LoginWaitingForRegionHandshake">
+		Establert enllaç amb la regió...
+	</string>
+	<string name="LoginConnectingToRegion">
+		Connectant amb la regió...
+	</string>
+	<string name="LoginDownloadingClothing">
+		Descarregant la roba...
+	</string>
+	<string name="InvalidCertificate">
+		El servidor ha retornat un certificat no vàlid o corrupte. Contacteu amb l'administrador de la graella.
+	</string>
+	<string name="CertInvalidHostname">
+		S'ha utilitzat un nom d'amfitrió no vàlid per accedir al servidor. Verifiqueu el nom de la graella o l'SLURL.
+	</string>
+	<string name="CertExpired">
+		Sembla que el certificat retornat per la graella ha expirat. Verifiqueu el rellotge del vostre sistema o contacteu amb l'administrador de la graella.
+	</string>
+	<string name="CertKeyUsage">
+		No es pot utilitzar el certificat retornat pel servidor per a SSL. Contacteu amb l'administrador de la graella.
+	</string>
+	<string name="CertBasicConstraints">
+		Hi ha massa certificats a la cadena de certificats del servidor. Contacteu amb l'administrador de la graella.
+	</string>
+	<string name="CertInvalid">
+		No es pot carregar el certificat. Si us plau, contacteu amb l'administrador de la graella.
+	</string>
+	<string name="CertInvalidSignature">
+		No es pot verificar la signatura del certificat retornat pel servidor de la graella. Contacteu amb l'administrador de la graella.
+	</string>
+	<string name="CertAllocationFailure">
+		Ha fallat l'assignació de memòria d'openssl per al certificat.
+	</string>
+	<string name="LoginFailedNoNetwork">
+		Error de xarxa: no s'ha pogut establir la connexió. Verifiqueu la vostra connexió de xarxa.
+	</string>
+	<string name="LoginFailedHeader">
+		Error de connexió.
+	</string>
+	<string name="Quit">
+		Surt
+	</string>
+	<string name="create_account_url">
+		https://www.firestormviewer.org/join-secondlife/
+	</string>
+	<string name="AgniGridLabel">
+		Graella principal de Second Life (Agni)
+	</string>
+	<string name="AditiGridLabel">
+		Graella de proves beta de Second Life (Aditi)
+	</string>
+	<string name="LoginFailedViewerNotPermitted">
+		El client que utilitzeu ja no permet accedir a Second Life. Descarregueu un nou client a la pàgina següent:
+http://secondlife.com/download
+
+Per a més informació, consulteu la pàgina de preguntes freqüents següent:
+http://secondlife.com/viewer-access-faq
+	</string>
+	<string name="LoginFailed">
+		El procés de connexió no ha finalitzat a causa d'un problema del sistema. Torneu-ho a provar en uns minuts.
+Si creieu que es tracta d'un error, contacteu amb el servei d'assistència de la xarxa.
+	</string>
+	<string name="LoginIntermediateOptionalUpdateAvailable">
+		Actualització opcional del client disponible: [VERSION]
+	</string>
+	<string name="LoginFailedRequiredUpdate">
+		Es requereix una actualització del client: [VERSION]
+	</string>
+	<string name="LoginFailedAlreadyLoggedIn">
+		L'agent ja està connectat.
+	</string>
+	<string name="LoginFailedAuthenticationFailed">
+		Ho sentim! La connexió ha fallat.
+Si us plau, verifiqueu que els elements següents s'han introduït correctament:
+    * Nom d'usuari (per exemple, bobsmith12 o steller.sunshine)
+    * Contrasenya
+    * Token de segon factor (si està activat)
+Assegureu-vos també que la tecla Bloq Majús no estigui activada.
+	</string>
+	<string name="LoginFailedPasswordChanged">
+		La vostra contrasenya s'ha modificat per motius de seguretat.
+Accediu al vostre compte a la pàgina http://secondlife.com/password
+i responeu a la pregunta de seguretat per restablir la vostra contrasenya.
+Disculpeu les molèsties.
+	</string>
+	<string name="LoginFailedPasswordReset">
+		Haureu de restablir la vostra contrasenya a causa d'alguns canvis realitzats al nostre sistema.
+Per a això, accediu al vostre compte a la pàgina http://secondlife.com/password
+i responeu a la pregunta de seguretat. La vostra contrasenya serà restablerta.
+Disculpeu les molèsties.
+	</string>
+	<string name="LoginFailedEmployeesOnly">
+		Second Life està tancat temporalment per manteniment.
+Només els empleats hi poden accedir actualment.
+Consulteu la pàgina www.secondlife.com/status per a més informació.
+	</string>
+	<string name="LoginFailedPremiumOnly">
+		Les connexions a Second Life estan temporalment limitades per garantir que l'experiència dels usuaris presents al món virtual sigui òptima.
+
+Les persones amb comptes gratuïts no podran accedir a Second Life durant aquest temps per permetre que aquelles que han pagat per poder utilitzar Second Life ho facin.
+	</string>
+	<string name="LoginFailedComputerProhibited">
+		No es pot accedir a Second Life des d'aquest ordinador.
+Si creieu que es tracta d'un error, contacteu
+amb l'Assistència a l'adreça següent: support@secondlife.com.
+	</string>
+	<string name="LoginFailedAcountSuspended">
+		El vostre compte no és accessible fins a
+[TIME], hora del Pacífic.
+	</string>
+	<string name="LoginFailedAccountDisabled">
+		No es pot processar la vostra sol·licitud en aquest moment.
+Per obtenir ajuda, contacteu amb l'Assistència de Second Life a la pàgina següent: http://support.secondlife.com.
+	</string>
+	<string name="LoginFailedTransformError">
+		Incoherència de dades durant la connexió.
+Si us plau, contacteu amb support@secondlife.com.
+	</string>
+	<string name="LoginFailedAccountMaintenance">
+		S'estan realitzant operacions de manteniment menors al vostre compte.
+El vostre compte no és accessible fins a
+[TIME], hora del Pacífic.
+Si creieu que es tracta d'un error, contacteu amb l'Assistència a l'adreça següent: support@secondlife.com
+	</string>
+	<string name="LoginFailedPendingLogoutFault">
+		El simulador ha retornat un error en resposta a la sol·licitud de desconnexió.
+	</string>
+	<string name="LoginFailedPendingLogout">
+		El sistema us està desconnectant.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LoginFailedUnableToCreateSession">
+		No s'ha pogut crear una sessió vàlida.
+	</string>
+	<string name="LoginFailedUnableToConnectToSimulator">
+		No s'ha pogut connectar a un simulador.
+	</string>
+	<string name="LoginFailedRestrictedHours">
+		El vostre compte només permet accedir a Second Life
+entre [START] i [END], hora del Pacífic.
+Si us plau, torneu-ho a provar durant el període indicat.
+Si creieu que es tracta d'un error, contacteu amb l'Assistència a l'adreça següent: support@secondlife.com
+	</string>
+	<string name="LoginFailedIncorrectParameters">
+		Paràmetres incorrectes.
+Si creieu que es tracta d'un error, contacteu amb l'Assistència a l'adreça següent: support@secondlife.com
+	</string>
+	<string name="LoginFailedFirstNameNotAlphanumeric">
+		El paràmetre Nom ha de ser alfanumèric.
+Si creieu que es tracta d'un error, contacteu amb l'Assistència a l'adreça següent: support@secondlife.com
+	</string>
+	<string name="LoginFailedLastNameNotAlphanumeric">
+		El paràmetre Cognom ha de ser alfanumèric.
+Si creieu que es tracta d'un error, contacteu amb l'Assistència a l'adreça següent: support@secondlife.com
+	</string>
+	<string name="LogoutFailedRegionGoingOffline">
+		La regió s'està desconnectant.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LogoutFailedAgentNotInRegion">
+		Agent absent de la regió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LogoutFailedPendingLogin">
+		Una altra sessió s'estava obrint dins de la regió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LogoutFailedLoggingOut">
+		La sessió anterior s'estava tancant dins de la regió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LogoutFailedStillLoggingOut">
+		El tancament de la sessió anterior encara està en curs per a la regió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LogoutSucceeded">
+		Darrera sessió tancada dins de la regió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LogoutFailedLogoutBegun">
+		S'ha iniciat el procés de desconnexió per a la regió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LoginFailedLoggingOutSession">
+		El sistema ha començat a tancar la vostra darrera sessió.
+Si us plau, torneu a intentar connectar-vos d'aquí a un minut.
+	</string>
+	<string name="LoginFailedAuthenticationMFARequired">
+		Introduïu un nou token des de la vostra aplicació d'autenticació per poder connectar-vos.
+Si creieu que es tracta d'un error, contacteu amb support@secondlife.com.
+	</string>
+	<string name="AgentLostConnection">
+		Pot haver-hi problemes tècnics en aquesta regió. Si us plau, verifiqueu la vostra connexió a Internet.
+	</string>
+	<string name="SavingSettings">
+		Desant els paràmetres...
+	</string>
+	<string name="LoggingOut">
+		Desconnectant...
+	</string>
+	<string name="ShuttingDown">
+		Aturant...
+	</string>
+	<string name="YouHaveBeenDisconnected">
+		Heu estat desconnectat de la regió on éreu.
+	</string>
+	<string name="SentToInvalidRegion">
+		Heu estat transferit a una regió no vàlida.
+	</string>
+	<string name="TestingDisconnect">
+		Prova de desconnexió del client
+	</string>
+	<string name="SocialFacebookConnecting">
+		Connectant a Facebook...
+	</string>
+	<string name="SocialFacebookPosting">
+		Publicant...
+	</string>
+	<string name="SocialFacebookDisconnecting">
+		Desconnectant de Facebook...
+	</string>
+	<string name="SocialFacebookErrorConnecting">
+		S'ha produït un problema en connectar a Facebook.
+	</string>
+	<string name="SocialFacebookErrorPosting">
+		S'ha produït un problema en publicar a Facebook.
+	</string>
+	<string name="SocialFacebookErrorDisconnecting">
+		S'ha produït un problema en desconnectar de Facebook.
+	</string>
+	<string name="SocialFlickrConnecting">
+		Connectant a Flickr...
+	</string>
+	<string name="SocialFlickrPosting">
+		Publicant...
+	</string>
+	<string name="SocialFlickrDisconnecting">
+		Desconnectant de Flickr...
+	</string>
+	<string name="SocialFlickrErrorConnecting">
+		S'ha produït un problema en connectar a Flickr.
+	</string>
+	<string name="SocialFlickrErrorPosting">
+		S'ha produït un problema en publicar a Flickr.
+	</string>
+	<string name="SocialFlickrErrorDisconnecting">
+		S'ha produït un problema en desconnectar de Flickr.
+	</string>
+	<string name="SocialTwitterConnecting">
+		Connectant a Twitter...
+	</string>
+	<string name="SocialTwitterPosting">
+		Publicant...
+	</string>
+	<string name="SocialTwitterDisconnecting">
+		Desconnectant de Twitter...
+	</string>
+	<string name="SocialTwitterErrorConnecting">
+		S'ha produït un problema en connectar a Twitter.
+	</string>
+	<string name="SocialTwitterErrorPosting">
+		S'ha produït un problema en publicar a Twitter.
+	</string>
+	<string name="SocialTwitterErrorDisconnecting">
+		S'ha produït un problema en desconnectar de Twitter.
+	</string>
+	<string name="BlackAndWhite">
+		Blanc i negre
+	</string>
+	<string name="Colors1970">
+		Colors dels anys 70
+	</string>
+	<string name="Intense">
+		Intens
+	</string>
+	<string name="Newspaper">
+		Premsa
+	</string>
+	<string name="Sepia">
+		Sèpia
+	</string>
+	<string name="Spotlight">
+		Focus
+	</string>
+	<string name="Video">
+		Vídeo
+	</string>
+	<string name="Autocontrast">
+		Contrast automàtic
+	</string>
+	<string name="LensFlare">
+		Halo
+	</string>
+	<string name="Miniature">
+		Miniatura
+	</string>
+	<string name="Toycamera">
+		Càmera de joguina
+	</string>
+	<string name="TooltipPerson">
+		Persona
+	</string>
+	<string name="TooltipNoName">
+		(sense nom)
+	</string>
+	<string name="TooltipOwner">
+		Propietari:
+	</string>
+	<string name="TooltipPublic">
+		Públic
+	</string>
+	<string name="TooltipIsGroup">
+		(Grup)
+	</string>
+	<string name="TooltipForSaleL$">
+		A la venda: [AMOUNT] L$
+	</string>
+	<string name="TooltipFlagGroupBuild">
+		Construcció de grup
+	</string>
+	<string name="TooltipFlagNoBuild">
+		No es pot construir
+	</string>
+	<string name="TooltipFlagNoEdit">
+		Construcció de grup
+	</string>
+	<string name="TooltipFlagNotSafe">
+		No segur
+	</string>
+	<string name="TooltipFlagNoFly">
+		No es pot volar
+	</string>
+	<string name="TooltipFlagGroupScripts">
+		Scripts de grup
+	</string>
+	<string name="TooltipFlagNoScripts">
+		No hi ha scripts
+	</string>
+	<string name="TooltipLand">
+		Terreny:
+	</string>
+	<string name="TooltipMustSingleDrop">
+		No es pot arrossegar més d'un objecte aquí
+	</string>
+	<string name="TooltipTooManyWearables">
+		No podeu portar una carpeta que contingui més de [AMOUNT] articles. Podeu modificar aquest límit a Avançat &gt; Mostra els paràmetres de depuració &gt; WearFolderLimit.
+	</string>
+	<string name="TooltipPrice" value="[AMOUNT] L$:"/>
+	<string name="TooltipSLIcon">
+		Això és un enllaç a una pàgina del domini oficial SecondLife.com o LindenLab.com.
+	</string>
+	<string name="TooltipFlagScript">
+		Script
+	</string>
+	<string name="TooltipFlagPhysics">
+		Físiques
+	</string>
+	<string name="TooltipFlagTouch">
+		Tocar
+	</string>
+	<string name="TooltipFlagDropInventory">
+		Suprimir l'inventari
+	</string>
+	<string name="TooltipFlagPhantom">
+		Fantasma
+	</string>
+	<string name="TooltipFlagTemporary">
+		Temporal
+	</string>
+	<string name="TooltipPrimCount">
+		Prims: [COUNT]
+	</string>
+	<string name="TooltipPrimEquivalent">
+		, Impacte al terreny: [PEWEIGHT]
+	</string>
+	<string name="TooltipPrimEquivalentLoading">
+		, Carregant l'impacte al terreny...
+	</string>
+	<string name="TooltipDistance">
+		Distància: [DISTANCE] m
+	</string>
+	<string name="TooltipPosition">
+		Posició: [POSITION]
+	</string>
+	<string name="TooltipOutboxDragToWorld">
+		No podeu rezzer (carregar) articles de la carpeta Anuncis del Marketplace
+	</string>
+	<string name="TooltipOutboxWorn">
+		No podeu posar articles que porteu a la carpeta Anuncis del Marketplace
+	</string>
+	<string name="TooltipOutboxFolderLevels">
+		El nivell de carpetes imbricades supera [AMOUNT]. Disminuïu el nombre de nivells de carpetes imbricades en altres carpetes. Si cal, poseu alguns articles en una caixa.
+	</string>
+	<string name="TooltipOutboxTooManyFolders">
+		El nombre de subcarpetes supera [AMOUNT]. Disminuïu el nombre de subcarpetes al vostre anunci. Si cal, poseu alguns articles en una caixa.
+	</string>
+	<string name="TooltipOutboxTooManyObjects">
+		El nombre d'articles supera [AMOUNT]. Per poder vendre més de [AMOUNT] articles dins d'un mateix anunci, heu de posar alguns d'aquests articles en una caixa.
+	</string>
+	<string name="TooltipOutboxTooManyStockItems">
+		El nombre d'articles en estoc supera [AMOUNT].
+	</string>
+	<string name="TooltipOutboxCannotDropOnRoot">
+		Només podeu dipositar articles o carpetes a les pestanyes TOTS o NO ASSOCIATS. Seleccioneu una d'aquestes pestanyes i torneu a moure el vostre article o carpetes.
+	</string>
+	<string name="TooltipOutboxNoTransfer">
+		No es poden vendre ni transferir un o més d'aquests objectes
+	</string>
+	<string name="TooltipOutboxNotInInventory">
+		Només podeu posar al Marketplace articles del vostre inventari
+	</string>
+	<string name="TooltipOutboxLinked">
+		No podeu posar articles o carpetes enllaçades al Marketplace
+	</string>
+	<string name="TooltipOutboxCallingCard">
+		No podeu posar targetes de visita al Marketplace
+	</string>
+	<string name="TooltipOutboxDragActive">
+		no podeu moure un anunci publicat
+	</string>
+	<string name="TooltipOutboxCannotMoveRoot">
+		No podeu moure la carpeta arrel dels anuncis del Marketplace
+	</string>
+	<string name="TooltipOutboxMixedStock">
+		tots els articles d'una carpeta d'estoc han de tenir el mateix tipus i dret
+	</string>
+	<string name="TooltipOutfitNotInInventory">
+		Només podeu col·locar articles o conjunts del vostre inventari personal a "Els meus conjunts".
+	</string>
+	<string name="TooltipCantCreateOutfit">
+		Un o més articles no es poden utilitzar en "Els meus conjunts".
+	</string>
+	<string name="TooltipDragOntoOwnChild">
+		No es pot moure una carpeta al seu fill
+	</string>
+	<string name="TooltipDragOntoSelf">
+		No es pot moure una carpeta a si mateixa
+	</string>
+	<string name="TooltipHttpUrl">
+		Feu clic per veure aquesta pàgina web
+	</string>
+	<string name="TooltipSLURL">
+		Feu clic per saber-ne més sobre aquest lloc
+	</string>
+	<string name="TooltipAgentUrl">
+		Feu clic per veure el perfil d'aquest resident
+	</string>
+	<string name="TooltipAgentInspect">
+		Saber-ne més sobre aquest resident
+	</string>
+	<string name="TooltipAgentMute">
+		Fer clic per ignorar aquest resident
+	</string>
+	<string name="TooltipAgentUnmute">
+		Fer clic per deixar d'ignorar aquest resident
+	</string>
+	<string name="TooltipAgentIM">
+		Fer clic per enviar un IM a aquest resident
+	</string>
+	<string name="TooltipAgentPay">
+		Fer clic per pagar a aquest resident
+	</string>
+	<string name="TooltipAgentOfferTeleport">
+		Fer clic per oferir una teletransportació a aquest resident
+	</string>
+	<string name="TooltipAgentRequestFriend">
+		Fer clic per demanar a aquest resident que sigui el vostre amic
+	</string>
+	<string name="TooltipGroupUrl">
+		Feu clic per veure la descripció d'aquest grup
+	</string>
+	<string name="TooltipEventUrl">
+		Feu clic per veure la descripció d'aquest esdeveniment
+	</string>
+	<string name="TooltipClassifiedUrl">
+		Feu clic per veure aquest anunci classificat
+	</string>
+	<string name="TooltipParcelUrl">
+		Feu clic per veure la descripció d'aquesta parcel·la
+	</string>
+	<string name="TooltipTeleportUrl">
+		Feu clic per teletransportar-vos a aquest lloc
+	</string>
+	<string name="TooltipObjectIMUrl">
+		Feu clic per veure la descripció d'aquest objecte
+	</string>
+	<string name="TooltipMapUrl">
+		Feu clic per veure aquesta ubicació al mapa
+	</string>
+	<string name="TooltipSLAPP">
+		Feu clic per executar l'ordre secondlife://
+	</string>
+	<string name="TooltipFSHelpDebugSLUrl">
+		Feu clic per obrir la finestra de paràmetres de depuració per a aquest paràmetre
+	</string>
+	<string name="TooltipFSUrlEntryWear">
+		Feu clic per portar el contingut d'una carpeta d'inventari
+	</string>
+	<string name="CurrentURL" value=" URL actual: [CurrentURL]"/>
+	<string name="TooltipEmail">
+		Feu clic per compondre un missatge
+	</string>
+	<string name="SLurlLabelTeleport">
+		Teletransporta'm a
+	</string>
+	<string name="SLurlLabelShowOnMap">
+		Mostra el mapa per a
+	</string>
+	<string name="SLappAgentMute">
+		Ignora
+	</string>
+	<string name="SLappAgentUnmute">
+		Deixa d'ignorar
+	</string>
+	<string name="SLappAgentIM">
+		IM
+	</string>
+	<string name="SLappAgentPay">
+		Paga
+	</string>
+	<string name="SLappAgentOfferTeleport">
+		Ofereix teletransportació a
+	</string>
+	<string name="SLappAgentRequestFriend">
+		Sol·licitud d'amistat
+	</string>
+	<string name="SLappAgentRemoveFriend">
+		Eliminació d'un amic
+	</string>
+	<string name="BUTTON_CLOSE_DARWIN">
+		Tanca (⌘W)
+	</string>
+	<string name="BUTTON_CLOSE_WIN">
+		Tanca (Ctrl+W)
+	</string>
+	<string name="BUTTON_CLOSE_CHROME">
+		Tanca
+	</string>
+	<string name="BUTTON_RESTORE">
+		Restaura
+	</string>
+	<string name="BUTTON_MINIMIZE">
+		Minimitza
+	</string>
+	<string name="BUTTON_TEAR_OFF">
+		Redueix
+	</string>
+	<string name="BUTTON_DOCK">
+		Acobla
+	</string>
+	<string name="BUTTON_HELP">
+		Mostra l'ajuda
+	</string>
+	<string name="BUTTON_SNOOZE">
+		Atura temporalment
+	</string>
+	<string name="TooltipNotecardNotAllowedTypeDrop">
+		Els elements d'aquest tipus no es poden adjuntar
+a les notes d'aquesta regió.
+	</string>
+	<string name="TooltipNotecardOwnerRestrictedDrop">
+		Només els elements amb permisos
+il·limitats per al 'pròxim propietari'
+poden ser adjuntats a les notes.
+	</string>
+	<string name="Searching">
+		Cercant...
+	</string>
+	<string name="NoneFound">
+		No s'ha trobat cap resultat.
+	</string>
+	<string name="RetrievingData">
+		Extraient dades...
+	</string>
+	<string name="ReleaseNotes">
+		Notes de la versió
+	</string>
+	<string name="LoadingData">
+		Carregant...
+	</string>
+	<string name="LockedFolder">
+		bloquejat
+	</string>
+	<string name="ProtectedFolder">
+		protegit
+	</string>
+	<string name="AvatarNameNobody">
+		(ningú)
+	</string>
+	<string name="AvatarNameWaiting">
+		(Carregant...)
+	</string>
+	<string name="AvatarNameMultiple">
+		(múltiple)
+	</string>
+	<string name="GroupNameNone">
+		(cap)
+	</string>
+	<string name="AssetErrorNone">
+		Cap error
+	</string>
+	<string name="AssetErrorRequestFailed">
+		Sol·licitud de l'actiu: fallida
+	</string>
+	<string name="AssetErrorNonexistentFile">
+		Sol·licitud de l'actiu: fitxer inexistent
+	</string>
+	<string name="AssetErrorNotInDatabase">
+		Sol·licitud de l'actiu: actiu no trobat a la base de dades
+	</string>
+	<string name="AssetErrorEOF">
+		Final del fitxer
+	</string>
+	<string name="AssetErrorCannotOpenFile">
+		No s'ha pogut obrir el fitxer
+	</string>
+	<string name="AssetErrorFileNotFound">
+		Fitxer no trobat
+	</string>
+	<string name="AssetErrorTCPTimeout">
+		Temps d'espera de la transferència del fitxer superat
+	</string>
+	<string name="AssetErrorCircuitGone">
+		El circuit ha desaparegut
+	</string>
+	<string name="AssetErrorPriceMismatch">
+		Hi ha una diferència de preu entre el client i el servidor
+	</string>
+	<string name="AssetErrorUnknownStatus">
+		Estat desconegut
+	</string>
+	<string name="AssetUploadServerUnreacheble">
+		Servei inaccessible.
+	</string>
+	<string name="AssetUploadServerDifficulties">
+		El servidor té dificultats imprevistes.
+	</string>
+	<string name="AssetUploadServerUnavaliable">
+		Serveis no disponibles o el temps de càrrega ha estat superat.
+	</string>
+	<string name="AssetUploadRequestInvalid">
+		Error en la sol·licitud de càrrega. Si us plau, consulteu el lloc:
+http://secondlife.com/support per ajudar-vos a resoldre aquest problema.
+	</string>
+	<string name="SettingValidationError">
+		Error de validació en importar els paràmetres [NAME]
+	</string>
+	<string name="SettingImportFileError">
+		No es pot obrir el fitxer [FILE]
+	</string>
+	<string name="SettingParseFileError">
+		No es pot analitzar el fitxer [FILE]
+	</string>
+	<string name="SettingTranslateError">
+		No es poden traduir els paràmetres heretats de windlight [NAME]
+	</string>
+	<string name="texture">
+		textura
+	</string>
+	<string name="sound">
+		so
+	</string>
+	<string name="calling card">
+		targeta de visita
+	</string>
+	<string name="landmark">
+		punt de referència
+	</string>
+	<string name="legacy script">
+		script (versió antiga)
+	</string>
+	<string name="clothing">
+		roba
+	</string>
+	<string name="object">
+		objecte
+	</string>
+	<string name="note card">
+		nota
+	</string>
+	<string name="folder">
+		carpeta
+	</string>
+	<string name="root">
+		arrel
+	</string>
+	<string name="lsl2 script">
+		script LSL2
+	</string>
+	<string name="lsl bytecode">
+		codi de bytes LSL
+	</string>
+	<string name="tga texture">
+		textura tga
+	</string>
+	<string name="body part">
+		part del cos
+	</string>
+	<string name="snapshot">
+		foto
+	</string>
+	<string name="lost and found">
+		Objectes perduts
+	</string>
+	<string name="targa image">
+		imatge targa
+	</string>
+	<string name="trash">
+		Paperera
+	</string>
+	<string name="jpeg image">
+		imatge jpeg
+	</string>
+	<string name="animation">
+		animació
+	</string>
+	<string name="gesture">
+		gest
+	</string>
+	<string name="simstate">
+		simstate
+	</string>
+	<string name="favorite">
+		favorit
+	</string>
+	<string name="symbolic link">
+		enllaç
+	</string>
+	<string name="symbolic folder link">
+		enllaç de carpeta
+	</string>
+	<string name="settings blob">
+		paràmetres
+	</string>
+	<string name="mesh">
+		malla
+	</string>
+	<string name="AvatarEditingAppearance">
+		(Modificant l'aparença)
+	</string>
+	<string name="AvatarAway">
+		Absent
+	</string>
+	<string name="AvatarDoNotDisturb">
+		No molestar
+	</string>
+	<string name="AvatarMuted">
+		Bloquejat(da)
+	</string>
+	<string name="AvatarAutoResponse">
+		Resposta automàtica
+	</string>
+	<string name="AvatarTyping">
+		Escrivint
+	</string>
+	<string name="anim_express_afraid">
+		Espantat
+	</string>
+	<string name="anim_express_anger">
+		Enfadat
+	</string>
+	<string name="anim_away">
+		Absent
+	</string>
+	<string name="anim_backflip">
+		Salt mortal enrere
+	</string>
+	<string name="anim_express_laugh">
+		Partir-se de riure
+	</string>
+	<string name="anim_express_toothsmile">
+		Gran somriure
+	</string>
+	<string name="anim_blowkiss">
+		Llançar un petó
+	</string>
+	<string name="anim_express_bored">
+		Badallar d'avorriment
+	</string>
+	<string name="anim_bow">
+		Inclinar-se
+	</string>
+	<string name="anim_clap">
+		Aplaudir
+	</string>
+	<string name="anim_courtbow">
+		Reverència de cort
+	</string>
+	<string name="anim_express_cry">
+		Plorar
+	</string>
+	<string name="anim_dance1">
+		Ball 1
+	</string>
+	<string name="anim_dance2">
+		Ball 2
+	</string>
+	<string name="anim_dance3">
+		Ball 3
+	</string>
+	<string name="anim_dance4">
+		Ball 4
+	</string>
+	<string name="anim_dance5">
+		Ball 5
+	</string>
+	<string name="anim_dance6">
+		Ball 6
+	</string>
+	<string name="anim_dance7">
+		Ball 7
+	</string>
+	<string name="anim_dance8">
+		Ball 8
+	</string>
+	<string name="anim_express_disdain">
+		Menyspreu
+	</string>
+	<string name="anim_drink">
+		Beure
+	</string>
+	<string name="anim_express_embarrased">
+		Vergonya
+	</string>
+	<string name="anim_angry_fingerwag">
+		Desaprovació
+	</string>
+	<string name="anim_fist_pump">
+		Victòria
+	</string>
+	<string name="anim_yoga_float">
+		Ioga
+	</string>
+	<string name="anim_express_frown">
+		Arrufar les celles
+	</string>
+	<string name="anim_impatient">
+		Impacient
+	</string>
+	<string name="anim_jumpforjoy">
+		Saltar d'alegria
+	</string>
+	<string name="anim_kissmybutt">
+		Au, va!
+	</string>
+	<string name="anim_express_kiss">
+		Llançar un petó
+	</string>
+	<string name="anim_laugh_short">
+		Riure
+	</string>
+	<string name="anim_musclebeach">
+		Mostrar músculs
+	</string>
+	<string name="anim_no_unhappy">
+		No (descontent)
+	</string>
+	<string name="anim_no_head">
+		No
+	</string>
+	<string name="anim_nyanya">
+		Na na na na na
+	</string>
+	<string name="anim_punch_onetwo">
+		Esquerra-dreta
+	</string>
+	<string name="anim_express_open_mouth">
+		Boca oberta
+	</string>
+	<string name="anim_peace">
+		Pau
+	</string>
+	<string name="anim_point_you">
+		Assenyalar algú
+	</string>
+	<string name="anim_point_me">
+		Assenyalar-se a un mateix
+	</string>
+	<string name="anim_punch_l">
+		Esquerra
+	</string>
+	<string name="anim_punch_r">
+		Dreta
+	</string>
+	<string name="anim_rps_countdown">
+		Comptar (pedra-paper-tisores)
+	</string>
+	<string name="anim_rps_paper">
+		Paper (pedra-paper-tisores)
+	</string>
+	<string name="anim_rps_rock">
+		Pedra (pedra-paper-tisores)
+	</string>
+	<string name="anim_rps_scissors">
+		Tisores (pedra-paper-tisores)
+	</string>
+	<string name="anim_express_repulsed">
+		Repulsió
+	</string>
+	<string name="anim_kick_roundhouse_r">
+		Cop de peu circular
+	</string>
+	<string name="anim_express_sad">
+		Trist
+	</string>
+	<string name="anim_salute">
+		Salutació
+	</string>
+	<string name="anim_shout">
+		Cridar
+	</string>
+	<string name="anim_express_shrug">
+		Arronsar les espatlles
+	</string>
+	<string name="anim_express_smile">
+		Somriure
+	</string>
+	<string name="anim_smoke_idle">
+		Fumar, immòbil
+	</string>
+	<string name="anim_smoke_inhale">
+		Fumar, fer una pipada
+	</string>
+	<string name="anim_smoke_throw_down">
+		Fumar, llençar la burilla
+	</string>
+	<string name="anim_express_surprise">
+		Sorpresa
+	</string>
+	<string name="anim_sword_strike_r">
+		Cop d'espasa
+	</string>
+	<string name="anim_angry_tantrum">
+		Enrabiada
+	</string>
+	<string name="anim_express_tongue_out">
+		Treure la llengua
+	</string>
+	<string name="anim_hello">
+		Saludar amb la mà
+	</string>
+	<string name="anim_whisper">
+		Xiuxiuejar
+	</string>
+	<string name="anim_whistle">
+		Xiular
+	</string>
+	<string name="anim_express_wink">
+		Fer l'ullet
+	</string>
+	<string name="anim_wink_hollywood">
+		Fer l'ullet (Hollywood)
+	</string>
+	<string name="anim_express_worry">
+		Preocupació
+	</string>
+	<string name="anim_yes_happy">
+		Sí (Alegria)
+	</string>
+	<string name="anim_yes_head">
+		Sí
+	</string>
+	<string name="multiple_textures">
+		Múltiples
+	</string>
+	<string name="use_texture">
+		Utilitzar la textura
+	</string>
+	<string name="manip_hint1">
+		Arrossegueu el cursor sobre l'eix
+	</string>
+	<string name="manip_hint2">
+		per fixar-lo a la graella
+	</string>
+	<string name="texture_loading">
+		Carregant...
+	</string>
+	<string name="worldmap_offline">
+		Fora de línia
+	</string>
+	<string name="worldmap_item_tooltip_format">
+		[AREA] m² [PRICE] L$
+	</string>
+	<string name="worldmap_results_none_found">
+		No s'han trobat resultats.
+	</string>
+	<string name="worldmap_agent_position">
+		Ets aquí
+	</string>
+	<string name="minimap_distance">
+		(Distància: [DISTANCE] m)
+	</string>
+	<string name="minimap_no_focus">
+		La càmera no pot enfocar l'usuari perquè està fora de la vostra distància de visió.
+	</string>
+	<string name="Ok">
+		D'acord
+	</string>
+	<string name="Premature end of file">
+		Fitxer incomplet
+	</string>
+	<string name="ST_NO_JOINT">
+		No s'ha pogut trobar ROOT o JOINT.
+	</string>
+	<string name="no_name_object">
+		(sense nom)
+	</string>
+	<string name="NearbyChatTitle">
+		Xat proper
+	</string>
+	<string name="NearbyChatLabel">
+		(Xat proper)
+	</string>
+	<string name="whisper">
+		xiuxiueja:
+	</string>
+	<string name="shout">
+		crida:
+	</string>
+	<string name="ringing">
+		Connectant al xat de veu del Món...
+	</string>
+	<string name="connected">
+		Connectat(da)
+	</string>
+	<string name="unavailable">
+		Veu no disponible on ets
+	</string>
+	<string name="hang_up">
+		Desconnectat del xat de veu
+	</string>
+	<string name="reconnect_nearby">
+		Ara sereu reconnectat(da) al xat de veu proper.
+	</string>
+	<string name="ScriptQuestionCautionChatGranted">
+		'[OBJECTNAME]', un objecte pertanyent a [OWNERNAME], situat a [REGIONNAME] a [REGIONPOS], ha rebut el dret de: [PERMISSIONS].
+	</string>
+	<string name="ScriptQuestionCautionChatDenied">
+		'[OBJECTNAME]', un objecte pertanyent a [OWNERNAME], situat a [REGIONNAME] a [REGIONPOS], no ha rebut el dret de: [PERMISSIONS].
+	</string>
+	<string name="AdditionalPermissionsRequestHeader">
+		Si autoritzeu l'accés al vostre compte, també autoritzeu l'objecte a:
+	</string>
+	<string name="ScriptTakeMoney">
+		Debitar els vostres Linden dollars (L$)
+	</string>
+	<string name="ActOnControlInputs">
+		Utilitzar les vostres tecles de control
+	</string>
+	<string name="RemapControlInputs">
+		Reconfigurar les vostres tecles de control
+	</string>
+	<string name="AnimateYourAvatar">
+		Animar el vostre avatar
+	</string>
+	<string name="AttachToYourAvatar">
+		Adjuntar al vostre avatar
+	</string>
+	<string name="ReleaseOwnership">
+		Passar l'objecte al domini públic (sense propietari)
+	</string>
+	<string name="LinkAndDelink">
+		Enllaçar i desenllaçar altres objectes
+	</string>
+	<string name="AddAndRemoveJoints">
+		Crear i suprimir enllaços amb altres objectes
+	</string>
+	<string name="ChangePermissions">
+		Modificar els seus permisos
+	</string>
+	<string name="TrackYourCamera">
+		Seguir la vostra càmera
+	</string>
+	<string name="ControlYourCamera">
+		Controlar la vostra càmera
+	</string>
+	<string name="TeleportYourAgent">
+		Teletransportar-vos
+	</string>
+	<string name="ManageEstateSilently">
+		Gestioneu els vostres béns discretament
+	</string>
+	<string name="ChangeYourDefaultAnimations">
+		Modifiqueu les vostres animacions per defecte
+	</string>
+	<string name="ForceSitAvatar">
+		Forceu el vostre avatar a seure
+	</string>
+	<string name="ChangeEnvSettings">
+		Canvieu els vostres paràmetres d'entorn
+	</string>
+	<string name="SnapshotSavedToDisk">
+		Foto desada: [FILENAME]
+	</string>
+	<string name="NotConnected">
+		No connectat(da)
+	</string>
+	<string name="AgentNameSubst">
+		(Vós)
+	</string>
+	<string name="JoinAnExperience"/>
+	<string name="SilentlyManageEstateAccess">
+		Suprimir les alertes en gestionar les llistes d'accés als dominis
+	</string>
+	<string name="OverrideYourAnimations">
+		Substituïu les vostres animacions per defecte
+	</string>
+	<string name="ScriptReturnObjects">
+		Retorneu els objectes de part vostra
+	</string>
+	<string name="UnknownScriptPermission">
+		(desconegut)
+	</string>
+	<string name="SIM_ACCESS_PG">
+		General
+	</string>
+	<string name="SIM_ACCESS_MATURE">
+		Moderat
+	</string>
+	<string name="SIM_ACCESS_ADULT">
+		Adult
+	</string>
+	<string name="SIM_ACCESS_DOWN">
+		Fora de línia
+	</string>
+	<string name="SIM_ACCESS_MIN">
+		Desconegut
+	</string>
+	<string name="land_type_unknown">
+		(desconegut)
+	</string>
+	<string name="Estate / Full Region">
+		Domini / Regió sencera
+	</string>
+	<string name="Estate / Homestead">
+		Domini / Homestead
+	</string>
+	<string name="Mainland / Homestead">
+		Continent / Homestead
+	</string>
+	<string name="Mainland / Full Region">
+		Continent / Regió sencera
+	</string>
+	<string name="Linden Homes / Full Region">
+		Cases Linden / Regió sencera
+	</string>
+	<string name="all_files">
+		Tots els fitxers
+	</string>
+	<string name="sound_files">
+		Sons
+	</string>
+	<string name="animation_files">
+		Animacions
+	</string>
+	<string name="image_files">
+		Imatges
+	</string>
+	<string name="save_file_verb">
+		Desa
+	</string>
+	<string name="load_file_verb">
+		Carrega
+	</string>
+	<string name="targa_image_files">
+		Imatges Targa
+	</string>
+	<string name="bitmap_image_files">
+		Imatges Bitmap
+	</string>
+	<string name="png_image_files">
+		Imatges PNG
+	</string>
+	<string name="save_texture_image_files">
+		Imatges Targa o PNG
+	</string>
+	<string name="avi_movie_file">
+		Fitxer de pel·lícula AVI
+	</string>
+	<string name="xaf_animation_file">
+		Fitxer d'animació XAF
+	</string>
+	<string name="xml_file">
+		Fitxer XML
+	</string>
+	<string name="raw_file">
+		Fitxer RAW
+	</string>
+	<string name="compressed_image_files">
+		Imatges comprimides
+	</string>
+	<string name="load_files">
+		Carrega fitxers
+	</string>
+	<string name="choose_the_directory">
+		Tria el directori
+	</string>
+	<string name="script_files">
+		Scripts
+	</string>
+	<string name="dictionary_files">
+		Diccionaris
+	</string>
+	<string name="backup_files">
+		Còpies de seguretat d'objectes
+	</string>
+	<string name="collada_files">
+		Models COLLADA
+	</string>
+	<string name="csv_files">
+		Valors separats per comes
+	</string>
+	<string name="recompile_script_verb">
+		Recompila
+	</string>
+	<string name="jpeg_image_files">
+		Imatges JPEG
+	</string>
+	<string name="executable_files">
+		Fitxers de programes executables
+	</string>
+	<string name="Validator_InvalidNumericString">Cadena numèrica no vàlida: "[STR]"</string>
+	<string name="Validator_ShouldNotBeMinus">Caràcter inicial no vàlid: '[CH]' (no ha de ser un menys)</string>
+	<string name="Validator_ShouldNotBeMinusOrZero">Caràcter inicial no vàlid: '[CH]' (no ha de ser ni un menys ni un zero)</string>
+	<string name="Validator_ShouldBeDigit">Caràcter no vàlid [NR]: '[CH]' (només ha de ser un dígit)</string>
+	<string name="Validator_ShouldBeDigitOrDot">Caràcter no vàlid [NR]: '[CH]' (només ha de ser un dígit o un punt decimal)</string>
+	<string name="Validator_ShouldBeDigitOrAlpha">Caràcter no vàlid [NR]: '[CH]' (només pot ser un dígit o un caràcter alfanumèric ASCII)</string>
+	<string name="Validator_ShouldBeDigitOrAlphaOrSpace">Caràcter no vàlid [NR]: '[CH]' (només pot ser un dígit, un caràcter alfanumèric ASCII o un espai.)</string>
+	<string name="Validator_ShouldBeDigitOrAlphaOrPunct">Caràcter no vàlid [NR]: '[CH]' (només pot ser un dígit, un caràcter alfanumèric ASCII o un signe de puntuació.)</string>
+	<string name="Validator_ShouldBeDigitOrAlphaOrPunctNotSpace">Caràcter no vàlid [NR]: '[CH]' (només pot ser un dígit o un caràcter alfanumèric ASCII o una puntuació sense espai.)</string>
+	<string name="Validator_ShouldBeDigitNotSpace">Caràcter no vàlid [NR]: '[CH]' (només ha de ser un dígit sense espai)</string>
+	<string name="Validator_ShouldBeASCII">Caràcter no vàlid [NR]: '[CH]' (només pot ser un caràcter ASCII)</string>
+	<string name="Validator_ShouldBeNewLineOrASCII">Caràcter no vàlid [NR]: '[CH]' (només ha de ser un caràcter ASCII o una nova línia.)</string>
+	<string name="LSLTipSleepTime" translate="false">Pausa l'script durant [SLEEP_TIME] segons.</string>
+	<string name="shape">
+		Forma
+	</string>
+	<string name="skin">
+		Pell
+	</string>
+	<string name="hair">
+		Cabell
+	</string>
+	<string name="eyes">
+		Ulls
+	</string>
+	<string name="shirt">
+		Camisa
+	</string>
+	<string name="pants">
+		Pantalons
+	</string>
+	<string name="shoes">
+		Sabates
+	</string>
+	<string name="socks">
+		Mitjons
+	</string>
+	<string name="jacket">
+		Jaqueta
+	</string>
+	<string name="gloves">
+		Guants
+	</string>
+	<string name="undershirt">
+		Samarreta interior
+	</string>
+	<string name="underpants">
+		Calçotets
+	</string>
+	<string name="skirt">
+		Faldilla
+	</string>
+	<string name="alpha">
+		Alfa
+	</string>
+	<string name="tattoo">
+		Tatuatge
+	</string>
+	<string name="universal">
+		Universal
+	</string>
+	<string name="physics">
+		Propietats físiques
+	</string>
+	<string name="invalid">
+		no vàlid
+	</string>
+	<string name="none">
+		cap
+	</string>
+	<string name="sky">
+		Cel
+	</string>
+	<string name="water">
+		Aigua
+	</string>
+	<string name="day">
+		Cicle del dia
+	</string>
+	<string name="shirt_not_worn">
+		Camisa no portada
+	</string>
+	<string name="pants_not_worn">
+		Pantalons no portats
+	</string>
+	<string name="shoes_not_worn">
+		Sabates no portades
+	</string>
+	<string name="socks_not_worn">
+		Mitjons no portats
+	</string>
+	<string name="jacket_not_worn">
+		Jaqueta no portada
+	</string>
+	<string name="gloves_not_worn">
+		Guants no portats
+	</string>
+	<string name="undershirt_not_worn">
+		Samarreta interior no portada
+	</string>
+	<string name="underpants_not_worn">
+		Calçotets no portats
+	</string>
+	<string name="skirt_not_worn">
+		Faldilla no portada
+	</string>
+	<string name="alpha_not_worn">
+		Alfa no portat
+	</string>
+	<string name="tattoo_not_worn">
+		Tatuatge no portat
+	</string>
+	<string name="universal_not_worn">
+		Universal no portat
+	</string>
+	<string name="physics_not_worn">
+		Propietats físiques no portades
+	</string>
+	<string name="invalid_not_worn">
+		no vàlid
+	</string>
+	<string name="create_new_shape">
+		Crea una nova forma
+	</string>
+	<string name="create_new_skin">
+		Crea una nova pell
+	</string>
+	<string name="create_new_hair">
+		Crea un nou cabell
+	</string>
+	<string name="create_new_eyes">
+		Crea uns nous ulls
+	</string>
+	<string name="create_new_shirt">
+		Crea una nova camisa
+	</string>
+	<string name="create_new_pants">
+		Crea uns nous pantalons
+	</string>
+	<string name="create_new_shoes">
+		Crea unes noves sabates
+	</string>
+	<string name="create_new_socks">
+		Crea uns nous mitjons
+	</string>
+	<string name="create_new_jacket">
+		Crea una nova jaqueta
+	</string>
+	<string name="create_new_gloves">
+		Crea uns nous guants
+	</string>
+	<string name="create_new_undershirt">
+		Crea una nova samarreta interior
+	</string>
+	<string name="create_new_underpants">
+		Crea uns nous calçotets
+	</string>
+	<string name="create_new_skirt">
+		Crea una nova faldilla
+	</string>
+	<string name="create_new_alpha">
+		Crea un nou alfa
+	</string>
+	<string name="create_new_tattoo">
+		Crea un nou tatuatge
+	</string>
+	<string name="create_new_universal">
+		Crea un nou entorn universal
+	</string>
+	<string name="create_new_physics">
+		Crea noves propietats físiques
+	</string>
+	<string name="create_new_invalid">
+		no vàlid
+	</string>
+	<string name="NewWearable">
+		Nou [WEARABLE_ITEM]
+	</string>
+	<string name="next">
+		Següent
+	</string>
+	<string name="ok">
+		D'acord
+	</string>
+	<string name="GroupNotifyGroupNotice">
+		Nota al grup
+	</string>
+	<string name="GroupNotifyGroupNotices">
+		Notícies al grup
+	</string>
+	<string name="GroupNotifySentBy">
+		Enviada per
+	</string>
+	<string name="GroupNotifyAttached">
+		Fitxer(s) adjunt(s):
+	</string>
+	<string name="GroupNotifyViewPastNotices">
+		Consulteu les notícies anteriors o trieu no rebre més aquests missatges aquí.
+	</string>
+	<string name="GroupNotifyOpenAttachment">
+		Obre el fitxer adjunt
+	</string>
+	<string name="GroupNotifySaveAttachment">
+		Desa el fitxer adjunt
+	</string>
+	<string name="GroupNotifySender">
+		Enviada per [SENDER], [GROUPNAME]
+	</string>
+	<string name="TeleportOffer">
+		Oferta de teletransportació
+	</string>
+	<string name="StartUpNotifications">
+		Han arribat noves notificacions mentre no hi éreu.
+	</string>
+	<string name="OverflowInfoChannelString">
+		Teniu %d notificació(ns) addicional(s)
+	</string>
+	<string name="BodyPartsRightArm">
+		Braç dret
+	</string>
+	<string name="BodyPartsHead">
+		Cap
+	</string>
+	<string name="BodyPartsLeftArm">
+		Braç esquerre
+	</string>
+	<string name="BodyPartsLeftLeg">
+		Cama esquerra
+	</string>
+	<string name="BodyPartsTorso">
+		Tors
+	</string>
+	<string name="BodyPartsRightLeg">
+		Cama dreta
+	</string>
+	<string name="BodyPartsEnhancedSkeleton">
+		Esquelet millorat
+	</string>
+	<string name="GraphicsQualityLow">
+		Baixa
+	</string>
+	<string name="GraphicsQualityMid">
+		Mitjana
+	</string>
+	<string name="GraphicsQualityHigh">
+		Alta
+	</string>
+	<string name="LeaveMouselook">
+		Premeu ESC per sortir de la vista subjectiva
+	</string>
+	<string name="InventoryNoMatchingItems">
+		No heu trobat el que cercàveu? Proveu [secondlife:///app/search/all/[SEARCH_TERM] Cercar].
+	</string>
+	<string name="InventoryNoMatchingRecentItems">
+		Heu trobat el que cercàveu? Proveu [secondlife:///app/inventory/filters Show filters].
+	</string>
+	<string name="PlacesNoMatchingItems">
+		No heu trobat el que cercàveu? Proveu [secondlife:///app/search/places/[SEARCH_TERM] Cercar].
+	</string>
+	<string name="FavoritesNoMatchingItems">
+		Arrossegueu un punt de referència aquí per afegir-lo als vostres Favorits.
+	</string>
+	<string name="MarketplaceNoListing">
+		Encara no teniu cap anunci.
+	</string>
+	<string name="MarketplaceNoMatchingItems">
+		No s'ha trobat cap article. Verifiqueu l'ortografia de la vostra cadena de cerca i torneu-ho a provar.
+	</string>
+	<string name="InventorySingleFolderEmpty">
+		La carpeta és buida.
+	</string>
+	<string name="InventorySingleFolderNoMatches">
+		Cap coincidència.
+	</string>
+	<string name="InventoryNoTexture">
+		No teniu cap còpia d'aquesta textura al vostre inventari
+	</string>
+	<string name="InventoryInboxNoItems">
+		Les compres que heu fet al Marketplace es mostren aquí. Llavors podeu arrossegar-les al vostre inventari per utilitzar-les.
+	</string>
+	<string name="MarketplaceURL">
+		https://marketplace.[MARKETPLACE_DOMAIN_NAME]/
+	</string>
+	<string name="MarketplaceURL_CreateStore">
+		http://community.secondlife.com/t5/English-Knowledge-Base/Selling-in-the-Marketplace/ta-p/700193#Section_.3
+	</string>
+	<string name="MarketplaceURL_Dashboard">
+		https://marketplace.[MARKETPLACE_DOMAIN_NAME]/merchants/store/dashboard
+	</string>
+	<string name="MarketplaceURL_Imports">
+		https://marketplace.[MARKETPLACE_DOMAIN_NAME]/merchants/store/imports
+	</string>
+	<string name="MarketplaceURL_LearnMore">
+		https://marketplace.[MARKETPLACE_DOMAIN_NAME]/learn_more
+	</string>
+	<string name="InventoryPlayAnimationTooltip">
+		Obre la finestra amb les opcions de Reproducció
+	</string>
+	<string name="InventoryPlayGestureTooltip">
+		Executa el gest seleccionat al món virtual.
+	</string>
+	<string name="InventoryPlaySoundTooltip">
+		Obre la finestra amb les opcions de Reproducció
+	</string>
+	<string name="InventoryOutboxNotMerchantTitle">
+		Tothom pot vendre articles al Marketplace.
+	</string>
+	<string name="InventoryOutboxNotMerchantTooltip"/>
+	<string name="InventoryOutboxNotMerchant">
+		Per esdevenir venedor, heu de [[MARKETPLACE_CREATE_STORE_URL] crear una botiga al Marketplace].
+	</string>
+	<string name="InventoryOutboxNoItemsTitle">
+		La vostra bústia de sortida és buida.
+	</string>
+	<string name="InventoryOutboxNoItemsTooltip"/>
+	<string name="InventoryOutboxNoItems">
+		Per posar carpetes a la venda al [[MARKETPLACE_DASHBOARD_URL] Marketplace], arrossegueu-les a aquesta zona i feu clic a "Envia al Marketplace".
+	</string>
+	<string name="InventoryOutboxInitializingTitle">
+		Inicialitzant el Marketplace...
+	</string>
+	<string name="InventoryOutboxInitializing">
+		Estem accedint al vostre compte a la [[MARKETPLACE_CREATE_STORE_URL] botiga del Marketplace].
+	</string>
+	<string name="InventoryOutboxErrorTitle">
+		Errors del Marketplace.
+	</string>
+	<string name="InventoryOutboxError">
+		La [[MARKETPLACE_CREATE_STORE_URL] botiga del Marketplace] retorna errors.
+	</string>
+	<string name="InventoryMarketplaceError">
+		S'ha produït un error en obrir els anuncis del Marketplace.
+Si continueu rebent aquest missatge, contacteu amb l'assistència de Second Life a http://support.secondlife.com per obtenir ajuda.
+	</string>
+	<string name="InventoryMarketplaceConnectionError">
+		La connexió a l'anunci del Marketplace ha fallat.
+Si continueu rebent aquest missatge, contacteu amb l'assistència de Second Life a l'adreça següent: http://support.secondlife.com
+	</string>
+	<string name="InventoryMarketplaceConnectionErrorReason">
+		La connexió a l'anunci del Marketplace ha fallat. Motiu: [REASON]
+Si continueu rebent aquest missatge, contacteu amb l'assistència de Second Life a l'adreça següent: http://support.secondlife.com
+	</string>
+	<string name="InventoryMarketplaceListingsNoItemsTitle">
+		La vostra carpeta d'Anuncis del Marketplace és buida.
+	</string>
+	<string name="InventoryMarketplaceListingsNoItems">
+		Per posar carpetes a la venda al [[MARKETPLACE_DASHBOARD_URL] Marketplace], arrossegueu-les a aquesta zona.
+	</string>
+	<string name="InventoryItemsCount">
+		( [ITEMS]/[CATEGORIES] Articles )
+	</string>
+	<string name="Marketplace Validation Warning Stock">
+		la carpeta d'estoc ha d'estar continguda en una carpeta de versió
+	</string>
+	<string name="Marketplace Validation Error Mixed Stock">
+		: Error: tots els articles d'una carpeta d'estoc han de ser no reproduïbles i del mateix tipus
+	</string>
+	<string name="Marketplace Validation Error Subfolder In Stock">
+		: Error: una carpeta d'estoc no pot contenir subcarpetes
+	</string>
+	<string name="Marketplace Validation Warning Empty">
+		: Avís: la carpeta no conté cap article
+	</string>
+	<string name="Marketplace Validation Warning Create Stock">
+		: Avís: creació de la carpeta d'estoc
+	</string>
+	<string name="Marketplace Validation Warning Create Version">
+		: Avís: creació de la carpeta de versió
+	</string>
+	<string name="Marketplace Validation Warning Move">
+		: Avís: desplaçament d'articles
+	</string>
+	<string name="Marketplace Validation Warning Delete">
+		: Avís: contingut de la carpeta transferit a la carpeta d'estoc, supressió de la carpeta buida
+	</string>
+	<string name="Marketplace Validation Error Stock Item">
+		: Error: els articles no reproduïbles han d'estar continguts en una carpeta d'estoc
+	</string>
+	<string name="Marketplace Validation Warning Unwrapped Item">
+		: Avís: els articles han d'estar continguts en una carpeta de versió
+	</string>
+	<string name="Marketplace Validation Error">
+		: Error:
+	</string>
+	<string name="Marketplace Validation Warning">
+		: Avís:
+	</string>
+	<string name="Marketplace Validation Error Empty Version">
+		: Avís: la carpeta de versió ha de contenir almenys 1 article
+	</string>
+	<string name="Marketplace Validation Error Empty Stock">
+		: Avís: la carpeta d'estoc ha de contenir almenys 1 article
+	</string>
+	<string name="Marketplace Validation No Error">
+		Cap error ni avís a assenyalar
+	</string>
+	<string name="Marketplace Error None">
+		Cap error
+	</string>
+	<string name="Marketplace Error Prefix">
+		Error:
+	</string>
+	<string name="Marketplace Error Not Merchant">
+		Abans d'enviar articles al Marketplace, heu de configurar-vos com a venedor (gratuït).
+	</string>
+	<string name="Marketplace Error Not Accepted">
+		No es pot moure l'article a aquesta carpeta.
+	</string>
+	<string name="Marketplace Error Unsellable Item">
+		Aquest article no es pot vendre al Marketplace.
+	</string>
+	<string name="MarketplaceNoID">
+		sense ID de Mkt
+	</string>
+	<string name="MarketplaceLive">
+		publicat
+	</string>
+	<string name="MarketplaceActive">
+		actiu
+	</string>
+	<string name="MarketplaceMax">
+		màx.
+	</string>
+	<string name="MarketplaceStock">
+		estoc
+	</string>
+	<string name="MarketplaceNoStock">
+		sense estoc
+	</string>
+	<string name="MarketplaceUpdating">
+		actualitzant...
+	</string>
+	<string name="UploadFeeInfo">
+		Les tarifes depenen del vostre nivell de subscripció. Els nivells superiors estan subjectes a tarifes menys elevades. [https://secondlife.com/my/account/membership.php? Més informació]
+	</string>
+	<string name="Open landmarks">
+		Punts de referència oberts
+	</string>
+	<string name="Unconstrained">
+		Sense restriccions
+	</string>
+	<string name="no_transfer" value=" (no transferible)"/>
+	<string name="no_modify" value=" (no modificable)"/>
+	<string name="no_copy" value=" (no copiable)"/>
+	<string name="worn" value=" (portat)"/>
+	<string name="link" value=" (enllaç)"/>
+	<string name="broken_link" value=" (enllaç trencat)"/>
+	<string name="LoadingContents">
+		carregant continguts...
+	</string>
+	<string name="NoContents">
+		Cap contingut
+	</string>
+	<string name="WornOnAttachmentPoint" value=" (portat a [ATTACHMENT_POINT])"/>
+	<string name="AttachmentErrorMessage" value="([ATTACHMENT_ERROR])"/>
+	<string name="ActiveGesture" value="[GESLABEL] (actiu)"/>
+	<string name="PermYes">
+		Sí
+	</string>
+	<string name="PermNo">
+		No
+	</string>
+	<string name="Chat Message" value="Xat:"/>
+	<string name="Sound" value=" So:"/>
+	<string name="Wait" value=" --- Espera:"/>
+	<string name="AnimFlagStop" value=" Atura l'animació:"/>
+	<string name="AnimFlagStart" value=" Inicia l'animació:"/>
+	<string name="Wave" value=" Saludar amb la mà"/>
+	<string name="GestureActionNone" value="A triar"/>
+	<string name="HelloAvatar" value=" Hola, avatar!"/>
+	<string name="ViewAllGestures" value="  Mostra-ho tot &gt;&gt;"/>
+	<string name="GetMoreGestures" value="Més &gt;&gt;"/>
+	<string name="Animations" value=" Animacions,"/>
+	<string name="Calling Cards" value=" Targetes de visita,"/>
+	<string name="Clothing" value=" Roba,"/>
+	<string name="Gestures" value=" Gestos,"/>
+	<string name="Landmarks" value=" Punts de referència,"/>
+	<string name="Materials" value=" Materials,"/>
+	<string name="Notecards" value=" Notes,"/>
+	<string name="Objects" value=" Objectes,"/>
+	<string name="Scripts" value=" Scripts,"/>
+	<string name="Sounds" value=" Sons,"/>
+	<string name="Textures" value=" Textures,"/>
+	<string name="Settings" value=" Paràmetres,"/>
+	<string name="Snapshots" value=" Fotos,"/>
+	<string name="Folders" value=" Carpetes,"/>
+	<string name="No Filters" value="Sense "/>
+	<string name="Since Logoff" value="des de la desconnexió"/>
+	<string name="Modifiable" value="Modificable"/>
+	<string name="Copyable" value="Copiable"/>
+	<string name="Transferable" value="Transferible"/>
+	<string name="PermissionsFilter" value=" - Només [PERMISSIONS]"/>
+	<string name="InvFolder My Inventory">
+		El meu inventari
+	</string>
+	<string name="InvFolder Library">
+		Biblioteca
+	</string>
+	<string name="InvFolder Textures">
+		Textures
+	</string>
+	<string name="InvFolder Sounds">
+		Sons
+	</string>
+	<string name="InvFolder Calling Cards">
+		Targetes de visita
+	</string>
+	<string name="InvFolder Landmarks">
+		Punts de referència
+	</string>
+	<string name="InvFolder Scripts">
+		Scripts
+	</string>
+	<string name="InvFolder Clothing">
+		Roba
+	</string>
+	<string name="InvFolder Objects">
+		Objectes
+	</string>
+	<string name="InvFolder Notecards">
+		Notes
+	</string>
+	<string name="InvFolder New Folder">
+		Nova carpeta
+	</string>
+	<string name="InvFolder Inventory">
+		Inventari
+	</string>
+	<string name="InvFolder Uncompressed Images">
+		Imatges no comprimides
+	</string>
+	<string name="InvFolder Body Parts">
+		Parts del cos
+	</string>
+	<string name="InvFolder Trash">
+		Paperera
+	</string>
+	<string name="InvFolder Photo Album">
+		Àlbums de fotos
+	</string>
+	<string name="InvFolder Lost And Found">
+		Objectes perduts
+	</string>
+	<string name="InvFolder Uncompressed Sounds">
+		Sons no comprimits
+	</string>
+	<string name="InvFolder Animations">
+		Animacions
+	</string>
+	<string name="InvFolder Gestures">
+		Gestos
+	</string>
+	<string name="InvFolder Favorites">
+		Els meus Favorits
+	</string>
+	<string name="InvFolder favorite">
+		Els meus Favorits
+	</string>
+	<string name="InvFolder favorites">
+		Els meus favorits
+	</string>
+	<string name="InvFolder Current Outfit">
+		Conjunt actual
+	</string>
+	<string name="InvFolder Initial Outfits">
+		Conjunts inicials
+	</string>
+	<string name="InvFolder My Outfits">
+		Els meus conjunts
+	</string>
+	<string name="InvFolder Accessories">
+		Accessoris
+	</string>
+	<string name="InvFolder Meshes">
+		Malles
+	</string>
+	<string name="InvFolder Received Items">
+		Articles rebuts
+	</string>
+	<string name="InvFolder Merchant Outbox">
+		Bústia de sortida del venedor
+	</string>
+	<string name="InvFolder Settings">
+		Paràmetres
+	</string>
+	<string name="InvFolder Friends">
+		Amics
+	</string>
+	<string name="InvFolder All">
+		Tot
+	</string>
+	<string name="InvFolder My Suitcase">
+		La meva maleta
+	</string>
+	<string name="no_attachments">
+		Cap element adjunt portat
+	</string>
+	<string name="Attachments remain">
+		Elements adjunts ([COUNT] llocs restants)
+	</string>
+	<string name="Buy">
+		Compra
+	</string>
+	<string name="BuyforL$">
+		Compra L$
+	</string>
+	<string name="Stone">
+		Pedra
+	</string>
+	<string name="Metal">
+		Metall
+	</string>
+	<string name="Glass">
+		Vidre
+	</string>
+	<string name="Wood">
+		Fusta
+	</string>
+	<string name="Flesh">
+		Carn
+	</string>
+	<string name="Plastic">
+		Plàstic
+	</string>
+	<string name="Rubber">
+		Goma
+	</string>
+	<string name="Light">
+		Lleuger
+	</string>
+	<string name="KBShift">
+		Maj-
+	</string>
+	<string name="KBCtrl">
+		Ctrl
+	</string>
+	<string name="Chest">
+		Pit
+	</string>
+	<string name="Skull">
+		Crani
+	</string>
+	<string name="Left Shoulder">
+		Espatlla esquerra
+	</string>
+	<string name="Right Shoulder">
+		Espatlla dreta
+	</string>
+	<string name="Left Hand">
+		Mà esquerra
+	</string>
+	<string name="Right Hand">
+		Mà dreta
+	</string>
+	<string name="Left Foot">
+		Peu esquerre
+	</string>
+	<string name="Right Foot">
+		Peu dret
+	</string>
+	<string name="Spine">
+		Columna
+	</string>
+	<string name="Pelvis">
+		Pelvis
+	</string>
+	<string name="Mouth">
+		Boca
+	</string>
+	<string name="Chin">
+		Barbeta
+	</string>
+	<string name="Left Ear">
+		Orella esquerra
+	</string>
+	<string name="Right Ear">
+		Orella dreta
+	</string>
+	<string name="Left Eyeball">
+		Globus ocular esquerre
+	</string>
+	<string name="Right Eyeball">
+		Globus ocular dret
+	</string>
+	<string name="Nose">
+		Nas
+	</string>
+	<string name="R Upper Arm">
+		Braç D
+	</string>
+	<string name="R Forearm">
+		Avantbraç D
+	</string>
+	<string name="L Upper Arm">
+		Braç E
+	</string>
+	<string name="L Forearm">
+		Avantbraç E
+	</string>
+	<string name="Right Hip">
+		Maluc dret
+	</string>
+	<string name="R Upper Leg">
+		Cuixa D
+	</string>
+	<string name="R Lower Leg">
+		Cama D
+	</string>
+	<string name="Left Hip">
+		Maluc esquerre
+	</string>
+	<string name="L Upper Leg">
+		Cuixa E
+	</string>
+	<string name="L Lower Leg">
+		Cama E
+	</string>
+	<string name="Stomach">
+		Estómac
+	</string>
+	<string name="Left Pec">
+		Pectoral esquerre
+	</string>
+	<string name="Right Pec">
+		Pectoral dret
+	</string>
+	<string name="Neck">
+		Coll
+	</string>
+	<string name="Avatar Center">
+		Centre de l'avatar
+	</string>
+	<string name="Left Ring Finger">
+		Dit anular esquerre
+	</string>
+	<string name="Right Ring Finger">
+		Dit anular dret
+	</string>
+	<string name="Tail Base">
+		Base de la cua
+	</string>
+	<string name="Tail Tip">
+		Punta de la cua
+	</string>
+	<string name="Left Wing">
+		Ala esquerra
+	</string>
+	<string name="Right Wing">
+		Ala dreta
+	</string>
+	<string name="Jaw">
+		Mandíbula
+	</string>
+	<string name="Alt Left Ear">
+		Orella esquerra (Alt)
+	</string>
+	<string name="Alt Right Ear">
+		Orella dreta (Alt)
+	</string>
+	<string name="Alt Left Eye">
+		Ull esquerre (Alt)
+	</string>
+	<string name="Alt Right Eye">
+		Ull dret (Alt)
+	</string>
+	<string name="Tongue">
+		Llengua
+	</string>
+	<string name="Groin">
+		Engonal
+	</string>
+	<string name="Left Hind Foot">
+		Peu posterior esquerre
+	</string>
+	<string name="Right Hind Foot">
+		Peu posterior dret
+	</string>
+	<string name="Invalid Attachment">
+		Punt d'adjunció no vàlid
+	</string>
+	<string name="ATTACHMENT_MISSING_ITEM">
+		Error: article que falta
+	</string>
+	<string name="ATTACHMENT_MISSING_BASE_ITEM">
+		Error: article base que falta
+	</string>
+	<string name="ATTACHMENT_NOT_ATTACHED">
+		Error: l'objecte està en un conjunt actual, però no està adjuntat
+	</string>
+	<string name="YearsMonthsOld">
+		[AGEYEARS] [AGEMONTHS]
+	</string>
+	<string name="YearsOld">
+		[AGEYEARS]
+	</string>
+	<string name="MonthsOld">
+		[AGEMONTHS]
+	</string>
+	<string name="WeeksOld">
+		[AGEWEEKS]
+	</string>
+	<string name="DaysOld">
+		[AGEDAYS]
+	</string>
+	<string name="TodayOld">
+		Inscrit avui
+	</string>
+	<string name="av_render_everyone_now">
+		A partir d'ara, tothom us pot veure.
+	</string>
+	<string name="av_render_not_everyone">
+		És possible que no sigueu renderitzat per tota la gent que us envolta.
+	</string>
+	<string name="av_render_over_half">
+		És possible que no sigueu renderitzat per més de la meitat de la gent que us envolta.
+	</string>
+	<string name="av_render_most_of">
+		És possible que no sigueu renderitzat per la majoria de la gent que us envolta.
+	</string>
+	<string name="av_render_anyone">
+		És possible que no sigueu renderitzat per cap de les persones que us envolten.
+	</string>
+	<string name="hud_description_total">
+		El vostre HUD
+	</string>
+	<string name="hud_name_with_joint">
+		[OBJ_NAME] (portat a [JNT_NAME])
+	</string>
+	<string name="hud_render_memory_warning">
+		[HUD_DETAILS] utilitza molta memòria de textures
+	</string>
+	<string name="hud_render_cost_warning">
+		[HUD_DETAILS] conté moltes textures i objectes voluminosos
+	</string>
+	<string name="hud_render_heavy_textures_warning">
+		[HUD_DETAILS] conté moltes textures voluminoses
+	</string>
+	<string name="hud_render_cramped_warning">
+		[HUD_DETAILS] conté massa objectes
+	</string>
+	<string name="hud_render_textures_warning">
+		[HUD_DETAILS] conté massa textures
+	</string>
+	<string name="AgeYearsA">
+		[COUNT] any
+	</string>
+	<string name="AgeYearsB">
+		[COUNT] anys
+	</string>
+	<string name="AgeYearsC">
+		[COUNT] anys
+	</string>
+	<string name="AgeMonthsA">
+		[COUNT] mes
+	</string>
+	<string name="AgeMonthsB">
+		[COUNT] mesos
+	</string>
+	<string name="AgeMonthsC">
+		[COUNT] mesos
+	</string>
+	<string name="AgeWeeksA">
+		[COUNT] setmana
+	</string>
+	<string name="AgeWeeksB">
+		[COUNT] setmanes
+	</string>
+	<string name="AgeWeeksC">
+		[COUNT] setmanes
+	</string>
+	<string name="AgeDaysA">
+		[COUNT] dia
+	</string>
+	<string name="AgeDaysB">
+		[COUNT] dies
+	</string>
+	<string name="AgeDaysC">
+		[COUNT] dies
+	</string>
+	<string name="GroupMembersA">
+		[COUNT] membre
+	</string>
+	<string name="GroupMembersB">
+		[COUNT] membres
+	</string>
+	<string name="GroupMembersC">
+		[COUNT] membres
+	</string>
+	<string name="AcctTypeResident">
+		Resident
+	</string>
+	<string name="AcctTypeTrial">
+		Prova
+	</string>
+	<string name="AcctTypeCharterMember">
+		Membre fundador
+	</string>
+	<string name="AcctTypeEmployee">
+		Empleat(da) de Linden Lab
+	</string>
+	<string name="PaymentInfoUsed">
+		Informació de pagament utilitzada
+	</string>
+	<string name="PaymentInfoOnFile">
+		Informació de pagament registrada
+	</string>
+	<string name="NoPaymentInfoOnFile">
+		Cap informació de pagament registrada
+	</string>
+	<string name="AgeVerified">
+		Persona l'edat de la qual ha estat verificada
+	</string>
+	<string name="NotAgeVerified">
+		Persona l'edat de la qual no ha estat verificada
+	</string>
+	<string name="Center 2">
+		Centre 2
+	</string>
+	<string name="Top Right">
+		A dalt a la dreta
+	</string>
+	<string name="Top">
+		A dalt
+	</string>
+	<string name="Top Left">
+		A dalt a l'esquerra
+	</string>
+	<string name="Center">
+		Centre
+	</string>
+	<string name="Bottom Left">
+		A baix a l'esquerra
+	</string>
+	<string name="Bottom">
+		A baix
+	</string>
+	<string name="Bottom Right">
+		A baix a la dreta
+	</string>
+	<string name="CompileQueueDownloadedCompiling">
+		Descarregat, compilant...
+	</string>
+	<string name="CompileQueueServiceUnavailable">
+		Servei de compilació de scripts no disponible.
+	</string>
+	<string name="CompileQueueScriptNotFound">
+		Script no trobat al servidor.
+	</string>
+	<string name="CompileQueueProblemDownloading">
+		Problema durant la descàrrega
+	</string>
+	<string name="CompileQueueInsufficientPermDownload">
+		Permisos insuficients per descarregar un script.
+	</string>
+	<string name="CompileQueueInsufficientPermFor">
+		Permisos insuficients per a
+	</string>
+	<string name="CompileQueueUnknownFailure">
+		Error de descàrrega, error desconegut
+	</string>
+	<string name="CompileNoExperiencePerm">
+		Ignorant l'script [SCRIPT] amb l'experiència [EXPERIENCE].
+	</string>
+	<string name="CompileQueueTitle">
+		Recompilació - progrés
+	</string>
+	<string name="CompileQueueStart">
+		recompilar
+	</string>
+	<string name="CompileQueuePreprocessing">
+		Preprocessant: [SCRIPT]
+	</string>
+	<string name="CompileQueuePreprocessingComplete">
+		Preprocessament de l'script [SCRIPT] finalitzat
+	</string>
+	<string name="ResetQueueTitle">
+		Restablir el progrés
+	</string>
+	<string name="ResetQueueStart">
+		restablir
+	</string>
+	<string name="RunQueueTitle">
+		Executa
+	</string>
+	<string name="RunQueueStart">
+		executar
+	</string>
+	<string name="NotRunQueueTitle">
+		Atura
+	</string>
+	<string name="NotRunQueueStart">
+		aturar
+	</string>
+	<string name="DeleteQueueTitle">
+		Suprimir el progrés
+	</string>
+	<string name="DeleteQueueStart">
+		Suprimint
+	</string>
+	<string name="Compiling">
+		Compilant [NAME]
+	</string>
+	<string name="CompileSuccessful">
+		Compilació correcta!
+	</string>
+	<string name="CompileSuccessfulSaving">
+		Compilació correcta, desant...
+	</string>
+	<string name="SaveComplete">
+		Desat correctament.
+	</string>
+	<string name="UploadFailed">
+		Error en carregar el fitxer:
+	</string>
+	<string name="ObjectOutOfRange">
+		Script (objecte fora de l'abast)
+	</string>
+	<string name="ScriptWasDeleted">
+		Script (suprimit de l'inventari)
+	</string>
+	<string name="GodToolsObjectOwnedBy">
+		Objecte [OBJECT] pertanyent a [OWNER]
+	</string>
+	<string name="GroupsNone">
+		cap
+	</string>
+	<string name="Group" value=" (grup)"/>
+	<string name="Unknown">
+		(Desconegut)
+	</string>
+	<string name="SummaryForTheWeek" value="Resum de la setmana, començant el "/>
+	<string name="NextStipendDay" value=". Pròxima paga el "/>
+	<string name="GroupPlanningDate">
+		[day,datetime,utc]/[mthnum,datetime,utc]/[year,datetime,utc]
+	</string>
+	<string name="GroupIndividualShare" value="                      Grup    Part individual"/>
+	<string name="GroupColumn" value="Grup"/>
+	<string name="Balance">
+		Saldo
+	</string>
+	<string name="Credits">
+		Crèdits
+	</string>
+	<string name="Debits">
+		Dèbits
+	</string>
+	<string name="Total">
+		Total
+	</string>
+	<string name="NoGroupDataFound">
+		No s'han trobat dades per al grup
+	</string>
+	<string name="AlreadyInGroup">
+		Ja sou en aquest grup
+	</string>
+	<string name="IMParentEstate">
+		domini pare
+	</string>
+	<string name="IMMainland">
+		continent
+	</string>
+	<string name="IMTeen">
+		adolescent
+	</string>
+	<string name="Anyone">
+		qualsevol
+	</string>
+	<string name="RegionInfoError">
+		error
+	</string>
+	<string name="RegionInfoAllEstatesOwnedBy">
+		tots els dominis pertanyents a [OWNER]
+	</string>
+	<string name="RegionInfoAllEstatesYouOwn">
+		tots els dominis que us pertanyen
+	</string>
+	<string name="RegionInfoAllEstatesYouManage">
+		tots els dominis que gestioneu per a [OWNER]
+	</string>
+	<string name="RegionInfoAllowedResidents">
+		Sempre permesos: ([ALLOWEDAGENTS], màx. [MAXACCESS])
+	</string>
+	<string name="RegionInfoAllowedGroups">
+		Grups sempre permesos: [ALLOWEDGROUPS], màx. [MAXACCESS])
+	</string>
+	<string name="RegionInfoEstateManagers">
+		Gestors del domini: ([ESTATEMANAGERS], màx. [MAXMANAGERS])
+	</string>
+	<string name="RegionInfoBannedResidents">
+		Sempre prohibits: ([BANNEDAGENTS], màx. [MAXBANNED])
+	</string>
+	<string name="RegionInfoListTypeAllowedAgents">
+		Sempre permès
+	</string>
+	<string name="RegionInfoListTypeBannedAgents">
+		Sempre prohibit
+	</string>
+	<string name="RegionInfoAllEstates">
+		tots els dominis
+	</string>
+	<string name="RegionInfoManagedEstates">
+		dominis gestionats
+	</string>
+	<string name="RegionInfoThisEstate">
+		aquest domini
+	</string>
+	<string name="AndNMore">
+		i [EXTRA_COUNT] més
+	</string>
+	<string name="ScriptLimitsParcelScriptMemory">
+		Memòria dels scripts de parcel·les
+	</string>
+	<string name="ScriptLimitsParcelsOwned">
+		Parcel·les llistades: [PARCELS]
+	</string>
+	<string name="ScriptLimitsMemoryUsed">
+		Memòria utilitzada: [COUNT] Ko de [MAX]; [AVAILABLE] Ko disponibles
+	</string>
+	<string name="ScriptLimitsMemoryUsedSimple">
+		Memòria utilitzada: [COUNT] Ko
+	</string>
+	<string name="ScriptLimitsParcelScriptURLs">
+		URL dels scripts de parcel·les
+	</string>
+	<string name="ScriptLimitsURLsUsed">
+		URL utilitzades: [COUNT] de [MAX]; [AVAILABLE] disponible(s)
+	</string>
+	<string name="ScriptLimitsURLsUsedSimple">
+		URL utilitzades: [COUNT]
+	</string>
+	<string name="ScriptLimitsRequestError">
+		S'ha produït un error durant la sol·licitud d'informació.
+	</string>
+	<string name="ScriptLimitsRequestNoParcelSelected">
+		Cap parcel·la seleccionada
+	</string>
+	<string name="ScriptLimitsRequestWrongRegion">
+		Error: la informació de l'script només està disponible a la vostra regió actual.
+	</string>
+	<string name="ScriptLimitsRequestWaiting">
+		Extraient la informació...
+	</string>
+	<string name="ScriptLimitsRequestDontOwnParcel">
+		No teniu dret a examinar aquesta parcel·la.
+	</string>
+	<string name="SITTING_ON">
+		Assegut(da) a sobre
+	</string>
+	<string name="ATTACH_CHEST">
+		Pit
+	</string>
+	<string name="ATTACH_HEAD">
+		Crani
+	</string>
+	<string name="ATTACH_LSHOULDER">
+		Espatlla esquerra
+	</string>
+	<string name="ATTACH_RSHOULDER">
+		Espatlla dreta
+	</string>
+	<string name="ATTACH_LHAND">
+		Mà esquerra
+	</string>
+	<string name="ATTACH_RHAND">
+		Mà dreta
+	</string>
+	<string name="ATTACH_LFOOT">
+		Peu esquerre
+	</string>
+	<string name="ATTACH_RFOOT">
+		Peu dret
+	</string>
+	<string name="ATTACH_BACK">
+		Columna vertebral
+	</string>
+	<string name="ATTACH_PELVIS">
+		Pelvis
+	</string>
+	<string name="ATTACH_MOUTH">
+		Boca
+	</string>
+	<string name="ATTACH_CHIN">
+		Barbeta
+	</string>
+	<string name="ATTACH_LEAR">
+		Orella esquerra
+	</string>
+	<string name="ATTACH_REAR">
+		Orella dreta
+	</string>
+	<string name="ATTACH_LEYE">
+		Ull esquerre
+	</string>
+	<string name="ATTACH_REYE">
+		Ull dret
+	</string>
+	<string name="ATTACH_NOSE">
+		Nas
+	</string>
+	<string name="ATTACH_RUARM">
+		Braç dret
+	</string>
+	<string name="ATTACH_RLARM">
+		Avantbraç dret
+	</string>
+	<string name="ATTACH_LUARM">
+		Braç esquerre
+	</string>
+	<string name="ATTACH_LLARM">
+		Avantbraç esquerre
+	</string>
+	<string name="ATTACH_RHIP">
+		Maluc dret
+	</string>
+	<string name="ATTACH_RULEG">
+		Cuixa dreta
+	</string>
+	<string name="ATTACH_RLLEG">
+		Cama dreta
+	</string>
+	<string name="ATTACH_LHIP">
+		Maluc esquerre
+	</string>
+	<string name="ATTACH_LULEG">
+		Cuixa esquerra
+	</string>
+	<string name="ATTACH_LLLEG">
+		Cama esquerra
+	</string>
+	<string name="ATTACH_BELLY">
+		Ventre
+	</string>
+	<string name="ATTACH_LEFT_PEC">
+		Pectorals esquerres
+	</string>
+	<string name="ATTACH_RIGHT_PEC">
+		Pectorals drets
+	</string>
+	<string name="ATTACH_HUD_CENTER_2">
+		HUD centre 2
+	</string>
+	<string name="ATTACH_HUD_TOP_RIGHT">
+		HUD a dalt a la dreta
+	</string>
+	<string name="ATTACH_HUD_TOP_CENTER">
+		HUD a dalt al centre
+	</string>
+	<string name="ATTACH_HUD_TOP_LEFT">
+		HUD a dalt a l'esquerra
+	</string>
+	<string name="ATTACH_HUD_CENTER_1">
+		HUD centre 1
+	</string>
+	<string name="ATTACH_HUD_BOTTOM_LEFT">
+		HUD a baix a l'esquerra
+	</string>
+	<string name="ATTACH_HUD_BOTTOM">
+		HUD a baix
+	</string>
+	<string name="ATTACH_HUD_BOTTOM_RIGHT">
+		HUD a baix a la dreta
+	</string>
+	<string name="ATTACH_NECK">
+		Coll
+	</string>
+	<string name="ATTACH_AVATAR_CENTER">
+		Centre de l'avatar
+	</string>
+	<string name="ATTACH_LHAND_RING1">
+		Dit anular esquerre
+	</string>
+	<string name="ATTACH_RHAND_RING1">
+		Dit anular dret
+	</string>
+	<string name="ATTACH_TAIL_BASE">
+		Base de la cua
+	</string>
+	<string name="ATTACH_TAIL_TIP">
+		Punta de la cua
+	</string>
+	<string name="ATTACH_LWING">
+		Ala esquerra
+	</string>
+	<string name="ATTACH_RWING">
+		Ala dreta
+	</string>
+	<string name="ATTACH_FACE_JAW">
+		Mandíbula
+	</string>
+	<string name="ATTACH_FACE_LEAR">
+		Orella esquerra (Alt)
+	</string>
+	<string name="ATTACH_FACE_REAR">
+		Orella dreta (Alt)
+	</string>
+	<string name="ATTACH_FACE_LEYE">
+		Ull esquerre (Alt)
+	</string>
+	<string name="ATTACH_FACE_REYE">
+		Ull dret (Alt)
+	</string>
+	<string name="ATTACH_FACE_TONGUE">
+		Llengua
+	</string>
+	<string name="ATTACH_GROIN">
+		Engonal
+	</string>
+	<string name="ATTACH_HIND_LFOOT">
+		Peu posterior esquerre
+	</string>
+	<string name="ATTACH_HIND_RFOOT">
+		Peu posterior dret
+	</string>
+	<string name="CursorPos">
+		Línia [LINE], columna [COLUMN]
+	</string>
+	<string name="PanelDirCountFound">
+		[COUNT] trobat(s)
+	</string>
+	<string name="PanelDirTimeStr">
+		[hour12,datetime,slt]:[min,datetime,slt] [ampm,datetime,slt]
+	</string>
+	<string name="PanelDirEventsDateText">
+		[mthnum,datetime,slt]/[day,datetime,slt]
+	</string>
+	<string name="PanelContentsTooltip">
+		Contingut de l'objecte
+	</string>
+	<string name="PanelContentsNewScript">
+		Nou script
+	</string>
+	<string name="DoNotDisturbModeResponseDefault">
+		Aquest resident ha activat No Molestar i veurà el vostre missatge més tard.
+	</string>
+	<string name="AutoResponseModeDefault">
+		El resident a qui heu enviat un missatge ha activat el mode de resposta automàtica del visor [APP_NAME], la qual cosa significa que ha demanat que no el molestin. El vostre missatge es mostrarà igualment a la finestra de missatgeria instantània per a ser consultat posteriorment.
+	</string>
+	<string name="AutoResponseModeNonFriendsDefault">
+		El resident a qui heu enviat un missatge ha activat el mode de resposta automàtica del visor [APP_NAME], la qual cosa significa que ha demanat que no el molestin. El vostre missatge es mostrarà igualment a la finestra de missatgeria instantània per a ser consultat posteriorment.
+	</string>
+	<string name="RejectTeleportOffersResponseDefault">
+		El resident a qui heu enviat un missatge ha activat el mode de rebuig de totes les ofertes o sol·licituds de teletransportació del visor [APP_NAME], la qual cosa significa que ha demanat que no el molestin amb ofertes o sol·licituds de teletransportació. Podeu enviar-li un missatge privat igualment.
+	</string>
+	<string name="RejectFriendshipRequestsResponseDefault">
+		El resident a qui heu enviat un missatge ha activat el mode de rebuig de totes les sol·licituds d'amistat del visor [APP_NAME], la qual cosa significa que ha demanat que no el molestin amb sol·licituds d'amistat. Podeu enviar-li un missatge privat igualment.
+	</string>
+	<string name="MutedAvatarsResponseDefault">
+		El resident a qui heu enviat un missatge ha bloquejat l'enviament de tots els missatges de la vostra part.
+	</string>
+	<string name="AwayAvatarResponseDefault">
+		El resident a qui heu enviat un missatge està actualment absent. El vostre missatge es mostrarà a la finestra de missatgeria instantània per a ser consultat posteriorment.
+	</string>
+	<string name="MuteByName">
+		(per nom)
+	</string>
+	<string name="MuteAgent">
+		(resident)
+	</string>
+	<string name="MuteObject">
+		(objecte)
+	</string>
+	<string name="MuteGroup">
+		(grup)
+	</string>
+	<string name="MuteExternal">
+		(extern)
+	</string>
+	<string name="RegionNoCovenant">
+		No hi ha cap reglament per a aquest domini.
+	</string>
+	<string name="RegionNoCovenantOtherOwner">
+		No hi ha cap reglament per a aquest domini. El terreny d'aquest domini és venut pel propietari. Per a més informació, contacteu amb el propietari.
+	</string>
+	<string name="covenant_last_modified" value="Darrera modificació:"/>
+	<string name="none_text" value=" (cap)"/>
+	<string name="never_text" value=" (mai)"/>
+	<string name="GroupOwned">
+		Propietat del grup
+	</string>
+	<string name="Public">
+		Públic
+	</string>
+	<string name="LocalSettings">
+		Configuració local
+	</string>
+	<string name="RegionSettings">
+		Configuració de la regió
+	</string>
+	<string name="NoEnvironmentSettings">
+		Aquesta regió no admet paràmetres d'entorn.
+	</string>
+	<string name="EnvironmentSun">
+		Sol
+	</string>
+	<string name="EnvironmentMoon">
+		Lluna
+	</string>
+	<string name="EnvironmentBloom">
+		Resplendor
+	</string>
+	<string name="EnvironmentCloudNoise">
+		Soroll del núvol
+	</string>
+	<string name="EnvironmentNormalMap">
+		Mapa normal
+	</string>
+	<string name="EnvironmentTransparent">
+		Transparent
+	</string>
+	<string name="ClassifiedClicksTxt">
+		Clics: [TELEPORT] teletransportació, [MAP] mapa, [PROFILE] perfil
+	</string>
+	<string name="ClassifiedUpdateAfterPublish">
+		(actualització després de la publicació)
+	</string>
+	<string name="NoPicksClassifiedsText">
+		No heu creat favorits ni anuncis classificats. Feu clic al botó Més per crear un favorit o un anunci classificat.
+	</string>
+	<string name="NoPicksText">
+		No heu creat favorits. Feu clic al botó Nou per crear un favorit.
+	</string>
+	<string name="NoClassifiedsText">
+		No heu creat anuncis classificats. Feu clic al botó Nou per crear un anunci classificat.
+	</string>
+	<string name="NoAvatarPicksClassifiedsText">
+		L'usuari no té ni favorits ni anuncis classificats.
+	</string>
+	<string name="NoAvatarPicksText">
+		L'usuari no té favorits.
+	</string>
+	<string name="NoAvatarClassifiedsText">
+		L'usuari no té anuncis classificats.
+	</string>
+	<string name="PicksClassifiedsLoadingText">
+		Carregant...
+	</string>
+	<string name="NoPicksText">
+		No heu creat favorits.
+	</string>
+	<string name="NoAvatarPicksText">
+		L'usuari no té favorits.
+	</string>
+	<string name="NoClassifiedsText">
+		No heu creat anuncis. Feu clic al botó Més de sota per crear un anunci.
+	</string>
+	<string name="NoAvatarClassifiedsText">
+		L'usuari no té anuncis
+	</string>
+	<string name="MultiPreviewTitle">
+		Previsualitza
+	</string>
+	<string name="MultiPropertiesTitle">
+		Propietats
+	</string>
+	<string name="InvOfferAnObjectNamed">
+		Un objecte anomenat
+	</string>
+	<string name="InvOfferOwnedByGroup">
+		posseït pel grup
+	</string>
+	<string name="InvOfferOwnedByUnknownGroup">
+		posseït per un grup desconegut
+	</string>
+	<string name="InvOfferOwnedBy">
+		posseït per
+	</string>
+	<string name="InvOfferOwnedByUnknownUser">
+		posseït per un resident desconegut
+	</string>
+	<string name="InvOfferGaveYou">
+		us ha donat
+	</string>
+	<string name="InvOfferYouDecline">
+		Rebutgeu
+	</string>
+	<string name="InvOfferDecline">
+		Rebutgeu l'oferta [DESC] de [NAME].
+	</string>
+	<string name="InvOfferFrom">
+		de
+	</string>
+	<string name="InvOfferAutoAcceptObject">
+		Un objecte anomenat [OBJECT_NAME] us ha donat aquest(a) [OBJECT_TYPE]: [DESC]
+	</string>
+	<string name="InvOfferAutoAcceptUser">
+		[USER_NAME] us ha donat aquest(a) [OBJECT_TYPE]: [DESC]
+	</string>
+	<string name="GroupMoneyTotal">
+		Total
+	</string>
+	<string name="GroupMoneyBought">
+		comprat
+	</string>
+	<string name="GroupMoneyPaidYou">
+		us ha pagat
+	</string>
+	<string name="GroupMoneyPaidInto">
+		pagat
+	</string>
+	<string name="GroupMoneyBoughtPassTo">
+		ha comprat una passada a
+	</string>
+	<string name="GroupMoneyPaidFeeForEvent">
+		ha pagat una quota per un esdeveniment
+	</string>
+	<string name="GroupMoneyPaidPrizeForEvent">
+		ha pagat un premi per un esdeveniment
+	</string>
+	<string name="GroupMoneyBalance">
+		Saldo
+	</string>
+	<string name="GroupMoneyCredits">
+		Crèdits
+	</string>
+	<string name="GroupMoneyDebits">
+		Dèbits
+	</string>
+	<string name="GroupMoneyDate">
+		[weekday,datetime,utc] [day,datetime,utc] [mth,datetime,utc] [year,datetime,utc]
+	</string>
+	<string name="AcquiredItems">
+		Objectes adquirits
+	</string>
+	<string name="Cancel">
+		Cancel·la
+	</string>
+	<string name="UploadingCosts">
+		La càrrega de [NAME] costa [AMOUNT] L$
+	</string>
+	<string name="UnknownFileExtension">
+		Extensió de fitxer desconeguda .%s
+.wav, .tga, .bmp, .jpg, .jpeg, o .anim acceptats
+	</string>
+	<string name="MuteObject2">
+		Ignora
+	</string>
+	<string name="MuteAvatar">
+		Ignora
+	</string>
+	<string name="UnmuteObject">
+		Deixa d'ignorar
+	</string>
+	<string name="UnmuteAvatar">
+		Deixa d'ignorar
+	</string>
+	<string name="AddLandmarkNavBarMenu">
+		Afegeix als meus punts de referència...
+	</string>
+	<string name="EditLandmarkNavBarMenu">
+		Edita el meu punt de referència...
+	</string>
+	<string name="accel-mac-control">
+		⌃
+	</string>
+	<string name="accel-mac-command">
+		⌘
+	</string>
+	<string name="accel-mac-option">
+		⌥
+	</string>
+	<string name="accel-mac-shift">
+		⇧
+	</string>
+	<string name="accel-win-control">
+		Ctrl+
+	</string>
+	<string name="accel-win-alt">
+		Alt+
+	</string>
+	<string name="accel-win-shift">
+		Maj+
+	</string>
+	<string name="FileSaved">
+		Fitxer desat
+	</string>
+	<string name="Receiving">
+		Rebent
+	</string>
+	<string name="AM">
+		Matí
+	</string>
+	<string name="PM">
+		Tarda
+	</string>
+	<string name="PST">
+		PST
+	</string>
+	<string name="PDT">
+		PDT
+	</string>
+	<string name="Direction_Forward">
+		Endavant
+	</string>
+	<string name="Direction_Left">
+		Esquerra
+	</string>
+	<string name="Direction_Right">
+		Dreta
+	</string>
+	<string name="Direction_Back">
+		Enrere
+	</string>
+	<string name="Direction_North">
+		Nord
+	</string>
+	<string name="Direction_South">
+		Sud
+	</string>
+	<string name="Direction_West">
+		Oest
+	</string>
+	<string name="Direction_East">
+		Est
+	</string>
+	<string name="Direction_Up">
+		Amunt
+	</string>
+	<string name="Direction_Down">
+		Avall
+	</string>
+	<string name="Any Category">
+		Totes les categories
+	</string>
+	<string name="Shopping">
+		Compres
+	</string>
+	<string name="Land Rental">
+		Terrenys de lloguer
+	</string>
+	<string name="Property Rental">
+		Propietats de lloguer
+	</string>
+	<string name="Special Attraction">
+		Entreteniment
+	</string>
+	<string name="New Products">
+		Nous productes
+	</string>
+	<string name="Employment">
+		Feines
+	</string>
+	<string name="Wanted">
+		Ofertes
+	</string>
+	<string name="Service">
+		Serveis
+	</string>
+	<string name="Personal">
+		Diversos
+	</string>
+	<string name="None">
+		Cap
+	</string>
+	<string name="Linden Location">
+		Pertanyent als Linden
+	</string>
+	<string name="Adult">
+		Adult
+	</string>
+	<string name="Arts and Culture">
+		Arts i cultura
+	</string>
+	<string name="Business">
+		Negocis
+	</string>
+	<string name="Educational">
+		Educació
+	</string>
+	<string name="Gaming">
+		Jocs
+	</string>
+	<string name="Hangout">
+		Llocs de trobada
+	</string>
+	<string name="Newcomer Friendly">
+		Acollida per a nouvinguts
+	</string>
+	<string name="Parks and Nature">
+		Parcs i natura
+	</string>
+	<string name="Residential">
+		Residencial
+	</string>
+	<string name="Stage">
+		Fase
+	</string>
+	<string name="Other">
+		Altres
+	</string>
+	<string name="Rental">
+		Lloguer
+	</string>
+	<string name="Any">
+		Qualsevol
+	</string>
+	<string name="You">
+		Vós
+	</string>
+	<string name=":">
+		:
+	</string>
+	<string name=",">
+		,
+	</string>
+	<string name="...">
+		...
+	</string>
+	<string name="***">
+		***
+	</string>
+	<string name="(">
+		(
+	</string>
+	<string name=")">
+		)
+	</string>
+	<string name=".">
+		.
+	</string>
+	<string name="'">
+		'
+	</string>
+	<string name="---">
+		---
+	</string>
+	<string name="Multiple Media">
+		Múltiples mitjans
+	</string>
+	<string name="Play Media">
+		Reprodueix/pausa el mitjà
+	</string>
+	<string name="StreamtitleNowPlaying">
+		Reproduint ara:
+	</string>
+	<string name="IntelDriverPage">
+		http://www.intel.com/p/ca_ES/support/detect/graphics
+	</string>
+	<string name="NvidiaDriverPage">
+		http://www.nvidia.es/Download/index.aspx?lang=es
+	</string>
+	<string name="AMDDriverPage">
+		https://www.amd.com/es/support
+	</string>
+	<string name="MBCmdLineError">
+		S'ha produït un error en llegir la línia d'ordres.
+Si us plau, consulteu: http://wiki.secondlife.com/wiki/Client_parameters
+Error:
+	</string>
+	<string name="MBCmdLineUsg">
+		[APP_NAME] - Ús de la línia d'ordres:
+	</string>
+	<string name="MBUnableToAccessFile">
+		[APP_NAME] no pot accedir a un fitxer requerit.
+
+Això es deu al fet que algú ha obert múltiples còpies o que el vostre sistema pensa que un fitxer està obert.
+Si aquest missatge persisteix, reinicieu l'ordinador.
+Si el problema persisteix, potser haureu de desinstal·lar completament i reinstal·lar [APP_NAME].
+	</string>
+	<string name="MBFatalError">
+		Error fatal
+	</string>
+	<string name="MBApplicationError">
+		Error de l'aplicació - No us espanteu
+	</string>
+	<string name="MBApplicationErrorDetails">
+		Ho sentim, però [APP_NAME] s'ha bloquejat i s'ha de tancar. Si observeu que aquest problema es repeteix, contacteu amb el nostre equip d'assistència i envieu el missatge següent:
+
+[ERROR_DETAILS]
+	</string>
+	<string name="MBRequiresAltiVec">
+		[APP_NAME] requereix un microprocessador AltiVec (versió G4 o anterior).
+	</string>
+	<string name="MBAlreadyRunning">
+		[APP_NAME] ja s'està executant.
+Verifiqueu si una versió minimitzada del programa apareix a la vostra barra de tasques.
+Si aquest missatge persisteix, reinicieu l'ordinador.
+	</string>
+	<string name="MBFrozenCrashed">
+		[APP_NAME] sembla que s'ha bloquejat durant l'ús anterior.
+Voleu enviar un informe d'error?
+	</string>
+	<string name="MBAlert">
+		Notificació
+	</string>
+	<string name="MBNoDirectX">
+		[APP_NAME] no pot detectar DirectX 9.0b o una versió superior.
+[APP_NAME] utilitza DirectX per detectar els maquinaris i/o els controladors que no estan actualitzats i poden causar problemes d'estabilitat, rendiment o bloquejos. Tot i que podeu utilitzar [APP_NAME] sense DirectX, us recomanem que l'utilitzeu amb DirectX 9.0b.
+
+Voleu continuar?
+	</string>
+	<string name="MBWarning">
+		Avís
+	</string>
+	<string name="MBNoAutoUpdate">
+		Les actualitzacions automàtiques encara no existeixen per a Linux.
+Si us plau, descarregueu l'última versió a www.secondlife.com.
+	</string>
+	<string name="MBRegClassFailed">
+		RegisterClass ha fallat
+	</string>
+	<string name="MBError">
+		Error
+	</string>
+	<string name="MBFullScreenErr">
+		No es pot obrir el mode de pantalla completa a [WIDTH] x [HEIGHT].
+Utilitzant el mode de finestra.
+	</string>
+	<string name="MBDestroyWinFailed">
+		Error de tancament en destruir la finestra (DestroyWindow() ha fallat)
+	</string>
+	<string name="MBShutdownErr">
+		Error de tancament
+	</string>
+	<string name="MBDevContextErr">
+		No es pot crear el context GL
+	</string>
+	<string name="MBPixelFmtErr">
+		No es pot trobar el format de píxel adequat
+	</string>
+	<string name="MBPixelFmtDescErr">
+		No es pot trobar la descripció del format de píxel
+	</string>
+	<string name="MBTrueColorWindow">
+		[APP_NAME] requereix True Color (32 bits) per executar-se.
+Accediu als paràmetres de visualització del vostre ordinador i configureu el mode de color a 32 bits.
+	</string>
+	<string name="MBAlpha">
+		[APP_NAME] no es pot executar, ja que no hi ha un canal alfa de 8 bits accessible. En general, això prové de problemes amb el controlador de la targeta de vídeo.
+Assegureu-vos d'haver instal·lat el controlador de la targeta de vídeo més recent possible.
+Assegureu-vos també que la vostra pantalla estigui configurada a True Color (32 bits) a Tauler de control &gt; Pantalla &gt; Configuració.
+Si aquest missatge persisteix, aneu a la pàgina [SUPPORT_SITE].
+	</string>
+	<string name="MBPixelFmtSetErr">
+		No es pot trobar el format de píxel adequat
+	</string>
+	<string name="MBGLContextErr">
+		No es pot crear el context de renderització GL
+	</string>
+	<string name="MBGLContextActErr">
+		No es pot activar el context de renderització GL
+	</string>
+	<string name="MBVideoDrvErr">
+		[APP_NAME] no es pot executar perquè els controladors de la vostra targeta de vídeo no s'han instal·lat correctament, no estan actualitzats o són per a maquinari no compatible. Assegureu-vos de tenir controladors de targetes de vídeo recents, i fins i tot si teniu els més recents, reinstal·leu-los.
+
+Si aquest missatge persisteix, aneu a la pàgina [SUPPORT_SITE].
+	</string>
+	<string name="MBOutOfMemoryTitle">
+		Sense Memòria
+	</string>
+	<string name="MBOutOfMemoryErr">
+		La sol·licitud de memòria de [APP_NAME] ha fallat. L'aplicació no pot continuar i es tancarà.
+
+Si la memòria RAM del vostre ordinador és baixa, tanqueu les aplicacions pesades abans d'iniciar [APP_NAME], assigneu un fitxer de paginació o reduïu els paràmetres gràfics com la distància de renderitzat.
+	</string>
+	<string name="MBMissingFile">
+		[APP_NAME] no ha pogut accedir o trobar alguns dels fitxers que necessita i es tancarà.
+
+Si us plau, reinstal·leu el visor des de [DOWNLOAD_URL] i contacteu amb [SUPPORT_SITE] si el problema persisteix després de la reinstal·lació.
+	</string>
+	<string name="5 O'Clock Shadow">
+		Ombra de les 5
+	</string>
+	<string name="All White">
+		Tot blanc
+	</string>
+	<string name="Anime Eyes">
+		Ulls grans
+	</string>
+	<string name="Arced">
+		Arquejades
+	</string>
+	<string name="Arm Length">
+		Llargada dels braços
+	</string>
+	<string name="Attached">
+		Adjunts
+	</string>
+	<string name="Attached Earlobes">
+		Lòbuls
+	</string>
+	<string name="Back Fringe">
+		Serrell de darrere
+	</string>
+	<string name="Baggy">
+		Més
+	</string>
+	<string name="Bangs">
+		Serrell
+	</string>
+	<string name="Beady Eyes">
+		Ulls petits i brillants
+	</string>
+	<string name="Belly Size">
+		Mida del ventre
+	</string>
+	<string name="Big">
+		Més
+	</string>
+	<string name="Big Butt">
+		Cul gros
+	</string>
+	<string name="Big Hair Back">
+		Volum: Darrere
+	</string>
+	<string name="Big Hair Front">
+		Volum: Davant
+	</string>
+	<string name="Big Hair Top">
+		Volum: A dalt
+	</string>
+	<string name="Big Head">
+		Més
+	</string>
+	<string name="Big Pectorals">
+		Pectorals grans
+	</string>
+	<string name="Big Spikes">
+		Punxes
+	</string>
+	<string name="Black">
+		Negre
+	</string>
+	<string name="Blonde">
+		Ros
+	</string>
+	<string name="Blonde Hair">
+		Cabell ros
+	</string>
+	<string name="Blush">
+		Coloret
+	</string>
+	<string name="Blush Color">
+		Color del coloret
+	</string>
+	<string name="Blush Opacity">
+		Opacitat del coloret
+	</string>
+	<string name="Body Definition">
+		Definició corporal
+	</string>
+	<string name="Body Fat">
+		Greix corporal
+	</string>
+	<string name="Body Freckles">
+		Pigues corporals
+	</string>
+	<string name="Body Thick">
+		Més
+	</string>
+	<string name="Body Thickness">
+		Gruix corporal
+	</string>
+	<string name="Body Thin">
+		Menys
+	</string>
+	<string name="Bow Legged">
+		Cames arquejades
+	</string>
+	<string name="Breast Buoyancy">
+		Flotabilitat dels pits
+	</string>
+	<string name="Breast Cleavage">
+		Escot
+	</string>
+	<string name="Breast Size">
+		Mida dels pits
+	</string>
+	<string name="Bridge Width">
+		Amplada del pont del nas
+	</string>
+	<string name="Broad">
+		Ample
+	</string>
+	<string name="Brow Size">
+		Mida del front
+	</string>
+	<string name="Bug Eyes">
+		Ulls de vellut
+	</string>
+	<string name="Bugged Eyes">
+		Ulls de vellut
+	</string>
+	<string name="Bulbous">
+		Bulbós
+	</string>
+	<string name="Bulbous Nose">
+		Nas bulbós
+	</string>
+	<string name="Breast Physics Mass">
+		Massa dels pits
+	</string>
+	<string name="Breast Physics Smoothing">
+		Suavitzat dels pits
+	</string>
+	<string name="Breast Physics Gravity">
+		Gravetat dels pits
+	</string>
+	<string name="Breast Physics Drag">
+		Resistència de l'aire als pits
+	</string>
+	<string name="Breast Physics InOut Max Effect">
+		Efecte màx.
+	</string>
+	<string name="Breast Physics InOut Spring">
+		Elasticitat
+	</string>
+	<string name="Breast Physics InOut Gain">
+		Amplificació
+	</string>
+	<string name="Breast Physics InOut Damping">
+		Amortiment
+	</string>
+	<string name="Breast Physics UpDown Max Effect">
+		Efecte màx.
+	</string>
+	<string name="Breast Physics UpDown Spring">
+		Elasticitat
+	</string>
+	<string name="Breast Physics UpDown Gain">
+		Amplificació
+	</string>
+	<string name="Breast Physics UpDown Damping">
+		Amortiment
+	</string>
+	<string name="Breast Physics LeftRight Max Effect">
+		Efecte màx.
+	</string>
+	<string name="Breast Physics LeftRight Spring">
+		Elasticitat
+	</string>
+	<string name="Breast Physics LeftRight Gain">
+		Amplificació
+	</string>
+	<string name="Breast Physics LeftRight Damping">
+		Amortiment
+	</string>
+	<string name="Belly Physics Mass">
+		Massa del ventre
+	</string>
+	<string name="Belly Physics Smoothing">
+		Suavitzat del ventre
+	</string>
+	<string name="Belly Physics Gravity">
+		Gravetat del ventre
+	</string>
+	<string name="Belly Physics Drag">
+		Resistència de l'aire al ventre
+	</string>
+	<string name="Belly Physics UpDown Max Effect">
+		Efecte màx.
+	</string>
+	<string name="Belly Physics UpDown Spring">
+		Elasticitat
+	</string>
+	<string name="Belly Physics UpDown Gain">
+		Amplificació
+	</string>
+	<string name="Belly Physics UpDown Damping">
+		Amortiment
+	</string>
+	<string name="Butt Physics Mass">
+		Massa de les natges
+	</string>
+	<string name="Butt Physics Smoothing">
+		Suavitzat de les natges
+	</string>
+	<string name="Butt Physics Gravity">
+		Gravetat de les natges
+	</string>
+	<string name="Butt Physics Drag">
+		Resistència de l'aire a les natges
+	</string>
+	<string name="Butt Physics UpDown Max Effect">
+		Efecte màx.
+	</string>
+	<string name="Butt Physics UpDown Spring">
+		Elasticitat
+	</string>
+	<string name="Butt Physics UpDown Gain">
+		Amplificació
+	</string>
+	<string name="Butt Physics UpDown Damping">
+		Amortiment
+	</string>
+	<string name="Butt Physics LeftRight Max Effect">
+		Efecte màx.
+	</string>
+	<string name="Butt Physics LeftRight Spring">
+		Elasticitat
+	</string>
+	<string name="Butt Physics LeftRight Gain">
+		Amplificació
+	</string>
+	<string name="Butt Physics LeftRight Damping">
+		Amortiment
+	</string>
+	<string name="Bushy Eyebrows">
+		Celles poblades
+	</string>
+	<string name="Bushy Hair">
+		Molt
+	</string>
+	<string name="Butt Size">
+		Mida de les natges
+	</string>
+	<string name="Butt Gravity">
+		Gravetat de les natges
+	</string>
+	<string name="bustle skirt">
+		Faldilla amb polissó
+	</string>
+	<string name="no bustle">
+		Sense polissó
+	</string>
+	<string name="more bustle">
+		Més polissó
+	</string>
+	<string name="Chaplin">
+		Menys
+	</string>
+	<string name="Cheek Bones">
+		Pòmuls
+	</string>
+	<string name="Chest Size">
+		Mida del pit
+	</string>
+	<string name="Chin Angle">
+		Angle de la barbeta
+	</string>
+	<string name="Chin Cleft">
+		Clivella a la barbeta
+	</string>
+	<string name="Chin Curtains">
+		Patilles de cortina
+	</string>
+	<string name="Chin Depth">
+		Profunditat
+	</string>
+	<string name="Chin Heavy">
+		Barbeta prominent
+	</string>
+	<string name="Chin In">
+		Barbeta endins
+	</string>
+	<string name="Chin Out">
+		Barbeta enfora
+	</string>
+	<string name="Chin-Neck">
+		Barbeta-coll
+	</string>
+	<string name="Clear">
+		Clar
+	</string>
+	<string name="Cleft">
+		Clivellat
+	</string>
+	<string name="Close Set Eyes">
+		Ulls junts
+	</string>
+	<string name="Closed">
+		Tancat(s)
+	</string>
+	<string name="Closed Back">
+		Tancat al darrere
+	</string>
+	<string name="Closed Front">
+		Tancat al davant
+	</string>
+	<string name="Closed Left">
+		Tancat a l'esquerra
+	</string>
+	<string name="Closed Right">
+		Tancat a la dreta
+	</string>
+	<string name="Coin Purse">
+		Mini
+	</string>
+	<string name="Collar Back">
+		Coll darrere
+	</string>
+	<string name="Collar Front">
+		Coll davant
+	</string>
+	<string name="Corner Down">
+		Cantonada avall
+	</string>
+	<string name="Corner Up">
+		Cantonada amunt
+	</string>
+	<string name="Creased">
+		Arrugada
+	</string>
+	<string name="Crooked Nose">
+		Desviació del nas
+	</string>
+	<string name="Cuff Flare">
+		Camals
+	</string>
+	<string name="Dark">
+		Fosc
+	</string>
+	<string name="Dark Green">
+		Verd fosc
+	</string>
+	<string name="Darker">
+		Més fosc
+	</string>
+	<string name="Deep">
+		Profund
+	</string>
+	<string name="Default Heels">
+		Talons per defecte
+	</string>
+	<string name="Dense">
+		Dens
+	</string>
+	<string name="Double Chin">
+		Papada
+	</string>
+	<string name="Downturned">
+		Cap avall
+	</string>
+	<string name="Duffle Bag">
+		Maxi
+	</string>
+	<string name="Ear Angle">
+		Angle de l'orella
+	</string>
+	<string name="Ear Size">
+		Mida
+	</string>
+	<string name="Ear Tips">
+		Puntes
+	</string>
+	<string name="Egg Head">
+		Prominència
+	</string>
+	<string name="Eye Bags">
+		Ulleres
+	</string>
+	<string name="Eye Color">
+		Color d'ulls
+	</string>
+	<string name="Eye Depth">
+		Profunditat
+	</string>
+	<string name="Eye Lightness">
+		Claredat
+	</string>
+	<string name="Eye Opening">
+		Obertura
+	</string>
+	<string name="Eye Pop">
+		Ull prominent
+	</string>
+	<string name="Eye Size">
+		Mida de l'ull
+	</string>
+	<string name="Eye Spacing">
+		Espaiat
+	</string>
+	<string name="Eyebrow Arc">
+		Arc
+	</string>
+	<string name="Eyebrow Density">
+		Gruix de les celles
+	</string>
+	<string name="Eyebrow Height">
+		Alçada
+	</string>
+	<string name="Eyebrow Points">
+		Direcció
+	</string>
+	<string name="Eyebrow Size">
+		Mida
+	</string>
+	<string name="Eyelash Length">
+		Llargada de les pestanyes
+	</string>
+	<string name="Eyeliner">
+		Delineador d'ulls
+	</string>
+	<string name="Eyeliner Color">
+		Color del delineador d'ulls
+	</string>
+	<string name="Eyes Bugged">
+		Ulls de vellut
+	</string>
+	<string name="Face Shear">
+		Cara
+	</string>
+	<string name="Facial Definition">
+		Definició
+	</string>
+	<string name="Far Set Eyes">
+		Ulls separats
+	</string>
+	<string name="Fat Lips">
+		Llavis gruixuts
+	</string>
+	<string name="Female">
+		Dona
+	</string>
+	<string name="Fingerless">
+		Sense dits
+	</string>
+	<string name="Fingers">
+		Dits
+	</string>
+	<string name="Flared Cuffs">
+		Camals amples
+	</string>
+	<string name="Flat">
+		Menys
+	</string>
+	<string name="Flat Butt">
+		Natges planes
+	</string>
+	<string name="Flat Head">
+		Cap pla
+	</string>
+	<string name="Flat Toe">
+		Dit del peu pla
+	</string>
+	<string name="Foot Size">
+		Mida del peu
+	</string>
+	<string name="Forehead Angle">
+		Angle del front
+	</string>
+	<string name="Forehead Heavy">
+		Front prominent
+	</string>
+	<string name="Freckles">
+		Pigues
+	</string>
+	<string name="Front Fringe">
+		Serrell de davant
+	</string>
+	<string name="Full Back">
+		Darrere espès
+	</string>
+	<string name="Full Eyeliner">
+		Delineador d'ulls marcat
+	</string>
+	<string name="Full Front">
+		Davant espès
+	</string>
+	<string name="Full Hair Sides">
+		Costats espessos
+	</string>
+	<string name="Full Sides">
+		Costats espessos
+	</string>
+	<string name="Glossy">
+		Brillant
+	</string>
+	<string name="Glove Fingers">
+		Guants amb dits
+	</string>
+	<string name="Glove Length">
+		Llargada
+	</string>
+	<string name="Hair">
+		Cabell
+	</string>
+	<string name="Hair Back">
+		Cabell: Darrere
+	</string>
+	<string name="Hair Front">
+		Cabell: Davant
+	</string>
+	<string name="Hair Sides">
+		Cabell: Costats
+	</string>
+	<string name="Hair Sweep">
+		Direcció del pentinat
+	</string>
+	<string name="Hair Thickess">
+		Gruix del cabell
+	</string>
+	<string name="Hair Thickness">
+		Gruix del cabell
+	</string>
+	<string name="Hair Tilt">
+		Inclinació
+	</string>
+	<string name="Hair Tilted Left">
+		Cap a l'esquerra
+	</string>
+	<string name="Hair Tilted Right">
+		Cap a la dreta
+	</string>
+	<string name="Hair Volume">
+		Cabell: Volum
+	</string>
+	<string name="Hand Size">
+		Mida de la mà
+	</string>
+	<string name="Handlebars">
+		Més
+	</string>
+	<string name="Head Length">
+		Llargada
+	</string>
+	<string name="Head Shape">
+		Forma
+	</string>
+	<string name="Head Size">
+		Mida
+	</string>
+	<string name="Head Stretch">
+		Allargament
+	</string>
+	<string name="Heel Height">
+		Talons
+	</string>
+	<string name="Heel Shape">
+		Forma dels talons
+	</string>
+	<string name="Height">
+		Alçada
+	</string>
+	<string name="High">
+		Alt
+	</string>
+	<string name="High Heels">
+		Talons alts
+	</string>
+	<string name="High Jaw">
+		Alt
+	</string>
+	<string name="High Platforms">
+		Alta
+	</string>
+	<string name="High and Tight">
+		Alt i estret
+	</string>
+	<string name="Higher">
+		Més alt
+	</string>
+	<string name="Hip Length">
+		Llargada del maluc
+	</string>
+	<string name="Hip Width">
+		Amplada del maluc
+	</string>
+	<string name="Hover">
+		Flotació
+	</string>
+	<string name="In">
+		Endins
+	</string>
+	<string name="In Shdw Color">
+		Color ombra interna
+	</string>
+	<string name="In Shdw Opacity">
+		Opacitat ombra interna
+	</string>
+	<string name="Inner Eye Corner">
+		Cantonada interna
+	</string>
+	<string name="Inner Eye Shadow">
+		Ombra de l'ull interna
+	</string>
+	<string name="Inner Shadow">
+		Ombra interna
+	</string>
+	<string name="Jacket Length">
+		Llargada de la jaqueta
+	</string>
+	<string name="Jacket Wrinkles">
+		Arrugues de la jaqueta
+	</string>
+	<string name="Jaw Angle">
+		Angle de la mandíbula
+	</string>
+	<string name="Jaw Jut">
+		Protuberància de la mandíbula
+	</string>
+	<string name="Jaw Shape">
+		Mandíbula
+	</string>
+	<string name="Join">
+		Junts
+	</string>
+	<string name="Jowls">
+		Galtes
+	</string>
+	<string name="Knee Angle">
+		Angle del genoll
+	</string>
+	<string name="Knock Kneed">
+		Genolls junts
+	</string>
+	<string name="Large">
+		Més
+	</string>
+	<string name="Large Hands">
+		Mans grans
+	</string>
+	<string name="Left Part">
+		Ratlla a l'esquerra
+	</string>
+	<string name="Leg Length">
+		Llargada
+	</string>
+	<string name="Leg Muscles">
+		Músculs
+	</string>
+	<string name="Less">
+		Menys
+	</string>
+	<string name="Less Body Fat">
+		Menys
+	</string>
+	<string name="Less Curtains">
+		Menys
+	</string>
+	<string name="Less Freckles">
+		Menys
+	</string>
+	<string name="Less Full">
+		Menys
+	</string>
+	<string name="Less Gravity">
+		Menys
+	</string>
+	<string name="Less Love">
+		Menys
+	</string>
+	<string name="Less Muscles">
+		Menys
+	</string>
+	<string name="Less Muscular">
+		Menys
+	</string>
+	<string name="Less Rosy">
+		Menys
+	</string>
+	<string name="Less Round">
+		Menys rodona
+	</string>
+	<string name="Less Saddle">
+		Menys
+	</string>
+	<string name="Less Square">
+		Menys quadrada
+	</string>
+	<string name="Less Volume">
+		Menys
+	</string>
+	<string name="Less soul">
+		Menys
+	</string>
+	<string name="Lighter">
+		Més clar
+	</string>
+	<string name="Lip Cleft">
+		Fissura labial
+	</string>
+	<string name="Lip Cleft Depth">
+		Prof. fissura labial
+	</string>
+	<string name="Lip Fullness">
+		Volum dels llavis
+	</string>
+	<string name="Lip Pinkness">
+		Rosa dels llavis
+	</string>
+	<string name="Lip Ratio">
+		Proporció dels llavis
+	</string>
+	<string name="Lip Thickness">
+		Gruix
+	</string>
+	<string name="Lip Width">
+		Amplada
+	</string>
+	<string name="Lipgloss">
+		Brillantor de llavis
+	</string>
+	<string name="Lipstick">
+		Pintallavis
+	</string>
+	<string name="Lipstick Color">
+		Color del pintallavis
+	</string>
+	<string name="Long">
+		Més
+	</string>
+	<string name="Long Head">
+		Cap llarg
+	</string>
+	<string name="Long Hips">
+		Malucs llargs
+	</string>
+	<string name="Long Legs">
+		Cames llargues
+	</string>
+	<string name="Long Neck">
+		Coll llarg
+	</string>
+	<string name="Long Pigtails">
+		Cues llargues
+	</string>
+	<string name="Long Ponytail">
+		Cua de cavall llarga
+	</string>
+	<string name="Long Torso">
+		Tors llarg
+	</string>
+	<string name="Long arms">
+		Braços llargs
+	</string>
+	<string name="Loose Pants">
+		Pantalons amples
+	</string>
+	<string name="Loose Shirt">
+		Camisa ampla
+	</string>
+	<string name="Loose Sleeves">
+		Mànigues amples
+	</string>
+	<string name="Love Handles">
+		Mixelins
+	</string>
+	<string name="Low">
+		Baix
+	</string>
+	<string name="Low Heels">
+		Talons baixos
+	</string>
+	<string name="Low Jaw">
+		Baix
+	</string>
+	<string name="Low Platforms">
+		Baixa
+	</string>
+	<string name="Low and Loose">
+		Baix i ample
+	</string>
+	<string name="Lower">
+		Abaixar
+	</string>
+	<string name="Lower Bridge">
+		Pont inferior
+	</string>
+	<string name="Lower Cheeks">
+		Galtes inferiors
+	</string>
+	<string name="Male">
+		Home
+	</string>
+	<string name="Middle Part">
+		Ratlla al mig
+	</string>
+	<string name="More">
+		Més
+	</string>
+	<string name="More Blush">
+		Més
+	</string>
+	<string name="More Body Fat">
+		Més
+	</string>
+	<string name="More Curtains">
+		Més
+	</string>
+	<string name="More Eyeshadow">
+		Més
+	</string>
+	<string name="More Freckles">
+		Més
+	</string>
+	<string name="More Full">
+		Més
+	</string>
+	<string name="More Gravity">
+		Més
+	</string>
+	<string name="More Lipstick">
+		Més
+	</string>
+	<string name="More Love">
+		Més
+	</string>
+	<string name="More Lower Lip">
+		Inferior més gruixut
+	</string>
+	<string name="More Muscles">
+		Més
+	</string>
+	<string name="More Muscular">
+		Més
+	</string>
+	<string name="More Rosy">
+		Més
+	</string>
+	<string name="More Round">
+		Més
+	</string>
+	<string name="More Saddle">
+		Més
+	</string>
+	<string name="More Sloped">
+		Més
+	</string>
+	<string name="More Square">
+		Més
+	</string>
+	<string name="More Upper Lip">
+		Superior més gruixut
+	</string>
+	<string name="More Vertical">
+		Més
+	</string>
+	<string name="More Volume">
+		Més
+	</string>
+	<string name="More soul">
+		Més
+	</string>
+	<string name="Moustache">
+		Bigoti
+	</string>
+	<string name="Mouth Corner">
+		Comissura dels llavis
+	</string>
+	<string name="Mouth Position">
+		Posició
+	</string>
+	<string name="Mowhawk">
+		Creta
+	</string>
+	<string name="Muscular">
+		Musculat
+	</string>
+	<string name="Mutton Chops">
+		Patilles llargues
+	</string>
+	<string name="Nail Polish">
+		Esmalt d'ungles
+	</string>
+	<string name="Nail Polish Color">
+		Color de l'esmalt
+	</string>
+	<string name="Narrow">
+		Menys
+	</string>
+	<string name="Narrow Back">
+		Darrere estret
+	</string>
+	<string name="Narrow Front">
+		Davant estret
+	</string>
+	<string name="Narrow Lips">
+		Llapis estrets
+	</string>
+	<string name="Natural">
+		Natural
+	</string>
+	<string name="Neck Length">
+		Llargada del coll
+	</string>
+	<string name="Neck Thickness">
+		Gruix del coll
+	</string>
+	<string name="No Blush">
+		Sense coloret
+	</string>
+	<string name="No Eyeliner">
+		Sense delineador d'ulls
+	</string>
+	<string name="No Eyeshadow">
+		Sense ombra d'ulls
+	</string>
+	<string name="No Lipgloss">
+		Sense brillantor de llavis
+	</string>
+	<string name="No Lipstick">
+		Sense pintallavis
+	</string>
+	<string name="No Part">
+		Sense ratlla
+	</string>
+	<string name="No Polish">
+		Sense esmalt
+	</string>
+	<string name="No Red">
+		Sense vermell
+	</string>
+	<string name="No Spikes">
+		Sense punxes
+	</string>
+	<string name="No White">
+		Sense blanc
+	</string>
+	<string name="No Wrinkles">
+		Sense arrugues
+	</string>
+	<string name="Normal Lower">
+		Normal més baix
+	</string>
+	<string name="Normal Upper">
+		Normal més alt
+	</string>
+	<string name="Nose Left">
+		Nas a l'esquerra
+	</string>
+	<string name="Nose Right">
+		Nas a la dreta
+	</string>
+	<string name="Nose Size">
+		Mida del nas
+	</string>
+	<string name="Nose Thickness">
+		Gruix del nas
+	</string>
+	<string name="Nose Tip Angle">
+		Angle de la punta del nas
+	</string>
+	<string name="Nose Tip Shape">
+		Forma de la punta del nas
+	</string>
+	<string name="Nose Width">
+		Amplada del nas
+	</string>
+	<string name="Nostril Division">
+		Divisió de les narius
+	</string>
+	<string name="Nostril Width">
+		Amplada de les narius
+	</string>
+	<string name="Opaque">
+		Opac
+	</string>
+	<string name="Open">
+		Obert
+	</string>
+	<string name="Open Back">
+		Darrere obert
+	</string>
+	<string name="Open Front">
+		Davant obert
+	</string>
+	<string name="Open Left">
+		Obert a l'esquerra
+	</string>
+	<string name="Open Right">
+		Obert a la dreta
+	</string>
+	<string name="Orange">
+		Taronja
+	</string>
+	<string name="Out">
+		Enfora
+	</string>
+	<string name="Out Shdw Color">
+		Color de l'ombra externa
+	</string>
+	<string name="Out Shdw Opacity">
+		Opacitat de l'ombra externa
+	</string>
+	<string name="Outer Eye Corner">
+		Cantonada externa
+	</string>
+	<string name="Outer Eye Shadow">
+		Ombra de l'ull externa
+	</string>
+	<string name="Outer Shadow">
+		Ombra externa
+	</string>
+	<string name="Overbite">
+		Endins
+	</string>
+	<string name="Package">
+		Parts
+	</string>
+	<string name="Painted Nails">
+		Ungles pintades
+	</string>
+	<string name="Pale">
+		Pàl·lid
+	</string>
+	<string name="Pants Crotch">
+		Entrecuix
+	</string>
+	<string name="Pants Fit">
+		Ajustament
+	</string>
+	<string name="Pants Length">
+		Llargada
+	</string>
+	<string name="Pants Waist">
+		Cintura
+	</string>
+	<string name="Pants Wrinkles">
+		Arrugues
+	</string>
+	<string name="Part">
+		Ratlla
+	</string>
+	<string name="Part Bangs">
+		Separació del serrell
+	</string>
+	<string name="Pectorals">
+		Pectorals
+	</string>
+	<string name="Pigment">
+		Pigmentació
+	</string>
+	<string name="Pigtails">
+		Cues
+	</string>
+	<string name="Pink">
+		Rosa
+	</string>
+	<string name="Pinker">
+		Més rosa
+	</string>
+	<string name="Platform Height">
+		Plataf. (alçada)
+	</string>
+	<string name="Platform Width">
+		Plataf. (amplada)
+	</string>
+	<string name="Pointy">
+		Puntuda
+	</string>
+	<string name="Pointy Heels">
+		Talons de punta
+	</string>
+	<string name="Ponytail">
+		Cua de cavall
+	</string>
+	<string name="Poofy Skirt">
+		Faldilla bombada
+	</string>
+	<string name="Pop Left Eye">
+		Ull esquerre sortit
+	</string>
+	<string name="Pop Right Eye">
+		Ull dret sortit
+	</string>
+	<string name="Puffy">
+		Més
+	</string>
+	<string name="Puffy Eyelids">
+		Parpelles inflades
+	</string>
+	<string name="Rainbow Color">
+		Color de l'arc de Sant Martí
+	</string>
+	<string name="Red Hair">
+		Pèl-roig
+	</string>
+	<string name="Regular">
+		Estàndard
+	</string>
+	<string name="Right Part">
+		Ratlla a la dreta
+	</string>
+	<string name="Rosy Complexion">
+		Tez rosada
+	</string>
+	<string name="Round">
+		Rodó
+	</string>
+	<string name="Ruddiness">
+		Vermellor
+	</string>
+	<string name="Ruddy">
+		Vermell
+	</string>
+	<string name="Rumpled Hair">
+		Textura
+	</string>
+	<string name="Saddle Bags">
+		Cartutxeres
+	</string>
+	<string name="Scrawny Leg">
+		Cames esprimatxades
+	</string>
+	<string name="Separate">
+		Separats
+	</string>
+	<string name="Shallow">
+		Poc profund
+	</string>
+	<string name="Shear Back">
+		Tall darrere
+	</string>
+	<string name="Shear Face">
+		Cara
+	</string>
+	<string name="Shear Front">
+		Front
+	</string>
+	<string name="Shear Left Up">
+		Dalt esquerra desplaçat
+	</string>
+	<string name="Shear Right Up">
+		Dalt dreta desplaçat
+	</string>
+	<string name="Sheared Back">
+		Afaitat darrere
+	</string>
+	<string name="Sheared Front">
+		Afaitat davant
+	</string>
+	<string name="Shift Left">
+		Cap a l'esquerra
+	</string>
+	<string name="Shift Mouth">
+		Desplaçament
+	</string>
+	<string name="Shift Right">
+		Cap a la dreta
+	</string>
+	<string name="Shirt Bottom">
+		Camisa
+	</string>
+	<string name="Shirt Fit">
+		Talla
+	</string>
+	<string name="Shirt Wrinkles">
+		Arrugues
+	</string>
+	<string name="Shoe Height">
+		Alçada
+	</string>
+	<string name="Short">
+		Menys
+	</string>
+	<string name="Short Arms">
+		Braços curts
+	</string>
+	<string name="Short Legs">
+		Cames curtes
+	</string>
+	<string name="Short Neck">
+		Coll curt
+	</string>
+	<string name="Short Pigtails">
+		Cues curtes
+	</string>
+	<string name="Short Ponytail">
+		Cua de cavall curta
+	</string>
+	<string name="Short Sideburns">
+		Curtes
+	</string>
+	<string name="Short Torso">
+		Tors curt
+	</string>
+	<string name="Short hips">
+		Malucs curts
+	</string>
+	<string name="Shoulders">
+		Espatlles
+	</string>
+	<string name="Side Fringe">
+		Serrell de costat
+	</string>
+	<string name="Sideburns">
+		Patilles
+	</string>
+	<string name="Sides Hair">
+		Cabell als costats
+	</string>
+	<string name="Sides Hair Down">
+		Cabell als costats avall
+	</string>
+	<string name="Sides Hair Up">
+		Cabell als costats amunt
+	</string>
+	<string name="Skinny Neck">
+		Coll prim
+	</string>
+	<string name="Skirt Fit">
+		Ajustament de la faldilla
+	</string>
+	<string name="Skirt Length">
+		Llargada de la faldilla
+	</string>
+	<string name="Slanted Forehead">
+		Front inclinat
+	</string>
+	<string name="Sleeve Length">
+		Llargada de la màniga
+	</string>
+	<string name="Sleeve Looseness">
+		Folgança de la màniga
+	</string>
+	<string name="Slit Back">
+		Obertura: Darrere
+	</string>
+	<string name="Slit Front">
+		Obertura: Davant
+	</string>
+	<string name="Slit Left">
+		Obertura: Esquerra
+	</string>
+	<string name="Slit Right">
+		Obertura: Dreta
+	</string>
+	<string name="Small">
+		Menys
+	</string>
+	<string name="Small Hands">
+		Mans petites
+	</string>
+	<string name="Small Head">
+		Menys
+	</string>
+	<string name="Smooth">
+		Menys
+	</string>
+	<string name="Smooth Hair">
+		Cabell llis
+	</string>
+	<string name="Socks Length">
+		Llargada
+	</string>
+	<string name="Soulpatch">
+		Perilla
+	</string>
+	<string name="Sparse">
+		Dispers
+	</string>
+	<string name="Spiked Hair">
+		Cabell de punta
+	</string>
+	<string name="Square">
+		Quadrat
+	</string>
+	<string name="Square Toe">
+		Dit del peu quadrat
+	</string>
+	<string name="Squash Head">
+		Aixafar el cap
+	</string>
+	<string name="Stretch Head">
+		Allargar el cap
+	</string>
+	<string name="Sunken">
+		Prominent
+	</string>
+	<string name="Sunken Chest">
+		Pit enfonsat
+	</string>
+	<string name="Sunken Eyes">
+		Ulls enfonsats
+	</string>
+	<string name="Sweep Back">
+		Cap enrere
+	</string>
+	<string name="Sweep Forward">
+		Cap endavant
+	</string>
+	<string name="Tall">
+		Més
+	</string>
+	<string name="Taper Back">
+		Darrere
+	</string>
+	<string name="Taper Front">
+		Davant
+	</string>
+	<string name="Thick Heels">
+		Talons gruixuts
+	</string>
+	<string name="Thick Neck">
+		Coll gruixut
+	</string>
+	<string name="Thick Toe">
+		Dit del peu gruixut
+	</string>
+	<string name="Thin">
+		Prim
+	</string>
+	<string name="Thin Eyebrows">
+		Celles fines
+	</string>
+	<string name="Thin Lips">
+		Llapis fins
+	</string>
+	<string name="Thin Nose">
+		Nas prim
+	</string>
+	<string name="Tight Chin">
+		Barbeta fina
+	</string>
+	<string name="Tight Cuffs">
+		Camals estrets
+	</string>
+	<string name="Tight Pants">
+		Pantalons estrets
+	</string>
+	<string name="Tight Shirt">
+		Camisa estreta
+	</string>
+	<string name="Tight Skirt">
+		Faldilla estreta
+	</string>
+	<string name="Tight Sleeves">
+		Mànigues estretes
+	</string>
+	<string name="Toe Shape">
+		Forma del dit del peu
+	</string>
+	<string name="Toe Thickness">
+		Gruix del dit del peu
+	</string>
+	<string name="Torso Length">
+		Llargada del tors
+	</string>
+	<string name="Torso Muscles">
+		Músculs del tors
+	</string>
+	<string name="Torso Scrawny">
+		Tors esprimatxat
+	</string>
+	<string name="Unattached">
+		Separats
+	</string>
+	<string name="Uncreased">
+		Llis
+	</string>
+	<string name="Underbite">
+		Sortida
+	</string>
+	<string name="Unnatural">
+		Artificial
+	</string>
+	<string name="Upper Bridge">
+		Pont superior
+	</string>
+	<string name="Upper Cheeks">
+		Galtes superiors
+	</string>
+	<string name="Upper Chin Cleft">
+		Barbeta superior
+	</string>
+	<string name="Upper Eyelid Fold">
+		Parpella superior
+	</string>
+	<string name="Upturned">
+		Arremangat
+	</string>
+	<string name="Very Red">
+		Molt vermell
+	</string>
+	<string name="Waist Height">
+		Alçada de la cintura
+	</string>
+	<string name="Well-Fed">
+		Rodanxó
+	</string>
+	<string name="White Hair">
+		Cabell blanc
+	</string>
+	<string name="Wide">
+		Més
+	</string>
+	<string name="Wide Back">
+		Darrere ample
+	</string>
+	<string name="Wide Front">
+		Davant ample
+	</string>
+	<string name="Wide Lips">
+		Llapis amples
+	</string>
+	<string name="Wild">
+		Salvatge
+	</string>
+	<string name="Wrinkles">
+		Arrugues
+	</string>
+	<string name="LocationCtrlAddLandmarkTooltip">
+		Afegeix als meus punts de referència
+	</string>
+	<string name="LocationCtrlEditLandmarkTooltip">
+		Edita el meu punt de referència
+	</string>
+	<string name="LocationCtrlInfoBtnTooltip">
+		Més informació sobre la ubicació actual
+	</string>
+	<string name="LocationCtrlComboBtnTooltip">
+		Historial de les meves ubicacions
+	</string>
+	<string name="LocationCtrlForSaleTooltip">
+		Compra aquest terreny
+	</string>
+	<string name="LocationCtrlVoiceTooltip">
+		Xat de veu no disponible aquí
+	</string>
+	<string name="LocationCtrlFlyTooltip">
+		Vol prohibit
+	</string>
+	<string name="LocationCtrlPushTooltip">
+		No es poden fer empentes
+	</string>
+	<string name="LocationCtrlBuildTooltip">
+		Construcció/col·locació d'objectes prohibit
+	</string>
+	<string name="LocationCtrlScriptsTooltip">
+		Scripts prohibits
+	</string>
+	<string name="LocationCtrlDamageTooltip">
+		Salut
+	</string>
+	<string name="LocationCtrlAdultIconTooltip">
+		Regió de tipus Adult
+	</string>
+	<string name="LocationCtrlModerateIconTooltip">
+		Regió de tipus Moderat
+	</string>
+	<string name="LocationCtrlGeneralIconTooltip">
+		Regió de tipus General
+	</string>
+	<string name="LocationCtrlSeeAVsTooltip">
+		Els avatars fora d'aquesta parcel·la no poden veure ni sentir els avatars que es troben a dins.
+	</string>
+	<string name="LocationCtrlPathfindingDirtyTooltip">
+		Els objectes mòbils poden no comportar-se correctament en aquesta regió fins que no es regeneri.
+	</string>
+	<string name="LocationCtrlPathfindingDisabledTooltip">
+		La cerca de camins dinàmica no està activada en aquesta regió.
+	</string>
+	<string name="UpdaterWindowTitle">
+		[APP_NAME] - Actualització
+	</string>
+	<string name="UpdaterNowUpdating">
+		Actualitzant [APP_NAME]...
+	</string>
+	<string name="UpdaterNowInstalling">
+		Instal·lant [APP_NAME]...
+	</string>
+	<string name="UpdaterUpdatingDescriptive">
+		El client [APP_NAME] s'està actualitzant. Això pot trigar una estona, gràcies per la vostra paciència.
+	</string>
+	<string name="UpdaterProgressBarTextWithEllipses">
+		Actualitzant...
+	</string>
+	<string name="UpdaterProgressBarText">
+		Actualitzant
+	</string>
+	<string name="UpdaterFailDownloadTitle">
+		La descàrrega de l'actualització ha fallat
+	</string>
+	<string name="UpdaterFailUpdateDescriptive">
+		S'ha produït un error en actualitzar [APP_NAME]. Si us plau, descarregueu l'última versió a www.secondlife.com.
+	</string>
+	<string name="UpdaterFailInstallTitle">
+		La instal·lació de l'actualització ha fallat
+	</string>
+	<string name="UpdaterFailStartTitle">
+		No es pot iniciar el client
+	</string>
+	<string name="ItemsComingInTooFastFrom">
+		[APP_NAME]: transferència massa ràpida dels articles de [FROM_NAME]; previsualització automàtica desactivada durant [TIME] segons
+	</string>
+	<string name="ItemsComingInTooFast">
+		[APP_NAME]: transferència massa ràpida dels articles; previsualització automàtica desactivada durant [TIME] segons
+	</string>
+	<string name="IM_logging_string">
+		-- Arxiu d'IMs activat --
+	</string>
+	<string name="IM_typing_start_string">
+		[NAME] està escrivint...
+	</string>
+	<string name="Unnamed">
+		(sense nom)
+	</string>
+	<string name="IM_moderated_chat_label">
+		(Moderat: Veu desactivada per defecte)
+	</string>
+	<string name="IM_unavailable_text_label">
+		El xat escrit no està disponible per a aquesta trucada.
+	</string>
+	<string name="IM_muted_text_label">
+		El vostre xat escrit ha estat desactivat per un moderador de grup.
+	</string>
+	<string name="IM_default_text_label">
+		Feu clic aquí per enviar un missatge instantani.
+	</string>
+	<string name="IM_to_label">
+		A
+	</string>
+	<string name="IM_moderator_label">
+		(Moderador)
+	</string>
+	<string name="Saved_message">
+		(Enregistrament: [LONG_TIMESTAMP])
+	</string>
+	<string name="IM_unblock_only_groups_friends">
+		Per veure aquest missatge, heu de desactivar la casella "Només els meus amics i grups em poden trucar o enviar un IM", a Preferències/Privadesa.
+	</string>
+	<string name="OnlineStatus">
+		En línia
+	</string>
+	<string name="OfflineStatus">
+		Fora de línia
+	</string>
+	<string name="not_online_msg">
+		L'usuari no està en línia - el missatge s'emmagatzemarà i es lliurarà més tard.
+	</string>
+	<string name="not_online_inventory">
+		L'usuari no està en línia - l'inventari s'ha desat.
+	</string>
+	<string name="IM_announce_incoming">
+		Missatge entrant de [NAME]
+	</string>
+	<string name="IM_autoresponse_sent">
+		Resposta automàtica enviada: [MESSAGE]
+	</string>
+	<string name="IM_autoresponse_item_sent">
+		Element de resposta automàtica enviat: [ITEM_NAME]
+	</string>
+	<string name="answered_call">
+		La vostra trucada ha estat resposta
+	</string>
+	<string name="you_started_call">
+		Esteu trucant.
+	</string>
+	<string name="you_joined_call">
+		Us heu unit a la trucada
+	</string>
+	<string name="you_auto_rejected_call-im">
+		Heu rebutjat automàticament la trucada de veu quan el mode No Molestar estava activat.
+	</string>
+	<string name="name_started_call">
+		[NAME] truca.
+	</string>
+	<string name="ringing-im">
+		Unint-se a la trucada...
+	</string>
+	<string name="connected-im">
+		Connectat(da), feu clic a Surt de la trucada per penjar
+	</string>
+	<string name="hang_up-im">
+		Ha sortit de la trucada
+	</string>
+	<string name="answering-im">
+		Connectant...
+	</string>
+	<string name="conference-title">
+		Xat de grup
+	</string>
+	<string name="conference-title-incoming">
+		Conferència amb [AGENT_NAME]
+	</string>
+	<string name="inventory_item_offered-im">
+		S'ha ofert l'objecte de l'inventari [ITEM_NAME]
+	</string>
+	<string name="inventory_folder_offered-im">
+		S'ha ofert la carpeta de l'inventari [ITEM_NAME]
+	</string>
+	<string name="bot_warning">
+		Esteu xatejant amb un bot, [NAME]. No compartiu informació personal.
+Més informació a https://second.life/scripted-agents.
+	</string>
+	<string name="inventory_item_offered_rlv">
+		Article d'inventari ofert a [NAME]
+	</string>
+	<string name="share_alert">
+		Arrossegueu els objectes de l'inventari aquí
+	</string>
+	<string name="facebook_post_success">
+		Heu publicat a Facebook.
+	</string>
+	<string name="flickr_post_success">
+		Heu publicat a Flickr.
+	</string>
+	<string name="no_session_message">
+		(Sessió d'IM inexistent)
+	</string>
+	<string name="only_user_message">
+		Sou l'únic participant en aquesta sessió.
+	</string>
+	<string name="offline_message">
+		[NAME] està fora de línia.
+	</string>
+	<string name="invite_message">
+		Per acceptar aquest xat de veu/connectar-vos, feu clic al botó [BUTTON NAME].
+	</string>
+	<string name="muted_message">
+		Ignoreu aquest resident. Si li envieu un missatge, deixarà de ser ignorat.
+	</string>
+	<string name="generic">
+		Error durant la sol·licitud, torneu-ho a provar més tard.
+	</string>
+	<string name="generic_request_error">
+		Error durant la sol·licitud, torneu-ho a provar més tard.
+	</string>
+	<string name="insufficient_perms_error">
+		No teniu els permisos necessaris.
+	</string>
+	<string name="session_does_not_exist_error">
+		La sessió ha expirat
+	</string>
+	<string name="no_ability_error">
+		No teniu aquest poder.
+	</string>
+	<string name="no_ability">
+		No teniu aquest poder.
+	</string>
+	<string name="not_a_mod_error">
+		No sou moderador de la sessió.
+	</string>
+	<string name="muted">
+		Un moderador de grup ha desactivat el vostre xat escrit.
+	</string>
+	<string name="muted_error">
+		Un moderador de grup ha desactivat el vostre xat escrit.
+	</string>
+	<string name="add_session_event">
+		No es poden afegir participants a la sessió de xat amb [RECIPIENT].
+	</string>
+	<string name="message">
+		No es pot enviar el vostre missatge a la sessió de xat amb [RECIPIENT].
+	</string>
+	<string name="message_session_event">
+		No es pot enviar el vostre missatge a la sessió de xat amb [RECIPIENT].
+	</string>
+	<string name="mute">
+		Error durant la moderació.
+	</string>
+	<string name="removed">
+		Heu estat eliminat del grup.
+	</string>
+	<string name="removed_from_group">
+		Heu estat eliminat del grup.
+	</string>
+	<string name="close_on_no_ability">
+		Ja no podeu participar en la sessió de xat.
+	</string>
+	<string name="unread_chat_single">
+		[SOURCES] ha dit alguna cosa nova
+	</string>
+	<string name="unread_chat_multiple">
+		[SOURCES] han dit alguna cosa nova
+	</string>
+	<string name="teleport_preamble_compact_chat">
+		Ara sou a
+	</string>
+	<string name="session_initialization_timed_out_error">
+		Expiració del temps d'espera d'inicialització de la sessió
+	</string>
+	<string name="Home position set.">
+		Ubicació de la llar definida.
+	</string>
+	<string name="voice_morphing_url">
+		https://secondlife.com/destination/voice-island
+	</string>
+	<string name="premium_voice_morphing_url">
+		https://secondlife.com/destination/voice-morphing-premium
+	</string>
+	<string name="lindenhomes_my_home_url">
+		https://land.secondlife.com/ca-ES/lindenhomes/my-home.php
+	</string>
+	<string name="paid_you_ldollars">
+		[NAME] us ha pagat [AMOUNT] L$ [REASON].
+	</string>
+	<string name="paid_you_ldollars_gift">
+		[NAME] us ha pagat [AMOUNT] L$: [REASON]
+	</string>
+	<string name="paid_you_ldollars_no_reason">
+		[NAME] us ha pagat [AMOUNT] L$.
+	</string>
+	<string name="you_paid_ldollars">
+		Heu pagat [AMOUNT] L$ [REASON].
+	</string>
+	<string name="you_paid_ldollars_gift">
+		Heu pagat a [NAME] [AMOUNT] L$: [REASON]
+	</string>
+	<string name="you_paid_ldollars_no_info">
+		Heu pagat [AMOUNT] L$.
+	</string>
+	<string name="you_paid_ldollars_no_reason">
+		Heu pagat a [NAME] [AMOUNT] L$.
+	</string>
+	<string name="you_paid_ldollars_no_name">
+		Heu pagat a [AMOUNT] L$ [REASON].
+	</string>
+	<string name="you_paid_failure_ldollars">
+		El vostre pagament de [AMOUNT] L$ a [NAME] [REASON] ha fallat.
+	</string>
+	<string name="you_paid_failure_ldollars_gift">
+		El vostre pagament de [AMOUNT] L$ a [NAME] ha fallat: [REASON]
+	</string>
+	<string name="you_paid_failure_ldollars_no_info">
+		El vostre pagament de [AMOUNT] L$ ha fallat.
+	</string>
+	<string name="you_paid_failure_ldollars_no_reason">
+		El vostre pagament de [AMOUNT] L$ a [NAME] ha fallat.
+	</string>
+	<string name="you_paid_failure_ldollars_no_name">
+		El vostre pagament de [AMOUNT] L$ [REASON] ha fallat.
+	</string>
+	<string name="for item">
+		per a l'article següent: [ITEM]
+	</string>
+	<string name="for a parcel of land">
+		per a una parcel·la de terreny
+	</string>
+	<string name="for a land access pass">
+		per a una passada d'accés al terreny
+	</string>
+	<string name="for deeding land">
+		per a una cessió de terreny
+	</string>
+	<string name="to create a group">
+		per crear un grup
+	</string>
+	<string name="to join a group">
+		per unir-se a un grup
+	</string>
+	<string name="to upload">
+		per carregar
+	</string>
+	<string name="to publish a classified ad">
+		per publicar un anunci classificat
+	</string>
+	<string name="uploading_costs">
+		La càrrega costa [AMOUNT] L$
+	</string>
+	<string name="this_costs">
+		Això costa [AMOUNT] L$
+	</string>
+	<string name="buying_selected_land">
+		Comprant el terreny seleccionat per [AMOUNT] L$
+	</string>
+	<string name="this_object_costs">
+		Aquest objecte costa [AMOUNT] L$
+	</string>
+	<string name="giving">
+		Voleu donar
+	</string>
+	<string name="group_role_everyone">
+		Tothom
+	</string>
+	<string name="group_role_officers">
+		Oficials
+	</string>
+	<string name="group_role_owners">
+		Propietaris
+	</string>
+	<string name="group_member_status_online">
+		En línia
+	</string>
+	<string name="uploading_abuse_report">
+		Carregant...
+
+de l'informe d'infracció
+	</string>
+	<string name="New Shape">
+		Nova forma
+	</string>
+	<string name="New Skin">
+		Nova pell
+	</string>
+	<string name="New Hair">
+		Nou cabell
+	</string>
+	<string name="New Eyes">
+		Nous ulls
+	</string>
+	<string name="New Shirt">
+		Nova camisa
+	</string>
+	<string name="New Pants">
+		Nous pantalons
+	</string>
+	<string name="New Shoes">
+		Noves sabates
+	</string>
+	<string name="New Socks">
+		Nous mitjons
+	</string>
+	<string name="New Jacket">
+		Nova jaqueta
+	</string>
+	<string name="New Gloves">
+		Nous guants
+	</string>
+	<string name="New Undershirt">
+		Nova samarreta interior
+	</string>
+	<string name="New Underpants">
+		Nous calçotets
+	</string>
+	<string name="New Skirt">
+		Nova faldilla
+	</string>
+	<string name="New Alpha">
+		Nou alfa
+	</string>
+	<string name="New Tattoo">
+		Nou tatuatge
+	</string>
+	<string name="New Universal">
+		Nou entorn universal
+	</string>
+	<string name="New Physics">
+		Noves propietats físiques
+	</string>
+	<string name="Invalid Wearable">
+		Objecte portable no vàlid
+	</string>
+	<string name="New Gesture">
+		Nou gest
+	</string>
+	<string name="New Script">
+		Nou script
+	</string>
+	<string name="New Note">
+		Nova nota
+	</string>
+	<string name="New Folder">
+		Nova carpeta
+	</string>
+	<string name="Contents">
+		Continguts
+	</string>
+	<string name="Gesture">
+		Gest
+	</string>
+	<string name="Male Gestures">
+		Gestos masculins
+	</string>
+	<string name="Female Gestures">
+		Gestos femenins
+	</string>
+	<string name="Other Gestures">
+		Altres gestos
+	</string>
+	<string name="Speech Gestures">
+		Gestos relacionats amb la parla
+	</string>
+	<string name="Common Gestures">
+		Gestos comuns
+	</string>
+	<string name="Male - Excuse me">
+		Home - Demanar perdó
+	</string>
+	<string name="Male - Get lost">
+		Home - Desapareix
+	</string>
+	<string name="Male - Blow kiss">
+		Home - Llançar un petó
+	</string>
+	<string name="Male - Boo">
+		Home - Uuh!
+	</string>
+	<string name="Male - Bored">
+		Home - Avorriment
+	</string>
+	<string name="Male - Hey">
+		Home - Ei!
+	</string>
+	<string name="Male - Laugh">
+		Home - Riure
+	</string>
+	<string name="Male - Repulsed">
+		Home - Repulsió
+	</string>
+	<string name="Male - Shrug">
+		Home - Arronsar les espatlles
+	</string>
+	<string name="Male - Stick tougue out">
+		Home - Treure la llengua
+	</string>
+	<string name="Male - Wow">
+		Home - Uau!
+	</string>
+	<string name="Female - Chuckle">
+		Dona - Rialleta
+	</string>
+	<string name="Female - Cry">
+		Dona - Plorar
+	</string>
+	<string name="Female - Embarrassed">
+		Dona - Vergonya
+	</string>
+	<string name="Female - Excuse me">
+		Dona - Demanar perdó
+	</string>
+	<string name="Female - Get lost">
+		Dona - Desapareix
+	</string>
+	<string name="Female - Blow kiss">
+		Dona - Llançar un petó
+	</string>
+	<string name="Female - Boo">
+		Dona - Uuh!
+	</string>
+	<string name="Female - Bored">
+		Dona - Avorriment
+	</string>
+	<string name="Female - Hey">
+		Dona - Ei!
+	</string>
+	<string name="Female - Hey baby">
+		Dona - Ei, guapu
+	</string>
+	<string name="Female - Laugh">
+		Dona - Riure
+	</string>
+	<string name="Female - Looking good">
+		Dona - Quin bon aspecte
+	</string>
+	<string name="Female - Over here">
+		Dona - Per aquí
+	</string>
+	<string name="Female - Please">
+		Dona - Si us plau
+	</string>
+	<string name="Female - Repulsed">
+		Dona - Repulsió
+	</string>
+	<string name="Female - Shrug">
+		Dona - Arronsar les espatlles
+	</string>
+	<string name="Female - Stick tougue out">
+		Dona - Treure la llengua
+	</string>
+	<string name="Female - Wow">
+		Dona - Uau!
+	</string>
+	<string name="New Day">
+		Nou cicle de dia
+	</string>
+	<string name="New Water">
+		Nova aigua
+	</string>
+	<string name="New Sky">
+		Nou cel
+	</string>
+	<string name="New Settings">
+		Nous paràmetres
+	</string>
+	<string name="/bow">
+		/inclinar-se
+	</string>
+	<string name="/clap">
+		/aplaudir
+	</string>
+	<string name="/count">
+		/comptar
+	</string>
+	<string name="/extinguish">
+		/apagar
+	</string>
+	<string name="/kmb">
+		/quenofariem
+	</string>
+	<string name="/muscle">
+		/mostrarmusculs
+	</string>
+	<string name="/no">
+		/no
+	</string>
+	<string name="/no!">
+		/no!
+	</string>
+	<string name="/paper">
+		/paper
+	</string>
+	<string name="/pointme">
+		/assenyalar-me
+	</string>
+	<string name="/pointyou">
+		/assenyalar-te
+	</string>
+	<string name="/rock">
+		/pedra
+	</string>
+	<string name="/scissor">
+		/tisores
+	</string>
+	<string name="/smoke">
+		/fumar
+	</string>
+	<string name="/stretch">
+		/badallar
+	</string>
+	<string name="/whistle">
+		/xiular
+	</string>
+	<string name="/yes">
+		/si
+	</string>
+	<string name="/yes!">
+		/si!
+	</string>
+	<string name="afk">
+		absent
+	</string>
+	<string name="dance1">
+		ball1
+	</string>
+	<string name="dance2">
+		ball2
+	</string>
+	<string name="dance3">
+		ball3
+	</string>
+	<string name="dance4">
+		ball4
+	</string>
+	<string name="dance5">
+		ball5
+	</string>
+	<string name="dance6">
+		ball6
+	</string>
+	<string name="dance7">
+		ball7
+	</string>
+	<string name="dance8">
+		ball8
+	</string>
+	<string name="AvatarBirthDateFormat">
+		[day,datetime,utc]/[mthnum,datetime,utc]/[year,datetime,utc]
+	</string>
+	<string name="AvatarBirthDateFormat_legacy">
+		[day,datetime,slt]/[mthnum,datetime,slt]/[year,datetime,slt]
+	</string>
+	<string name="DefaultMimeType">
+		cap/cap
+	</string>
+	<string name="texture_load_dimensions_error">
+		No es poden carregar imatges de mida superior a [WIDTH]*[HEIGHT]
+	</string>
+	<string name="outfit_photo_load_dimensions_error">
+		Mida màx. de la foto del conjunt: [WIDTH]*[HEIGHT]. Redimensioneu la imatge o utilitzeu-ne una altra.
+	</string>
+	<string name="outfit_photo_select_dimensions_error">
+		Mida màx. de la foto del conjunt: [WIDTH]*[HEIGHT]. Seleccioneu una altra textura.
+	</string>
+	<string name="outfit_photo_verify_dimensions_error">
+		No es poden verificar les dimensions de la foto. Espereu que la mida de la foto es mostri al selector.
+	</string>
+	<string name="words_separator" value=","/>
+	<string name="server_is_down">
+		Malgrat els nostres esforços, s'ha produït un error inesperat.
+
+Consulteu https://secondlife-status.statuspage.io per determinar si hi ha un problema conegut amb aquest servei.
+Si el problema persisteix, verifiqueu la configuració de la vostra xarxa i del vostre tallafoc.
+	</string>
+	<string name="dateTimeWeekdaysNames">
+		Diumenge:Dilluns:Dimarts:Dimecres:Dijous:Divendres:Dissabte
+	</string>
+	<string name="dateTimeWeekdaysShortNames">
+		Dg:Dl:Dm:Dc:Dj:Dv:Ds
+	</string>
+	<string name="dateTimeMonthNames">
+			Gener:Febrer:Març:Abril:Maig:Juny:Juliol:Agost:Setembre:Octubre:Novembre:Desembre
+	</string>
+	<string name="dateTimeMonthShortNames">
+		Gen:Feb:Mar:Abr:Mai:Jun:Jul:Ago:Set:Oct:Nov:Des
+	</string>
+	<string name="dateTimeDayFormat">
+		[MDAY]
+	</string>
+	<string name="dateTimeAM">
+		AM
+	</string>
+	<string name="dateTimePM">
+		PM
+	</string>
+	<string name="LocalEstimateUSD">
+		[AMOUNT] US$
+	</string>
+	<string name="Group Ban">
+		Prohibició de grup
+	</string>
+	<string name="Membership">
+		Subscripció
+	</string>
+	<string name="Roles">
+		Rols
+	</string>
+	<string name="Group Identity">
+		Identitat del grup
+	</string>
+	<string name="Parcel Management">
+		Gestió de parcel·les
+	</string>
+	<string name="Parcel Identity">
+		Identitat de les parcel·les
+	</string>
+	<string name="Parcel Settings">
+		Paràmetres de les parcel·les
+	</string>
+	<string name="Parcel Powers">
+		Poders sobre les parcel·les
+	</string>
+	<string name="Parcel Access">
+		Accés a les parcel·les
+	</string>
+	<string name="Parcel Content">
+		Contingut de les parcel·les
+	</string>
+	<string name="Object Management">
+		Gestió d'objectes
+	</string>
+	<string name="Accounting">
+		Comptabilitat
+	</string>
+	<string name="Notices">
+		Avisos
+	</string>
+	<string name="Chat" value=" Xat:">
+		Xat
+	</string>
+	<string name="BaseMembership">
+		Bàsica
+	</string>
+	<string name="PremiumMembership">
+		Premium
+	</string>
+	<string name="Premium_PlusMembership">
+		Premium Plus
+	</string>
+	<string name="MembershipUpgradeText">
+		Canvia de subscripció
+	</string>
+	<string name="MembershipPremiumText">
+		La meva subscripció Premium
+	</string>
+	<string name="DeleteItems">
+		Voleu suprimir els [COUNT_SELECTION] articles seleccionats ([COUNT_TOTAL] total)?
+	</string>
+	<string name="DeleteItem">
+		Voleu suprimir l'article seleccionat ([COUNT_TOTAL] total)?
+	</string>
+	<string name="EmptyOutfitText">
+		Aquest conjunt no conté cap article.
+	</string>
+	<string name="ExternalEditorNotSet">
+		Seleccioneu un editor definint la variable d'entorn LL_SCRIPT_EDITOR o el paràmetre ExternalEditor.
+Vegeu https://wiki.secondlife.com/wiki/LSL_Alternate_Editors
+	</string>
+	<string name="ExternalEditorNotFound">
+		Editor extern especificat no trobat.
+Proveu amb el camí d'accés a l'editor entre cometes dobles
+(p. ex.: "/camí_accés/editor" "%s").
+	</string>
+	<string name="ExternalEditorCommandParseError">
+		Error en analitzar l'ordre d'editor extern.
+	</string>
+	<string name="ExternalEditorFailedToRun">
+		Error en executar l'editor extern.
+	</string>
+	<string name="TranslationFailed">
+		Error de traducció: [REASON]
+	</string>
+	<string name="TranslationResponseParseError">
+		Error en analitzar la resposta relativa a la traducció.
+	</string>
+	<string name="Esc">
+		Esc
+	</string>
+	<string name="Space">
+		Espai
+	</string>
+	<string name="Enter">
+		Intro
+	</string>
+	<string name="Tab">
+		Tab
+	</string>
+	<string name="Ins">
+		Ins
+	</string>
+	<string name="Del">
+		Supr
+	</string>
+	<string name="Backsp">
+		Retrocés
+	</string>
+	<string name="Shift">
+		Maj
+	</string>
+	<string name="Ctrl">
+		Ctrl
+	</string>
+	<string name="Alt">
+		Alt
+	</string>
+	<string name="CapsLock">
+		BloqMaj
+	</string>
+	<string name="Left">
+		Fletxa Esquerra
+	</string>
+	<string name="Right">
+		Fletxa Dreta
+	</string>
+	<string name="Up">
+		Fletxa Amunt
+	</string>
+	<string name="Down">
+		Fletxa Avall
+	</string>
+	<string name="Home">
+		Inici
+	</string>
+	<string name="End">
+		Fi
+	</string>
+	<string name="PgUp">
+		Re Pàg
+	</string>
+	<string name="PgDn">
+		Av Pàg
+	</string>
+	<string name="F1">
+		F1
+	</string>
+	<string name="F2">
+		F2
+	</string>
+	<string name="F3">
+		F3
+	</string>
+	<string name="F4">
+		F4
+	</string>
+	<string name="F5">
+		F5
+	</string>
+	<string name="F6">
+		F6
+	</string>
+	<string name="F7">
+		F7
+	</string>
+	<string name="F8">
+		F8
+	</string>
+	<string name="F9">
+		F9
+	</string>
+	<string name="F10">
+		F10
+	</string>
+	<string name="F11">
+		F11
+	</string>
+	<string name="F12">
+		F12
+	</string>
+	<string name="Add">
+		Suma
+	</string>
+	<string name="Subtract">
+		Resta
+	</string>
+	<string name="Multiply">
+		Multiplica
+	</string>
+	<string name="Divide">
+		Divideix
+	</string>
+	<string name="PAD_DIVIDE">
+		PAD_DIVIDE
+	</string>
+	<string name="PAD_LEFT">
+		PAD_LEFT
+	</string>
+	<string name="PAD_RIGHT">
+		PAD_RIGHT
+	</string>
+	<string name="PAD_DOWN">
+		PAD_DOWN
+	</string>
+	<string name="PAD_UP">
+		PAD_UP
+	</string>
+	<string name="PAD_HOME">
+		PAD_HOME
+	</string>
+	<string name="PAD_END">
+		PAD_END
+	</string>
+	<string name="PAD_PGUP">
+		PAD_PGUP
+	</string>
+	<string name="PAD_PGDN">
+		PAD_PGDN
+	</string>
+	<string name="PAD_CENTER">
+		PAD_CENTER
+	</string>
+	<string name="PAD_INS">
+		PAD_INS
+	</string>
+	<string name="PAD_DEL">
+		PAD_DEL
+	</string>
+	<string name="PAD_Enter">
+		PAD_Intro
+	</string>
+	<string name="PAD_BUTTON0">
+		PAD_BUTTON0
+	</string>
+	<string name="PAD_BUTTON1">
+		PAD_BUTTON1
+	</string>
+	<string name="PAD_BUTTON2">
+		PAD_BUTTON2
+	</string>
+	<string name="PAD_BUTTON3">
+		PAD_BUTTON3
+	</string>
+	<string name="PAD_BUTTON4">
+		PAD_BUTTON4
+	</string>
+	<string name="PAD_BUTTON5">
+		PAD_BUTTON5
+	</string>
+	<string name="PAD_BUTTON6">
+		PAD_BUTTON6
+	</string>
+	<string name="PAD_BUTTON7">
+		PAD_BUTTON7
+	</string>
+	<string name="PAD_BUTTON8">
+		PAD_BUTTON8
+	</string>
+	<string name="PAD_BUTTON9">
+		PAD_BUTTON9
+	</string>
+	<string name="PAD_BUTTON10">
+		PAD_BUTTON10
+	</string>
+	<string name="PAD_BUTTON11">
+		PAD_BUTTON11
+	</string>
+	<string name="PAD_BUTTON12">
+		PAD_BUTTON12
+	</string>
+	<string name="PAD_BUTTON13">
+		PAD_BUTTON13
+	</string>
+	<string name="PAD_BUTTON14">
+		PAD_BUTTON14
+	</string>
+	<string name="PAD_BUTTON15">
+		PAD_BUTTON15
+	</string>
+	<string name="-">
+		-
+	</string>
+	<string name="=">
+		=
+	</string>
+	<string name="`">
+		`
+	</string>
+	<string name=";">
+		;
+	</string>
+	<string name="[">
+		[
+	</string>
+	<string name="]">
+		]
+	</string>
+	<string name="\">
+		\
+	</string>
+	<string name="0">
+		0
+	</string>
+	<string name="1">
+		1
+	</string>
+	<string name="2">
+		2
+	</string>
+	<string name="3">
+		3
+	</string>
+	<string name="4">
+		4
+	</string>
+	<string name="5">
+		5
+	</string>
+	<string name="6">
+		6
+	</string>
+	<string name="7">
+		7
+	</string>
+	<string name="8">
+		8
+	</string>
+	<string name="9">
+		9
+	</string>
+	<string name="A">
+		A
+	</string>
+	<string name="B">
+		B
+	</string>
+	<string name="C">
+		C
+	</string>
+	<string name="D">
+		D
+	</string>
+	<string name="E">
+		E
+	</string>
+	<string name="F">
+		F
+	</string>
+	<string name="G">
+		G
+	</string>
+	<string name="H">
+		H
+	</string>
+	<string name="I">
+		I
+	</string>
+	<string name="J">
+		J
+	</string>
+	<string name="K">
+		K
+	</string>
+	<string name="L">
+		L
+	</string>
+	<string name="M">
+		M
+	</string>
+	<string name="N">
+		N
+	</string>
+	<string name="O">
+		O
+	</string>
+	<string name="P">
+		P
+	</string>
+	<string name="Q">
+		Q
+	</string>
+	<string name="R">
+		R
+	</string>
+	<string name="S">
+		S
+	</string>
+	<string name="T">
+		T
+	</string>
+	<string name="U">
+		U
+	</string>
+	<string name="V">
+		V
+	</string>
+	<string name="W">
+		W
+	</string>
+	<string name="X">
+		X
+	</string>
+	<string name="Y">
+		Y
+	</string>
+	<string name="Z">
+		Z
+	</string>
+	<string name="Double LMB">
+		Doble clic
+	</string>
+	<string name="BeaconParticle">
+		Visualització de balises de partícules (blau)
+	</string>
+	<string name="BeaconPhysical">
+		Visualització de balises d'objecte físic (verd)
+	</string>
+	<string name="BeaconScripted">
+		Visualització de balises d'objecte amb script (vermell)
+	</string>
+	<string name="BeaconScriptedTouch">
+		Visualització de balises d'objecte amb script amb funció de toc (vermell)
+	</string>
+	<string name="BeaconSound">
+		Visualització de balises de so (groc)
+	</string>
+	<string name="BeaconMedia">
+		Visualització de balises de mitjans (blanc)
+	</string>
+	<string name="BeaconSun">
+		Balisa de visibilitat del sol (taronja)
+	</string>
+	<string name="BeaconMoon">
+		Observació de la balisa de direcció de la lluna (violeta)
+	</string>
+	<string name="ParticleHiding">
+		Ocultació de partícules
+	</string>
+	<string name="Command_360_Capture_Label">
+		Foto 360°
+	</string>
+	<string name="Command_AboutLand_Label">
+		Sobre el terreny
+	</string>
+	<string name="Command_Appearance_Label">
+		Aparença
+	</string>
+	<string name="Command_Avatar_Label">
+		Avatar
+	</string>
+	<string name="Command_Build_Label">
+		Construeix
+	</string>
+	<string name="Command_Chat_Label">
+		Converses
+	</string>
+	<string name="Command_Conversations_Label">
+		Xateja
+	</string>
+	<string name="Command_Compass_Label">
+		Brúixola
+	</string>
+	<string name="Command_Destinations_Label">
+		Destinacions
+	</string>
+	<string name="Command_Environments_Label">
+		Els meus entorns
+	</string>
+	<string name="Command_Flickr_Label">
+		Flickr
+	</string>
+	<string name="Command_Gestures_Label">
+		Gestos
+	</string>
+	<string name="Command_Grid_Status_Label">
+		Estat de la graella
+	</string>
+	<string name="Command_HowTo_Label">
+		Ajuda ràpida
+	</string>
+	<string name="Command_Inventory_Label">
+		Inventari
+	</string>
+	<string name="Command_Map_Label">
+		Mapa
+	</string>
+	<string name="Command_Marketplace_Label">
+		Marketplace
+	</string>
+	<string name="Command_MarketplaceListings_Label">
+		Marketplace
+	</string>
+	<string name="Command_MiniMap_Label">
+		Minimapa
+	</string>
+	<string name="Command_Move_Label">
+		Camina / Corre / Vola
+	</string>
+	<string name="Command_People_Label">
+		Gent
+	</string>
+	<string name="Command_Performance_Label">
+		Rendiment gràfic
+	</string>
+	<string name="Command_Picks_Label">
+		Favorits
+	</string>
+	<string name="Command_Places_Label">
+		Llocs
+	</string>
+	<string name="Command_Preferences_Label">
+		Preferències
+	</string>
+	<string name="Command_Profile_Label">
+		Perfil
+	</string>
+	<string name="Command_Report_Abuse_Label">
+		Informa d'un abús
+	</string>
+	<string name="Command_Search_Label">
+		Cerca
+	</string>
+	<string name="Command_Snapshot_Label">
+		Foto
+	</string>
+	<string name="Command_Speak_Label">
+		Parla
+	</string>
+	<string name="Command_View_Label">
+		Càmera
+	</string>
+	<string name="Command_Voice_Label">
+		Xat de veu proper
+	</string>
+	<string name="Command_Quickprefs_Label">
+		Preferències ràpides
+	</string>
+	<string name="Command_AO_Label">
+		Anul·lació d'animacions
+	</string>
+	<string name="Command_Webbrowser_Label">
+		Navegador web
+	</string>
+	<string name="Command_Default_Chat_Bar_Label">
+		Xat
+	</string>
+	<string name="Command_Areasearch_Label">
+		Cerca per zona
+	</string>
+	<string name="Command_Settings_Debug_Label">
+		Paràmetres de depuració
+	</string>
+	<string name="Command_Statistics_Label">
+		Estadístiques
+	</string>
+	<string name="Command_Region_Label">
+		Regió/Domini
+	</string>
+	<string name="Command_Fly_Label">
+		Vola
+	</string>
+	<string name="Command_Groundsit_Label">
+		Seu a terra
+	</string>
+	<string name="Command_Sound_Explorer_Label">
+		Explorador de sons
+	</string>
+	<string name="Command_Asset_Blacklist_Label">
+		Llista Negra activa
+	</string>
+	<string name="Command_Phototools_Label">
+		Eines de fotografia
+	</string>
+	<string name="Command_Phototools_View_Label">
+		Eines de càmera
+	</string>
+	<string name="Command_Contact_Sets_Label">
+		Conjunts de contactes
+	</string>
+	<string name="Command_Mouselook_Label">
+		Vista subjectiva
+	</string>
+	<string name="Command_Landmark_Here_Label">
+		Creació de punt de referència
+	</string>
+	<string name="Command_Teleport_History_Label">
+		Historial de teletransportació
+	</string>
+	<string name="Command_Pose_Stand_Label">
+		Suport de posat
+	</string>
+	<string name="Command_Snapshot_To_Disk_Label">
+		Foto al disc
+	</string>
+	<string name="Command_Radar_Label">
+		Radar
+	</string>
+	<string name="Command_Conversation_Log_Label">
+		Registre de converses
+	</string>
+	<string name="Command_Move_Lock_Label">
+		Immobilitza
+	</string>
+	<string name="Command_Blocklist_Label">
+		Llista negra
+	</string>
+	<string name="Command_ResyncAnimations_Label">
+		Resincronitza les animacions
+	</string>
+	<string name="Command_RegionTracker_Label">
+		Seguiment de regió
+	</string>
+	<string name="Command_Group_Titles_Label">
+		Títols de Grup
+	</string>
+	<string name="Command_Wearable_Favorites_Label">
+		Roba preferida
+	</string>
+	<string name="Command_RFO_Label">
+		Mostra només amics
+	</string>
+	<string name="Command_DAO_Label">
+		No mostris animesh
+	</string>
+	<string name="Command_Beacons_Label">
+		Balises
+	</string>
+	<string name="Command_360_Capture_Tooltip">
+		Captureu una imatge equirectangular de 360°.
+	</string>
+	<string name="Command_AboutLand_Tooltip">
+		Informació sobre el terreny que visiteu
+	</string>
+	<string name="Command_Appearance_Tooltip">
+		Modifiqueu el vostre avatar
+	</string>
+	<string name="Command_Avatar_Tooltip">
+		Trieu un avatar complet
+	</string>
+	<string name="Command_Build_Tooltip">
+		Construcció d'objectes i remodelació del terreny
+	</string>
+	<string name="Command_Chat_Tooltip">
+		Parleu amb les persones properes mitjançant xat escrit
+	</string>
+	<string name="Command_Conversations_Tooltip">
+		Parleu amb algú
+	</string>
+	<string name="Command_Compass_Tooltip">
+		Brúixola
+	</string>
+	<string name="Command_Destinations_Tooltip">
+		Destinacions interessants
+	</string>
+	<string name="Command_Environments_Tooltip">
+		Els meus entorns
+	</string>
+	<string name="Command_Flickr_Tooltip">
+		Carrega a Flickr
+	</string>
+	<string name="Command_Gestures_Tooltip">
+		Gestos del vostre avatar
+	</string>
+	<string name="Command_Grid_Status_Tooltip">
+		Mostreu l'estat actual de la graella
+	</string>
+	<string name="Command_HowTo_Tooltip">
+		Com realitzar les operacions habituals
+	</string>
+	<string name="Command_Inventory_Tooltip">
+		Mostreu i utilitzeu les vostres possessions
+	</string>
+	<string name="Command_Map_Tooltip">
+		Mapa del món
+	</string>
+	<string name="Command_Marketplace_Tooltip">
+		Aneu de compres
+	</string>
+	<string name="Command_MarketplaceListings_Tooltip">
+		Veneu la vostra creació
+	</string>
+	<string name="Command_MiniMap_Tooltip">
+		Mostreu les persones properes
+	</string>
+	<string name="Command_Move_Tooltip">
+		Feu moure el vostre avatar
+	</string>
+	<string name="Command_People_Tooltip">
+		Amics, grups i persones properes
+	</string>
+	<string name="Command_Performance_Tooltip">
+		Reguleu els paràmetres gràfics
+	</string>
+	<string name="Command_Picks_Tooltip">
+		Llocs per mostrar com a favorits al vostre perfil
+	</string>
+	<string name="Command_Places_Tooltip">
+		Llocs desats
+	</string>
+	<string name="Command_Preferences_Tooltip">
+		Preferències
+	</string>
+	<string name="Command_Profile_Tooltip">
+		Modifiqueu o mostreu el vostre perfil
+	</string>
+	<string name="Command_Report_Abuse_Tooltip">
+		Informeu d'una infracció
+	</string>
+	<string name="Command_Search_Tooltip">
+		Trobeu llocs, persones, esdeveniments
+	</string>
+	<string name="Command_Snapshot_Tooltip">
+		Feu una foto
+	</string>
+	<string name="Command_Speak_Tooltip">
+		Parleu amb les persones properes utilitzant el vostre micròfon
+	</string>
+	<string name="Command_View_Tooltip">
+		Canvieu l'angle de la càmera
+	</string>
+	<string name="Command_Voice_Tooltip">
+		Controls de regulació del volum de les trucades i de les persones properes a Second Life.
+	</string>
+	<string name="Command_Quickprefs_Tooltip">
+		Preferències ràpides per modificar paràmetres d'ús freqüent
+	</string>
+	<string name="Command_AO_Tooltip">
+		Anul·lació d'animació
+	</string>
+	<string name="Command_Webbrowser_Tooltip">
+		Obre el navegador web intern (CTRL+MAJ+Z)
+	</string>
+	<string name="Command_Default_Chat_Bar_Tooltip">
+		Mostra o amaga la barra de conversa
+	</string>
+	<string name="Command_Areasearch_Tooltip">
+		Cerca d'objectes a la zona
+	</string>
+	<string name="Command_Settings_Debug_Tooltip">
+		Canvia els paràmetres de depuració del programari (CTRL+ALT+MAJ+S)
+	</string>
+	<string name="Command_Statistics_Tooltip">
+		Mostra les estadístiques del navegador (CTRL+MAJ+1)
+	</string>
+	<string name="Command_Region_Tooltip">
+		Obre les eines de gestió de regió i domini (ALT+R)
+	</string>
+	<string name="Command_Groundsit_Tooltip">
+		Seu a terra/Aixeca't (CTRL+ALT+S)
+	</string>
+	<string name="Command_Sound_Explorer_Tooltip">
+		Obre l'explorador de sons
+	</string>
+	<string name="Command_Asset_Blacklist_Tooltip">
+		Mostra la llista de tots els elements a la llista negra
+	</string>
+	<string name="Command_Phototools_Tooltip">
+		Eines per a la creació d'imatges (ALT+P).
+	</string>
+	<string name="Command_Phototools_View_Tooltip">
+		Controls avançats de la càmera (CTRL+MAJ+C)
+	</string>
+	<string name="Command_Contact_Sets_Tooltip">
+		Gestió de conjunts de contactes (CTRL+ALT+MAJ+C)
+	</string>
+	<string name="Command_Mouselook_Tooltip">
+		Passa al mode de vista subjectiva (M)
+	</string>
+	<string name="Command_Landmark_Here_Tooltip">
+		Crea un punt de referència a la vostra posició actual
+	</string>
+	<string name="Command_Teleport_History_Tooltip">
+		Obre l'historial de teletransportació (ALT+H)
+	</string>
+	<string name="Command_Pose_Stand_Tooltip">
+		Posa l'avatar en posició per ajustar els objectes adjunts
+	</string>
+	<string name="Command_Snapshot_To_Disk_Tooltip">
+		Fa una foto ràpida i la desa al disc dur
+	</string>
+	<string name="Command_Radar_Tooltip">
+		Obre el radar per detectar els avatars propers
+	</string>
+	<string name="Command_Conversation_Log_Tooltip">
+		Obre l'historial de converses per consultar les transcripcions de converses passades
+	</string>
+	<string name="Command_Move_Lock_Tooltip">
+		Immobilitza l'avatar a la seva posició actual (CTRL+ALT+P)
+	</string>
+	<string name="Command_Blocklist_Tooltip">
+		Obre la llista d'elements bloquejats/ignorats
+	</string>
+	<string name="Command_ResyncAnimations_Tooltip">
+		Sincronitza les animacions de l'avatar
+	</string>
+	<string name="Command_RegionTracker_Tooltip">
+		Segueix l'estat de diferents regions
+	</string>
+	<string name="Command_Group_Titles_Tooltip">
+		Modifica el títol de grup mostrat
+	</string>
+	<string name="Command_Wearable_Favorites_Tooltip">
+		Obre la llista de roba preferida
+	</string>
+	<string name="Command_RFO_Tooltip">
+		Mostra només els teus amics, tots els altres avatars seran suprimits. Un cop activat, cal una teletransportació per restablir la visibilitat dels altres.
+	</string>
+	<string name="Command_DAO_Tooltip">
+		No mostris objectes animats (també coneguts com Animesh) - No mostris temporalment tots els animesh visibles (adjunts i lliures). Els animesh que no es mostren reapareixeran després d'una teletransportació.
+	</string>
+	<string name="Command_Beacons_Tooltip">
+		Mostra les balises
+	</string>
+	<string name="Toolbar_Bottom_Tooltip">
+		actualment a la barra d'eines de baix
+	</string>
+	<string name="Toolbar_Left_Tooltip">
+		actualment a la barra d'eines de l'esquerra
+	</string>
+	<string name="Toolbar_Right_Tooltip">
+		actualment a la barra d'eines de la dreta
+	</string>
+	<string name="Command_Fly_Tooltip">
+		Volar/Deixar de volar (INICI)
+	</string>
+	<string name="Command_Stop_Animations_Label">
+		Atura l'animació
+	</string>
+	<string name="Command_Stop_Animations_Tooltip">
+		Atura l'animació
+	</string>
+	<string name="Command_Discord_Label">
+		Discord
+	</string>
+	<string name="Command_Discord_Tooltip">
+		Discord
+	</string>
+	<string name="Retain%">
+		Conserva %
+	</string>
+	<string name="Detail">
+		Detall
+	</string>
+	<string name="Better Detail">
+		Millor detall
+	</string>
+	<string name="Surface">
+		Superfície
+	</string>
+	<string name="Solid">
+		Sòlid
+	</string>
+	<string name="Wrap">
+		 embolcall
+	</string>
+	<string name="Preview">
+		Previsualització
+	</string>
+	<string name="Normal">
+		Normal
+	</string>
+	<string name="Pathfinding_Wiki_URL">
+		http://wiki.secondlife.com/wiki/Pathfinding_Tools_in_the_Second_Life_Viewer
+	</string>
+	<string name="Pathfinding_Object_Attr_None">
+		Cap
+	</string>
+	<string name="Pathfinding_Object_Attr_Permanent">
+		Malla de navegació afectada
+	</string>
+	<string name="Pathfinding_Object_Attr_Character">
+		Personatge
+	</string>
+	<string name="Pathfinding_Object_Attr_MultiSelect">
+		(Múltiple)
+	</string>
+	<string name="snapshot_quality_very_low">
+		Molt baixa
+	</string>
+	<string name="snapshot_quality_low">
+		Baixa
+	</string>
+	<string name="snapshot_quality_medium">
+		Mitjana
+	</string>
+	<string name="snapshot_quality_high">
+		Alta
+	</string>
+	<string name="snapshot_quality_very_high">
+		Molt alta
+	</string>
+	<string name="IMPrefix">
+		IM:
+	</string>
+	<string name="SanityCheckEquals">
+		El control del paràmetre "[CONTROL_NAME]" ha de ser [VALUE_1].
+	</string>
+	<string name="SanityCheckNotEquals">
+		El control del paràmetre "[CONTROL_NAME]" no ha de ser [VALUE_1].
+	</string>
+	<string name="SanityCheckLessThan">
+		El control del paràmetre "[CONTROL_NAME]" ha de ser inferior a [VALUE_1].
+	</string>
+	<string name="SanityCheckGreaterThan">
+		El control del paràmetre "[CONTROL_NAME]" ha de ser superior a [VALUE_1].
+	</string>
+	<string name="SanityCheckLessThanEquals">
+		El control del paràmetre "[CONTROL_NAME]" ha de ser inferior o igual a [VALUE_1].
+	</string>
+	<string name="SanityCheckGreaterThanEquals">
+		El control del paràmetre "[CONTROL_NAME]" ha de ser superior o igual a [VALUE_1].
+	</string>
+	<string name="SanityCheckBetween">
+		El control del paràmetre "[CONTROL_NAME]" ha d'estar entre [VALUE_1] i [VALUE_2].
+	</string>
+	<string name="SanityCheckNotBetween">
+		El control del paràmetre "[CONTROL_NAME]" no ha d'estar entre [VALUE_1] i [VALUE_2].
+	</string>
+	<string name="MediaFilterActionAllow">
+		Permet
+	</string>
+	<string name="MediaFilterActionDeny">
+		Denega
+	</string>
+	<string name="MediaFilterConditionAlways">
+		Sempre
+	</string>
+	<string name="MediaFilterConditionAlwaysLower">
+		sempre
+	</string>
+	<string name="MediaFilterConditionNever">
+		Mai
+	</string>
+	<string name="MediaFilterConditionNeverLower">
+		mai
+	</string>
+	<string name="MediaFilterMediaContentBlocked">
+		Els mitjans del domini [DOMAIN] han estat bloquejats.
+	</string>
+	<string name="MediaFilterMediaContentDomainAlwaysAllowed">
+		Els mitjans del domini [DOMAIN] sempre es reproduiran.
+	</string>
+	<string name="MediaFilterMediaContentDomainAlwaysBlocked">
+		Els mitjans del domini [DOMAIN] no es reproduiran mai.
+	</string>
+	<string name="MediaFilterMediaContentUrlAlwaysAllowed">
+		Els mitjans de l'URL [MEDIAURL] sempre es reproduiran.
+	</string>
+	<string name="MediaFilterMediaContentUrlAlwaysBlocked">
+		Els mitjans de l'URL [MEDIAURL] no es reproduiran mai.
+	</string>
+	 <string name="MediaFilterAudioContentBlocked">
+		El flux d'àudio del domini [DOMAIN] ha estat bloquejat.
+	 </string>
+	<string name="MediaFilterAudioContentDomainAlwaysAllowed">
+		El flux d'àudio del domini [DOMAIN] sempre es reproduirà.
+	</string>
+	<string name="MediaFilterAudioContentDomainAlwaysBlocked">
+		El flux d'àudio del domini [DOMAIN] no es reproduirà mai.
+	</string>
+	<string name="MediaFilterAudioContentUrlAlwaysAllowed">
+		El flux d'àudio de l'URL [MEDIAURL] sempre es reproduirà.
+	</string>
+	<string name="MediaFilterAudioContentUrlAlwaysBlocked">
+		El flux d'àudio de l'URL [MEDIAURL] no es reproduirà mai.
+	</string>
+	<string name="MediaFilterBlacklist">
+		llista negra
+	</string>
+	<string name="MediaFilterWhitelist">
+		llista blanca
+	</string>
+	<string name="UnknownRegion">
+		(regió desconeguda)
+	</string>
+	<string name="UnknownPosition">
+		(posició desconeguda)
+	</string>
+	<string name="Collision_Bump">
+		[NAME] us ha colpejat.
+	</string>
+	<string name="Collision_PushObject">
+		[NAME] us ha empès amb un script.
+	</string>
+	<string name="Collision_ObjectCollide">
+		[NAME] us ha colpejat amb un objecte.
+	</string>
+	<string name="Collision_ScriptedObject">
+		[NAME] us ha colpejat amb un objecte amb script.
+	</string>
+	<string name="Collision_PhysicalObject">
+		[NAME] us ha colpejat amb un objecte físic.
+	</string>
+	<string name="Collision_UnknownType">
+		[NAME] ha causat una col·lisió de tipus desconegut.
+	</string>
+	<string name="MovelockEnabled">
+		Avatar &gt; Moviment &gt; Movelock està activat</string>
+	<string name="BusyResponse">
+		resposta en cas d'ocupació
+	</string>
+	<string name="TeleportMaturityExceeded">
+		El resident no pot visitar aquesta regió.
+	</string>
+	<string name="UserDictionary">
+		[User]
+	</string>
+	<string name="RLVaPendingRestart">
+		(reinici pendent)
+	</string>
+	<string name="RLVaToggleMessageLogin">
+		RLVa ha estat [STATE] (no cal reiniciar)
+	</string>
+	<string name="RLVaToggleMessageRestart">
+		RLVa serà [STATE] després que reinicieu</string>
+	<string name="RLVaToggleEnabled">
+		activat
+	</string>
+	<string name="RLVaToggleDisabled">
+		desactivat
+	</string>
+	<string name="RLVaStatusDisabled">
+		(desactivat)
+	</string>
+	<string name="experience_tools_experience">
+		Experiència
+	</string>
+	<string name="ExperienceNameNull">
+		(cap experiència)
+	</string>
+	<string name="ExperienceNameUntitled">
+		(experiència sense títol)
+	</string>
+	<string name="Land-Scope">
+		A escala de terreny
+	</string>
+	<string name="Grid-Scope">
+		A escala de graella
+	</string>
+	<string name="Allowed_Experiences_Tab">
+		PERMESA
+	</string>
+	<string name="Blocked_Experiences_Tab">
+		BLOQUEJADA
+	</string>
+	<string name="Contrib_Experiences_Tab">
+		CONTRIBUIDOR
+	</string>
+	<string name="Admin_Experiences_Tab">
+		ADMIN
+	</string>
+	<string name="Recent_Experiences_Tab">
+		RECENT
+	</string>
+	<string name="Owned_Experiences_Tab">
+		EN PROPIETAT
+	</string>
+	<string name="ExperiencesCounter">
+		([EXPERIENCES], [MAXEXPERIENCES] màx.)
+	</string>
+	<string name="ExperiencePermission1">
+		assumir els vostres controls
+	</string>
+	<string name="ExperiencePermission3">
+		activar animacions per al vostre avatar
+	</string>
+	<string name="ExperiencePermission4">
+		adjuntar al vostre avatar
+	</string>
+	<string name="ExperiencePermission9">
+		seguir la vostra càmera
+	</string>
+	<string name="ExperiencePermission10">
+		controlar la vostra càmera
+	</string>
+	<string name="ExperiencePermission11">
+		teletransportar-vos
+	</string>
+	<string name="ExperiencePermission12">
+		acceptar automàticament els permisos d'experiència
+	</string>
+	<string name="ExperiencePermission16">
+		forceu el vostre avatar a seure
+	</string>
+	<string name="ExperiencePermission17">
+		canviar els vostres paràmetres d'entorn
+	</string>
+	<string name="ExperiencePermissionShortUnknown">
+		ha realitzat una operació desconeguda: [Permission]
+	</string>
+	<string name="ExperiencePermissionShort1">
+		Prendre el control
+	</string>
+	<string name="ExperiencePermissionShort3">
+		Activar animacions
+	</string>
+	<string name="ExperiencePermissionShort4">
+		Adjuntar
+	</string>
+	<string name="ExperiencePermissionShort9">
+		Seguir la càmera
+	</string>
+	<string name="ExperiencePermissionShort10">
+		Controlar la càmera
+	</string>
+	<string name="ExperiencePermissionShort11">
+		Teletransportar
+	</string>
+	<string name="ExperiencePermissionShort12">
+		Permís
+	</string>
+	<string name="ExperiencePermissionShort16">
+		Seure
+	</string>
+	<string name="ExperiencePermissionShort17">
+		Entorn
+	</string>
+	<string name="material_selection_title">
+		Selecció de materials
+	</string>
+	<string name="material_selection_text">
+		Seleccioneu un material:
+	</string>
+	<string name="material_batch_import_text">
+		--- Carrega'ls tots ---
+	</string>
+	<string name="logging_calls_disabled_log_empty">
+		Les converses no s'arxiven. Per començar a registrar, trieu Desa: Només registre o Desa: Registre i transcripcions a Preferències &gt; Xat.
+	</string>
+	<string name="logging_calls_disabled_log_not_empty">
+		Ja no es registrarà cap conversa. Per tornar a registrar, trieu Desa: Només registre o Desa: Registre i transcripcions a Preferències &gt; Xat.
+	</string>
+	<string name="logging_calls_enabled_log_empty">
+		No hi ha cap conversa registrada. Quan algú us contacti o quan contacteu algú, es mostrarà aquí una entrada de registre.
+	</string>
+	<string name="loading_chat_logs">
+		Carregant...
+	</string>
+	<string name="na">
+		n/d
+	</string>
+	<string name="preset_combo_label">
+		-Llista buida-
+	</string>
+	<string name="Default">
+		Per defecte
+	</string>
+	<string name="none_paren_cap">
+		(Cap)
+	</string>
+	<string name="no_limit">
+		Sense límit
+	</string>
+	<string name="Mav_Details_MAV_FOUND_DEGENERATE_TRIANGLES">
+		La forma física conté triangles massa petits. Intenteu simplificar el model físic.
+	</string>
+	<string name="Mav_Details_MAV_CONFIRMATION_DATA_MISMATCH">
+		La forma física conté dades de confirmació incorrectes. Intenteu corregir el model físic.
+	</string>
+	<string name="Mav_Details_MAV_UNKNOWN_VERSION">
+		La forma física no té la versió correcta. Configureu la versió correcta per al model físic.
+	</string>
+	<string name="couldnt_resolve_host">
+		El DNS no ha pogut resoldre el nom d'amfitrió([HOSTNAME]).
+Si us plau, verifiqueu que podeu connectar-vos al lloc www.secondlife.com.
+Si és el cas, i continueu rebent aquest missatge d'error, si us plau
+aneu a la secció de Suport i informeu d'aquest problema.
+	</string>
+	<string name="ssl_peer_certificate">
+		El servidor d'identificació ha trobat un error de connexió SSL.
+Si continueu rebent aquest missatge d'error,
+si us plau, aneu a la secció de Suport del lloc web
+SecondLife.com i informeu d'aquest problema.
+	</string>
+	<string name="ssl_connect_error">
+		Això sovint es deu a una configuració incorrecta del rellotge del vostre ordinador.
+Aneu als Taulers de control i assegureu-vos que l'hora i la data estiguin configurades
+correctament. Verifiqueu també que la vostra xarxa i el vostre tallafoc estiguin configurats
+correctament. Si continueu rebent aquest missatge d'error, si us plau, aneu
+a la secció de Suport del lloc web SecondLife.com i informeu d'aquest problema.
+
+[https://community.secondlife.com/knowledgebase/english/error-messages-r520/#Section__3 Base de coneixement]
+	</string>
+	<string name="LoadCameraPositionNoneSaved">
+		Encara no s'ha desat cap vista de la càmera.
+	</string>
+	<string name="LoadCameraPositionOutsideDrawDistance">
+		No es pot restaurar la vista de la càmera perquè la posició de la càmera està més enllà de la distància de visió.
+	</string>
+	<string name="DrawDistanceSteppingGestureObsolete">
+		A causa de les modificacions del codi, ja no cal utilitzar aquest gest. La configuració progressiva de la distància de visió ha estat activada.
+	</string>
+	<string name="FSCameraPositionCopied">
+		Posició de la càmera [POS] copiada al porta-retalls.
+	</string>
+	<string name="FSCmdLineDrawDistanceSet">
+		Distància de visió establerta a [DISTANCE]m.
+	</string>
+	<string name="FSCmdLineRollDiceTotal">
+		Resultat total per a [DICE]d[FACES][MODIFIER]: [RESULT].
+	</string>
+	<string name="FSCmdLineRollDiceLimits">
+		Heu de proporcionar valors positius per als daus (màx. 100) i les cares (màx. 1000).
+	</string>
+	<string name="FSCmdLineRollDiceModifiersInvalid">
+		Si voleu utilitzar un modificador, heu de proporcionar un número de modificador vàlid i el tipus de modificador. El modificador ha d'estar comprès entre -1000 i 1000. Els tipus de modificadors vàlids són "+" (bonificació), "-" (penalització), "&gt;", "&lt;" (èxit), "r&gt;", "r&lt;", "r" (rellançar), "!p&gt;", "!p&lt;", "!p" (penetracions), "!&gt;", "!&lt;" i "!" (explosions). Només podeu utilitzar un tipus de modificador per tirada. Exemples: "[COMMAND] 1 20 + 5", "[COMMAND] 5 40 &gt; 15", "[COMMAND] 10 25 ! 25", "[COMMAND] 15 25 !&lt; 10".
+	</string>
+	<string name="FSCmdLineRollDiceExploded">
+		Explotat
+	</string>
+	<string name="FSCmdLineRollDicePenetrated">
+		Penetrat
+	</string>
+	<string name="FSCmdLineRollDiceSuccess">
+		Èxit
+	</string>
+	<string name="FSCmdLineRollDiceReroll">
+		Rellançar
+	</string>
+	<string name="FSCmdLineRollDiceFreezeGuard">
+		Aquesta operació no es pot realitzar perquè el visor es bloquejaria en un bucle infinit. Si us plau, modifiqueu els criteris.
+	</string>
+	<string name="FSCmdLineCalcRandError">
+		'[RAND]' no és una expressió vàlida per a RAND(min,max). MAX ha de ser superior a MIN, tots dos en un rang de -10000 a 10000.
+	</string>
+	<string name="FSCmdLineRSP">
+		Amplada de banda màxima establerta a [VALUE] KBPS.
+	</string>
+	<string name="FSCmdLineTpOffered">
+		Teletransportació oferta a [NAME].
+	</string>
+
+	<string name="FSWithHavok">
+		amb suport de Havok
+	</string>
+	<string name="FSWithOpensim">
+		amb suport d'OpenSimulator
+	</string>
+
+	<string name="not_found">
+		'[TEXT]' no trobat
+	</string>
+	<string name="no_results">
+		Cap resultat
+	</string>
+	<string name="searching">
+		Cercant...
+	</string>
+	<string name="all_categories">
+		Totes les categories
+	</string>
+	<string name="search_banned">
+		Alguns termes de la vostra consulta de cerca han estat exclosos a causa de restriccions de contingut, tal com s'especifica a les Normes de la Comunitat.
+	</string>
+	<string name="search_short">
+		Els vostres termes de cerca són massa curts, no s'ha realitzat cap cerca.
+	</string>
+	<string name="search_disabled">
+		La cerca a l'antiga ha estat desactivada en aquesta regió.
+	</string>
+	<string name="render_quality_low">
+		Baixa (1/7)
+	</string>
+	<string name="render_quality_mediumlow">
+		Mitjana-Baixa (2/7)
+	</string>
+	<string name="render_quality_medium">
+		Mitjana (3/7)
+	</string>
+	<string name="render_quality_mediumhigh">
+		Mitjana-Alta (4/7)
+	</string>
+	<string name="render_quality_high">
+		Alta (5/7)
+	</string>
+	<string name="render_quality_highultra">
+		Alta-Ultra (6/7)
+	</string>
+	<string name="render_quality_ultra">
+		Ultra (7/7)
+	</string>
+	<string name="render_quality_unknown">
+		Desconegut, més enllà del normal, verifiqueu el paràmetre de depuració RenderQualityPerformance
+	</string>
+	<string name="fsbridge_cant_create_disabled">
+		[APP_NAME] no pot crear el pont LSL si "Activar el Pont LSL" està desactivat a les Preferències.
+	</string>
+	<string name="fsbridge_no_library">
+		[APP_NAME] no ha pogut crear un pont LSL. Si us plau, activeu la vostra biblioteca i reconnecteu-vos.
+	</string>
+	<string name="fsbridge_already_creating">
+		Creació d'un pont en curs, impossible iniciar-ne un altre. Si us plau, espereu uns minuts abans de tornar-ho a provar.
+	</string>
+	<string name="fsbridge_creating">
+		Creant el pont. Això pot trigar una estona, si us plau, espereu.
+	</string>
+	<string name="fsbridge_failure_creation_create_script">
+		Pont no creat. L'script del pont no s'ha pogut crear.
+	</string>
+	<string name="fsbridge_failure_creation_bad_name">
+		Pont no creat. El pont té un nom incorrecte. Si us plau, utilitzeu el menú 'Jo/Salut de l'avatar/Recrear el Pont' LSL de [APP_NAME] per recrear el pont.
+	</string>
+	<string name="fsbridge_failure_creation_null">
+		Pont no creat. El pont no s'ha pogut trobar a l'inventari. Si us plau, utilitzeu el menú 'Jo/Salut de l'avatar/Recrear el Pont' LSL de [APP_NAME] per recrear el pont.
+	</string>
+	<string name="fsbridge_failure_attach_wrong_object">
+		El pont no s'ha pogut adjuntar. No es tracta de la versió actual del pont. Si us plau, utilitzeu el menú 'Jo/Salut de l'avatar/Recrear el Pont' LSL de [APP_NAME] per recrear el pont.
+	</string>
+	<string name="fsbridge_failure_attach_wrong_location">
+		El pont no s'ha adjuntat. El pont no s'ha trobat a la ubicació correcta de l'inventari. Si us plau, utilitzeu el menú 'Jo/Salut de l'avatar/Recrear el Pont' LSL de [APP_NAME] per recrear el pont.
+	</string>
+	<string name="fsbridge_failure_attach_point_in_use">
+		El pont no s'ha adjuntat. Alguna altra cosa estava utilitzant el punt d'adjunció del pont. Si us plau, utilitzeu el menú 'Jo/Salut de l'avatar/Recrear el Pont' LSL de [APP_NAME] per recrear el pont.
+	</string>
+	<string name="fsbridge_failure_not_found">
+		L'objecte pont no s'ha pogut trobar. No es pot procedir a la seva creació, fi de la tasca.
+	</string>
+	<string name="fsbridge_warning_unexpected_items">
+		L'inventari del pont conté elements inesperats.
+	</string>
+	<string name="fsbridge_warning_not_finished">
+		El pont no ha acabat de crear-se, potser haureu d'utilitzar la funció 'Jo/Salut de l'avatar/Recrear el Pont' LSL de [APP_NAME] per recrear-lo abans d'utilitzar-lo.
+	</string>
+	<string name="fsbridge_detached">
+		Pont desconnectat.
+	</string>
+	<string name="fsbridge_created">
+		Pont creat.
+	</string>
+	<string name="fsbridge_script_info">
+		Informació sobre l'script: '[OBJECT_NAME]': [[OBJECT_RUNNING_SCRIPT_COUNT]/[OBJECT_TOTAL_SCRIPT_COUNT]] scripts en execució, [OBJECT_SCRIPT_MEMORY] KB mida límit de memòria permesa, [OBJECT_SCRIPT_TIME] ms de temps de CPU utilitzat.[PATHFINDING_TEXT]
+	</string>
+	<string name="fsbridge_script_info_pf">
+		Temps mitjà d'ús de la CPU per a la navegació amb cerca de camí: [OBJECT_CHARACTER_TIME] ms.
+	</string>
+	<string name="fsbridge_script_info_ext">
+ID de l'objecte: [INSPECTING_KEY]
+Descripció: [OBJECT_DESC]
+Prim arrel: [OBJECT_ROOT]
+Recompte de prims: [OBJECT_PRIM_COUNT]
+Impacte al terreny: [OBJECT_PRIM_EQUIVALENCE]
+Articles de l'inventari: [OBJECT_TOTAL_INVENTORY_COUNT]
+Velocitat: [OBJECT_VELOCITY]
+Posició: [OBJECT_POS]
+Rotació: [OBJECT_ROT]
+Velocitat angular: [OBJECT_OMEGA] (radians per segon)
+Creador: [OBJECT_CREATOR]
+Propietari: [OBJECT_OWNER]
+Propietari anterior: [OBJECT_LAST_OWNER_ID]
+Posat per: [OBJECT_REZZER_KEY]
+Grup: [OBJECT_GROUP]
+Data de creació: [OBJECT_CREATION_TIME]
+Temps per aparèixer: [OBJECT_REZ_TIME]
+Tipus de cerca de camins: [OBJECT_PATHFINDING_TYPE]
+Punt d'adjunció: [OBJECT_ATTACHED_POINT]
+Adjuntat temporalment: [OBJECT_TEMP_ATTACHED]
+La vostra posició actual: [AVATAR_POS]
+	</string>
+	<string name="fsbridge_error_scriptinfonotfound">
+		Informació de l'script: L'objecte a verificar no és vàlid o està fora de l'abast.
+	</string>
+	<string name="fsbridge_error_scriptinfomalformed">
+		Informació de l'script: Recepció d'una resposta malformada del pont. Torneu-ho a provar.
+	</string>
+	<string name="fsbridge_error_injection">
+		AVÍS: Un o més scripts han estat afegits al pont del vostre [APP_NAME]! Si no esperàveu rebre aquest missatge, utilitzeu el menú Jo/Salut de l'avatar/Recrear el pont LSL de [APP_NAME] per recrear el pont.
+	</string>
+	<string name="fsbridge_error_wrongvm">
+		AVÍS: L'script del Pont utilitza l'antic LSO (Límit de memòria de 16 Ko) en lloc de la nova màquina virtual Mono (Límit de memòria de 64 Ko), la qual cosa crea una alta probabilitat de col·lisió entre piles i de fallada del pont per manca de memòria. Utilitzeu el menú Jo/Salut de l'avatar/Recrear el pont LSL de [APP_NAME] per recrear el pont. Si torneu a veure aquest missatge, proveu-ho de nou en una altra regió.
+	</string>
+
+	<string name="FSAOEnabled">
+		Anul·lador d'Animacions de [APP_NAME] activat.
+	</string>
+	<string name="FSAODisabled">
+		Anul·lador d'Animacions de [APP_NAME] desactivat.
+	</string>
+	<string name="FSAOPausedScript">
+		Pausat per un adjunt amb script.
+	</string>
+	<string name="FSAOResumedScript">
+		Reprès per un adjunt amb script.
+	</string>
+	<string name="FSAOStandsPausedScript">
+		Animacions de peu pausades per un adjunt amb script.
+	</string>
+	<string name="FSAOStandsResumedScript">
+		Animacions de peu represes per un adjunt amb script.
+	</string>
+
+	<string name="QP Draw Distance">
+		Distància de visió
+	</string>
+	<string name="QP Max Particles">
+		Partícules màx.
+	</string>
+	<string name="QP Avatar Physics LOD">
+		LOD de l'avatar
+	</string>
+	<string name="QP LOD Factor">
+		Factor de LOD
+	</string>
+	<string name="QP Max Avatars">
+		Avatars màx.
+	</string>
+	<string name="QP Tags Offset">
+		Desplaçament de les etiquetes
+	</string>
+	<string name="QP Name Tags">
+		Etiquetes de nom
+	</string>
+	<string name="QP LookAt Target">
+		Objectiu del LookAt
+	</string>
+	<string name="QP Color Under Cursor">
+		Color sota el cursor
+	</string>
+
+	<string name="PS_T_Pose">
+		Posició T
+	</string>
+	<string name="PS_Arms_Down_Legs_together">
+		Braços avall, cames juntes
+	</string>
+	<string name="PS_Arms_down_sitting">
+		Braços avall, assegut
+	</string>
+	<string name="PS_Arms_downward_Legs_together">
+		Braços cap avall, cames juntes
+	</string>
+	<string name="PS_Arms_downward_Legs_apart">
+		Braços cap avall, cames separades
+	</string>
+	<string name="PS_Arms_forward_Legs_apart">
+		Braços endavant, cames separades
+	</string>
+	<string name="PS_Arms_forward_Legs_together">
+		Braços endavant, cames juntes
+	</string>
+	<string name="PS_Arms_straight_Legs_apart">
+		Braços rectes, cames separades
+	</string>
+	<string name="PS_Arms_straight_sitting">
+		Braços rectes, assegut
+	</string>
+	<string name="PS_Arms_upward_Legs_apart">
+		Braços amunt, cames separades
+	</string>
+	<string name="PS_Arms_upward_Legs_together">
+		Braços amunt, cames juntes
+	</string>
+
+	<string name="QP_WL_Region_Default">
+		Entorn compartit
+	</string>
+	<string name="QP_WL_Day_Cycle_Based">
+		Basat en el cicle del dia
+	</string>
+	<string name="QP_WL_None">
+		Cap
+	</string>
+
+	<string name="GroupChatMuteNotice">
+		Silenci del xat de grup de [NAME].
+	</string>
+	<string name="IgnoredAdHocSession">
+		Heu estat convidat a una conferència (ad-hoc) per [AVATAR_NAME], però el visor l'ha ignorat automàticament a causa de la vostra configuració.
+	</string>
+
+	<string name="camera_no_focus">
+		La càmera no pot enfocar l'usuari [AVATARNAME] perquè està fora de la vostra distància de visió.
+	</string>
+	<string name="entering_draw_distance">
+		ha entrat a la distància de visió ([DISTANCE] m).
+	</string>
+	<string name="leaving_draw_distance">
+		ha sortit de la distància de visió.
+	</string>
+	<string name="entering_chat_range">
+		ha entrat a l'abast del xat ([DISTANCE] m).
+	</string>
+	<string name="leaving_chat_range">
+		està fora de l'abast del xat.
+	</string>
+	<string name="entering_region">
+		ha entrat a la regió.
+	</string>
+	<string name="entering_region_distance">
+		ha entrat a la regió ([DISTANCE] m).
+	</string>
+	<string name="leaving_region">
+		ha sortit de la regió.
+	</string>
+	<string name="avatar_age_alert">
+		ha activat l'alerta d'edat. Edat: [AGE] dia(es)
+	</string>
+	<string name="avatar_age_not_available">n/d</string>
+
+	<string name="TotalScriptCountChangeIncrease">
+		El nombre total de scripts a la regió ha passat de [OLD_VALUE] a [NEW_VALUE] ([DIFFERENCE]).
+	</string>
+	<string name="TotalScriptCountChangeDecrease">
+		El nombre total de scripts a la regió ha passat de [OLD_VALUE] a [NEW_VALUE] ([DIFFERENCE]).
+	</string>
+	<string name="preproc_toggle_warning">
+		El canvi del preprocessador només tindrà efecte quan tanqueu i torneu a obrir aquest editor.
+	</string>
+
+	<string name="fs_preprocessor_starting">
+		Iniciant el preprocessador de [APP_NAME]...
+	</string>
+	<string name="fs_preprocessor_not_supported">
+		Avís: Preprocessador no suportat en aquesta versió. ([WHERE])
+	</string>
+	<string name="fs_preprocessor_disabled_by_script_marker">
+		Preprocessador de [APP_NAME] desactivat per la directiva a la línia [LINENUMBER].
+	</string>
+	<string name="fs_preprocessor_settings_list_prefix">
+		Configuració:
+	</string>
+	<string name="fs_preprocessor_cpp_exception">
+		[ERR_NAME] ([LINENUMBER]): [ERR_DESC]
+	</string>
+	<string name="fs_preprocessor_lexing_exception">
+		[SEVERITY]: [ERR_NAME] ([LINENUMBER]): [ERR_DESC]
+	</string>
+	<string name="fs_preprocessor_exception">
+		[ERR_NAME] ([LINENUMBER]): excepció capturada: [ERR_DESC]
+	</string>
+	<string name="fs_preprocessor_error">
+		[ERR_NAME] ([LINENUMBER]): excepció inesperada capturada.
+	</string>
+	<string name="fs_preprocessor_lsl2_directive_override">
+		Detecció de la directiva compile-as-LSL2 sobreescrivint les preferències.
+	</string>
+	<string name="fs_preprocessor_mono_directive_override">
+		Detecció de la directiva compile-as-Mono sobreescrivint les preferències.
+	</string>
+	<string name="fs_preprocessor_optimizer_start">
+		Optimitzant les funcions definides per l'usuari i les variables globals no referenciades.
+	</string>
+	<string name="fs_preprocessor_optimizer_regex_err">
+		Expressió regular no vàlida: '[WHAT]'; optimització LSL ignorada.
+	</string>
+	<string name="fs_preprocessor_optimizer_exception">
+		Excepció detectada: '[WHAT]'; optimització LSL saltada.
+	</string>
+	<string name="fs_preprocessor_optimizer_unexpected_exception">
+		Excepció inesperada a l'optimitzador LSL; no aplicada.
+	</string>
+	<string name="fs_preprocessor_compress_start">
+		Comprimint el text de l'script eliminant els espais innecessaris.
+	</string>
+	<string name="fs_preprocessor_compress_regex_err">
+		Expressió regular no vàlida: '[WHAT]'; la compressió LSL s'ignora.
+	</string>
+	<string name="fs_preprocessor_compress_exception">
+		Excepció interceptada: '[WHAT]'; la compressió LSL s'ignora.
+	</string>
+	<string name="fs_preprocessor_compress_unexpected_exception">
+		Excepció inesperada al compressor LSL; no aplicada.
+	</string>
+	<string name="fs_preprocessor_lazylist_start">
+		Aplicant la conversió de llista mandrosa.
+	</string>
+	<string name="fs_preprocessor_lazylist_regex_err">
+		No és una expressió regular vàlida: '[WHAT]'; El convertidor de llista mandrosa ha estat ignorat.
+	</string>
+	<string name="fs_preprocessor_lazylist_exception">
+		Excepció interceptada: '[WHAT]'; el convertidor de llista mandrosa ha estat ignorat.
+	</string>
+	<string name="fs_preprocessor_lazylist_unexpected_exception">
+		Excepció inesperada al convertidor de llista mandrosa; no aplicada.
+	</string>
+	<string name="fs_preprocessor_switchstatement_start">
+		Aplicant la conversió de les instruccions de commutació.
+	</string>
+	<string name="fs_preprocessor_switchstatement_regex_err">
+		Expressió regular no vàlida: '[WHAT]'; El convertidor d'instrucció de commutació ha estat ignorat.
+	</string>
+	<string name="fs_preprocessor_switchstatement_exception">
+		Excepció interceptada: '[WHAT]'; El convertidor d'instrucció de commutació ha estat ignorat.
+	</string>
+	<string name="fs_preprocessor_switchstatement_unexpected_exception">
+		Excepció inesperada al convertidor d'instrucció de commutació; non aplicada.
+	</string>
+	<string name="fs_preprocessor_cache_miss">
+		Posant a la memòria cau el fitxer inclòs: '[FILENAME]'.
+	</string>
+	<string name="fs_preprocessor_cache_invalidated">
+		El fitxer inclòs '[FILENAME]' ha canviat, tornant a posar a la memòria cau.
+	</string>
+	<string name="fs_preprocessor_cache_completed">
+		La posada a la memòria cau s'ha completat per a '[FILENAME]'.
+	</string>
+	<string name="fs_preprocessor_cache_unsafe">
+		Error: l'script anomenat '[FILENAME]' no és fiable per ser copiat al sistema de fitxers. Aquest include fallarà.
+	</string>
+	<string name="fs_preprocessor_caching_err">
+		Error de posada a la memòria cau del fitxer inclòs '[FILENAME]'.
+	</string>
+	<string name="fs_preprocessor_truncated">
+		Avís: La sortida del preprocessador ha estat truncada a causa de la mida excessiva del text de l'script. Aquest script probablement no funcionarà.
+	</string>
+	<string name="skin_defaults_starlight_location">
+		La visualització de la vostra posició actual a la barra de menú ha estat desactivada per defecte per a la sèrie de skins Starlight.
+	</string>
+	<string name="skin_defaults_starlight_navbar">
+		La visualització de la barra de navegació ha estat activada per defecte per a la sèrie de skins Starlight.
+	</string>
+
+	<string name="animation_explorer_seconds_ago">
+		fa [SECONDS] segons
+	</string>
+	<string name="animation_explorer_still_playing">
+		Encara en reproducció
+	</string>
+	<string name="animation_explorer_unknown_priority">
+		desconeguda
+	</string>
+
+	<string name="FriendOnlineNotification">
+		està en línia.
+	</string>
+	<string name="FriendOfflineNotification">
+		està fora de línia.
+	</string>
+
+	<string name="Inbox_Folderview_New">
+		Nou
+	</string>
+	<string name="Mouselook_Unknown_Avatar">
+		Agent desconegut
+	</string>
+	<string name="groupcountstring">
+		Formeu part de [COUNT] grups ([REMAINING] restants).
+	</string>
+	<string name="groupcountunlimitedstring">
+		Formeu part de [COUNT] grups.
+	</string>
+	<string name="SLGridStatusInvalidMsg">
+		Codi d'error SL: Format de missatge no vàlid. Torneu-ho a provar més tard.
+	</string>
+	<string name="SLGridStatusTimedOut">
+		Codi d'error SL: La sol·licitud ha expirat.
+	</string>
+	<string name="SLGridStatusOtherError">
+		Codi d'error SL: [STATUS] ( https://en.wikipedia.org/wiki/List_of_HTTP_status_codes ).
+	</string>
+	<string name="DoubleClickTeleportEnabled">
+		Teletransportació per doble clic activada.
+	</string>
+	<string name="DoubleClickTeleportDisabled">
+		Teletransportació per doble clic desactivada.
+	</string>
+	<string name="AlwaysRunEnabled">
+		Sempre córrer activat.
+	</string>
+	<string name="AlwaysRunDisabled">
+		Sempre córrer desactivat.
+	</string>
+	<string name="FSRegionRestartInLocalChat">
+		La regió on sou està a punt de reiniciar-se. Si us quedeu, sereu desconnectat.
+	</string>
+	<string name="Mute_Add">
+		'[NAME]' ha estat afegit a la llista de bloqueig.
+	</string>
+	<string name="Mute_Remove">
+		'[NAME]' ha estat eliminat de la llista de bloqueig.
+	</string>
+	<string name="Reqsysinfo_Chat_NoReason">
+		Demano informació sobre la configuració del vostre sistema.
+	</string>
+	<string name="Reqsysinfo_Chat_Reason">
+		Demano informació sobre la configuració del vostre sistema per la raó següent: [REASON]
+	</string>
+	<string name="Reqsysinfo_Chat_Information_sent">
+		Informació enviada: [DATA]
+	</string>
+	<string name="Reqsysinfo_Chat_Request_Denied">
+		Sol·licitud denegada.
+	</string>
+	<string name="Reqsysinfo_Reason">
+		La raó invocada és la següent: [REASON]
+	</string>
+
+	<string name="All Items">
+		Tots els elements
+	</string>
+	<string name="Recent Items">
+		Elements recents
+	</string>
+	<string name="Worn Items">
+		Elements portats
+	</string>
+
+	<string name="InvOfferGroupNoticeName">
+		Un membre del grup anomenat [NAME]
+	</string>
+	<string name="CallingCardOnlineLabelSuffix">
+		(en línia)
+	</string>
+
+	<string name="Pie_av_render_normally">
+		Normalment
+	</string>
+	<string name="Pie_av_render_never">
+		Mai
+	</string>
+	<string name="Pie_av_render_fully">
+		Completament
+	</string>
+
+	<string name="Nametag_Complexity_Label">
+		Complexitat: [COMPLEXITY]
+	</string>
+	<string name="Nametag_Texture_Area_Label">
+		Superfície de la textura: [TEXTURE_AREA] m²
+	</string>
+
+	<string name="font_unknown">
+		Font desconeguda
+	</string>
+	<string name="mode_unknown">
+		Mode desconegut
+	</string>
+	<string name="mode_settings_text.xml">
+		Text
+	</string>
+	<string name="Asset_Uploading">
+		Enviant...
+[ASSET_NAME]
+	</string>
+	<string name="Yes">
+		Sí
+	</string>
+	<string name="No">
+		No
+	</string>
+	<string name="FSUrlEntryWearLabel">
+		Portar la carpeta de l'inventari
+	</string>
+	<string name="TexturePickerOutfitHeader">
+		Imatge per a la roba
+	</string>
+	<string name="unknown_script">
+		(Script desconegut)
+	</string>
+	<string name="FSAreaSearch_Cost_Label">
+		[COST] L$
+	</string>
+
+	<string name="ImportingWindlightBulk">
+		Important la configuració de Windlights...
+	</string>
+
+	<string name="FSObjectInventoryNoElements">
+		Cap element
+	</string>
+	<string name="FSObjectInventoryOneElement">
+		1 element
+	</string>
+	<string name="FSObjectInventoryElements">
+		[NUM_ELEMENTS] elements
+	</string>
+	<string name="OpenSimInventoryValidationErrorGenericHelp">
+		l'equip d'assistència del vostre gestor de graella
+	</string>
+	<string name="Unlimited">
+		Il·limitat
+	</string>
+	<string name="ListEmpty">
+		La llista és buida
+	</string>
+	<string name="NoValidUUIDs">
+		El fitxer importat no conté cap UUID vàlid.
+	</string>
+	<string name="ImportListTooLarge">
+		Massa entrades. El fitxer CSV conté [COUNT] entrades i hi ha [MAX] llocs disponibles.
+	</string>
+	<string name="ImportSuccessful">
+		S'han processat amb èxit [COUNT] entrades.
+	</string>
+</strings>
