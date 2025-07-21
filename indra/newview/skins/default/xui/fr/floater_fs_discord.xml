@@ -26,7 +26,7 @@
 		Partager avec Discord le nom des régions ayant la classification suivante :
 	</text>
 	<combo_box name="maturity_desired_combobox">
-		<combo_box.item label="Général, Modéré, Adulte" name="Desired_Adult"/>
+		<combo_box.item label="Général, modéré et adulte" name="Desired_Adult"/>
 		<combo_box.item label="Général et modéré" name="Desired_Mature"/>
 		<combo_box.item label="Général" name="Desired_PG"/>
 		<combo_box.item label="Ne pas partager" name="Desired_None"/>
