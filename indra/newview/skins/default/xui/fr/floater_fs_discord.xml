@@ -18,7 +18,7 @@
 	<text name="account_caption_label">
 		Non connecté à Discord.
 	</text>
-	<check_box label="Connexion automatique lors du login" name="startup_check"/>
+	<check_box label="Connexion automatique lors de l'ouverture de session" name="startup_check"/>
 	<check_box label="Partager le nom d'utilisateur" name="name_check"/>
 	<button label="Se connecter..." name="connect_btn"/>
 	<button label="Se déconnecter" name="disconnect_btn"/>
