@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<llsd>
+<map>
+
+	<key>strings</key>
+	<map>
+		<key>hidden_generic</key>
+		<map>
+			<key>value</key>
+			<string>(Ocult)</string>
+		</map>
+		<key>hidden_parcel</key>
+		<map>
+			<key>value</key>
+			<string>(Parcel·la oculta)</string>
+		</map>
+		<key>hidden_region</key>
+		<map>
+			<key>value</key>
+			<string>(Regió oculta)</string>
+		</map>
+
+		<key>blocked_recvim</key>
+		<map>
+			<key>value</key>
+			<string>*** IM bloquejat pel teu visor</string>
+			<key>description</key>
+			<string>Es mostra en lloc del missatge original quan es bloqueja un IM entrant.</string>
+			<key>label</key>
+			<string>IM entrant bloquejat (local)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+		<key>blocked_sendim</key>
+		<map>
+			<key>value</key>
+			<string>*** IM bloquejat pel visor del remitent</string>
+			<key>description</key>
+			<string>Es mostra (i s'envia a l'interlocutor remot) quan es bloqueja un IM sortint.</string>
+			<key>label</key>
+			<string>IM sortint bloquejat (local + remot)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+
+		<key>imquery_list_deny</key>
+		<map>
+			<key>value</key>
+			<string>*** L'altra part et demana respectuosament que et fiquis en els teus assumptes. (els conills m'han obligat a fer-ho!)</string>
+			<key>description</key>
+			<string>S'envia a la part remota quan rebutges la seva sol·licitud per llistar les teves restriccions RLV actives.</string>
+			<key>label</key>
+			<string>ordres @list i @except (remotes)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+
+		<key>imquery_list_suffix</key>
+		<map>
+			<key>value</key>
+			<string>(Utilitza @except per veure la llista d'excepcions actives.)</string>
+			<key>description</key>
+			<string>S'envia a la part remota com a sufix a @list per informar-la de com demanar les teves excepcions.</string>
+			<key>label</key>
+			<string>Sufix de l'ordre @list (remot)</string>
+			<key>customizable</key>
+			<boolean>0</boolean>
+		</map>
+
+		<key>stopim_nosession</key>
+		<map>
+			<key>value</key>
+			<string>*** L'altra part no està subjecta a una restricció @startim.</string>
+			<key>description</key>
+			<string>S'envia a la part remota quan intenta tancar forçosament la teva conversa per IM amb ella (i aquesta sessió no existeix).</string>
+			<key>label</key>
+			<string>Ordre @stopim sense sessió (a distància)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+		<key>stopim_endsession_remote</key>
+		<map>
+			<key>value</key>
+			<string>*** La sessió ha estat finalitzada per a l'altra part</string>
+			<key>description</key>
+			<string>S'envia a la part remota quan intenta tancar forçosament la conversa IM (i aquesta existeix)</string>
+			<key>label</key>
+			<string>Ordre @stopim amb una sessió activa (a distància)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+		<key>stopim_endsession_local</key>
+		<map>
+			<key>value</key>
+			<string>[NAME] ha tancat remotament la conversa per IM amb @stopim</string>
+		</map>
+
+		<key>blocked_autopilot</key>
+		<map>
+			<key>value</key>
+			<string>No es pot utilitzar el pilot automàtic a causa de les restriccions RLV</string>
+		</map>
+		<key>blocked_generic</key>
+		<map>
+			<key>value</key>
+			<string>No es pot realitzar l'acció a causa de restriccions RLV</string>
+		</map>
+		<key>blocked_groupchange</key>
+		<map>
+			<key>value</key>
+			<string>No es pot canviar de grup actiu a causa d'una restricció RLV; tornant al mode "[GROUP_SLURL]"</string>
+		</map>
+		<key>blocked_invfolder</key>
+		<map>
+			<key>value</key>
+			<string>No es pot realitzar l'acció d'inventari sol·licitada a causa d'una carpeta bloquejada per RLV.</string>
+		</map>
+		<key>blocked_nearby</key>
+		<map>
+			<key>value</key>
+			<string>No es pot veure la presència d'avatars propers a causa de les restriccions RLV</string>
+		</map>
+		<key>blocked_permattach</key>
+		<map>
+			<key>value</key>
+			<string>L'intent d'adjuntar '[OBJECT]' ha estat denegat a causa de restriccions RLV.</string>
+		</map>
+		<key>blocked_permteleport</key>
+		<map>
+			<key>value</key>
+			<string>S'ha denegat el permís a '[OBJECT]' per teletransportar-te a causa de les restriccions RLV</string>
+		</map>
+		<key>blocked_scriptdialog</key>
+		<map>
+			<key>value</key>
+			<string>No es pot mostrar un diàleg o text de script a causa de restriccions RLV</string>
+		</map>
+		<key>blocked_share</key>
+		<map>
+			<key>value</key>
+			<string>No es pot compartir l'inventari amb [RECIPIENT] a causa de restriccions RLV.</string>
+		</map>
+		<key>blocked_share_generic</key>
+		<map>
+			<key>value</key>
+			<string>No es pot compartir l'inventari a causa de les restriccions RLV.</string>
+		</map>
+		<key>blocked_startim</key>
+		<map>
+			<key>value</key>
+			<string>No es pot iniciar una sessió d'IM amb [RECIPIENT] a causa de restriccions RLV</string>
+		</map>
+		<key>blocked_startconf</key>
+		<map>
+			<key>value</key>
+			<string>No es pot començar la conferència amb [RECIPIENT] a causa de restriccions RLV</string>
+		</map>
+		<key>blocked_teleport</key>
+		<map>
+			<key>value</key>
+			<string>No es pot iniciar la teletransportació a causa de les restriccions RLV</string>
+		</map>
+		<key>blocked_teleport_offer</key>
+		<map>
+			<key>value</key>
+			<string>No es pot oferir la teletransportació a causa de les restriccions RLV</string>
+		</map>
+		<key>blocked_viewxxx</key>
+		<map>
+			<key>value</key>
+			<string>No es pot obrir [TYPE] a causa de restriccions RLV</string>
+		</map>
+		<key>blocked_wireframe</key>
+		<map>
+			<key>value</key>
+			<string>No es pot activar el mode filferro a causa de les restriccions RLV</string>
+		</map>
+
+		<key>blocked_recvim_remote</key>
+		<map>
+			<key>value</key>
+			<string>El resident a qui has enviat un IM no pot llegir-los en aquest moment, si us plau, torna-ho a provar més tard.</string>
+			<key>description</key>
+			<string>S'envia a la part remota quan el seu IM ha estat bloquejat.</string>
+			<key>label</key>
+			<string>Missatge d'IM entrant bloquejat (a distància)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+		<key>blocked_tplurerequest_remote</key>
+		<map>
+			<key>value</key>
+			<string>El resident no pot acceptar en aquest moment. Si us plau, torna-ho a provar més tard.</string>
+			<key>description</key>
+			<string>S'envia a la part remota quan la seva oferta o sol·licitud de teletransportació ha estat bloquejada.</string>
+			<key>label</key>
+			<string>Oferta/sol·licitud de teletransportació bloquejada (a distància)</string>
+			<key>customizable</key>
+			<boolean>1</boolean>
+		</map>
+	</map>
+
+	<key>anonyms</key>
+	<array>
+		<string>Un resident</string>
+		<string>Aquest resident</string>
+		<string>Aquell resident</string>
+		<string>Un individu</string>
+		<string>Aquest individu</string>
+		<string>Aquell individu</string>
+		<string>Una persona</string>
+		<string>Aquesta persona</string>
+		<string>Aquella persona</string>
+		<string>Un estrany</string>
+		<string>Aquest estrany</string>
+		<string>Aquell estrany</string>
+		<string>Un ésser</string>
+		<string>Aquest ésser</string>
+		<string>Aquell ésser</string>
+		<string>Un agent</string>
+		<string>Aquest agent</string>
+		<string>Aquell agent</string>
+		<string>Una ànima</string>
+		<string>Aquesta ànima</string>
+		<string>Aquella ànima</string>
+		<string>Algú</string>
+		<string>Algunes persones</string>
+		<string>Qualsevol</string>
+		<string>El misteriós</string>
+		<string>Un ésser desconegut</string>
+		<string>Una persona no identificada</string>
+		<string>Una persona desconeguda</string>
+	</array>
+
+</map>
+</llsd>

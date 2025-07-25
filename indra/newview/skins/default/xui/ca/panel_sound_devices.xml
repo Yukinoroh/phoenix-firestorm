@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<panel label="Paràmetres del dispositiu" name="device_settings_panel">
+	<panel.string name="default_text">Per defecte</panel.string>
+	<string name="name_no_device">Cap dispositiu</string>
+	<string name="name_no_device">Cap dispositiu</string>
+	<string name="name_default_system_device">Dispositiu per defecte del sistema</string>
+	<text name="Input">Entrada</text>
+	<text name="Output">Sortida</text>
+	<text name="My volume label">El meu volum:</text>
+	<slider_bar name="mic_volume_slider" tool_tip="Ajusta el volum amb el control lliscant"/>
+	<text name="wait_text">Espera...</text>
+</panel>

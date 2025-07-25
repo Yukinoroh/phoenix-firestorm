@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="panel_stand_stop_flying">
+	<button label="Aixeca't" name="stand_btn" tool_tip="Fes clic aquí per aixecar-te."/>
+	<button label="Aterra" name="stop_fly_btn" tool_tip="Aterra"/>
+	<button label="Càmera aèria" name="flycam_btn" tool_tip="Atura el mode de Càmera aèria"/>
+</panel>

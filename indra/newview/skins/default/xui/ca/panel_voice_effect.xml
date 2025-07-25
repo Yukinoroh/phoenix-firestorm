@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="panel_voice_effect">
+	<string name="no_voice_effect">Efecte de veu desactivat</string>
+	<string name="preview_voice_effects">Previsualització dels efectes de veu  ▶</string>
+	<string name="get_voice_effects">Obtenir un efecte de veu  ▶</string>
+	<combo_box name="voice_effect" tool_tip="Selecciona un efecte per modificar el so de la teva veu">
+		<combo_box.item label="Efecte de veu desactivat" name="no_voice_effect"/>
+	</combo_box>
+</panel>

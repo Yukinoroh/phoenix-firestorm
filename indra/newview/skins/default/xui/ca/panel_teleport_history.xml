@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="Teleport History">
+	<accordion name="history_accordion">
+		<no_matched_tabs_text name="no_matched_teleports_msg">No has trobat el que cercàves? Prova [secondlife:///app/search/places/[SEARCH_TERM] La Cerca].</no_matched_tabs_text>
+		<no_visible_tabs_text name="no_teleports_msg">L'historial de teletransportació és buit. Prova [secondlife:///app/search/places/ La Cerca].</no_visible_tabs_text>
+		<accordion_tab name="today" title="Avui"/>
+		<accordion_tab name="yesterday" title="Ahir"/>
+		<accordion_tab name="2_days_ago" title="Fa 2 dies"/>
+		<accordion_tab name="3_days_ago" title="Fa 3 dies"/>
+		<accordion_tab name="4_days_ago" title="Fa 4 dies"/>
+		<accordion_tab name="5_days_ago" title="Fa 5 dies"/>
+		<accordion_tab name="6_days_and_older" title="Fa 6 dies i més"/>
+		<accordion_tab name="1_month_and_older" title="Fa 1 mes i més"/>
+		<accordion_tab name="6_months_and_older" title="Fa 6 mesos i més"/>
+	</accordion>
+	<panel name="bottom_panel">
+		<button tool_tip="Mostra altres opcions" name="gear_btn"/>
+	</panel>
+</panel>

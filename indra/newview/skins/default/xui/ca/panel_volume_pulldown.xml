@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="volumepulldown_floater">
+	<slider name="System Volume" label="Principal"/>
+	<slider name="UI Volume" label="Botons"/>
+	<slider name="Wind Volume" label="Ambient"/>
+	<check_box name="collisions_audio_play_btn" tool_tip="Activa els sons per defecte de les col·lisions"/>
+	<slider name="SFX Volume" label="Sons"/>
+	<check_box name="gesture_audio_play_btn" tool_tip="Activa els sons dels gestos"/>
+	<slider name="Music Volume" label="Música"/>
+	<check_box name="enable_music" tool_tip="Activa els fluxos de música"/>
+	<slider name="Media Volume" label="Multimèdia"/>
+	<check_box name="enable_media" tool_tip="Activa els fluxos de multimèdia"/>
+	<slider name="Voice Volume" label="Veu"/>
+	<check_box name="enable_voice_check" tool_tip="Activa el xat de veu"/>
+</panel>

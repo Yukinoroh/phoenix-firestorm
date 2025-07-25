@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="status">
+	<panel name="parcel_info_panel">
+		<button name="buy_land_btn" tool_tip="El terreny està a la venda"/>
+		<text tool_tip="El nom del terreny on et trobes. Fes clic per obtenir informació sobre el terreny." name="parcel_info_text" value="(carregant...)"/>
+	</panel>
+	<panel.string name="packet_loss_tooltip">
+		Pèrdua de paquets
+	</panel.string>
+	<panel.string name="bandwidth_tooltip">
+		Amplada de banda
+	</panel.string>
+	<panel.string name="time">
+		[hour, datetime, slt]:[min, datetime, slt]:[second, datetime, slt] [timezone,datetime, slt]
+	</panel.string>
+	<panel.string name="buycurrencylabel">
+		[AMT] L$
+	</panel.string>
+	<panel name="menu_search_panel">
+		<search_editor label="Cerca als menús" name="search_menu_edit" tool_tip="Escriu aquí el terme de cerca que t'interessa. Es mostraran els resultats per a coincidències parcials de text complet al menú."/>
+	</panel>
+	<panel name="balance_bg">
+		<text name="balance" tool_tip="Fes clic en aquest botó per actualitzar el teu saldo de L$." value="L$ ??"/>
+		<button label="Com. L$" name="buyL" tool_tip="Fes clic per comprar més L$."/>
+	</panel>
+	<panel name="time_and_media_bg">
+		<text name="TimeText" tool_tip="Hora actual (Pacífic)">
+			00:00 PST
+		</text>
+		<button name="stream_toggle_btn" tool_tip="Reprodueix/atura el flux d'àudio d'aquesta parcel·la"/>
+		<button name="media_toggle_btn" tool_tip="Reprodueix/atura tots els mèdia (música, vídeo, pàgines web)."/>
+		<button name="volume_btn" tool_tip="Ajusta el volum general."/>
+		<text name="FPSText" tool_tip="Imatges per segon (fes clic per ajustar el límit)">
+			200.0
+		</text>
+	</panel>
+</panel>
