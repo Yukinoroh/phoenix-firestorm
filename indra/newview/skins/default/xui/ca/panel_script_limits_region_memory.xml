@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Recursos de la regió" name="script_limits_region_memory_panel">
+	<text name="script_memory">Recursos dels scripts al terreny</text>
+	<text name="loading_text">Carregant...</text>
+	<scroll_list name="scripts_list">
+		<scroll_list.columns label="Mida (Ko)" name="size"/>
+		<scroll_list.columns label="URL" name="urls"/>
+		<scroll_list.columns label="Nom de l'objecte" name="name"/>
+		<scroll_list.columns label="Propietari" name="owner"/>
+		<scroll_list.columns label="Terreny" name="parcel"/>
+		<scroll_list.columns label="Coordenades" name="location"/>
+	</scroll_list>
+	<button label="Actualitza" name="refresh_list_btn"/>
+	<button label="Ressalta" left="320" width="140" name="highlight_btn"/>
+	<button label="Retorna" name="return_btn"/>
+</panel>

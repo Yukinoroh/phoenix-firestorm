@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="home_tab" name="home_tab">
+	<scroll_container name="profile_scroll">
+		<panel name="profile_scroll_panel">
+			<panel name="sidebar_people">
+				<text name="tab_name" value="Residents"/>
+				<text name="tab_description">
+					Troba els teus amics, els teus grups, els teus contactes i les persones que es troben a prop.
+				</text>
+			</panel>
+			<panel name="sidebar_places">
+				<text name="tab_name" value="Llocs"/>
+				<text name="tab_description">
+					Troba nous llocs per descobrir i els llocs que ja coneixes.
+				</text>
+			</panel>
+			<panel name="sidebar_me">
+				<text name="tab_name" value="El meu perfil"/>
+				<text name="tab_description">
+					Modifica el teu perfil públic.
+				</text>
+			</panel>
+			<panel name="sidebar_appearance">
+				<text name="tab_name" value="La meva aparença"/>
+				<text name="tab_description">
+					Modifica la teva aparença actual.
+				</text>
+			</panel>
+			<panel name="sidebar_inventory">
+				<text name="tab_name" value="El meu inventari"/>
+				<text name="tab_description">
+					Explora el teu inventari.
+				</text>
+			</panel>
+		</panel>
+	</scroll_container>
+</panel>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="panel_snapshot_postcard">
+	<string name="default_subject">Postal des de [SECOND_LIFE].</string>
+	<string name="default_message">Mira això!</string>
+	<string name="upload_message">Enviant...</string>
+	<text name="title">Correu electrònic</text>
+	<tab_container name="postcard_tabs">
+		<panel label="Missatge" name="panel_postcard_message"/>
+		<panel label="Paràmetres" name="panel_postcard_settings"/>
+	</tab_container>
+	<button label="&#x25B6; Selecció" name="cancel_btn"/>
+	<button label="Envia" name="send_btn"/>
+</panel>

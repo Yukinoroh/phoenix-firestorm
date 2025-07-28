@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="script panel">
+	<panel.string name="loading">Carregant...</panel.string>
+	<panel.string name="can_not_view">No pots visualitzar ni modificar aquest script, perquè s'ha creat amb permisos restringits. Necessites permisos complets per visualitzar o modificar un script dins d'un objecte.</panel.string>
+	<panel.string name="public_objects_can_not_run">Els objectes públics no poden executar scripts</panel.string>
+	<panel.string name="script_running">En execució</panel.string>
+	<panel.string name="Title">Script: [NAME]</panel.string>
+	<panel.string name="external_editor_not_set">Selecciona un editor omplint la variable d'entorn LL_SCRIPT_EDITOR o el paràmetre ExternalEditor.</panel.string>
+	<menu_bar name="script_menu">
+		<menu label="Fitxer" name="File">
+			<menu_item_call label="Desa" name="Save"/>
+			<menu_item_call label="Reverteix tots els canvis" name="Revert All Changes"/>
+			<menu_item_call label="Obre..." name="LoadFromFile"/>
+			<menu_item_call label="Desa com a..." name="SaveToFile"/>
+			<menu_item_call label="Preferències de l'editor..." name="ScriptPrefs"/>
+		</menu>
+		<menu label="Edita" name="Edit">
+			<menu_item_call label="Desfés" name="Undo"/>
+			<menu_item_call label="Refés" name="Redo"/>
+			<menu_item_call label="Talla" name="Cut"/>
+			<menu_item_call label="Copia" name="Copy"/>
+			<menu_item_call label="Enganxa" name="Paste"/>
+			<menu_item_call label="Selecciona-ho tot" name="Select All"/>
+			<menu_item_call label="Desselecciona" name="Deselect"/>
+			<menu_item_call label="Cerca / Reemplaça..." name="Search / Replace..."/>
+			<menu_item_call label="Vés a la línia..." name="Go to line..."/>
+		</menu>
+		<menu label="Ajuda" name="Help">
+			<menu_item_call label="Ajuda..." name="Help..."/>
+			<menu_item_call label="Ajuda per paraula clau..." name="Keyword Help..."/>
+			<menu_item_call label="Biblioteca LSL..." name="Script Library"/>
+		</menu>
+	</menu_bar>
+	<layout_stack name="script_editor_button_bar">
+		<layout_panel name="script_editor_buttons_panel">
+			<button tool_tip="Desa l'script" name="save_btn"/>
+			<button tool_tip="Editor de scripts extern" name="Edit_btn"/>
+			<button tool_tip="Carrega un script des del disc" name="load_disk_btn"/>
+			<button tool_tip="Desa un script al disc" name="save_disk_btn"/>
+			<button tool_tip="Talla" name="cut_btn"/>
+			<button tool_tip="Copia" name="copy_btn"/>
+			<button tool_tip="Enganxa" name="paste_btn"/>
+			<button tool_tip="Desfés" name="undo_btn"/>
+			<button tool_tip="Refés" name="redo_btn"/>
+			<button tool_tip="Cerca / Reemplaça" name="search_btn"/>
+			<button tool_tip="Preferències de l'editor" name="prefs_btn"/>
+		</layout_panel>
+	</layout_stack>
+	<script_editor name="Script Editor">
+     Carregant...
+	</script_editor>
+	<combo_box label="Insereix..." name="Insert..."/>
+	<text name="line_col" value="Línia 0, Columna 0"/>
+	<button label="Edita..." name="edit_btn_2"/>
+	<button label="Desa" label_selected="Desa" name="save_btn_2"/>
+</panel>

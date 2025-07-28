@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Avatar" name="script_limits_my_avatar_panel">
+	<text name="script_memory">Ús dels scripts de l'avatar</text>
+	<text name="loading_text">Carregant...</text>
+	<scroll_list name="scripts_list">
+		<scroll_list.columns label="Mida (kb)" name="size"/>
+		<scroll_list.columns label="URL" name="urls"/>
+		<scroll_list.columns label="Nom de l'objecte" name="name"/>
+		<scroll_list.columns label="Ubicació" name="location"/>
+	</scroll_list>
+	<button label="Actualitza la llista" name="refresh_list_btn"/>
+</panel>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<panel name="script_experience" title="Experiència">
+	<button name="Expand Experience" label="Experiència"/>
+	<check_box label="Utilitza l'experiència" name="enable_xp"/>
+	<layout_stack name="xp_details">
+		<layout_panel name="xp_layout_panel">
+			<text name="lbl_script">
+				Script:
+			</text>
+			<text name="lbl_associated">
+				En associació amb:
+			</text>
+			<text name="lbl_contribute">
+				Pots contribuir:
+			</text>
+			<text name="lbl_associate">
+				Associat amb:
+			</text>
+		</layout_panel>
+		<layout_panel name="xp_choose_panel">
+			<combo_box label="Selecciona una experiència..." name="Experiences..."/>
+		</layout_panel>
+	</layout_stack>
+	<text name="No Experiences">No has contribuït a cap experiència.</text>
+</panel>

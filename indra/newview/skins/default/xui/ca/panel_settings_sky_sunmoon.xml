@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="Sol i Lluna" name="panel_settings_sky_hbodies">
+	<layout_stack name="main_ls">
+		<layout_panel name="sun_layout">
+			<text name="sun_stars_label">
+				Sol i estrelles
+			</text>
+			<check_box label="Mostra l'emissor" name="sunbeacon" />
+			<text name="position_label">
+				Posició:
+			</text>
+			<text name="image_label">
+				Imatge i mida:
+			</text>
+			<text name="color_label">
+				Color:
+			</text>
+			<text name="sun_azimuth_label">
+				Azimut:
+			</text>
+			<text name="sun_elevation_label">
+				Elevació:
+			</text>
+			<text name="glow_focus_label">
+				Focus de la resplendor:
+			</text>
+			<text name="glow_size_label">
+				Escala de brillantor:
+			</text>
+			<text name="star_brightness_label">
+				Brillantor de les estrelles:
+			</text>
+		</layout_panel>
+		<layout_panel name="moon_layout">
+			<text name="moon_label">
+				Lluna
+			</text>
+			<check_box label="Mostra l'emissor" name="moonbeacon" />
+			<text name="position_label">
+				Posició:
+			</text>
+			<text name="moon_image_label">
+				Imatge i mida:
+			</text>
+			<text name="moon_azimuth_label">
+				Azimut:
+			</text>
+			<text name="moon_elevation_label">
+				Elevació:
+			</text>
+			<text name="brightness_label">
+				Lluminositat:
+			</text>
+		</layout_panel>
+	</layout_stack>
+</panel>

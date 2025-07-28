@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="Núvols" name="panel_settings_sky_clouds">
+	<layout_stack name="main_ls">
+		<layout_panel name="left_lp">
+			<text name="cloud_coverage_label">
+				Cobertura:
+			</text>
+			<text name="cloud_scale_label">
+				Escala:
+			</text>
+			<text name="cloud_variance_label">
+				Variació:
+			</text>
+			<text name="cloud_scroll_label">
+				Desplaçament:
+			</text>
+			<text name="cloud_image_label">
+				Imatge:
+			</text>
+			<text name="cloud_color_label">
+				Color:
+			</text>
+		</layout_panel>
+		<layout_panel name="right_lp">
+			<text name="cloud_density_label">
+				Densitat:
+			</text>
+			<slider label="G" name="cloud_density_d" />
+			<text name="cloud_detail_label">
+				Detalls:
+			</text>
+		</layout_panel>
+	</layout_stack>
+</panel>

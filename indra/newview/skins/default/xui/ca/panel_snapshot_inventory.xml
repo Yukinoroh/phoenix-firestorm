@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="panel_snapshot_inventory">
+	<text name="title">
+		Inventari
+	</text>
+	<combo_box label="Resolució" name="texture_size_combo">
+		<combo_box.item label="Petita (128x128)" name="Small(128x128)"/>
+		<combo_box.item label="Mitjana (256x256)" name="Medium(256x256)"/>
+		<combo_box.item label="Gran (512x512)" name="Large(512x512)"/>
+		<combo_box.item label="Molt gran (1024x1024)" name="Very Large(1024x1024)"/>
+		<combo_box.item label="Enorme (2048x2048)" name="Huge(2048x2048)"/>
+		<combo_box.item label="Finestra actual" name="CurrentWindow"/>
+		<combo_box.item label="Personalitzada" name="Custom"/>
+	</combo_box>
+	<spinner label="Amplada x Alçada" label_width="100" width="150" name="inventory_snapshot_width"/>
+	<spinner width="50" name="inventory_snapshot_height"/>
+	<check_box label="Conserva les proporcions" name="inventory_keep_aspect_check"/>
+	<check_box label="Temporal" name="inventory_temp_upload"/>
+	<text name="hint_lbl">
+		Per desar la teva imatge com a textura, selecciona un dels formats quadrats.
+
+Cost de la pujada: [UPLOAD_COST] L$
+	</text>
+	<button label="&#x25B6; Selecció" name="cancel_btn"/>
+	<button label="Desa" name="save_btn"/>
+</panel>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Calibratge" name="panel_settings_terrain_transform">
+	<text name="terrain0ScaleU_label">
+		Escala u
+	</text>
+	<spinner label="Escala u" name="terrain0ScaleU"/>
+	<text name="terrain0ScaleV_label">
+		Escala v
+	</text>
+	<spinner label="Escala v" name="terrain0ScaleV"/>
+	<text name="terrain0Rotation_label">
+		Rotació
+	</text>
+	<spinner label="Rotació" name="terrain0Rotation"/>
+	<text name="terrain0OffsetU_label">
+		Desplaçament u
+	</text>
+	<spinner label="Desplaçament u" name="terrain0OffsetU"/>
+	<text name="terrain0OffsetV_label">
+		Desplaçament v
+	</text>
+	<spinner label="Desplaçament v" name="terrain0OffsetV"/>
+</panel>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="Atmosfera i llums" name="panel_settings_sky_atmos">
+	<string name="hdr_string">Escala HDR:</string>
+	<string name="brightness_string">Lluminositat:</string>
+	<string name="hdr_tooltip">Intensitat dels efectes de lluminositat com els cels lluminosos realistes i l'exposició dinàmica. 1.0 és el valor per defecte, 0 està desactivat, els valors entre 0 i 1 mesclen la lluminositat ambient i l'HDR.</string>
+	<layout_stack name="main_ls">
+		<layout_panel name="top_lp">
+			<text name="ambient_color_label">
+				Color ambient:
+			</text>
+			<text name="blue_horizon_label">
+				Horitzó blau:
+			</text>
+			<text name="blue_density_label">
+				Densitat del blau:
+			</text>
+		</layout_panel>
+		<layout_panel name="bottom_lp">
+			<layout_stack name="atmosphere1">
+				<layout_panel name="left_lp">
+					<text name="haze_horizon_label">
+						Horitzó de boira:
+					</text>
+					<text name="haze_density_label">
+						Densitat de la boira:
+					</text>
+					<text name="moisture_level_label">
+						Nivell d'humitat:
+					</text>
+					<text name="droplet_radius_label">
+						Radi de les gotes:
+					</text>
+					<text name="ice_level_label">
+						Nivell del gel:
+					</text>
+				</layout_panel>
+				<layout_panel name="right_lp">
+					<text name="density_multiplier_label">
+						Factor de densitat:
+					</text>
+					<text name="distance_multiplier_label">
+						Factor de dist.:
+					</text>
+					<text name="maximum_altitude_label">
+						Altitud màxima:
+					</text>
+					<text name="probe_ambiance_label" tool_tip="Control de la irradiància. Si és diferent de zero, activa el model d'il·luminació HDR.">
+						Ambient de la sonda de reflexió (HDR):
+					</text>
+					<slider name="probe_ambiance" tool_tip="Intensitat de la il·luminació indirecta basada en l'entorn. A zero, l'escala HDR es converteix en Lluminositat"/>
+					<text name="scene_gamma_label">
+						Gamma de l'escena:
+					</text>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+	</layout_stack>
+</panel>
