@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="fs_import" title="Import d'objets">
-	<floater.string name="floater_title">Import de [FILENAME]</floater.string>
+<floater name="fs_import" title="Importation d'objets">
+	<floater.string name="floater_title">Importation de [FILENAME]</floater.string>
 	<floater.string name="file_status">
          [LINKSETS] liens. [PRIMS] prims. [TEXTURES] textures.
          [SOUNDS] sons. [ANIMATIONS] animations.
