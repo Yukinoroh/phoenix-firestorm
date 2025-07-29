@@ -3,7 +3,7 @@
 	<floater.string name="title_floater">Sauvegarde de [OBJECT] sur le disque dur...</floater.string>
 	<floater.string name="title_working">Sauvegarde de [OBJECT] en cours - Récupération des informations...</floater.string>
 	<floater.string name="title_inventory">Sauvegarde de [OBJECT] en cours - Récupération des données de l'inventaire...</floater.string>
-	<floater.string name="title_assets">Sauvegarde de [OBJECT] en cours - Récupération des actifs...</floater.string>
+	<floater.string name="title_assets">Sauvegarde de [OBJECT] en cours - Récupération des biens...</floater.string>
 	<floater.string name="title_textures">Sauvegarde de [OBJECT] en cours - Récupération des textures...</floater.string>
 	<layout_stack name="resizing_stack">
 		<layout_panel name="control_panel">
