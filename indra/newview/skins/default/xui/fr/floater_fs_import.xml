@@ -22,8 +22,8 @@
 	<text name="client_text">Client : [CLIENT] v[VERSION]</text>
 	<text name="file_status_text">Sélectionnez un fichier.</text>
 	<check_box name="do_not_attach" label="Ne pas attacher d'objet"/>
-	<check_box name="region_position" label="Restaurer la position de la région"/>
-	<check_box name="upload_asset" label="Uploader"/>
+	<check_box name="region_position" label="Restaurer les positions dans la région"/>
+	<check_box name="upload_asset" label="Téléverser"/>
 	<check_box name="temp_asset" label="Temporairement"/>
 	<button name="import_btn" label="Importer"/>
 </floater>
