@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="Fixed Environment" title="Entorn fix">
+	<string name="edit_sky">Modificar el cel :</string>
+	<string name="edit_water">Modificar l'aigua :</string>
+	<layout_stack name="floater_stack">
+		<layout_panel name="info_panel">
+			<text name="info_panel_label">
+				Nom :
+			</text>
+			<!--
+			<button label="Carregar" name="btn_load" tool_tip="Carregar una configuració de l'inventari"/>
+			<button label="Importar" name="btn_import" tool_tip="Importar les versions de paràmetres des del disc."/>
+			-->
+		</layout_panel>
+		<layout_panel name="button_panel">
+			<layout_stack name="button_bar_ls">
+				<layout_panel name="load_btn_lp"> 
+					<button label="Carregar" name="btn_load" tool_tip="Carregar una configuració de l'inventari"/>
+					<button label="Importar" name="btn_import" tool_tip="Importar versions antigues de paràmetres des del disc."/>
+					<button label="Desar" name="btn_commit"/>
+					<button label="Anul·lar" name="btn_cancel" tool_tip="Tornar a l'última versió desada"/>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+	</layout_stack>
+</floater>
