@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="floater_fs_export" title="Sauvegarde des objets...">
+<floater name="floater_fs_export" title="Sauvegarder des objets...">
 	<floater.string name="title_floater">Sauvegarde de [OBJECT] sur le disque dur...</floater.string>
 	<floater.string name="title_working">Sauvegarde de [OBJECT] en cours - Récupération des informations...</floater.string>
 	<floater.string name="title_inventory">Sauvegarde de [OBJECT] en cours - Récupération des données de l'inventaire...</floater.string>
