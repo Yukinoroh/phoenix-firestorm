@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="nearby_chat" title="Xat local">
+	<floater.string name="chatbox_label">Xat local</floater.string>
+	<layout_stack name="ls_control_panel">
+		<layout_panel name="lp_chat_history_btn"><button tool_tip="Obrir l'historial de conversació." name="chat_history_btn"/></layout_panel>
+		<layout_panel name="lp_chat_history_muted_btn"><button tool_tip="Mostrar el text silenciat en l'historial de conversació." name="chat_history_muted_btn"/></layout_panel>
+		<layout_panel name="lp_options_btn"><menu_button tool_tip="Opcions del xat" name="chat_options_btn"/></layout_panel>
+	</layout_stack>
+	<layout_stack name="ls_chat">
+		<layout_panel name="panel_im_control_lp">
+			<layout_stack name="im_panels">
+				<layout_panel name="unread_messages_holder">
+					<text name="unread_messages_text">Missatges no llegits : [NUM]</text>
+				</layout_panel>
+				<layout_panel name="chat_layout_panel">
+					<layout_stack name="input_panels">
+						<layout_panel name="emoji_button_layout_panel">
+							<button name="emoji_picker_toggle_btn" tool_tip="Mostra el panell d'emojis"/>
+							<button name="emoji_recent_panel_toggle_btn" tool_tip="Mostra/amaga els emojis recents"/>
+						</layout_panel>
+						<layout_panel name="input_button_layout_panel">
+							<spinner name="ChatChannel" tool_tip="Canal en el qual parlar. Modifiable en Préférences -&gt; Conversacions -&gt; Entrada -&gt; Mostrar la selecció del canal de discussió."/>
+						</layout_panel>
+						<layout_panel name="chat_type_layout_panel" width="90">
+							<combo_box name="chat_type" tool_tip="Xiuxiuegar = 10m; Parlar = 20m; Cridar = 100m">
+								<combo_box.item name="chat_type_whisper" label="Xiuxiuegar"/>
+								<combo_box.item name="chat_type_say" label="Parlar"/>
+								<combo_box.item name="chat_type_shout" label="Cridar"/>
+							</combo_box>
+							<button label="Parlar" name="send_chat" tool_tip="Xiuxiuegar = 10m; Parlar = 20m; Cridar = 100m"/>
+						</layout_panel>
+					</layout_stack>
+				</layout_panel>
+				<layout_panel name="emoji_recent_layout_panel">
+					<text name="emoji_recent_empty_text">
+						Els emojis utilitzats recentment apareixeran aquí
+					</text>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+	</layout_stack>
+</floater>
