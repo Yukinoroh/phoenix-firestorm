@@ -9,11 +9,11 @@
 	<floater.string name="file_version_error">Erreur lors de l'analyse du fichier: mauvais format ou version incorrecte.</floater.string>
 	<floater.string name="file_status_running">Lien [LINKSET] sur [LINKSETS], prim [PRIM] sur [PRIMS]</floater.string>
 	<floater.string name="file_status_done">Importation terminée.</floater.string>
-	<floater.string name="texture_uploading">Upload de la texture [TEXTURE] sur [TEXTURETOTAL].</floater.string>
-	<floater.string name="sound_uploading">Upload du son [SOUND] sur [SOUNDTOTAL].</floater.string>
-	<floater.string name="animation_uploading">Upload de l'animation [ANIMATION] sur [ANIMATIONTOTAL].</floater.string>
-	<floater.string name="asset_uploading">Upload de l'objet [ASSET] sur [ASSETTOTAL].</floater.string>
-	<floater.string name="upload_cost">Cout total de l'upload : [COST] L$.</floater.string>
+	<floater.string name="texture_uploading">Téléversement de la texture [TEXTURE] sur [TEXTURETOTAL].</floater.string>
+	<floater.string name="sound_uploading">Téléversement du son [SOUND] sur [SOUNDTOTAL].</floater.string>
+	<floater.string name="animation_uploading">Téléversement de l'animation [ANIMATION] sur [ANIMATIONTOTAL].</floater.string>
+	<floater.string name="asset_uploading">Téléversement de l'objet [ASSET] sur [ASSETTOTAL].</floater.string>
+	<floater.string name="upload_cost">Cout total du téléversement : [COST] L$.</floater.string>
 	<floater.string name="object">objet</floater.string>
 	<floater.string name="objects">objets</floater.string>
 	<text name="filename_text">[FILENAME]</text>
