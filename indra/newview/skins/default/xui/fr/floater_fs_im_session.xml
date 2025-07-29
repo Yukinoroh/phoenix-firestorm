@@ -42,7 +42,7 @@
 		</layout_panel>
 		<layout_panel name="support_panel" width="135">
 			<icon name="dummy_icon_support_group" width="133"/>
-			<check_box label="Spécifier la version" name="FSSupportGroupChatPrefix_toggle" tool_tip="Indique la version de votre Viewer et son thème au début de vos messages envoyés à ce groupe pour aider le diagnostic des équipes de support afin d'améliorer la précision des réponses à vos questions"/>
+			<check_box label="Ajouter la version" name="FSSupportGroupChatPrefix_toggle" tool_tip="Ajoute la version actuelle du visualiseur, le skin du visualiseur, le système d'exploitation et le statut RLVa au début des messages que vous envoyez à ce groupe, ce qui aidera le personnel d'assistance à diagnostiquer correctement vos problèmes et à améliorer la précision des réponses à vos questions."/>
 		</layout_panel>
 	</layout_stack>
 	<layout_stack name="chat_stack">
