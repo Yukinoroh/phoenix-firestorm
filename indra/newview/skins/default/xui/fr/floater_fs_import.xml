@@ -6,7 +6,7 @@
          [SOUNDS] sons. [ANIMATIONS] animations.
 	</floater.string>
 	<floater.string name="file_status_error">Erreur lors de la lecture du fichier. Veuillez sélectionner un autre fichier.</floater.string>
-	<floater.string name="file_version_error">Erreur lors de l'analyse du fichier, mauvais format ou version incorrecte.</floater.string>
+	<floater.string name="file_version_error">Erreur lors de l'analyse du fichier: mauvais format ou version incorrecte.</floater.string>
 	<floater.string name="file_status_running">Lien [LINKSET] sur [LINKSETS], prim [PRIM] sur [PRIMS]</floater.string>
 	<floater.string name="file_status_done">Importation terminée.</floater.string>
 	<floater.string name="texture_uploading">Upload de la texture [TEXTURE] sur [TEXTURETOTAL].</floater.string>
