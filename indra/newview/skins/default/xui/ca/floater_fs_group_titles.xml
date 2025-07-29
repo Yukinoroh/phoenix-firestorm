@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="group_titles" title="Títols de grups">
+	<floater.string name="NoGroupTitle" value="&lt;Cap títol&gt;"/>
+	<scroll_list name="title_list">
+		<column name="grouptitle" label="Títol"/>
+		<column name="groupname" label="Grup"/>
+	</scroll_list>
+	<button tool_tip="Actualitzar la llista dels títols de grups disponibles" name="btnRefresh"/>
+	<button name="btnInfo" label="Infos" tool_tip="Mostrar les informacions sobre el grup del títol seleccionat"/>
+	<button name="btnActivate" label="Activar" tool_tip="Activar el títol de grup seleccionat"/>
+</floater>
