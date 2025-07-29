@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="group_info">
+	<floater.string name="title_create_group">Crear un nou grup...</floater.string>
+	<floater.string name="title_loading">Perfil del grup - Carregant...</floater.string>
+	<floater.string name="title">Perfil del grup - [NAME]</floater.string>
+</floater>
