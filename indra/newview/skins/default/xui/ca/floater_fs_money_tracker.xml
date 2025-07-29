@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="money_tracker" title="Seguiment de transaccions">
+	<name_list name="payment_list">
+		<name_list.columns name="time" label="Hora"/>
+		<name_list.columns name="name" label="Nom"/>
+		<name_list.columns name="amount" label="Import"/>
+	</name_list>
+	<text name="summary">Pagat : [PAID] L$ - Rebut : [RECEIVED] L$</text>
+	<check_box label="Seguir quan tancat" name="FSAlwaysTrackPayments" tool_tip="Sempre seguir les transaccions, fins i tot quan el seguiment està tancat."/>
+	<button name="Clear" label="Esborrar"/>
+</floater>
