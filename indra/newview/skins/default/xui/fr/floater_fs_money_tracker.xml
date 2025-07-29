@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="money_tracker" title="Suivi des transactions">
+<floater name="money_tracker" title="Suivi de transactions">
 	<name_list name="payment_list">
 		<name_list.columns name="time" label="Heure"/>
 		<name_list.columns name="name" label="Nom"/>
