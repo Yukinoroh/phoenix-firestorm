@@ -9,7 +9,7 @@
 			</text>
 			<!--
 			<button label="Charger" name="btn_load" tool_tip="Charger une configuration de l'inventaire"/>
-			<button label="Importer" name="btn_import" tool_tip="Importer les versions de paramètres paramètres à partir du disque."/>
+			<button label="Importer" name="btn_import" tool_tip="Importer les versions de paramètres à partir du disque."/>
 			-->
 		</layout_panel>
 		<layout_panel name="button_panel">
