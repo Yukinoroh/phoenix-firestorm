@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="floater_fs_export" title="Desar objectes...">
+	<floater.string name="title_floater">Desada de [OBJECT] al disc dur...</floater.string>
+	<floater.string name="title_working">Desada de [OBJECT] en curs - Recuperació de les informacions...</floater.string>
+	<floater.string name="title_inventory">Desada de [OBJECT] en curs - Recuperació de les dades de l'inventari...</floater.string>
+	<floater.string name="title_assets">Desada de [OBJECT] en curs - Récupération dels bens...</floater.string>
+	<floater.string name="title_textures">Desada de [OBJECT] en curs - Recuperació de les textures...</floater.string>
+	<layout_stack name="resizing_stack">
+		<layout_panel name="control_panel">
+			<text name="SelectionInfoText">Informacions sobre la selecció</text>
+			<text name="exportable_prims">Prims exportables : [COUNT]/[TOTAL]</text>
+			<text name="exportable_textures">Textures exportables : [COUNT]/[TOTAL]</text>
+			<text name="OptionsText">Opcions :</text>
+			<check_box label="Desar el contingut de l'objecte" name="contents_check"/>
+			<button label="Desar com a..." name="export_btn"/>
+		</layout_panel>
+		<layout_panel name="contents_panel">
+			<tab_container name="ls_tabs">
+				<panel label="Objectes" name="prims_panel"/>
+				<panel label="Textures" name="texture_panel"/>
+			</tab_container>
+		</layout_panel>
+	</layout_stack>
+</floater>
