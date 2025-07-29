@@ -3,7 +3,7 @@
 	<floater.string name="chatbox_label">Au clavardage local</floater.string>
 	<layout_stack name="ls_control_panel">
 		<layout_panel name="lp_chat_history_btn"><button tool_tip="Ouvre l'historique de conversation." name="chat_history_btn"/></layout_panel>
-		<layout_panel name="lp_chat_history_muted_btn"><button tool_tip="Affiche le texte ignoré dans l'historique de conversation." name="chat_history_muted_btn"/></layout_panel>
+		<layout_panel name="lp_chat_history_muted_btn"><button tool_tip="Affiche le texte en sourdine dans l'historique de conversation." name="chat_history_muted_btn"/></layout_panel>
 		<layout_panel name="lp_options_btn"><menu_button tool_tip="Options du clavardage" name="chat_options_btn"/></layout_panel>
 	</layout_stack>
 	<layout_stack name="ls_chat">
