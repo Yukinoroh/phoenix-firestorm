@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Reglament" name="Covenant">
+	<panel.string name="can_resell">El terreny en aquesta regió es pot revendre.</panel.string>
+	<panel.string name="can_not_resell">El terreny en aquesta regió no es pot revendre.</panel.string>
+	<panel.string name="can_change">El terreny en aquesta regió es pot fusionar o subdividir.</panel.string>
+	<panel.string name="can_not_change">El terreny en aquesta regió no es pot fusionar ni subdividir.</panel.string>
+	<text name="estate_section_lbl">Domini</text>
+	<text name="estate_name_lbl">Nom:</text>
+	<text name="estate_name_text">Continent</text>
+	<text name="estate_owner_lbl">Propietari:</text>
+	<text name="estate_owner_text">(Cap)</text>
+	<text name="estate_cov_lbl">Reglament:</text>
+	<text name="covenant_timestamp_text">Darrera modificació el dc. des. 31 16:00:00 1969</text>
+	<text_editor name="covenant_editor">No hi ha cap reglament redactat per a aquest domini.</text_editor>
+	<button label="Reinicia" name="reset_covenant"/>
+	<text name="covenant_help_text">Les modificacions fetes al reglament es mostraran a tots els terrenys d'aquest domini.</text>
+	<text name="covenant_instructions">Arrossega una nota per modificar el reglament d'aquest domini.</text>
+	<text name="region_section_lbl">Regió</text>
+	<text name="region_name_lbl">Nom:</text>
+	<text name="region_name_text">Erica</text>
+	<text name="region_landtype_lbl">Tipus:</text>
+	<text name="region_landtype_text">Continental / Residencial</text>
+	<text name="region_maturity_lbl">Classificació:</text>
+	<text name="region_maturity_text">Adult</text>
+	<text name="resellable_lbl">Revenda:</text>
+	<text name="resellable_clause">El terreny en aquesta regió no es pot revendre.</text>
+	<text name="changeable_lbl">Subdivisió:</text>
+	<text name="changeable_clause">El terreny en aquesta regió no es pot fusionar/subdividir.</text>
+</panel>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Domini" name="Estate">
+	<text bottom="-34" name="estate_help_text">
+		Les modificacions dels paràmetres d'aquesta 
+pestanya afectaran totes les regions del 
+domini.
+	</text>
+	<text bottom_delta="-34" name="estate_text" top_pad="8">
+		Domini:
+	</text>
+	<text name="estate_name">
+		(desconegut)
+	</text>
+	<text name="owner_text">
+		Propietari:
+	</text>
+	<text name="estate_owner">
+		(desconegut)
+	</text>
+	<radio_group name="externally_visible_radio">
+		<radio_item label="Permet només els residents i grups indicats a la pestanya Accés" name="estate_restricted_access"/>
+		<radio_item label="Visita oberta a tothom" name="estate_public_access"/>
+	</radio_group>
+	<check_box label="Cal tenir més de 18 anys" name="limit_age_verified" tool_tip="Per accedir a aquest domini, els residents han de tenir almenys 18 anys. Consulta el [SUPPORT_SITE] per a més informació."/>
+	<check_box label="La informació de pagament ha d'estar registrada" name="limit_payment" tool_tip="Per poder accedir a aquest domini, els residents han de tenir registrada la informació de pagament. Consulta el [SUPPORT_SITE] per a més informació."/>
+	<check_box label="No ha de ser un agent amb script" name="limit_bots" tool_tip="Els residents no han de ser agents amb script (bots) per accedir a aquest domini. Consulta el [SUPPORT_SITE] per a més informació."/>
+	<check_box label="Els propietaris de terreny poden imposar més restriccions" name="parcel_access_override"/>
+	<check_box label="Permet els xats de veu" name="voice_chat_check"/>
+	<check_box label="Permet la teletransportació directa" name="allow_direct_teleport"/>
+	<button label="Aplica" name="apply_btn"/>
+	<text name="estate_manager_label">
+		Gestors del domini:
+	</text>
+	<text name="allow_resident_label">
+		Sempre permesos:
+	</text>
+	<button label="Afegeix..." name="add_estate_manager_btn"/>
+	<button label="Suprimeix..." name="remove_estate_manager_btn"/>
+	<button label="Afegeix..." name="add_allowed_avatar_btn"/>
+	<button label="Suprimeix..." name="remove_allowed_avatar_btn"/>
+	<text name="allow_group_label">
+		Grups sempre permesos:
+	</text>
+	<text name="ban_resident_label">
+		Sempre prohibits:
+	</text>
+	<button label="Afegeix..." name="add_allowed_group_btn"/>
+	<button label="Suprimeix..." name="remove_allowed_group_btn"/>
+	<button label="Afegeix..." name="add_banned_avatar_btn"/>
+	<button label="Suprimeix..." name="remove_banned_avatar_btn"/>
+	<button label="Missatge al domini..." name="message_estate_btn"/>
+	<button label="Expulsa del domini..." name="kick_user_from_estate_btn"/>
+</panel>

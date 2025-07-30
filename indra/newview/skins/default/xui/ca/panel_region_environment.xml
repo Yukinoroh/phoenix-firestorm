@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Entorn" name="panel_env_info">
+	<string name="str_label_use_default">
+		Utilitza la configuració per defecte
+	</string>
+	<string name="str_label_use_region">
+		Utilitza la configuració de la regió
+	</string>
+	<string name="str_altitude_desription">
+		Cel [INDEX]([ALTITUDE]m)
+	</string>
+	<string name="str_no_parcel">
+		No hi ha cap parcel·la seleccionada. Els paràmetres d'entorn estan desactivats.
+	</string>
+	<string name="str_cross_region">
+		Els paràmetres d'entorn no estan disponibles als límits de les regions.
+	</string>
+	<string name="str_legacy">
+		Els paràmetres d'entorn no estan disponibles en aquesta regió.
+	</string>
+	<string name="str_disallowed">
+		El gestor del domini no autoritza la modificació de l'entorn de les parcel·les en aquesta regió.
+	</string>
+	<string name="str_too_small">
+		La parcel·la ha de fer almenys 128 metres quadrats per suportar un entorn.
+	</string>
+	<string name="str_empty">
+		(buit)
+	</string>
+	<string name="str_region_env">
+		(entorn de la regió)
+	</string>
+	<layout_stack name="ls_main">
+		<layout_panel name="pnl_environment_region_msg">
+			<text name="region_text_lbl">
+				Regió:
+			</text>
+			<text name="region_text">
+				desconeguda
+			</text>
+		</layout_panel>
+		<layout_panel name="pnl_environment_config">
+			<layout_stack name="ls_environment_config">
+				<layout_panel name="pnl_environment_config">
+					<layout_stack name="ls_environment_config2">
+						<layout_panel name="pnl_environment_current">
+							<text name="select_environment_label">
+								Selecciona l'entorn
+							</text>
+							<button label="Utilitza l'inventari" name="btn_select_inventory"/>
+							<button label="Personalitza" name="btn_edit"/>
+							<check_box label="Un(a) propietari(ària) pot personalitzar" name="chk_allow_override"/>
+						</layout_panel>
+						<layout_panel name="pnl_environment_length">
+							<text name="day_settings_label">
+								Configuració del dia
+							</text>
+							<text name="day_length_label">
+								Durada del dia (hores)
+							</text>
+							<text name="day_offset_label">
+								Desplaçament horari (hores)
+							</text>
+							<text name="apparent_time_of_day_label">
+								Hora aparent del dia:
+							</text>
+							<text name="lbl_apparent_time">
+								[HH]:[MM][AP] ([PRC]%)
+							</text>
+						</layout_panel>
+					</layout_stack>
+				</layout_panel>
+				<layout_panel name="pnl_environment_altitudes">
+					<panel name="pnl_alt1">
+						<text name="txt_alt1">
+							Cel [INDEX]&#xA;[ALTITUDE] m
+						</text>
+						<line_editor name="edt_invname_alt1">
+							Desconegut
+						</line_editor>
+						<settings_drop_target name="sdt_alt1" tool_tip="Arrossega un paràmetre de l'inventari a aquesta zona per seleccionar-lo com a cel actual."/>
+					</panel>
+					<panel name="pnl_alt2">
+						<text name="txt_alt2">
+							Cel [INDEX]&#xA;[ALTITUDE] m
+						</text>
+						<line_editor name="edt_invname_alt2">
+							Desconegut
+						</line_editor>
+						<settings_drop_target name="sdt_alt2" tool_tip="Arrossega un paràmetre de l'inventari a aquesta zona per seleccionar-lo com a cel actual."/>
+					</panel>
+					<panel name="pnl_alt3">
+						<text name="txt_alt3">
+							Cel [INDEX]&#xA;[ALTITUDE] m
+						</text>
+						<line_editor name="edt_invname_alt3">
+							Desconegut
+						</line_editor>
+						<settings_drop_target name="sdt_alt3" tool_tip="Arrossega un paràmetre de l'inventari a aquesta zona per seleccionar-lo com a cel actual."/>
+					</panel>
+					<text follows="top|left" name="sky_altitudes_label">
+						Altituds del cel
+					</text>
+					<panel name="pnl_ground">
+						<text name="txt_ground">
+							Sòl
+						</text>
+						<line_editor name="edt_invname_ground">
+							Desconegut
+						</line_editor>
+						<settings_drop_target name="sdt_ground" tool_tip="Arrossega un paràmetre de l'inventari a aquesta zona per seleccionar-lo com a cel a nivell de sòl."/>
+					</panel>
+					<panel name="pnl_water">
+						<text name="txt_water">
+							Aigua
+						</text>
+						<line_editor name="edt_invname_water">
+							Desconegut
+						</line_editor>
+						<settings_drop_target name="sdt_water" tool_tip="Arrossega un paràmetre de l'inventari a aquesta zona per seleccionar-lo com a aigua actual."/>
+					</panel>
+					<button label="Reinicia" name="btn_rst_altitudes" tool_tip="Restaura les altituds per defecte."/>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+	</layout_stack>
+</panel>

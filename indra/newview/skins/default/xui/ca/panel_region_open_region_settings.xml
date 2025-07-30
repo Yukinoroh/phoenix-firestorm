@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Paràmetres de la regió" name="RegionSettings">
+	<spinner label="Distància de visió per defecte" label_width="220" width="280" name="draw_distance" tool_tip="Distància de visió per defecte per a aquesta regió"/>
+	<check_box label="Força la distància de visió" name="force_draw_distance" tool_tip="Activa el bloqueig de la distància de visió per a tothom en aquesta regió. NOTA: Això pot tenir un impacte negatiu en usuaris amb ordinadors de rendiment limitat (Per defecte: Desactivat)"/>
+	<spinner label="Distància màxima d'arrossegament" label_width="220" width="280" name="max_drag_distance" tool_tip="Distància màxima d'arrossegament d'un prim per a aquesta regió"/>
+	<spinner label="Mida màxima de prim" label_width="220" width="280" name="max_prim_scale" tool_tip="Mida màxima de prim per a aquesta regió"/>
+	<spinner label="Mida mínima de prim" label_width="220" width="280" name="min_prim_scale" tool_tip="Mida mínima de prim per a aquesta regió"/>
+	<spinner label="Mida màxima de prim físic" label_width="220" width="280" name="max_phys_prim_scale" tool_tip="Mida màxima de prim físic per a aquesta regió"/>
+	<spinner label="Mida màxima de buidatge" label_width="220" width="280" name="max_hollow_size" tool_tip="Mida màxima de buidatge en un prim creat en aquesta regió"/>
+	<spinner label="Mida mínima de forat" label_width="220" width="280" name="min_hole_size" tool_tip="Mida mínima de forat en un prim creat en aquesta regió"/>
+	<spinner label="Nombre màxim d'enllaços" label_width="220" width="280" name="max_link_count" tool_tip="Nombre màxim d'objectes no físics que es poden enllaçar entre si per a aquesta regió"/>
+	<spinner label="Nombre màxim d'enllaços físics" label_width="220" width="280" name="max_link_count_phys" tool_tip="Nombre màxim d'objectes físics que es poden enllaçar entre si per a aquesta regió"/>
+	<spinner label="Nombre màxim de transferències d'objectes" label_width="220" width="280" name="max_inventory_items_transfer" tool_tip="Nombre d'objectes que es poden transferir d'una sola vegada. Introdueix -1 per a un nombre il·limitat d'objectes. (Per defecte: -1)"/>
+	<spinner label="Escala de detalls del terreny" label_width="220" width="280" name="terrain_detail_scale" tool_tip="Escala de detalls del terreny"/>
+	<spinner label="Visualització d'etiquetes" label_width="220" width="280" name="show_tags" tool_tip="Mode de visualització de les etiquetes per a aquesta regió. (Mostra = 2, Mostra breument = 1, Bloqueja = 0)"/>
+	<spinner label="Nombre màxim de grups" label_width="220" width="280" name="max_groups" tool_tip="Nombre de grups als quals una persona es pot unir. Introdueix -1 per a un nombre il·limitat de grups. (Per defecte: -1)"/>
+	<check_box label="Renderitzat de l'aigua" name="render_water" tool_tip="Activa el renderitzat de l'aigua per a aquesta regió. (Per defecte: activat)"/>
+	<check_box label="Permet el minimapa" name="allow_minimap" tool_tip="Permet el minimapa per a aquesta regió. (Per defecte: sí)"/>
+	<check_box label="Permet prims físics" name="allow_physical_prims" tool_tip="Permet la creació de prims físics en aquesta regió. (Per defecte: sí)"/>
+	<check_box label="Imposa restriccions màximes de construcció" name="enforce_max_build" tool_tip="Imposa restriccions màximes de construcció en aquesta regió. (Per defecte: sí)"/>
+	<check_box label="Permet paràmetres d'entorn per terreny" name="allow_parcel_windlight" tool_tip="Permet paràmetres d'entorn per als terrenys d'aquesta regió. (Per defecte: sí)"/>
+	<button label="Aplica" name="apply_ors_btn"/>
+</panel>

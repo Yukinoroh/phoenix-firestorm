@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Experiències" name="Experiences">
+	<panel.string name="trusted_estate_text">
+Qualsevol experiència pot ser de primer pla.
+Les experiències de primer pla tenen permís per executar-se en aquest domini.
+A més, encara que el domini no permeti l'accés públic, els residents que participen en una experiència de primer pla poden entrar-hi i romandre-hi mentre hi participin.
+	</panel.string>
+	<panel.string name="allowed_estate_text">
+Només les experiències limitades al terreny poden ser permeses.
+Les experiències permeses es poden executar en aquest domini.
+	</panel.string>
+	<panel.string name="blocked_estate_text">
+Només les experiències a escala de la graella poden ser bloquejades.
+Les experiències bloquejades no es poden executar en aquest domini.
+	</panel.string>
+	<panel.string name="estate_caption">Les modificacions dels paràmetres d'aquesta pestanya afectaran totes les regions del domini.</panel.string>
+	<panel.string name="allowed_parcel_text">
+Només es permeten les experiències definides per terreny.
+Les experiències permeses tenen permís per executar-se en aquest terreny tret que estiguin bloquejades pel domini.
+	</panel.string>
+	<panel.string name="blocked_parcel_text">
+Qualsevol experiència de resident pot ser bloquejada.
+Les experiències bloquejades no es poden executar en aquest terreny.
+	</panel.string>
+</panel>

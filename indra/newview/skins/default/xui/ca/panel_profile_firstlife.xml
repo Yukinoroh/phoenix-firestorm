@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel name="panel_profile_firstlife" label="Perfil">
+	<string name="texture_picker_label" value="Foto de la vida real (RL)" />
+	<button name="fl_upload_image" label="Carrega una imatge" />
+	<button name="fl_change_image" label="Canvia la imatge" />
+	<button name="fl_remove_image" label="Suprimeix la imatge" />
+	<button name="btn_preview" tool_tip="Previsualització de la presentació de la teva vida real (RL)"/>
+	<button name="fl_save_changes" label="Desa" />
+	<button name="fl_discard_changes" label="Descarta" />
+</panel>

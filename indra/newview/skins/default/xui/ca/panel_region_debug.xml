@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Depuració" name="Debug">
+	<text name="region_text_lbl">Regió:</text>
+	<text name="region_text">desconeguda</text>
+	<check_box label="Desactiva els scripts" name="disable_scripts_check" tool_tip="Desactiva tots els scripts en aquesta regió"/>
+	<check_box label="Desactiva les col·lisions" name="disable_collisions_check" tool_tip="Desactiva les col·lisions provocades per altres fonts que no siguin avatars en aquesta regió"/>
+	<check_box label="Desactiva els efectes físics" name="disable_physics_check" tool_tip="Desactiva tots els efectes físics en aquesta regió"/>
+	<button label="Aplica" name="apply_btn"/>
+	<text name="objret_text_lbl">Retorn d'objectes</text>
+	<text name="resident_text_lbl" width="100">Propietari:</text>
+	<line_editor name="target_avatar_name" width="200" left_delta="100">(cap)</line_editor>
+	<button label="Selecciona" name="choose_avatar_btn" width="80"/>
+	<text name="options_text_lbl">Opcions:</text>
+	<check_box label="Amb scripts" name="return_scripts" tool_tip="Retorna només els objectes que tinguin scripts" left_delta="100"/>
+	<check_box label="Al terreny d'algú altre" name="return_other_land" tool_tip="Retorna només els objectes d'aquest resident que siguin al terreny d'un tercer"/>
+	<check_box label="A totes les regions del domini" name="return_estate_wide" tool_tip="Retorna els objectes de totes les regions d'aquest domini"/>
+	<button label="Retorna" name="return_btn"/>
+	<button label="Top Col·lisions..." name="top_colliders_btn" width="200" tool_tip="Llista d'objectes que generen més col·lisions potencials"/>
+	<button label="Top Scripts..." name="top_scripts_btn" width="200" tool_tip="Llista d'objectes que consumeixen més recursos"/>
+	<button label="Reinicia la regió" name="restart_btn" width="200" tool_tip="Indica el compte enrere en segons i reinicia la regió"/>
+	<text name="label_restart_delay" width="110" left_delta="220">Segons:</text>
+	<spinner left_delta="65" name="restart_delay" width="50"/>
+	<button label="Cancel·la el reinici" width="200" name="cancel_restart_btn" tool_tip="Cancel·la el reinici de la regió"/>
+	<button label="Consola de depuració de la regió" width="200" name="region_debug_console_btn" tool_tip="Obre la consola de depuració de la regió"/>
+</panel>

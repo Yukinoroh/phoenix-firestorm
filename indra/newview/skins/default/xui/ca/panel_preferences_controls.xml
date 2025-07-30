@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel label="Controls" name="controls">
+	<combo_box name="key_mode">
+		<combo_box.item label="En tercera persona" name="third_person"/>
+		<combo_box.item label="En vista subjectiva" name="first_person"/>
+		<combo_box.item label="En modificació d'aparença" name="edit_avatar"/>
+		<combo_box.item label="Assegut" name="sitting"/>
+	</combo_box>
+	<button label="Reinicia" tool_tip="Restaura els valors per defecte per a tots els modes de control." name="restore_defaults"/>
+</panel>

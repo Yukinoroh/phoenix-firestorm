@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="panel_profile_classified">
+	<panel.string name="type_mature">
+		Moderat
+	</panel.string>
+	<panel.string name="type_pg">
+		Contingut General
+	</panel.string>
+	<panel.string name="l$_price">
+		L$[PRICE]
+	</panel.string>
+	<panel.string name="click_through_text_fmt">
+		[TELEPORT] teletransporta't, [MAP] mapa, [PROFILE] perfil
+	</panel.string>
+	<panel.string name="date_fmt">
+		[mthnum,datetime,slt]/[day,datetime,slt]/[year,datetime,slt]
+	</panel.string>
+	<panel.string name="auto_renew_on">
+		Activat
+	</panel.string>
+	<panel.string name="auto_renew_off">
+		Desactivat
+	</panel.string>
+	<panel.string name="location_notice">
+		(actualització després de desar)
+	</panel.string>
+	<string name="publish_label">
+		Publica
+	</string>
+	<string name="save_label">
+		Desa
+	</string>
+	<layout_stack name="main_classifieds_stack">
+		<layout_panel name="scroll_layout_panel">
+			<scroll_container name="profile_scroll">
+				<panel name="info_scroll_content_panel">
+					<icon name="edit_icon" tool_tip="Fes clic per seleccionar una imatge"/>
+					<layout_stack name="info_panel">
+						<layout_panel name="main_info_panel">
+							<text name="classified_location_label" value="Lloc:"/>
+							<text name="content_type_label" value="Tipus de contingut:"/>
+							<text name="category_label" value="Categoria:"/>
+							<text name="creation_date_label" value="Data de creació:"/>
+							<text_editor name="creation_date" tool_tip="Data de creació"/>
+							<text name="price_for_listing_label" value="Cost de l'anunci:"/>
+							<text_editor name="price_for_listing" tool_tip="Cost de l’anunci."/>
+						</layout_panel>
+						<layout_panel name="clickthrough_layout_panel">
+							<text name="click_through_label" value="Clics:"/>
+							<text_editor name="click_through_text" tool_tip="Navega per les dades fent clic"/>
+						</layout_panel>
+						<layout_panel name="auto_renew_layout_panel">
+							<text name="auto_renew_label" value="Renov. auto:"/>
+							<text name="auto_renew" value="Activat"/>
+						</layout_panel>
+						<layout_panel name="descr_layout_panel">
+							<text name="classified_desc_label" value="Descripció:"/>
+						</layout_panel>
+					</layout_stack>
+					<panel name="edit_panel">
+						<text name="Name:">
+							Títol:
+						</text>
+						<text name="description_label">
+							Descripció:
+						</text>
+						<text name="location_label">
+							Lloc:
+						</text>
+						<text name="classified_location_edit">
+							carregant...
+						</text>
+						<button label="Estableix la ubicació actual" name="set_to_curr_location_btn"/>
+						<text name="category_label" value="Categoria:"/>
+						<text name="content_type_label" value="Tipus de contingut:"/>
+						<icons_combo_box label="Contingut General" name="content_type_edit">
+							<icons_combo_box.item label="Contingut Moderat" name="mature_ci"/>
+							<icons_combo_box.item label="Contingut General" name="pg_ci"/>
+						</icons_combo_box>
+						<check_box label="Renovació automàtica cada setmana" name="auto_renew_edit"/>
+					</panel>
+				</panel>
+			</scroll_container>
+		</layout_panel>
+		<layout_panel name="util_buttons_lp">
+			<layout_stack name="util_buttons_stack">
+				<layout_panel name="teleport_btn_lp">
+					<button label="Teletransporta't" name="teleport_btn"/>
+				</layout_panel>
+				<layout_panel name="map_btn_lp">
+					<button label="Mapa" name="show_on_map_btn"/>
+				</layout_panel>
+				<layout_panel name="edit_btn_lp">
+					<button label="Edita" name="edit_btn"/>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+		<layout_panel name="publish_layout_panel">
+			<layout_stack name="publish_stack">
+				<layout_panel name="cancel_btn_lp">
+					<button label="Cancel·la" name="cancel_btn"/>
+				</layout_panel>
+			</layout_stack>
+		</layout_panel>
+	</layout_stack>
+</panel>

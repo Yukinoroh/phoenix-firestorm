@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Perfil" name="panel_profile">
+	<string name="status_online">
+		Connectat
+	</string>
+	<string name="status_offline">
+		Desconnectat
+	</string>
+	<string name="status_unknown">
+		Desconegut
+	</string>
+	<string name="BadgeBeta" value="Beta-tester original" />
+	<string name="BadgeBetaLifetime" value="Membre Beta vitalici" />
+	<string name="BadgeLifetime" value="Membre vitalici" />
+	<string name="BadgeLinden" value="Empleat(da) de Linden Lab" />
+	<string name="BadgePremiumLifetime" value="Premium vitalici" />
+	<string name="BadgePremiumPlusLifetime" value="Premium Plus vitalici" />
+	<string name="BadgeTeam" value="membre de [APP_NAME]" />
+	<string name="payment_update_link_url">
+		http://www.secondlife.com/account/billing.php?lang=ca
+	</string>
+	<string name="partner_edit_link_url">
+		http://www.secondlife.com/account/partners.php?lang=ca
+	</string>
+	<string name="no_partner_text" value="Cap"/>
+	<string name="no_group_text" value="Cap"/>
+	<string name="FSDev" value="Desenvolupador"/>
+	<string name="FSSupp" value="Assistència"/>
+	<string name="FSQualityAssurance" value="Seguiment d'anomalies"/>
+	<string name="FSGW" value="Portal"/>
+	<string name="texture_picker_label" value="Foto del perfil" />
+	<text name="name_label" value="Nom:"/>
+	<panel name="name_holder">
+		<text_editor name="complete_name" value="(carregant...)"/>
+		<menu_button name="copy_btn" tool_tip="Opcions de còpia" />
+	</panel>
+	<button label="Nom:" name="set_name" tool_tip="Defineix un nom de visualització"/>
+	<icon tool_tip="Aquest(a) amic(ga) pot veure el meu estat en línia" name="can_see_online" />
+	<icon tool_tip="Aquest(a) amic(ga) no pot veure el meu estat en línia" name="cant_see_online" />
+	<icon tool_tip="Aquest(a) amic(ga) em pot veure al mapa" name="can_see_on_map" />
+	<icon tool_tip="Aquest(a) amic(ga) no em pot veure al mapa" name="cant_see_on_map" />
+	<icon tool_tip="Aquest(a) amic(ga) pot modificar els meus objectes" name="can_edit_objects" />
+	<icon tool_tip="Aquest(a) amic(ga) no pot modificar els meus objectes" name="cant_edit_objects" />
+	<text name="Key:" value="Clau:" />
+	<text_editor name="user_key" value="(carregant...)"/>
+	<layout_stack name="imagepositioner">
+		<layout_panel name="image_action_panel">
+			<menu_button name="image_action_btn" tool_tip="Realitza accions relacionades amb la foto del perfil" />
+		</layout_panel>
+		<layout_panel name="label_stack">
+			<text name="label" value="Data de naixement:"/>
+			<text_editor name="user_age" value="(carregant...)"/>
+			<text name="label2" value="Compte:"/>
+			<layout_stack name="badgepositioner">
+				<layout_panel name="badge_layout">
+					<layout_stack name="badge_stacker">
+						<layout_panel name="top_badge_layout">
+							<icon name="top_badge_icon" tool_tip="Empleat(da) de Linden Lab" />
+						</layout_panel>
+						<layout_panel name="bottom_badge_layout">
+							<icon name="bottom_badge_icon" tool_tip="Empleat(da) de Linden Lab" />
+						</layout_panel>
+					</layout_stack>
+				</layout_panel>
+			</layout_stack>
+			<text name="partner_label" value="Parella:"/>
+		</layout_panel>
+	</layout_stack>
+	<text name="About:" value="Info:" />
+	<button name="btn_preview" tool_tip="Previsualització de la secció «Info» del teu perfil"/>
+	<text name="Groups:" value="Grups:"/>
+	<button name="group_invite" tool_tip="Convida al grup"/>
+	<text name="Give item:" value="Dóna:" />
+	<text name="Give inventory" tool_tip="Deixa anar els objectes aquí per donar-los a aquesta persona.">
+		Deixa anar l'objecte aquí.
+	</text>
+	<layout_stack name="buttonstack">
+		<layout_panel name="left_buttonstack">
+			<button label="Situa al mapa" label_selected="Situa al mapa" name="show_on_map_btn" tool_tip="Localitza el Resident al mapa"/>
+			<button label="Paga" label_selected="Paga" name="pay" tool_tip="Paga al resident"/>
+		</layout_panel>
+		<layout_panel name="middle_buttonstack">
+			<button label="Ofereix teletransportació" label_selected="Ofereix teletransportació" name="teleport" tool_tip="Ofereix una teletransportació al Resident"/>
+			<button label="Missatge instantani" label_selected="Missatge instantani" name="im" tool_tip="Obre una sessió de missatgeria privada (IM)."/>
+		</layout_panel>
+		<layout_panel name="right_buttonstack">
+			<button label="Afegeix com a amic" label_selected="Afegeix com a amic" name="add_friend" tool_tip="Proposa a aquest resident de ser el teu amic"/>
+			<button name="remove_friend" label="Elimina l'amistat" tool_tip="Posa fi a l'amistat amb el resident" label_selected="Elimina l'amistat"/>
+			<button label="Bloqueja" name="block" tool_tip="Bloqueja aquest Resident"/>
+			<button label="Desbloqueja" name="unblock" tool_tip="Desbloqueja aquest Resident"/>
+		</layout_panel>
+	</layout_stack>
+	<check_box label="Mostra a la cerca" name="show_in_search" tool_tip="Permet als usuaris veure't als resultats de la cerca"/>
+	<check_box name="hide_sl_age" label="Mostra la data de naixement completa" tool_tip="Deixa que la gent vegi la teva edat de SL"/>
+	<button name="save_description_changes" label="Desa" />
+	<button name="discard_description_changes" label="Descarta" />
+</panel>

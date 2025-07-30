@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Privadesa" name="im">
+	<string name="AutoresponseItemNotSet">Cap objecte definit</string>
+	<string name="AutoresponseItemNotAvailable">Objecte no disponible</string>
+	<string name="AutoresponseItemNotLoggedIn">No connectat</string>
+	<tab_container label="Privadesa" name="tabs">
+		<panel label="General" name="tab-general">
+			<panel.string name="log_in_to_change">Connecta't per modificar</panel.string>
+			<button label="Esborra l'historial" tool_tip="Esborra l'historial de cerca i de teletransportació, així com la memòria cau del web i de les textures" name="clear_webcache"/>
+			<text name="cache_size_label">(Ubicacions, imatges, internet, cerques)</text>
+			<check_box label="Mostra la informació del meu perfil als resultats de la cerca" name="online_searchresults"/>
+			<check_box label="Només els meus amics i grups saben que estic connectat" name="online_visibility"/>
+			<check_box label="Només els meus amics i grups em poden trucar o enviar missatges instantanis" name="voice_call_friends_only_check"/>
+			<check_box label="Mostra les invitacions de grups dels quals ja formes part" name="FSShowJoinedGroupInvitations"/>
+			<check_box label="Silencia el micro al final d'una trucada de veu" name="auto_disengage_mic_check"/>
+			<check_box label="Permet als objectes amb script conèixer l'idioma de la interfície" name="LanguageIsPublic"/>
+			<check_box label="Mostra els meus punts de referència favorits en connectar (al menú desplegable 'Comença a:')" name="favorites_on_login_check"/>
+			<check_box label="Accepta automàticament els objectes nous" name="Auto_Accept_New_Inventory"/>
+			<check_box label="Registra automàticament els objectes acceptats al xat local" name="FSLogAutoAcceptInventoryToChat"/>
+			<check_box label="Mostra la notificació de nou inventari encara que l'acceptació automàtica estigui activada" name="FSShowAutoAcceptInventoryInNotifications"/>
+			<check_box label="Utilitza els missatges originals d'acceptació i refús de transferència d'objecte" name="FSUseLegacyInventoryAcceptMessages" tool_tip="Si està activat, el Visor només acceptarà o rebutjarà missatges després de prémer el botó corresponent. Si està desactivat, el missatge d'acceptació s'enviarà automàticament tan aviat com es rebi l'oferta de transferència. Aquesta opció no té efecte si les ofertes de transferència s'accepten automàticament."/>
+			<check_box label="Mostra automàticament els objectes nous acceptats a l'inventari" name="Show_In_Inventory"/>
+			<check_box label="Mostra automàticament les notes, textures, punts de referència, després d'acceptar-los" name="Show_New_Inventory"/>
+			<check_box label="Mostra automàticament les fotos a l'inventari després de pujar-les" name="FSOpenInventoryAfterSnapshot"/>
+			<check_box label="Crea un efecte de partícules en transferir objectes d'inventari a altres avatars" name="FSCreateGiveInventoryParticleEffect"/>
+			<button label="Gestiona els Elements Ignorats" name="block_list"/>
+		</panel>
+		<panel label="Registres i Transcripcions" name="tab-logging">
+			<text name="logging_label">Desa:</text>
+			<combo_box tool_tip="Registre (Historial de converses): La llista de converses entre tu i una altra persona. Transcripcions: El text actual tal com apareix a la pantalla." name="conversation_log_combo">
+				<item name="log_and_transcripts" label="Registres i transcripcions"/>
+				<item name="log_only" label="Només registres"/>
+				<item name="no_log_or_transcript" label="Sense registres ni transcripcions"/>
+			</combo_box>
+			<button label="Suprimeix els registres" width="140" name="clear_log"/>
+			<button label="Suprimeix les transcripcions" width="170" name="delete_transcripts"/>
+			<check_box name="LogNearbyChat" label="Desa les transcripcions del Xat local" tool_tip="Enregistra les transcripcions de xat local al teu disc dur"/>
+			<check_box label="Utilitza el format de nom de fitxer original per a les transcripcions" name="UseLegacyIMLogNames" tool_tip="Si està activat, s'utilitzarà el format de nom de fitxer original per a les transcripcions (Nom Usuari) en lloc del nou format (nom_usuari)."/>
+			<check_box label="Afegeix la data als noms de fitxers de transcripcions" name="LogFileNamewithDate" tool_tip="Afegeix la data als registres de xat i missatgeria en format xat-AAAA-MM-DD i 'nom de fitxer IM'-AAAA-MM."/>
+			<check_box label="Utilitza el visor de transcripcions integrat" name="FSUseBuiltInHistory" tool_tip="Utilitza el visor de transcripcions integrat per llegir les transcripcions. Si està desactivat, les transcripcions s'obriran amb l'editor de text definit pel sistema operatiu."/>
+		</panel>
+		<panel label="Punt de mira" name="tab-lookat">
+			<check_box label="Mostra qui mira a qui:" name="showlookat" tool_tip="El punt de mira permet al teu navegador saber en quina direcció girar els teus ulls, cap i avatar. També es pot utilitzar per determinar el punt d'ancoratge de la càmera d'un avatar."/>
+			<text name="lookatshownames" tool_tip="Format del nom mostrat en visualitzar el punt de mira">Nom mostrat:</text>
+			<combo_box name="lookatshownames_combobox">
+				<combo_box.item label="Cap" name="None"/>
+				<combo_box.item label="Nom complet" name="Complete_Name"/>
+				<combo_box.item label="Nom de visualització" name="Display_Name"/>
+				<combo_box.item label="Nom heretat" name="Legacy_Name"/>
+				<combo_box.item label="Nom d'usuari" name="User_Name"/>
+			</combo_box>
+			<check_box label="No mostris el meu propi punt de mira" name="LookAtHideOwn" tool_tip="No mostris el meu punt de mira"/>
+			<check_box label="Dibuixa una línia fins al punt de mira" name="ExodusLookAtLines" tool_tip="Mostra una línia des de l'avatar fins al seu punt de mira"/>
+			<text name="mylookat">El meu punt de mira:</text>
+			<check_box label="No revelis el meu punt de mira als altres" name="privatelookat" tool_tip="Evita que altres persones sàpiguen on mires"/>
+			<check_box label="No comuniquis cap punt de mira, ni a tu mateix" name="privateLocalLookat" tool_tip="Evita que el cap del teu avatar es mogui per mirar cap a on mires. Aquest moviment del cap no és necessàriament visible per als altres, estigui activada o no aquesta opció"/>
+			<check_box label="No comuniquis les meves indicacions de selecció d'objectiu" name="privatepointat" tool_tip="Evita que el punt de selecció sigui visible per als altres"/>
+			<check_box label="Distància límit des del cap:" name="LimitLookAt" tool_tip="Limita el punt de mira a una distància fixa del teu avatar, indicant així la direcció de la mirada però no el seu objectiu." width="250"/>
+		</panel>
+		<panel label="Respostes auto. 1" name="tab-autoresponse-1">
+			<text name="autorespond_toggle_location_tip">Nota: per activar els missatges de resposta automàtica, indica el teu estat de connexió al menú Comunicar &gt; Estat de connexió</text>
+			<text name="text_box3">Resposta auto. en mode 'No molestar':</text>
+			<text name="autorespond_response_label">Resposta auto. a tots els residents quan estic en mode 'Resposta automàtica':</text>
+			<text name="autorespond_nf_response_label">Resposta auto. quan estic en mode 'Resposta automàtica a desconeguts':</text>
+			<check_box label="Envia una resposta automàtica quan estic Absent:" name="send_away_av_response" tool_tip="Envia el text de sota quan algú inicia una conversa privada mentre estàs absent."/>
+			<check_box label="Envia una resposta automàtica a les persones ignorades:" name="send_muted_av_response" tool_tip="Envia el text de sota quan una persona ignorada t'envia un missatge privat."/>
+		</panel>
+		<panel label="Respostes auto. 2" name="tab-autoresponse-2">
+			<text name="autorespond_rto_response_label">Resposta auto. a tots els residents quan estic en mode 'Rebutjar tota teletransportació':</text>
+			<check_box label="No rebutgis les ofertes de teletransportació ni enviïs resposta als meus amics" name="FSDontRejectTeleportOffersFromFriends"/>
+			<text name="autorespond_rfr_response_label" width="520">Resposta auto. a tots els residents quan estic en mode 'Rebutjar tota proposta d’amistat':</text>
+			<text name="autoresponse_item_label" width="295">Objecte enviat amb totes les respostes automàtiques:</text>
+			<fs_copytrans_inventory_drop_target name="autoresponse_item" right="480" tool_tip="Arrossega i deixa anar l'objecte d'inventari aquí."/>
+			<button label="Esborra" name="clear_autoresponse_item" width="50"/>
+		</panel>
+	</tab_container>
+</panel>

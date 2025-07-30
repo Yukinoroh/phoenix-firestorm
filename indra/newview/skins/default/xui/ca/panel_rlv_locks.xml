@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Activa les restriccions RLV" name="panel_rlvLocks">
+	<scroll_list name="lock_list">
+		<scroll_list.columns label="Tipus" name="lock_type"/>
+		<scroll_list.columns label="Mètode" name="lock_addrem"/>
+		<scroll_list.columns label="Objecte / Punt de destinació" name="lock_target"/>
+		<scroll_list.columns label="Restringeix l'origen" name="lock_origin"/>
+	</scroll_list>
+	<panel label="bottom_panel" name="bottom_panel">
+		<button label="Actualitza" name="refresh_btn"/>
+	</panel>
+</panel>

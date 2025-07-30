@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Notes i privadesa" name="panel_notes">
+	<text name="status_message" value="Pren notes sobre aquesta persona. Ningú les pot veure."/>
+	<button name="notes_save_changes" label="Desa" />
+	<button name="notes_discard_changes" label="Descarta" />
+</panel>

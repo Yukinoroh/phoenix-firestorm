@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel label="Pujades" name="uploads">
+	<text name="title">
+		Carpetes de destinació actuals per a les pujades
+	</text>
+	<text name="title_models">
+		Imatges
+	</text>
+	<text name="title_sounds">
+		Sons
+	</text>
+	<text name="title_animation">
+		Animacions
+	</text>
+	<text name="title_model">
+		Models
+	</text>
+	<text name="upload_help">
+		Per modificar una carpeta de destinació, fes clic dret sobre aquesta carpeta a l’inventari i tria
+ "Utilitza com a per defecte per a"
+	</text>
+</panel>

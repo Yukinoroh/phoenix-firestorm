@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Favorits" name="panel_picks">
+	<string name="no_picks" value="No hi ha favorits"/>
+	<layout_stack name="main_stack">
+		<layout_panel name="buttons_header">
+			<text name="header_text">
+				Fes que els altres residents coneguin els teus llocs favorits a [GRID].
+			</text>
+			<button label="Nou..." name="new_btn"/>
+			<button label="Suprimeix..." name="delete_btn"/>
+		</layout_panel>
+		<layout_panel name="main_body">
+			<text name="picks_panel_text">
+				Carregant...
+			</text>
+		</layout_panel>
+	</layout_stack>
+</panel>

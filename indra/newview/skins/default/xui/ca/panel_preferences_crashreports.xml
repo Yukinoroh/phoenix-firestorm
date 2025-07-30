@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Informes d'errors" name="crash_reports">
+	<check_box label="Envia els informes d'errors a firestormviewer.org" name="checkSendCrashReports"/>
+	<check_box label="Demana-ho sempre abans d'enviar" name="checkSendCrashReportsAlwaysAsk"/>
+	<check_box label="Inclou el fitxer settings.xml" name="checkSendSettings"/>
+	<text name="textSendSettings">(conté el nom d'usuari de Second Life)</text>
+	<check_box label="Inclou el meu nom d'usuari de Second Life" name="checkSendName"/>
+	<text name="textSendName" width="400">(s'utilitza per demanar informació addicional si cal)</text>
+	<text name="textInformation1" width="505">Tret que s'especifiqui, els informes només contenen la informació necessària sobre el bloqueig</text>
+	<text name="textInformation2" width="505">Els registres de Second Life no s'enviaran, si us plau, comenta'n el contingut i envia'ls</text>
+	<text name="textInformation3">per correu electrònic si penses que podrien contenir informació addicional.</text>
+	<text name="textInformation4">Política de privadesa: [URL]</text>
+</panel>

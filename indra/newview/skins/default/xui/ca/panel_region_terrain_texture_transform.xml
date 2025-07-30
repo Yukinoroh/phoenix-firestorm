@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Terreny" name="Terrain">
+	<text name="region_text_lbl">
+		Regió:
+	</text>
+	<text name="region_text">
+		desconeguda
+	</text>
+	<text name="detail_texture_text">
+		Textures del terreny
+	</text>
+	<text name="detail_material_text">
+		Materials del terreny
+	</text>
+	<check_box label="PBR metall rugositat" name="terrain_material_type" tool_tip="Si aquesta opció està marcada, s'utilitzen materials PBR de rugositat metàl·lica per al terreny. Si no, utilitza les textures."/>
+	<text name="height_text_lbl">
+		1 (Baix)
+	</text>
+	<text name="height_text_lbl4">
+		4 (Alt)
+	</text>
+	<layout_stack name="terrain_features_stack">
+		<layout_panel name="frame_settings_terrain">
+			<tab_container name="terrain_tabs">
+				<panel label="Elevació" name="terrain_elevation_panel"/>
+				<panel label="Transformacions" name="terrain_transform_panel"/>
+			</tab_container>
+		</layout_panel>
+	</layout_stack>
+	<button label="Aplica" name="apply_btn"/>
+</panel>

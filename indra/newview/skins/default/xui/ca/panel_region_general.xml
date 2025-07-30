@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Regió" name="General">
+	<text name="region_text_lbl">Regió:</text>
+	<text name="region_text">desconeguda</text>
+	<text name="estate_id_lbl" width="95">ID del domini:</text>
+	<line_editor name="estate_id" initial_value="desconegut"/>
+	<text name="region_type_lbl">Tipus:</text>
+	<text name="region_type">desconegut</text>
+	<text name="grid_position_lbl" width="115">Pos. a la Graella:</text>
+	<line_editor name="grid_position_x" default_text="n/d"/>
+	<line_editor name="grid_position_y" default_text="n/d"/>
+	<text name="version_channel_text_lbl">Versió:</text>
+	<text name="version_channel_text">desconeguda</text>
+	<check_box label="Prohibeix la terraformació" name="block_terraform_check"/>
+	<check_box label="Prohibeix volar" name="block_fly_check"/>
+	<check_box label="Prohibeix sobrevolar" name="block_fly_over_check" tool_tip="Impedeix sobrevolar els terrenys"/>
+	<check_box label="Permet el dany" name="allow_damage_check"/>
+	<check_box label="Restringeix les col·lisions" name="restrict_pushobject"/>
+	<check_box label="Permet la revenda de terreny" name="allow_land_resell_check"/>
+	<check_box label="Permet la fusió/subdivisió de terreny" name="allow_parcel_changes_check"/>
+	<check_box label="Prohibeix la possibilitat de mostrar a la cerca" name="block_parcel_search_check" tool_tip="Activar aquesta opció bloquejarà la possibilitat dels propietaris de terreny de mostrar-lo a la cerca"/>
+	<spinner label="Límit de persones" name="agent_limit_spin" label_width="125" width="190"/>
+	<spinner label="Objectes de bonificació" name="object_bonus_spin" label_width="125" width="190"/>
+	<text label="Classificació" name="access_text">
+		Classificació:
+	</text>
+	<icons_combo_box label="Moderat" name="access_combo">
+		<icons_combo_box.item label="Adult" name="Adult"/>
+		<icons_combo_box.item label="Moderat" name="Mature"/>
+		<icons_combo_box.item label="General" name="PG"/>
+	</icons_combo_box>
+	<button label="Aplica" name="apply_btn"/>
+	<button label="Teletransporta un resident a casa..." name="kick_btn"/>
+	<button label="Teletransporta a casa tots els residents..." name="kick_all_btn"/>
+	<button label="Envia un missatge a la regió..." name="im_btn"/>
+	<button label="Gestiona el Telehub..." name="manage_telehub_btn"/>
+	<button label="Planifica els reinicis..." name="manage_restart_btn" />
+</panel>

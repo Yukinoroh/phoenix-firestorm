@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Accés" name="Access">
+	<tab_container name="tabs">
+		<panel label="GESTORS DEL DOMINI" name="estate_managers_panel">
+			<text name="estate_manager_label">
+				Gestors del domini:
+			</text>
+			<name_list name="estate_manager_name_list">
+				<columns label="Nom" name="name"/>
+			</name_list>
+			<button label="Afegeix..." name="add_estate_manager_btn"/>
+			<button label="Suprimeix..." name="remove_estate_manager_btn"/>
+			<button label="Exporta..." name="export_estate_manager_btn"/>
+		</panel>
+		<panel label="PERMESOS" name="allowed_panel">
+			<panel label="top_panel" name="allowed_search_panel">
+				<filter_editor label="Cerca agents permesos" name="allowed_search_input"/>
+				<button label="Copia" name="copy_allowed_list_btn"/>
+			</panel>
+			<text name="allow_resident_label">
+				Sempre permesos:
+			</text>
+			<name_list name="allowed_avatar_name_list">
+				<columns label="Nom" name="name"/>
+			</name_list>
+			<button label="Afegeix..." name="add_allowed_avatar_btn"/>
+			<button label="Suprimeix..." name="remove_allowed_avatar_btn"/>
+			<button label="Exporta..." name="export_allowed_list_btn"/>
+		</panel>
+		<panel label="GRUPS PERMESOS" name="allowed_groups_panel">
+			<panel label="top_panel" name="allowed_group_search_panel">
+				<filter_editor label="Cerca grups permesos" name="allowed_group_search_input"/>
+				<button label="Copia" name="copy_allowed_group_list_btn"/>
+			</panel>
+			<text name="allow_group_label">
+				Grups sempre permesos:
+			</text>
+			<name_list name="allowed_group_name_list">
+				<columns label="Nom" name="name"/>
+			</name_list>
+			<button label="Afegeix..." name="add_allowed_group_btn"/>
+			<button label="Suprimeix" name="remove_allowed_group_btn"/>
+			<button label="Exporta..." name="export_allowed_group_btn"/>
+		</panel>
+		<panel label="PROHIBITS" name="banned_panel">
+			<panel label="top_panel" name="banned_search_panel">
+				<filter_editor label="Cerca agents prohibits" name="banned_search_input"/>
+				<button label="Copia" name="copy_banned_list_btn"/>
+			</panel>
+			<text name="ban_resident_label">
+				Sempre prohibits:
+			</text>
+			<name_list name="banned_avatar_name_list">
+				<columns label="Nom" name="name"/>
+				<columns label="Data de l'última connexió" name="last_login_date"/>
+				<columns label="Data de prohibició" name="ban_date"/>
+				<columns label="Prohibit per" name="bannedby"/>
+			</name_list>
+			<button label="Afegeix..." name="add_banned_avatar_btn"/>
+			<button label="Suprimeix..." name="remove_banned_avatar_btn"/>
+			<button label="Exporta..." name="export_banned_avatar_btn"/>
+		</panel>
+	</tab_container>
+</panel>

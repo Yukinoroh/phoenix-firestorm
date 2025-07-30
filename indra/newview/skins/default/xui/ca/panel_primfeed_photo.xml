@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<panel name="panel_primfeed_photo">
+	<combo_box name="resolution_combobox" tool_tip="Resolució de la imatge">
+		<combo_box.item label="Finestra actual" name="CurrentWindow"/>
+		<combo_box.item label="Personalitzada" name="Custom"/>
+	</combo_box>
+	<combo_box name="filters_combobox" tool_tip="Filtres d'imatge">
+		<combo_box.item label="Sense filtre" name="NoFilter"/>
+	</combo_box>
+	<check_box label="Conserva les proporcions" name="keep_aspect_ratio"/>
+	<text name="working_lbl">
+		Refrescant...
+	</text>
+	<check_box label="Marc de la foto" tool_tip="Mostra un marc a la pantalla que envolta la zona de la foto. Les parts de l'escena que es troben fora de la foto es dessaturen i es desenfoquen lleugerament." name="show_frame"/>
+	<check_box label="Guia d'enquadrament" tool_tip="Mostra la guia d'enquadrament (regla dels terços) a l'interior del marc de la foto." name="show_guides"/>
+	<button label="Actualitza" name="new_snapshot_btn" tool_tip="Fes clic per actualitzar"/>
+	<button label="Previsualitza" name="big_preview_btn" tool_tip="Fes clic per mostrar la previsualització"/>
+	<text name="store_label">
+		Publica com a:
+	</text>
+	<combo_box name="stores_combobox" tool_tip="Si tens una o més botigues Easy Blogger atribuïdes a Primfeed, apareixeran aquí."/>
+	<text name="description_label">
+		Descripció:
+	</text>
+	<check_box label="Inclou la ubicació" name="add_location_cb"/>
+	<check_box label="Afegeix a la galeria pública" name="primfeed_add_to_public_gallery"/>
+	<check_box label="Contingut comercial" name="primfeed_commercial_content"/>
+	<combo_box name="rating_combobox" tool_tip="Classificació del contingut de Primfeed">
+		<combo_box.item label="General" name="GeneralRating"/>
+		<combo_box.item label="Moderat" name="ModerateRating"/>
+		<combo_box.item label="Adult" name="AdultRating"/>
+		<combo_box.item label="Adult+" name="AdultPlusRating"/>
+	</combo_box>
+	<check_box label="Obre al navegador després d'enviar" tool_tip="Obre automàticament el missatge de Primfeed al teu navegador web després de publicar-lo." name="primfeed_open_url_on_post"/>
+	<button label="Comparteix" name="post_photo_btn"/>
+	<button label="Cancel·la" name="cancel_photo_btn"/>
+</panel>

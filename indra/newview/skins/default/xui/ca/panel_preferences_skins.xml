@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Temes" name="skin_panel">
+	<text name="skin_textbox">Tema:</text>
+	<text name="skin_textbox1">(Cal reiniciar)</text>
+	<text name="theme_textbox">Joc de colors:</text>
+	<text name="theme_textbox2">(Cal reiniciar)</text>
+	<check_box label="Reinicia les barres d'eines en canviar de tema" tool_tip="Quan està activada, aquesta opció forçarà la configuració de les barres d'eines a la del tema seleccionat i sobreescriurà la teva personalització quan el canviïs." name="reset_toolbar_settings"/>
+	<check_box label="Reinicia les barres d'eines en canviar el mode de connexió" tool_tip="Quan està activada, aquesta opció forçarà la configuració de les barres d'eines a la del mode de connexió seleccionat i sobreescriurà la teva personalització quan el canviïs." name="FSToolbarsResetOnModeChange"/>
+	<check_box label="Utilitza els punters del Visor 1" name="use_legacy_cursors"/>
+	<text name="theme_textbox3">(Cal reiniciar)</text>
+</panel>
