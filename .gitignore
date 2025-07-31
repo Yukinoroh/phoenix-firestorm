@@ -1,3 +1,7 @@
+.github/*
+doc/*
+etc/*
+
 # By extension
 *.DS_Store
 *.bak
