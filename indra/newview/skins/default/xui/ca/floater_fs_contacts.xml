@@ -2,7 +2,7 @@
 <floater name="imcontacts" title="Contactes">
 	<tab_container name="friends_and_groups">
 		<panel label="Amics" name="friends_panel"/>
-		<panel label="Grupe" name="groups_panel"/>
+		<panel label="Grups" name="groups_panel"/>
 		<panel label="Cercles" name="contact_sets_panel"/>
 	</tab_container>
 </floater>
